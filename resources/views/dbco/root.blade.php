@@ -3,7 +3,7 @@
 @section('content')
 <div class="content">
 	<div class="title m-b-md" style="text-align:center;">
-		<h1>DBCO Inc.</h1>
+		<h1>DBCO™ Inc.</h1>
 	</div>
 	
 	
