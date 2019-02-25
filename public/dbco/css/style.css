@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800,800i&subset=cyrillic');
+body{font-family: 'Open Sans', sans-serif !important;color:#333}
+h1{font-size:1.5rem;font-weight:500}
+
+.c_header{height:35px;background-color:#f0f0f0}
+.m_social{width:18px;height:18px;display:inline-block}
+.m_social a{display:block;width:18px;height:18px}
+@media screen and (max-width:375px){
+	.m_social{display:none}
+	}
+.m_social1{background-image:url("../images/social.png");background-repeat:no-repeat}
+.m_social2{background-image:url("../images/social.png");background-repeat:no-repeat;background-position:-27px}
+.m_social3{background-image:url("../images/social.png");background-repeat:no-repeat;background-position:-54px}
+.m_social4{background-image:url("../images/social.png");background-repeat:no-repeat;background-position:-83px}
+
+.header_right a{color:#7c7c7c;font-size:.8rem}
+.header_flag {border-left:solid 1px #fff;padding-left:10px;margin-left:10px}
+
+.c_menu{background:#fff}
+.c_menu a{font-size:1rem;color:#7c7c7c}
+.p_menu{border-left:solid 1px #ddd;padding-left:10px;margin-left:10px}
+.p_menu:first-child{border-left:none}
+.header_search input{border-radius:20px;border:solid 1px #b90000;padding:8px;display:inline}
+
+.banner1{height:344px;background-image:url("../images/banner1.png");background-repeat:no-repeat}
+
+.offer1{height:115px;background:#f2e7e3}
+
+.blockMenu{color:#000;font-size:1.1rem;font-weight:400;display:block;background-repeat:no-repeat;background-position:20px center;padding:15px 15px 15px 80px;transition: background 0.2s ease;}
+.blockMenu1{background-image:url("../images/raketa.png");}
+.blockMenu2{background-image:url("../images/raketa.png");}
+.blockMenu3{background-image:url("../images/raketa.png");}
+.blockMenu4{background-image:url("../images/raketa.png");}
+.blockMenuBottom{display:block;margin-top:10px;font-size:.9rem;}
+
+.offer3{height:518px;background-image:url("../images/offer3left.png");background-repeat:no-repeat;background-position:center center}
+@media screen and (max-width:768px){
+.offer3{height:auto;padding-bottom:30px;background:#f2e7e3;background-image:none}
+}
+.offer3_right{margin-top:auto;margin-bottom:auto}
+.but1{border-radius:20px;font-size:.9rem}
+
+.topReshCol{position:relative}
+.topReshCol .card{border-radius:20px}
+.topReshCol h2{font-size:1rem;color:#ff4300}
+.topReshCol p{font-size:.9rem}
+.topReshCol p span{font-size:.8rem;color:#999}
+.topReshCol h2 a{font-size:1rem;display:inline-block;color:#e52828}
+.topReshCol .abtn{font-size:.7rem;display:inline-block;border-radius:15px}
+.topReshCol .abtn_grey{color:#fff}
+.topReshCol .abtn_red{color:#fff}
+.stars{color:#f4b300;font-size:.6rem}
+.circle{position:absolute;top:10px;left:20px;font-size:1rem}
+.circle_grey{color:#9e9e9e}
+.circle_yellow{color:#e4ac34}
+.circle_red{color:#e52828}
+
+.topReshenSubMenu a{display:inline-block;color:#000;padding-bottom:2px;text-decoration:none;border-bottom:solid 3px #fff}
+.topReshenSubMenu .active{border-bottom:solid 3px #ff4300}
+@media screen and (max-width:425px){
+.topReshenSubMenu a{display:block}
+}
+
+.popover{background:#e52828;color:#fff}
+.popover-header{background:#e52828;color:#fff}
+.popover-body{color:#fff}
+
+.breadcrumbs{color:#9e9e9e;font-size:.9rem}
+.breadcrumbs .delimeter{display:inline-block;;olor:#9e9e9e;font-size:.8rem;margin:0 10px}
+.breadcrumbs a{display:inline-block;color:#9e9e9e;font-size:.9rem}
+.breadcrumbs .active{display:inline-block;color:#e52828;font-size:.9rem}
+
+.oneSolution h1{color:#000}
+.oneSolution p{font-size:.9rem}
+.oneSolution p span{font-size:.9rem;color:#999}
+.oneSolution .abtn{font-size:.9rem;display:inline-block;border-radius:15px}
+.oneSolution .abtn_grey{color:#fff}
+.oneSolution .dopHref{color:#9e9e9e;display:inline-block; margin-right:50px}
+.oneSolution .dopHref_active{color:#000;display:inline-block; margin-right:50px}
+.table th{min-width:190px}
+
+.lk_icons{display:inline-block}
+.lk_icons .lk_icon_a{display:block;width:43px;height:43px;margin-left:auto;margin-right:auto}
+.lk_icon1{background-image:url("../images/lk_icons.png");background-repeat:no-repeat}
+.lk_icon2{background-image:url("../images/lk_icons.png");background-repeat:no-repeat;background-position:-171px}
+.lk_icon3{background-image:url("../images/lk_icons.png");background-repeat:no-repeat;background-position:-341px}
+.lk_text_a{color:#333;font-size:.9rem}
+.lk_formContainer{background:#f3f3f3;padding:15px 0;margin-top:1px}
+.lk_formContainerWithoutMargin{background:#f3f3f3;padding:15px 0}
+.lk_formContainer input{padding:10px;border-radius:20px;border:solid 1px #ddd;max-width:400px}
+.formSubmit{border-radius:25px;padding:15px;width:250px}
+
+.lk_table .title{color:#fe2424}
+.lk_table .status_active{color:#67b559}
+.lk_table .status_payWait{color:#ff9600}
+.table-bordered td{border:1px solid #fff;}
+.f_file{border-bottom:dashed 1px #ddd;text-decoration:none;color:#777}
+
+.lk_table{border:none !important}
+.lk_table th{border:none !important}
+.lk_table .ttr{background:#fff}
+
+
+
+
+/*MyStyles*/
+.footer-a:last-child{border-right:none}
+.f_menu{display:inline-block;}
+.f_menu a{font-size:.9rem;color:#7c7c7c}
+.f_menu a:hover{color:#fff}
+@media screen and (max-width:425px){
+	.f_menu{display:block;}
+}
+.footer_dark{border-bottom:solid 1px #777}
+.footer_copy{color:#fff;font-size:.9rem;}
+
+.f_social{width:18px;height:18px;display:inline-block}
+.f_social a{display:block;width:18px;height:18px}
+.f_social1{background-image:url("../images/footer_social.png");background-repeat:no-repeat}
+.f_social2{background-image:url("../images/footer_social.png");background-repeat:no-repeat;background-position:-27px}
+.f_social3{background-image:url("../images/footer_social.png");background-repeat:no-repeat;background-position:-54px}
+.f_social4{background-image:url("../images/footer_social.png");background-repeat:no-repeat;background-position:-83px}
+
+/* Sticky footer styles -------------------------------------------------- */
+html{position:relative;min-height:100%;padding-bottom:250px}
+.footer{position:absolute;bottom:0;width:100%;line-height:18pt;background-color:#fff;border-top:solid 1px #999}
+.footer a,.footer a:hover{color:#eee !important;text-decoration:none !important}
