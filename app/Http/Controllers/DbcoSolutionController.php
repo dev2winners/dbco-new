@@ -15,7 +15,24 @@
 			*
 			* @return \Illuminate\Http\Response
 		*/
-
+		
+		private function isSolutionRelated($solution, $dbco_customer) // подключено решение к кастомеру или нет, принимает на вход экземпляр DbcoSolution и экземпляр DbcoCustomer
+		{			
+			If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$solution->isolutionid)->where('deleted_at','=',null)->count()) { // если существует запись в pivot и флаг удаления не установлен
+				return true;
+				} else {
+				return false;
+			}			
+		}
+		
+		private function setButton($state) // возвращает массив с значениями для кнопки решений
+		{			
+			If($state) { // если существует запись в pivot и флаг удаления не установлен
+				return ['state' => 'primary', 'text' => 'ПОДКЛЮЧИТЬ?'];
+				} else {
+				return ['state' => 'success', 'text' => 'ЭТО УЖЕ ВАШЕ'];
+			}			
+		}
 		
 		public function index() // 
 		{
@@ -26,32 +43,28 @@
 			
 			$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4); //норм
 			
-			foreach($solutions as $solution){ 
+			foreach($solutions as $solution){	
 				
-				$sid = $solution->isolutionid;
-				
-				
-				$danger_or_success[$sid]['state'] = 'danger';
-				$danger_or_success[$sid]['text'] = 'НЕ ПОДКЛ.';
-				
-				
-				If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','=',null)->count()) { // если существует запись в pivot и флаг удаления не установлен
-					$isRelation = true;
-					} else {
-					$isRelation = false;
-				}
-				
-				
-				if($isRelation) {
-					$danger_or_success[$sid]['state'] = 'success';
-					$danger_or_success[$sid]['text'] = 'ПОДКЛЮЧЕНО';
-				}
+				$buttonState[$solution->isolutionid] = $this->setButton($this->isSolutionRelated($solution, $dbco_customer));
 				
 			}
 			
-			return view('dbco.solutions.index', ['solutions' => $solutions, 'danger_or_success' => $danger_or_success]);
+			return view('dbco.solutions.index', ['solutions' => $solutions, 'buttonState' => $buttonState]);
 			
 		}
+		
+		
+		public function single($sid) // принимает id солюшена
+		{			
+			
+			$solution = DbcoSolution::findOrFail($sid);
+			$dbco_customer = DbcoCustomer::getCurrentCustomer();
+			
+			$buttonState[$sid] = $this->setButton($this->isSolutionRelated($solution, $dbco_customer));
+			return view('dbco.solutions.single', ['solution' => $solution, 'buttonState' => $buttonState]);
+			
+		}
+		
 		
 		public function toggle($sid) // принимает id солюшена
 		{
@@ -74,4 +87,4 @@
 			
 		}
 		
-	}														
+	}																			

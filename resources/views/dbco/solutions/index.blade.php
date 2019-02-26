@@ -38,15 +38,13 @@
 							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
 							<div class="d-flex mt-3">
 								<div>
-									<form action="" method="POST">										
-										<button type="submit" class="btn btn-outline-secondary abtn" onClick="return false;">ПОДРОБНЕЕ</button>	
-									</form>
+										<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
 								</div>
 								<div class="ml-auto">
 									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 										@csrf
 										
-										<button type="submit" class="btn btn-{{ $danger_or_success[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $danger_or_success[$solution->isolutionid]['text'] }}</button>	
+										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
 									</form>
 								</div>
 							</div>
@@ -60,7 +58,7 @@
 					
 				</div>
 				</div>
-			</div>
+				</div>
 			<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->	
 			
 			
@@ -70,32 +68,7 @@
 			@endif
 		</div>
 		
-		<!--<div class="table-responsive">
-			<table class="table table-bordered">
-			<tr>
-			<th>Номер</th>
-			<th>Название</th>
-			<th>Изображение</th>
-			<th>Описание</th>
-			<th width="70px">$$$</th>
-			</tr>
-			@foreach ($solutions as $solution)
-			<tr>
-			<td>{{ $solution->isolutionid }}</td>
-			<td>{{ $solution->csolutionname }}</td>
-			<td><img src="{{ $solution->csolutionpicture }}" class="img-fluid" alt="DBCO"></td>
-			<td>{{ $solution->csolutiontext }}</td>
-			<td>
-			<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
-			@csrf
-			<button type="submit" class="btn btn-{{ $danger_or_success[$solution->isolutionid]['state'] }}">{{ $danger_or_success[$solution->isolutionid]['text'] }}</button>
-			
-			</form>
-			</td>
-			</tr>
-			@endforeach
-			</table>
-		</div>-->
+		
 		{!! $solutions->links() !!}
 		
 	</div>
