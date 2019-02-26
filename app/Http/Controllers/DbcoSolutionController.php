@@ -15,23 +15,12 @@
 			*
 			* @return \Illuminate\Http\Response
 		*/
-		
-		
-		private function getDbcoCustomer() // 
-		{
-			$auth_id = Auth::id(); //id текущего пользователя
-			$user = User::find($auth_id); //получаем объект текущего пользователя
-			
-			$dbco_customer = DbcoCustomer::firstOrNew(['user_id' => $auth_id]); //ищем или создаем кастомера для текущего пользователя
-			$user->dbcoCustomers()->save($dbco_customer); // сохраняем его в базе вместе с отношением к текущему юзеру
 
-			return $dbco_customer;
-		}
 		
 		public function index() // 
 		{
 			
-			$dbco_customer = $this->getDbcoCustomer();
+			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
 			//dd($user);
 			
@@ -66,7 +55,8 @@
 		
 		public function toggle($sid) // принимает id солюшена
 		{
-			$dbco_customer = $this->getDbcoCustomer();
+			
+			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
 			If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','=',null)->count()) 
 			{ // если существует запись в pivot и флаг удаления НЕ установлен
