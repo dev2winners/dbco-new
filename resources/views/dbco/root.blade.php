@@ -23,14 +23,14 @@
 	
 	
 	<div>
-		@if (count($solutions4) > 0)
+		@if (count($solutions) > 0)
 		<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 		<div class="container-fluid topReshen mt-5 mb-5">
 			<div class="container" style="height:100%">
 				<div class="row">	
 					
 					
-					@foreach ($solutions4 as $solution)
+					@foreach ($solutions as $solution)
 					<!-- КАРТОЧКА -->
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3 topReshCol pb-4">
 						<div class="card p-3">
@@ -43,15 +43,13 @@
 							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
 							<div class="d-flex mt-3">
 								<div>
-									<form action="" method="POST">										
-										<button type="submit" class="btn btn-outline-secondary abtn" onClick="return false;">ПОДРОБНЕЕ</button>	
-									</form>
+										<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
 								</div>
 								<div class="ml-auto">
 									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 										@csrf
 										
-										<button type="submit" class="btn ml-auto abtn" onClick="return false;">ПОДКЛЮЧИТЬ</button>	
+										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
 									</form>
 								</div>
 							</div>

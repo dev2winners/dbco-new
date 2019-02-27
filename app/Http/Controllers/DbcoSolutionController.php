@@ -17,7 +17,7 @@
 			* @return \Illuminate\Http\Response
 		*/
 		
-		private function isSolutionRelated($solution, $dbco_customer) // подключено решение к кастомеру или нет, принимает на вход экземпляр DbcoSolution и экземпляр DbcoCustomer
+		public function isSolutionRelated($solution, $dbco_customer) // подключено решение к кастомеру или нет, принимает на вход экземпляр DbcoSolution и экземпляр DbcoCustomer
 		{			
 			If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$solution->isolutionid)->where('deleted_at','=',null)->count()) { // если существует запись в pivot и флаг удаления не установлен
 				return true;
@@ -26,7 +26,7 @@
 			}			
 		}
 		
-		private function setButton($state) // возвращает массив с значениями для кнопки решений
+		public function setButton($state) // возвращает массив с значениями для кнопки решений
 		{			
 			If($state) { // если существует запись в pivot и флаг удаления не установлен
 				return ['state' => 'success', 'text' => 'ЭТО УЖЕ ВАШЕ'];
