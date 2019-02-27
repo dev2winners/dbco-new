@@ -6,6 +6,7 @@
 	use App\User;
 	use App\Http\Controllers\Controller;
 	use Illuminate\Http\Request;
+	use App\Http\Controllers\MssqlExtController;
 	
 	class DbcoCustomerController extends Controller
 	{
@@ -30,6 +31,8 @@
 			]); */
 			
 			DbcoCustomer::getCurrentCustomer()->update($request->all());
+			
+			MssqlExtController::callMssqlProcedure('sp_update_customer'); // оповещаем внешний сервер
 			
 			return redirect()->route('customer.main')
 			->with('success','Ваши данные успешно изменены!');
