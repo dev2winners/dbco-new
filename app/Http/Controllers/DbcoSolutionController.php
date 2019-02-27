@@ -7,6 +7,7 @@
 	use App\User;
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\Auth;
+	use App\Http\Controllers\MssqlExtController;
 	
 	class DbcoSolutionController extends Controller
 	{
@@ -65,7 +66,6 @@
 			
 		}
 		
-		
 		public function toggle($sid) // принимает id солюшена
 		{
 			
@@ -82,10 +82,11 @@
 				// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
 			}
 			
+			MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
 			
 			//return redirect()->route('dbcosolution.index');
 			return back();
 			
 		}
 		
-	}																			
+	}																					
