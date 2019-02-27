@@ -28,9 +28,9 @@
 		private function setButton($state) // возвращает массив с значениями для кнопки решений
 		{			
 			If($state) { // если существует запись в pivot и флаг удаления не установлен
-				return ['state' => 'primary', 'text' => 'ПОДКЛЮЧИТЬ?'];
-				} else {
 				return ['state' => 'success', 'text' => 'ЭТО УЖЕ ВАШЕ'];
+				} else {
+				return ['state' => 'primary', 'text' => 'ПОДКЛЮЧИТЬ?'];
 			}			
 		}
 		
@@ -73,12 +73,13 @@
 			
 			If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','=',null)->count()) 
 			{ // если существует запись в pivot и флаг удаления НЕ установлен
-				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => date("Y-m-d H:i:s")]); //устанавливаем флаг
+				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => date("Y-m-d H:i:s"),'iinstallstate' => 0]); //устанавливаем флаг
 			} elseif ($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','!=',null)->count()) 
 			{ // если существует запись в pivot и флаг удаления установлен
-				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => null]); // снимаем флаг удаления
+				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => null, 'iinstallstate' => 1]); // снимаем флаг удаления
 				} else {
 				$dbco_customer->dbcoSolutions()->attach($sid); //если ни то ни другое - создаем запись в pivot
+				// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
 			}
 			
 			
