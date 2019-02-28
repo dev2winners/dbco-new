@@ -18,8 +18,8 @@ Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 /**---------------------------------------------------**/
-Route::get('/dbcosolution', 'DbcoSolutionController@index')->name('dbcosolution.index')->middleware('verified');
-Route::get('/solution/{id}', 'DbcoSolutionController@single')->name('dbcosolution.single')->middleware('verified');
+Route::get('/dbcosolution', 'DbcoSolutionController@index')->name('dbcosolution.index');
+Route::get('/solution/{id}', 'DbcoSolutionController@single')->name('dbcosolution.single');
 Route::post('/dbcosolution/{id}', 'DbcoSolutionController@toggle')->name('dbcosolution.toggle')->middleware('verified');
 /**---------------------------------------------------**/
 Route::get('/customer', 'DbcoCustomerController@main')->name('customer.main')->middleware('verified');

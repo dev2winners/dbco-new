@@ -14,7 +14,6 @@
 		public function index(DbcoSolutionController $dsc) {
 			
 			$solutions = DbcoSolution::take(4)->where('isolutiontype', 1)->get();
-			//$dsc = new DbcoSolutionController;
 			
 			if (Auth::check())
 			{
@@ -22,15 +21,14 @@
 				
 				foreach($solutions as $solution){	
 					
-					$buttonState[$solution->isolutionid] = $dsc->setButton($dsc->isSolutionRelated($solution, $dbco_customer));
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($dsc->isSolutionRelated($solution, $dbco_customer));
 					
 				}
-				} else {
+			} else {
 			    foreach($solutions as $solution){
-					$buttonState[$solution->isolutionid] = ['state' => 'secondary', 'text' => 'АВТОРИЗУЙТЕСЬ'];
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
 				}
 			}
-			//dd($solutions4);
 			
 			return view('dbco.root',['solutions' => $solutions, 'buttonState' => $buttonState]);
 			

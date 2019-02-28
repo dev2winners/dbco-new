@@ -20,34 +20,31 @@
 		public function isSolutionRelated($solution, $dbco_customer) // подключено решение к кастомеру или нет, принимает на вход экземпляр DbcoSolution и экземпляр DbcoCustomer
 		{			
 			If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$solution->isolutionid)->where('deleted_at','=',null)->count()) { // если существует запись в pivot и флаг удаления не установлен
-				return true;
+				return 'success';
 				} else {
-				return false;
-			}			
-		}
-		
-		public function setButton($state) // возвращает массив с значениями для кнопки решений
-		{			
-			If($state) { // если существует запись в pivot и флаг удаления не установлен
-				return ['state' => 'success', 'text' => 'ЭТО УЖЕ ВАШЕ'];
-				} else {
-				return ['state' => 'primary', 'text' => 'ПОДКЛЮЧИТЬ?'];
+				return 'primary';
 			}			
 		}
 		
 		public function index() // 
 		{
 			
-			$dbco_customer = DbcoCustomer::getCurrentCustomer();
+			$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4); 
 			
-			//dd($user);
-			
-			$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4); //норм
-			
-			foreach($solutions as $solution){	
-				
-				$buttonState[$solution->isolutionid] = $this->setButton($this->isSolutionRelated($solution, $dbco_customer));
-				
+			if (Auth::check())
+			{
+				$dbco_customer = DbcoCustomer::getCurrentCustomer();			
+				foreach($solutions as $solution){	
+					
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));
+					
+				}
+				} else {
+				foreach($solutions as $solution){	
+					
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
+					
+				}
 			}
 			
 			return view('dbco.solutions.index', ['solutions' => $solutions, 'buttonState' => $buttonState]);
@@ -59,9 +56,19 @@
 		{			
 			
 			$solution = DbcoSolution::findOrFail($sid);
-			$dbco_customer = DbcoCustomer::getCurrentCustomer();
+
+			if (Auth::check())
+			{
+				$dbco_customer = DbcoCustomer::getCurrentCustomer();
+				
+				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));				
+				
+			} else {				
+				
+				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');			
+				
+			}			
 			
-			$buttonState[$sid] = $this->setButton($this->isSolutionRelated($solution, $dbco_customer));
 			return view('dbco.solutions.single', ['solution' => $solution, 'buttonState' => $buttonState]);
 			
 		}
@@ -69,24 +76,24 @@
 		public function toggle($sid) // принимает id солюшена
 		{
 			
-			$dbco_customer = DbcoCustomer::getCurrentCustomer();
-			
-			If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','=',null)->count()) 
-			{ // если существует запись в pivot и флаг удаления НЕ установлен
-				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => date("Y-m-d H:i:s"),'iinstallstate' => 0]); //устанавливаем флаг
-			} elseif ($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','!=',null)->count()) 
-			{ // если существует запись в pivot и флаг удаления установлен
-				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => null, 'iinstallstate' => 1]); // снимаем флаг удаления
-				} else {
-				$dbco_customer->dbcoSolutions()->attach($sid); //если ни то ни другое - создаем запись в pivot
-				// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
-			}
-			
-			MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
-			
-			//return redirect()->route('dbcosolution.index');
-			return back();
-			
+		$dbco_customer = DbcoCustomer::getCurrentCustomer();
+		
+		If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','=',null)->count()) 
+		{ // если существует запись в pivot и флаг удаления НЕ установлен
+			$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => date("Y-m-d H:i:s"),'iinstallstate' => 0]); //устанавливаем флаг
+		} elseif ($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','!=',null)->count()) 
+		{ // если существует запись в pivot и флаг удаления установлен
+			$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => null, 'iinstallstate' => 1]); // снимаем флаг удаления
+			} else {
+			$dbco_customer->dbcoSolutions()->attach($sid); //если ни то ни другое - создаем запись в pivot
+			// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
 		}
 		
-	}																					
+		MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
+		
+		//return redirect()->route('dbcosolution.index');
+		return back();
+		
+	}
+	
+}																						
