@@ -18,7 +18,7 @@
 		//public $timestamps = false;
 		
 		protected $guarded = [
-        'icustomerid',
+        'icustomerid', 'ccustomermail', 'ccustomerphone'
 		];
 		
 		public function dbcoSolutions() { // делаем отношения с DbcoSolution

@@ -65,7 +65,23 @@
 					Телефон
 				</div>
 				<div class="col-6">
-					<input type="text" name="ccustomerphone" value="{{ $dbco_customer->ccustomerphone }}" id="ccustomerphone" class="form-control m_formControl" placeholder="79017773344" />
+					<input type="text" name="ccustomerphone" value="{{ $dbco_customer->ccustomerphone }}" id="ccustomerphone" class="form-control m_formControl" placeholder="79017773344" disabled />
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /ОДНА СТРОКА ФОРМЫ -->
+	
+	
+	<!-- ОДНА СТРОКА ФОРМЫ -->
+	<div class="container-fluid lk_formContainer">
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-6 offset-md-2 col-md-4">
+					email
+				</div>
+				<div class="col-6">
+					<input type="text" name="ccustomermail" value="{{ $dbco_customer->ccustomermail }}" id="ccustomermail" class="form-control m_formControl" placeholder="mail@mail.com" disabled />
 				</div>
 			</div>
 		</div>
