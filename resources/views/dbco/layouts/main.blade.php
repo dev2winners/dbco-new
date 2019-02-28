@@ -76,6 +76,9 @@
 						<li class="nav-item p_menu">
 							<a class="nav-link " href="{{ route('register') }}">Зарегистрироваться</a>
 						</li>
+						<li class="nav-item p_menu">
+							<a class="nav-link " href="{{ url('/dbcosolution') }}">Решения DBCO</a>
+						</li>
 						@endauth	
 					</ul>
 					<form class="form-inline my-2 my-lg-0">
