@@ -73,6 +73,9 @@
 						<li class="nav-item p_menu">
 							<a class="nav-link " href="{{ url('/dbcosolution') }}">Решения DBCO</a>
 						</li>
+						<li class="nav-item p_menu">
+							<a class="nav-link " href="{{ route('tickets.main') }}">Поддержка</a>
+						</li>
 						@else
 						<li class="nav-item active p_menu">
 							<a class="nav-link" href="{{ route('login') }}">Войти</a>

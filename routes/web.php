@@ -24,5 +24,6 @@ Route::post('/dbcosolution/{id}', 'DbcoSolutionController@toggle')->name('dbcoso
 /**---------------------------------------------------**/
 Route::get('/customer', 'DbcoCustomerController@main')->name('customer.main')->middleware('verified');
 Route::put('/customer', 'DbcoCustomerController@update')->name('customer.update')->middleware('verified');
-
-
+/**---------------------------------------------------**/
+Route::get('/tickets', 'Tickets\TicketController@main')->name('tickets.main')->middleware('verified');
+Route::post('/tickets', 'Tickets\TicketController@store')->name('tickets.store')->middleware('verified');
