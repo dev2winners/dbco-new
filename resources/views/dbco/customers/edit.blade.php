@@ -65,7 +65,7 @@
 					Телефон
 				</div>
 				<div class="col-6">
-					<input type="text" name="ccustomerphone" value="{{ $dbco_customer->ccustomerphone }}" id="ccustomerphone" class="form-control m_formControl" placeholder="79017773344" disabled />
+					<input type="text" name="ccustomerphone" value="{{ $dbco_customer->ccustomerphone }}" id="ccustomerphone" class="form-control m_formControl" placeholder="" disabled />
 				</div>
 			</div>
 		</div>

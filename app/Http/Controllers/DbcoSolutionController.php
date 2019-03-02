@@ -26,10 +26,14 @@
 			}			
 		}
 		
-		public function index() // 
+		public function index($isolutioncategory = null) // 
 		{
 			
-			$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4); 
+			//dd($isolutioncategory);
+			
+			//$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4); 
+			
+			$solutions = ($isolutioncategory) ? DbcoSolution::where('isolutiontype', 1)->where('isolutioncategory', $isolutioncategory)->paginate(4) : DbcoSolution::where('isolutiontype', 1)->paginate(4); // если задано $isolutioncategory - делаем выборку по нему
 			
 			if (Auth::check())
 			{

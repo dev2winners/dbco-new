@@ -23,6 +23,24 @@
 		<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 		<div class="container-fluid topReshen mt-5 mb-5">
 			<div class="container" style="height:100%">
+				<!-- кнопка фильтрации по категориям -->
+				<div class="row">
+					<div class="col-12 pb-4">
+						<div class="btn-group">
+							<div class="dropdown">
+								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Выберите категорию
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="{{ url('/dbcosolution/2') }}">Вторая категория</a>
+									<a class="dropdown-item" href="{{ url('/dbcosolution/3') }}">Третья категория</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- кнопка фильтрации по категориям -->
+				<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 				<div class="row">	
 					
 					@foreach ($solutions as $solution)
@@ -38,7 +56,7 @@
 							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
 							<div class="d-flex mt-3">
 								<div>
-										<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
+									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
 								</div>
 								<div class="ml-auto">
 									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
@@ -57,19 +75,19 @@
 					@endforeach	
 					
 				</div>
-				</div>
-				</div>
-			<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->	
-			
-			
-			
-			@else
-			Что-то пошло не так...
-			@endif
+			</div>
 		</div>
+		<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->	
 		
 		
-		{!! $solutions->links() !!}
 		
+		@else
+		Что-то пошло не так...
+		@endif
 	</div>
+	
+	
+	{!! $solutions->links() !!}
+	
+</div>
 @endsection
