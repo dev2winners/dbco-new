@@ -26,9 +26,7 @@
 			* @var string
 		*/
 		//protected $redirectTo = '/home';		
-		//protected $redirectTo = route('customer.main'); //не пашет, разобраться
-		
-		protected $redirectTo = '/lk/customer';
+		//protected $redirectTo = '/lk/customer';
 		
 		/**
 			* Create a new controller instance.
@@ -38,6 +36,7 @@
 		public function __construct()
 		{
 			$this->middleware('guest')->except('logout');
+			$this->redirectTo = route('customer.main');
 		}
 		
 		public function showLoginForm()
