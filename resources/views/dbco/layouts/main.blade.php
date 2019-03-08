@@ -68,7 +68,7 @@
 					<ul class="navbar-nav mr-auto ml-auto c_menu" >
 						@auth
 						<li class="nav-item active p_menu">
-							<a class="nav-link" href="{{ url('/customer') }}">Личный кабинет</a>
+							<a class="nav-link" href="{{ route('customer.main') }}">Личный кабинет</a>
 						</li>
 						<li class="nav-item p_menu">
 							<a class="nav-link " href="{{ url('/dbcosolution') }}">Решения DBCO</a>
@@ -109,7 +109,7 @@
 				<div class="container">
 					<div class="row footer_dark" style="position:relative">
 						<div class="col-12 my-4 text-center">
-							<div class="f_menu mr-5"><a href="{{ url('/customer') }}">Личный кабинет</a></div>
+							<div class="f_menu mr-5"><a href="{{ route('customer.main') }}">Личный кабинет</a></div>
 							<div class="f_menu mr-5"><a href="{{ url('/dbcosolution') }}">Решения DBCO</a></div>
 						</div>
 						

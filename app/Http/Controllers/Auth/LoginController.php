@@ -25,7 +25,10 @@
 			*
 			* @var string
 		*/
-		protected $redirectTo = '/home';
+		//protected $redirectTo = '/home';		
+		//protected $redirectTo = route('customer.main'); //не пашет, разобраться
+		
+		protected $redirectTo = '/lk/customer';
 		
 		/**
 			* Create a new controller instance.

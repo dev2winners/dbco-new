@@ -1,6 +1,6 @@
 <?php
 	
-	namespace App\Http\Controllers\Tickets;
+	namespace App\Http\Controllers\Customer;
 	
 	use App\User;
 	use App\Ticket;
@@ -8,7 +8,7 @@
 	use Illuminate\Support\Facades\DB;
 	use App\Http\Controllers\Controller;
 	
-	class TicketController extends Controller
+	class CustomerTicketController extends Controller
 	{
 		
 		public function __construct()
@@ -18,7 +18,9 @@
 		
 		public function main()
 		{		
-			$tickets = DB::table('dbco_ticket')->orderBy('iticketid', 'desc')->paginate(4);
+			//$tickets = DB::table('dbco_ticket')->orderBy('iticketid', 'desc')->paginate(4);
+			
+			$tickets = Ticket::orderBy('iticketid', 'desc')->paginate(4);
 		
 			return view('dbco.tickets.main', ['tickets' => $tickets]);
 		}

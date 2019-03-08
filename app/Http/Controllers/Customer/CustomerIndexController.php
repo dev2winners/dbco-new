@@ -1,6 +1,6 @@
 <?php
 	
-	namespace App\Http\Controllers;
+	namespace App\Http\Controllers\Customer;
 	
 	use App\DbcoCustomer;
 	use App\User;
@@ -8,7 +8,7 @@
 	use Illuminate\Http\Request;
 	use App\Http\Controllers\MssqlExtController;
 	
-	class DbcoCustomerController extends Controller
+	class CustomerIndexController extends Controller
 	{
 		
 		public function __construct()

@@ -29,13 +29,7 @@
 			<h1>Мой кабинет</h1>
 		</div>
 		
-		<div class="col-12 offset-md-2 col-md-8 offset-md-2 topReshenSubMenu pb-4 d-md-flex align-items-center justify-content-between text-center mt-4">
-			<a href="#">Персональная информация</a>
-			<a href="#">Ваши решения</a>
-			<a href="#">Финансы</a>
-			<a href="#" class="active">Обращения</a>
-			<a href="#">База данных</a>
-		</div>
+		@include('dbco.layouts.customertopmenu')
 		
 		<div class="col-12 text-center mt-4">
 			<p class="text-center"></p>

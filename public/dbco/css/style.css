@@ -87,7 +87,8 @@ h1{font-size:1.5rem;font-weight:500}
 .lk_text_a{color:#333;font-size:.9rem}
 .lk_formContainer{background:#f3f3f3;padding:15px 0;margin-top:1px}
 .lk_formContainerWithoutMargin{background:#f3f3f3;padding:15px 0}
-.lk_formContainer input{padding:10px;border-radius:20px;border:solid 1px #ddd;max-width:400px}
+/*.lk_formContainer input{padding:10px;border-radius:20px;border:solid 1px #ddd;max-width:400px}*/
+.lk_formContainer input{padding:10px;border:solid 1px #ddd;max-width:400px}
 .formSubmit{border-radius:25px;padding:15px;width:250px}
 
 .lk_table .title{color:#fe2424}
