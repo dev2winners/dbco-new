@@ -39,7 +39,7 @@
 						/ <a href="{{ route('register') }}">Регистрация</a>
 						@endif
 						@else
-						{{ Auth::user()->name }} 
+						{{ Auth::user()->email }} 
 						<a href="{{ route('logout') }}"
 						onclick="event.preventDefault();
 						document.getElementById('logout-form').submit();">
