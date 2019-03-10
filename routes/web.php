@@ -13,6 +13,7 @@
 
 Route::get('/', 'RootController@index')->name('root');
 Route::get('/test', 'TestController@index')->name('test');
+Route::get('/resources', 'DbcoResourceController@main')->name('resources.main');
 
 Auth::routes(['verify' => true]);
 

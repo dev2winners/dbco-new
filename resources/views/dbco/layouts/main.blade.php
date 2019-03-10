@@ -57,43 +57,9 @@
 				</div>
 			</div>
 		</div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#fff !important">
-			<div class="container">
-				<a class="navbar-brand" style="margin-right:0" href="/"><img src="{{ asset('dbco/images/logo.png') }}" /></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto ml-auto c_menu" >
-						@auth
-						<li class="nav-item active p_menu">
-							<a class="nav-link" href="{{ route('customer.main') }}">Личный кабинет</a>
-						</li>
-						<li class="nav-item p_menu">
-							<a class="nav-link " href="{{ url('/dbcosolution') }}">Решения DBCO</a>
-						</li>
-						<li class="nav-item p_menu">
-							<a class="nav-link " href="{{ route('tickets.main') }}">Поддержка</a>
-						</li>
-						@else
-						<li class="nav-item active p_menu">
-							<a class="nav-link" href="{{ route('login') }}">Войти</a>
-						</li>
-						<li class="nav-item p_menu">
-							<a class="nav-link " href="{{ route('register') }}">Зарегистрироваться</a>
-						</li>
-						<li class="nav-item p_menu">
-							<a class="nav-link " href="{{ url('/dbcosolution') }}">Решения DBCO</a>
-						</li>
-						@endauth	
-					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control" type="text" placeholder=" ...">
-					</form>
-				</div>
-			</div>
-		</nav>
+		
+		@include('dbco.layouts.topmainmenu')
+		
 		<!-- /ШАПКА -->
 		
 		
@@ -109,8 +75,7 @@
 				<div class="container">
 					<div class="row footer_dark" style="position:relative">
 						<div class="col-12 my-4 text-center">
-							<div class="f_menu mr-5"><a href="{{ route('customer.main') }}">Личный кабинет</a></div>
-							<div class="f_menu mr-5"><a href="{{ url('/dbcosolution') }}">Решения DBCO</a></div>
+							@include('dbco.layouts.footermainmenu')
 						</div>
 						
 					</div>
