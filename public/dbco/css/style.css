@@ -55,7 +55,7 @@ h1{font-size:1.5rem;font-weight:500}
 .circle_yellow{color:#e4ac34}
 .circle_red{color:#e52828}
 
-.topReshenSubMenu a{display:inline-block;color:#000;padding-bottom:2px;text-decoration:none;border-bottom:solid 3px #fff}
+.topReshenSubMenu a{display:inline-block;color:#000;padding-bottom:2px;text-decoration:none;border-bottom:solid 3px #fff; margin-left:22px;}
 .topReshenSubMenu .active{border-bottom:solid 3px #ff4300}
 @media screen and (max-width:425px){
 .topReshenSubMenu a{display:block}

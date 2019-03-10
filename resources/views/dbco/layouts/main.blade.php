@@ -104,7 +104,7 @@
 		
 		
 		<!-- ФУТЕР ДО КОНЦА -->
-		<section class="footer mt-5">
+		<section class="footer">
 			<div class="container-fluid mt-3" style="background:#1e1e1e">
 				<div class="container">
 					<div class="row footer_dark" style="position:relative">
