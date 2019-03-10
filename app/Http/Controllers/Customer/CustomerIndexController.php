@@ -21,7 +21,7 @@
 
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
-			return view('dbco.customers.edit', ['dbco_customer' => $dbco_customer]);
+			return view('dbco.customer.customerpersonalinfo.main', ['dbco_customer' => $dbco_customer]);
 		}
 		
 		public function update(Request $request)
@@ -35,7 +35,7 @@
 			MssqlExtController::callMssqlProcedure('sp_update_customer'); // оповещаем внешний сервер
 			
 			return redirect()->route('customer.main')
-			->with('success','Ваши данные успешно изменены!');
+			->with('success','Ваши персональные данные успешно изменены!');
 			
 		}
 		

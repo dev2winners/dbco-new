@@ -1,46 +1,11 @@
-@extends('dbco.layouts.main')
+@extends('dbco.layouts.customer')
 
-@section('content')
-
-
-<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ШАПКА -->
-<div class="container mt-5">
-	<div class="row">
-		<div class="col-12 text-center">
-			<h1>Мой кабинет</h1>
-		</div>
-		
-		@include('dbco.layouts.customertopmenu')
-		
-		<div class="col-12 text-center mt-4">
-			<p class="text-center">Это ваш кабинет. Входите, располагайтесь удобно. Можете заполнить свою анкету, чтобы мы познакомились ближе. Ведь нас ждет долгое плодотворное сотрудничество.</p>
-		</div>
-		
-		@if ($message = Session::get('success'))
-		<div class="col-12 text-center mt-4">
-			<div class="alert alert-success">
-				<p>{{ $message }}</p>
-			</div>
-		</div>
-		@endif
-		
-	</div>
-</div>
-<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ШАПКА -->
+@section('customercontent')
 
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
 <form class="form" action="{{ route('customer.update') }}" method="POST">
 	@csrf
 	@method('PUT')
-	<div class="container-fluid lk_formContainer mt-5 pt-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2>Персональная информация</h2>
-				</div>
-			</div>
-		</div>
-	</div>
 	
 	<!-- ОДНА СТРОКА ФОРМЫ -->
 	<div class="container-fluid lk_formContainer">
@@ -130,23 +95,7 @@
 		</div>
 	</div>
 	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	</form>
-	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
-	
-	
-	<div class="pull-left">
-		<h2></h2>
-	</div>
-	
-	@if ($errors->any())
-	<div class="alert alert-danger">
-		<strong>Ой!</strong> У нас проблемы.<br><br>
-		<ul>
-			@foreach ($errors->all() as $error)
-			<li>{{ $error }}</li>
-			@endforeach
-		</ul>
-	</div>
-	@endif
-	
+</form>
+<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
+
 @endsection

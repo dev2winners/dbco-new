@@ -1,61 +1,11 @@
-@extends('dbco.layouts.main')
+@extends('dbco.layouts.customer')
 
-@section('content')
-
-@if ($message = Session::get('success'))
-<div class="col-12 text-center mt-4">
-	<div class="alert alert-success">
-		<p>{{ $message }}</p>
-	</div>
-</div>
-@endif
-
-
-@if ($errors->any())
-<div class="alert alert-danger">
-	<strong>Ой!</strong> У нас проблемы.<br><br>
-	<ul>
-		@foreach ($errors->all() as $error)
-		<li>{{ $error }}</li>
-		@endforeach
-	</ul>
-</div>
-@endif
-
-<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ШАПКА -->
-<div class="container mt-5">
-	<div class="row">
-		<div class="col-12 text-center">
-			<h1>Мой кабинет</h1>
-		</div>
-		
-		@include('dbco.layouts.customertopmenu')
-		
-		<div class="col-12 text-center mt-4">
-			<p class="text-center"></p>
-		</div>
-		
-	</div>
-</div>
-<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ШАПКА -->
-
+@section('customercontent')
 
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 <form class="form" action="{{ route('tickets.store') }}" method="POST">
 	@csrf
 	@method('POST')
-	<div class="container-fluid lk_formContainerWithoutMargin mt-5 pt-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2>Помощь и поддержка</h2>
-				</div>
-				<div class="col-12 text-center mt-4">
-					<p class="text-center"></p>
-				</div>
-			</div>
-		</div>
-	</div>
 	
 	<div class="container-fluid lk_formContainerWithoutMargin pb-5">
 		<div class="container py-5" style="background:#fff">
@@ -114,18 +64,12 @@
 						
 					</tbody>
 				</table>
+				{!! $tickets->links() !!}
 			</div>
 		</div>
 	</div>
 </div>
 
-{!! $tickets->links() !!}
-
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
-
-
-<div class="container mt-5">
-	&nbsp; <!--ОТСТУП-->
-</div>
 
 @endsection

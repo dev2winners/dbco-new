@@ -1,34 +1,8 @@
-@extends('dbco.layouts.main')
+@extends('dbco.layouts.customer')
 
-@section('content')
-
-<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ШАПКА -->
-<div class="container mt-5">
-	<div class="row">
-		<div class="col-12 text-center">
-			<h1>Мой кабинет</h1>
-		</div>
-		
-		@include('dbco.layouts.customertopmenu')
-		
-		<div class="col-12 text-center mt-4">
-			<p class="text-center"></p>
-		</div>
-		
-	</div>
-</div>
-<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ШАПКА -->
+@section('customercontent')
 
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
-<div class="container-fluid lk_formContainerWithoutMargin mt-5 pt-5">
-<div class="container">
-<div class="row">
-	<div class="col-12 text-center">
-		<h2>База данных</h2>
-	</div>
-</div>
-</div>
-</div>
 
 <div class="container-fluid lk_formContainerWithoutMargin pb-5">
 <div class="container">

@@ -22,7 +22,7 @@
 			
 			$tickets = Ticket::orderBy('iticketid', 'desc')->paginate(4);
 		
-			return view('dbco.tickets.main', ['tickets' => $tickets]);
+			return view('dbco.customer.customertickets.main', ['tickets' => $tickets]);
 		}
 		
 		public function store(Ticket $ticket, Request $request)

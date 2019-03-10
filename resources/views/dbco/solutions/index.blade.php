@@ -51,8 +51,7 @@
 							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto"/>
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
-							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
-							<p class="my-0"><span>Версия: </span> {{ $solution->isolutionversion }}</p>
+							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>							
 							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
 							<div class="d-flex mt-3">
 								<div>
