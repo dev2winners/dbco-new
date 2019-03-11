@@ -15,7 +15,7 @@
 					<dd class="col-sm-9 p-3 mb-2 bg-white text-dark">{{ $dbco_customer->ccustomeraccount }}</dd>
 					
 					<dt class="col-sm-3 text-info mb-2 p-3">Текущий остаток на счете в рублях:</dt>
-					<dd class="col-sm-9 mb-2 p-3">{{ $dbco_customer->mcustomerbalance }}</dd>
+					<dd class="col-sm-9 mb-2 p-3"><strong>{{ $dbco_customer->mcustomerbalance }} руб.</strong></dd>
 					
 					<dt class="col-sm-3 p-3 mb-2 bg-info text-white">Дата приостановления доступа к облачной базе данных:</dt>
 					<dd class="col-sm-9 p-3 mb-2 bg-white text-dark">{{ $dbco_customer->dcustomerblock }}</dd>

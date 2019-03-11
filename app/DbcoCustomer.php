@@ -22,12 +22,17 @@
 		];
 		
 		public function dbcoSolutions() { // делаем отношения с DbcoSolution
-			return $this->belongsToMany('App\DbcoSolution', 'dbco_install', 'iinstallcustomer', 'iinstallsolution')->withTimestamps();
+			return $this->belongsToMany('App\DbcoSolution', 'dbco_install', 'iinstallcustomer', 'iinstallsolution')->withTimestamps()->withPivot('dinstalldate','iinstallstate','dinstalledit', 'iinstallversion');
 		}
 		
 		public function dbcoFinance()
 		{
 			return $this->hasMany('App\DbcoFinance', 'ifinancecustomer');
+		}
+		
+		public function dbcoTicket()
+		{
+			return $this->hasMany('App\Ticket', 'iticketcustomer');
 		}
 		
 		public static function getCurrentCustomer() { // возвращает текущего кастомера

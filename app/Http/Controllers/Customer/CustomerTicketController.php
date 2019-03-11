@@ -4,6 +4,7 @@
 	
 	use App\User;
 	use App\Ticket;
+	use App\DbcoCustomer;
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\DB;
 	use App\Http\Controllers\Controller;
@@ -18,9 +19,12 @@
 		
 		public function main()
 		{		
-			//$tickets = DB::table('dbco_ticket')->orderBy('iticketid', 'desc')->paginate(4);
 			
-			$tickets = Ticket::orderBy('iticketid', 'desc')->paginate(4);
+			//$tickets = Ticket::orderBy('iticketid', 'desc')->paginate(4);
+			
+			$dbco_customer = DbcoCustomer::getCurrentCustomer();
+			
+			$tickets = $dbco_customer->dbcoTicket()->orderBy('iticketid', 'desc')->paginate(4);
 		
 			return view('dbco.customer.customertickets.main', ['tickets' => $tickets]);
 		}
@@ -28,11 +32,11 @@
 		public function store(Ticket $ticket, Request $request)
 		{				
 			
-			//dd($request->all());
+			$ticket = Ticket::create($request->all());
 			
-			//$ticket->save($request->all());
+			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
-			Ticket::create($request->all());
+			$dbco_customer->dbcoTicket()->save($ticket); // сохраняем модель с отношением к юзеру
 			
 			return redirect()->route('tickets.main')
 			->with('success','Ваш запрос в службу поддержки зарегистрирован!');
