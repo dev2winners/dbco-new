@@ -93,7 +93,8 @@
 			// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
 		}
 		
-		MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
+		//MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
+		MssqlExtController::callMssqlProcedure('sp_update_install '.$dbco_customer->icustomerid); 
 		
 		//return redirect()->route('dbcosolution.index');
 		return back();
