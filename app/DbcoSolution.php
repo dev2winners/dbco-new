@@ -15,7 +15,7 @@
 		
 		public function createSolutionButtonStateData($state) {
 			if('success' == $state){
-				$result = ['state' => 'success', 'text' => 'ЭТО УЖЕ ВАШЕ'];	
+				$result = ['state' => 'secondary', 'text' => 'ЭТО УЖЕ ВАШЕ'];	
 				}elseif('primary' == $state){
 				$result = ['state' => 'primary', 'text' => 'ПОДКЛЮЧИТЬ?'];	
 				}elseif('secondary' == $state){

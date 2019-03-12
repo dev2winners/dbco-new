@@ -21,10 +21,15 @@
 						@foreach ($solutions as $solution)
 						<tr class="ttr">
 							<td><a href="{{ route('dbcosolution.single',['id' => $solution->isolutionid]) }}">{{ $solution->csolutionname }}</a></td>
-							<td>{{ $versions[$solution->pivot->iinstallversion] }}</td>
+							<td>{{ ($solution->pivot->iinstallversion) ? $versions[$solution->pivot->iinstallversion] : 'нет данных' }}</td>
 							<td>{{ $solution->pivot->dinstalldate }}</td>
-							<td>{{ ($solution->pivot->iinstallstate) ? 'пустая база блять' : $solution->pivot->dinstalledit }}</td>
-							<td class="status_payWait">завтра вечером надеюсь будет</td>
+							<td>{{ ($solution->pivot->iinstallstate) ? 'нет данных' : $solution->pivot->dinstalledit }}</td>
+							<td class="status_payWait">
+								<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
+									@csrf					
+									<button type="submit" class="btn btn-{{ ($solution->pivot->iinstallstate) ? 'success' : 'secondary' }} ml-auto abtn">{{ ($solution->pivot->iinstallstate) ? 'УЖЕ МОЁ' : 'ПОДКЛЮЧИТЬ' }}</button>	
+								</form>	
+							</td>
 						</tr>
 						@endforeach	
 						@else

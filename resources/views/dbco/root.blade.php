@@ -20,7 +20,9 @@
 		</div>
 	</div>
 	
-	
+	<div class="mt-5" style="text-align:center;">
+		<h1>Новинки</h1>
+	</div>
 	
 	<div>
 		@if (count($solutions) > 0)
@@ -29,8 +31,7 @@
 			<div class="container" style="height:100%">
 				<div class="row">	
 					
-					
-					@foreach ($solutions as $solution)
+					@foreach ($solutions->sortByDesc('dsolutiondate') as $solution)
 					<!-- КАРТОЧКА -->
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3 topReshCol pb-4">
 						<div class="card p-3">
@@ -39,11 +40,10 @@
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
 							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
-							<p class="my-0"><span>Версия: </span> {{ $solution->isolutionversion }}</p>
 							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
 							<div class="d-flex mt-3">
 								<div>
-										<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
+									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
 								</div>
 								<div class="ml-auto">
 									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
@@ -59,6 +59,63 @@
 						</div>
 					</div>
 					<!-- /КАРТОЧКА -->
+					
+					@break(4 == $loop->iteration)
+					@endforeach	
+					
+				</div>
+			</div>
+		</div>
+		<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->	
+		
+		
+		
+		@else
+		Что-то пошло не так...
+		@endif
+	</div>
+	
+	<div class="mt-4" style="text-align:center;">
+		<h1>Самые популярные</h1>
+	</div>
+	
+	<div>
+		@if (count($solutions) > 0)
+		<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
+		<div class="container-fluid topReshen mt-5 mb-5">
+			<div class="container" style="height:100%">
+				<div class="row">	
+					
+					@foreach ($solutions->sortByDesc('isolutioncount') as $solution)
+					<!-- КАРТОЧКА -->
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 topReshCol pb-4">
+						<div class="card p-3">
+							<div class="stars text-right"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i></div>
+							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto"/>
+							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
+							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
+							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
+							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
+							<div class="d-flex mt-3">
+								<div>
+									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
+								</div>
+								<div class="ml-auto">
+									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
+										@csrf
+										
+										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
+									</form>
+								</div>
+							</div>
+							
+							
+							<div class="circle circle_grey"><i class="fas fa-circle"></i></div>
+						</div>
+					</div>
+					<!-- /КАРТОЧКА -->
+					
+					@break(4 == $loop->iteration)
 					@endforeach	
 					
 				</div>

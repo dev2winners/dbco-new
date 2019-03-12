@@ -13,7 +13,11 @@
 		//
 		public function index(DbcoSolutionController $dsc) {
 			
-			$solutions = DbcoSolution::take(4)->where('isolutiontype', 1)->get();
+			//$solutions = DbcoSolution::take(4)->where('isolutiontype', 1)->get();
+			
+			$solutions = DbcoSolution::where('isolutiontype', 1)->get();
+			
+			//dd($solutions);
 			
 			if (Auth::check())
 			{

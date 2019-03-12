@@ -28,11 +28,13 @@
 		{			
 			/* $request->validate([
 				'ccustomername' => 'required',
-			]); */
+			]); */			
 			
 			DbcoCustomer::getCurrentCustomer()->update($request->all());
 			
-			MssqlExtController::callMssqlProcedure('sp_update_customer'); // оповещаем внешний сервер
+			$dbco_customer = DbcoCustomer::getCurrentCustomer();
+			
+			MssqlExtController::callMssqlProcedure('sp_update_customer '.$dbco_customer->icustomerid); // оповещаем внешний сервер
 			
 			return redirect()->route('customer.main')
 			->with('success','Ваши персональные данные успешно изменены!');

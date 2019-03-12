@@ -8,18 +8,52 @@
 
 <div class="container-fluid lk_formContainerWithoutMargin pb-5">
 	<div class="container">
-		<div class="row mx-1">
+		<div class="row mb-4">
 			<div class="col-12">
-				<dl class="row">
-					<dt class="col-sm-3 p-3 mb-2 bg-info text-white">Номер контракта для оплаты:</dt>
-					<dd class="col-sm-9 p-3 mb-2 bg-white text-dark">{{ $dbco_customer->ccustomeraccount }}</dd>
 					
-					<dt class="col-sm-3 text-info mb-2 p-3">Текущий остаток на счете в рублях:</dt>
-					<dd class="col-sm-9 mb-2 p-3"><strong>{{ $dbco_customer->mcustomerbalance }} руб.</strong></dd>
-					
-					<dt class="col-sm-3 p-3 mb-2 bg-info text-white">Дата приостановления доступа к облачной базе данных:</dt>
-					<dd class="col-sm-9 p-3 mb-2 bg-white text-dark">{{ $dbco_customer->dcustomerblock }}</dd>
-				</dl>
+					<!-- ОДНА СТРОКА ФОРМЫ -->
+					<div class="container-fluid lk_formContainer">
+						<div class="container">
+							<div class="row d-flex align-items-center">
+								<div class="col-6 col-md-4">
+									Номер контракта для оплаты:
+								</div>
+								<div class="col-6">
+									<input type="text" name="ccustomeraccount" value="{{ $dbco_customer->ccustomeraccount }}" id="ccustomeraccount" class="form-control m_formControl" placeholder="" disabled />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /ОДНА СТРОКА ФОРМЫ -->
+					<!-- ОДНА СТРОКА ФОРМЫ -->
+					<div class="container-fluid lk_formContainer">
+						<div class="container">
+							<div class="row d-flex align-items-center">
+								<div class="col-6 col-md-4">
+									Текущий остаток на счете в рублях:
+								</div>
+								<div class="col-6">
+									<input type="text" name="mcustomerbalance" value="{{ $dbco_customer->mcustomerbalance }} руб." id="mcustomerbalance" class="form-control m_formControl" placeholder="" disabled />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /ОДНА СТРОКА ФОРМЫ -->
+					<!-- ОДНА СТРОКА ФОРМЫ -->
+					<div class="container-fluid lk_formContainer">
+						<div class="container">
+							<div class="row d-flex align-items-center">
+								<div class="col-6 col-md-4">
+									Дата приостановления доступа к облачной базе данных:
+								</div>
+								<div class="col-6">
+									<input type="text" name="dcustomerblock" value="{{ $dbco_customer->dcustomerblock }}" id="dcustomerblock" class="form-control m_formControl" placeholder="" disabled />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /ОДНА СТРОКА ФОРМЫ -->
+				
 			</div>
 		</div>
 		<div class="row">
@@ -37,23 +71,23 @@
 						<tr class="ttr">
 							<td>{{ $finance->dfinancedate }}</td>
 							<td>{{ $finance->cfinancenumber }}</td>
-						<td><a href="#">{{ $finance->cfinancepurpose }}</a></td>
-						<td>{{ $finance->mfinancesum }}</td>
+							<td><a href="#">{{ $finance->cfinancepurpose }}</a></td>
+							<td>{{ $finance->mfinancesum }}</td>
 						</tr>
 						@endforeach	
 						@else
 						
 						@endif
-						</tbody>
-					</table>
-					{!! $finances->links() !!}
-				</div>
+					</tbody>
+				</table>
+				{!! $finances->links() !!}
 			</div>
 		</div>
 	</div>
-	
-	
-	
-	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
-	
+</div>
+
+
+
+<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
+
 @endsection	
