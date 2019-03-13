@@ -11,10 +11,10 @@
 				<table class="table lk_table">
 					<tbody>
 						<tr style="border-bottom:solid 2px #ff4300">
-							<th class="text-left" style="width:20%">Название решения</th>
-							<th class="text-left" style="width:20%">Версия</th>
-							<th class="text-left" style="width:20%">Включено</th>
-							<th class="text-left" style="width:20%">Выключено</th>
+							<th class="text-left" style="width:50%">Название решения</th>
+							<th class="text-left" style="width:10%">Версия</th>
+							<th class="text-left" style="width:10%">Дата создания</th>
+							<th class="text-left" style="width:10%">Дата изменения</th>
 							<th class="text-left" style="width:20%">Состояние</th>
 						</tr>
 						@if (count($solutions) > 0)
@@ -22,8 +22,8 @@
 						<tr class="ttr">
 							<td><a href="{{ route('dbcosolution.single',['id' => $solution->isolutionid]) }}">{{ $solution->csolutionname }}</a></td>
 							<td>{{ ($solution->pivot->iinstallversion) ? $versions[$solution->pivot->iinstallversion] : 'нет данных' }}</td>
-							<td>{{ $solution->pivot->dinstalldate }}</td>
-							<td>{{ ($solution->pivot->iinstallstate) ? 'нет данных' : $solution->pivot->dinstalledit }}</td>
+							<td>{{ $solution->pivot->created_at }}</td>
+							<td>{{ ($solution->pivot->iinstallstate) ? 'нет данных' : $solution->pivot->updated_at }}</td>
 							<td class="status_payWait">
 								<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 									@csrf					
