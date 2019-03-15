@@ -14,7 +14,7 @@
 		
 		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+		
 		
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 		
@@ -104,10 +104,24 @@
 		
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		
-		<script src="{{ asset('dbco/js/js.js') }}></script>
+		<script src="{{ asset('dbco/js/js.js') }}"></script>
 		
+		<script>
+			
+			function toggleDb() {
+				var isDbLocal;
+				isDbLocal = $('#backupdbcloud input[name=cloudorlocal]:radio:checked').val();
+				//alert(isDbLocal);	
+				if(isDbLocal == 1){
+					$('#backupcloud').hide();
+					$('#backuplocal').show();
+					} else {
+					$('#backuplocal').hide();
+					$('#backupcloud').show();
+				}
+			}
+			
+		</script>
 		
-		
-		</body>
-		</html>
-		
+	</body>
+</html>

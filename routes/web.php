@@ -25,6 +25,7 @@ Route::post('/dbcosolution/{id}', 'DbcoSolutionController@toggle')->name('dbcoso
 /**---------------------------------------------------**/
 Route::get('/lk/customer', 'Customer\CustomerIndexController@main')->name('customer.main')->middleware('verified');
 Route::put('/lk/customer', 'Customer\CustomerIndexController@update')->name('customer.update')->middleware('verified');
+
 /**---------------------------------------------------**/
 Route::get('/lk/tickets', 'Customer\CustomerTicketController@main')->name('tickets.main')->middleware('verified');
 Route::post('/lk/tickets', 'Customer\CustomerTicketController@store')->name('tickets.store')->middleware('verified');
@@ -32,3 +33,4 @@ Route::post('/lk/tickets', 'Customer\CustomerTicketController@store')->name('tic
 Route::get('/lk/solutions', 'Customer\CustomerSolutionsController@main')->name('customersolutions.main')->middleware('verified');
 Route::get('/lk/finance', 'Customer\CustomerFinanceController@main')->name('customerfinance.main')->middleware('verified');
 Route::get('/lk/db', 'Customer\CustomerDbController@main')->name('customerdb.main')->middleware('verified');
+Route::put('/lk/db', 'Customer\CustomerDbController@update')->name('customerdb.update')->middleware('verified');

@@ -30,6 +30,11 @@
 			return $this->hasMany('App\DbcoFinance', 'ifinancecustomer');
 		}
 		
+		public function dbcoBackup()
+		{
+			return $this->hasMany('App\DbcoBackup', 'ibackupcustomer');
+		}
+		
 		public function dbcoTicket()
 		{
 			return $this->hasMany('App\Ticket', 'iticketcustomer');
