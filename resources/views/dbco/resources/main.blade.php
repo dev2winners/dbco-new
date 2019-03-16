@@ -13,7 +13,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-12 form-check text-center">
-					<button type="submit" class="btn btn-danger formSubmit">Скачать dbco</button>
+					<a href="https://static.dbco.ru/dbco.exe" class="btn btn-danger formSubmit">Скачать dbco</a>
 				</div>
 			</div>
 		</div>

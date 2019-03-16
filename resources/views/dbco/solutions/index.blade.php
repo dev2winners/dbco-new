@@ -17,29 +17,24 @@
 	</div>
 	@endif
 	
+	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. category -->
+	<div class="col-12 offset-md-2 col-md-8 offset-md-2 topReshenSubMenu pb-4 d-md-flex align-items-center justify-content-between text-center mt-4">
+		
+		@foreach ($categories as $category)
+		<a href="{{ route('dbcosolution.index', ['isolutioncategory' => $category->icategoryid]) }}" class="{{ ($category->icategoryid == $isolutioncategory) ? 'active' : '' }}">{{ $category->ccategoryname }}</a>
+		@endforeach
+		
+	</div>
+	<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. category -->
+	
 	
 	<div>
 		@if (count($solutions) > 0)
 		<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 		<div class="container-fluid topReshen mt-5 mb-5">
 			<div class="container" style="height:100%">
-				<!-- кнопка фильтрации по категориям -->
-				<div class="row">
-					<div class="col-12 pb-4">
-						<div class="btn-group">
-							<div class="dropdown">
-								<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Выберите категорию
-								</button>
-								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-									<a class="dropdown-item" href="{{ url('/dbcosolution/2') }}">Вторая категория</a>
-									<a class="dropdown-item" href="{{ url('/dbcosolution/3') }}">Третья категория</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- кнопка фильтрации по категориям -->
+				
+				
 				<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 				<div class="row">	
 					
@@ -81,7 +76,15 @@
 		
 		
 		@else
-		Что-то пошло не так...
+		<div class="container-fluid topReshen mt-5 mb-5">
+			<div class="container" style="height:100%">				
+				<div class="row">
+					<div class="alert alert-danger ml-auto mr-auto">
+						<p class="">По вашему запросу решений не найдено...</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		@endif
 	</div>
 	

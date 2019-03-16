@@ -4,6 +4,7 @@
 	
 	use App\DbcoSolution;
 	use App\DbcoCustomer;
+	use App\DbcoCategory;
 	use App\User;
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\Auth;
@@ -26,14 +27,28 @@
 			}			
 		}
 		
-		public function index($isolutioncategory = null) // 
+		public function index($isolutioncategory = 1, DbcoCategory $dbco_category) // 
 		{
+			
+			$buttonState = [];
 			
 			//dd($isolutioncategory);
 			
 			//$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4); 
 			
-			$solutions = ($isolutioncategory) ? DbcoSolution::where('isolutiontype', 1)->where('isolutioncategory', $isolutioncategory)->paginate(4) : DbcoSolution::where('isolutiontype', 1)->paginate(4); // если задано $isolutioncategory - делаем выборку по нему
+			$categories = $dbco_category->get();
+			$current_category_tag = ($isolutioncategory) ? $dbco_category->find($isolutioncategory)->ccategorytag : '#';
+			
+			//dd($current_category_tag);
+			
+			//$solutions = ($isolutioncategory) ? DbcoSolution::where('isolutiontype', 1)->where('isolutioncategory', $isolutioncategory)->paginate(4) : DbcoSolution::where('isolutiontype', 1)->paginate(4); // если задано $isolutioncategory - делаем выборку по нему
+			
+			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutioncoltag','like', '%'.$current_category_tag.'%')->paginate(4);
+			
+			//$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4);
+			
+			//dd($solutions);
+			
 			
 			if (Auth::check())
 			{
@@ -51,7 +66,8 @@
 				}
 			}
 			
-			return view('dbco.solutions.index', ['solutions' => $solutions, 'buttonState' => $buttonState]);
+			
+			return view('dbco.solutions.index', ['solutions' => $solutions, 'buttonState' => $buttonState, 'categories' => $categories, 'isolutioncategory' => $isolutioncategory]);
 			
 		}
 		
@@ -60,14 +76,14 @@
 		{			
 			
 			$solution = DbcoSolution::findOrFail($sid);
-
+			
 			if (Auth::check())
 			{
 				$dbco_customer = DbcoCustomer::getCurrentCustomer();
 				
 				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));				
 				
-			} else {				
+				} else {				
 				
 				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');			
 				
@@ -80,25 +96,25 @@
 		public function toggle($sid) // принимает id солюшена
 		{
 			
-		$dbco_customer = DbcoCustomer::getCurrentCustomer();
-		
-		If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','=',null)->count()) 
-		{ // если существует запись в pivot и флаг удаления НЕ установлен
-			$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => date("Y-m-d H:i:s"),'iinstallstate' => 0]); //устанавливаем флаг
-		} elseif ($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','!=',null)->count()) 
-		{ // если существует запись в pivot и флаг удаления установлен
-			$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => null, 'iinstallstate' => 1]); // снимаем флаг удаления
-			} else {
-			$dbco_customer->dbcoSolutions()->attach($sid); //если ни то ни другое - создаем запись в pivot
-			// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
+			$dbco_customer = DbcoCustomer::getCurrentCustomer();
+			
+			If($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','=',null)->count()) 
+			{ // если существует запись в pivot и флаг удаления НЕ установлен
+				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => date("Y-m-d H:i:s"),'iinstallstate' => 0]); //устанавливаем флаг
+			} elseif ($dbco_customer->dbcoSolutions()->where('iinstallsolution','=',$sid)->where('deleted_at','!=',null)->count()) 
+			{ // если существует запись в pivot и флаг удаления установлен
+				$dbco_customer->dbcoSolutions()->updateExistingPivot($sid, ['deleted_at' => null, 'iinstallstate' => 1]); // снимаем флаг удаления
+				} else {
+				$dbco_customer->dbcoSolutions()->attach($sid); //если ни то ни другое - создаем запись в pivot
+				// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
+			}
+			
+			//MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
+			MssqlExtController::callMssqlProcedure('sp_update_install '.$dbco_customer->icustomerid); 
+			
+			//return redirect()->route('dbcosolution.index');
+			return back();
+			
 		}
 		
-		//MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
-		MssqlExtController::callMssqlProcedure('sp_update_install '.$dbco_customer->icustomerid); 
-		
-		//return redirect()->route('dbcosolution.index');
-		return back();
-		
-	}
-	
-}																						
+	}																								
