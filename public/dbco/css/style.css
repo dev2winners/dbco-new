@@ -38,6 +38,14 @@ h1{font-size:1.5rem;font-weight:500}
 .offer3{height:auto;padding-bottom:30px;background:#f2e7e3;background-image:none}
 }
 .offer3_right{margin-top:auto;margin-bottom:auto}
+
+.offer4_img_block{height:518px;background-image:url("../images/offer4.jpg");background-repeat:no-repeat;background-position:right center;}
+.offer4{height:auto;background:#f2e7e3;background-image:none}
+.offer4_right{margin-top:auto;margin-bottom:auto}
+
+.offer5_img_block{height:518px;background-image:url("../images/offer5.jpg");background-repeat:no-repeat;background-position:left center;}
+
+
 .but1{border-radius:20px;font-size:.9rem}
 
 .topReshCol{position:relative}
