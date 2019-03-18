@@ -43,7 +43,8 @@
 			
 			//$solutions = ($isolutioncategory) ? DbcoSolution::where('isolutiontype', 1)->where('isolutioncategory', $isolutioncategory)->paginate(4) : DbcoSolution::where('isolutiontype', 1)->paginate(4); // если задано $isolutioncategory - делаем выборку по нему
 			
-			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutioncoltag','like', '%'.$current_category_tag.'%')->paginate(4);
+			//$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutioncoltag','like', '%'.$current_category_tag.'%')->paginate(4);
+			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutioncoltag','like', $current_category_tag)->paginate(4);
 			
 			//$solutions = DbcoSolution::where('isolutiontype', 1)->paginate(4);
 			

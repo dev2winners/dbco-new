@@ -3,18 +3,18 @@
 @section('customercontent')
 
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
-<form class="form" action="{{ route('tickets.store') }}" method="POST">
+<form class="form" enctype="multipart/form-data" action="{{ route('tickets.store') }}" method="POST">
 	@csrf
 	@method('POST')
 	
 	<div class="container-fluid lk_formContainerWithoutMargin pb-5">
 		<div class="container py-5" style="background:#fff">
-			<div class="form-group row">
+			<!--<div class="form-group row">
 				<label for="f_tema" class="col-2 col-form-label text-right">Тема:</label>
 				<div class="col-8">
 					<input type="text" class="form-control" id="f_tema" value="">
 				</div>
-			</div>
+			</div>-->
 			
 			<div class="form-group row">
 				<label for="ctickettext" class="col-2 col-form-label text-right">Сообщение:</label>
@@ -25,9 +25,10 @@
 			
 			<div class="form-group row">
 				<div class="offset-2 col-10">
-					<a href="#" class="f_file">Прикрепить файл</a>
+					<input type="file" id="bticketfile" name="bticketfile" />
 				</div>
 			</div>
+			
 			
 			<div class="form-group row">
 				<div class="offset-2 col-10">

@@ -25,14 +25,27 @@
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
 			$tickets = $dbco_customer->dbcoTicket()->orderBy('iticketid', 'desc')->paginate(4);
-		
+			
 			return view('dbco.customer.customertickets.main', ['tickets' => $tickets]);
 		}
 		
 		public function store(Ticket $ticket, Request $request)
 		{				
 			
+			
+			$this->validate($request, [
+			'bticketfile' => 'size:1000|image',
+			'ctickettext' => 'required',
+			]);
+			
+			$file = $request->bticketfile; // идентификатор файла 
+			
+			$filecontent = $file->openFile()->fread($file->getSize()); //содержимое файла
+			$filename = $request->bticketfile->getClientOriginalName(); //имя файла
+			
 			$ticket = Ticket::create($request->all());
+			$ticket->bticketfile = $filecontent;
+			$ticket->cticketfilename = $filename;
 			
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			

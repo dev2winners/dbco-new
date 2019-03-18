@@ -11,7 +11,8 @@
 		public $timestamps = false;
 		
 		protected $fillable = [
-        'ctickettext'
+        'ctickettext',
+		'bticketfile'
 		];
 		
 		/*protected $guarded = [
