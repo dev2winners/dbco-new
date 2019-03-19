@@ -67,7 +67,7 @@
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3 topReshCol pb-4">
 						<div class="card p-3">
 							<div class="stars text-right"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i></div>
-							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto"/>
+							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
 							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
@@ -122,7 +122,7 @@
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3 topReshCol pb-4">
 						<div class="card p-3">
 							<div class="stars text-right"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i></div>
-							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto"/>
+							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
 							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
