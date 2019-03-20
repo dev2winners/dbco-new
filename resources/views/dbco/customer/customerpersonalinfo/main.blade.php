@@ -12,7 +12,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-6 offset-md-2 col-md-4">
-					Ф.И.О.
+					Ф.И.О.:
 				</div>
 				<div class="col-6">
 					<input type="text" name="ccustomername" value="{{ $dbco_customer->ccustomername }}" id="ccustomername" class="form-control m_formControl" placeholder="Ф.И.О." />

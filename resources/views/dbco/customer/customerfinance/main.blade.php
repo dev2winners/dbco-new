@@ -11,7 +11,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-6 offset-md-2 col-md-4">
-					Номер контракта для оплаты:
+					Номер контракта:
 				</div>
 				<div class="col-6">
 					<input type="text" name="ccustomeraccount" value="{{ $dbco_customer->ccustomeraccount }}" id="ccustomeraccount" class="form-control m_formControl" placeholder="" disabled />
@@ -25,7 +25,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-6 offset-md-2 col-md-4">
-					Текущий остаток на счете в рублях:
+					Текущий остаток:
 				</div>
 				<div class="col-6">
 					<input type="text" name="mcustomerbalance" value="{{ $dbco_customer->mcustomerbalance }} руб." id="mcustomerbalance" class="form-control m_formControl" placeholder="" disabled />
@@ -39,7 +39,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-6 offset-md-2 col-md-4">
-					Дата приостановления доступа к облачной базе данных:
+					Окончание контракта:
 				</div>
 				<div class="col-6">
 					<input type="text" name="dcustomerblock" value="{{ $dbco_customer->dcustomerblock }}" id="dcustomerblock" class="form-control m_formControl" placeholder="" disabled />
@@ -75,7 +75,7 @@
 							<td>{{ $finance->dfinancedate }}</td>
 							<td>{{ $finance->cfinancenumber }}</td>
 							<td><a href="#">{{ $finance->cfinancepurpose }}</a></td>
-							<td>{{ $finance->mfinancesum }}</td>
+							<td class="text-right">{{ $finance->mfinancesum }}</td>
 						</tr>
 						@endforeach	
 						@else
