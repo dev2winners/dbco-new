@@ -6,11 +6,12 @@
 	use App\DbcoCustomer;
 	use App\DbcoCategory;
 	use App\User;
+	use App\DbcoVersion;
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\Auth;
 	use App\Http\Controllers\MssqlExtController;
 	
-	class DbcoSolutionController extends Controller
+	class DbcoSingleSolutionController extends Controller
 	{
 		/**
 			* Display a listing of the resource.
@@ -27,37 +28,51 @@
 			}			
 		}
 		
-		public function index($isolutioncategory = 1, DbcoCategory $dbco_category) // 
-		{
+		
+		
+		public function main($sid) // принимает id солюшена
+		{			
 			
-			$buttonState = [];
+			$solution = DbcoSolution::findOrFail($sid);
 			
-			$categories = $dbco_category->get();
-			$current_category_tag = ($isolutioncategory) ? $dbco_category->find($isolutioncategory)->ccategorytag : '#';
+			$dother_solutions = DbcoSolution::where('isolutionparent', $sid)->paginate(22);
 			
-			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutiontag','like', $current_category_tag)->paginate(4);
+			$author_name = ($author = DbcoCustomer::where('icustomerid',$solution->isolutiondeveloper)->first()) ? $author->ccustomername : 'Bill Gates';
 			
-			//dd($solutions);
+			$dbco_version = DbcoVersion::where('iversionid', $solution->isolutionversion)->first();
+			$version = (is_object($dbco_version)) ? $dbco_version->cversion : '7 Максимальная';
 			
+			//dd(DbcoVersion::where('iversionid', $solution->isolutionversion)->first());
 			
 			if (Auth::check())
 			{
-				$dbco_customer = DbcoCustomer::getCurrentCustomer();			
-				foreach($solutions as $solution){	
-					
-					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));
-					
+				$dbco_customer = DbcoCustomer::getCurrentCustomer();
+				
+				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));
+				
+				if($dother_solutions->count()) {
+					foreach($dother_solutions as $dother_solution){	
+						
+						$buttonState[$dother_solution->isolutionid] = $dother_solution->createSolutionButtonStateData($this->isSolutionRelated($dother_solution, $dbco_customer));
+						
+					}
+				} 
+				
+				} else {				
+				
+				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
+				
+				if($dother_solutions->count()) {
+					foreach($dother_solutions as $dother_solution){	
+						
+						$buttonState[$dother_solution->isolutionid] = $dother_solution->createSolutionButtonStateData('secondary');
+						
+					}
 				}
-				} else {
-				foreach($solutions as $solution){	
-					
-					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
-					
-				}
-			}
+				
+			}			
 			
-			
-			return view('dbco.solutions.index', ['solutions' => $solutions, 'buttonState' => $buttonState, 'categories' => $categories, 'isolutioncategory' => $isolutioncategory]);
+			return view('dbco.solutions.single', ['solution' => $solution, 'buttonState' => $buttonState, 'dother_solutions' => $dother_solutions, 'author_name' => $author_name, 'version' => $version]);
 			
 		}
 		
@@ -85,4 +100,4 @@
 			
 		}
 		
-	}																								
+	}																											

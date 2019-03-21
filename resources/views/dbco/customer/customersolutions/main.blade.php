@@ -27,7 +27,7 @@
 							<td class="status_payWait">
 								<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 									@csrf					
-									<button type="submit" class="btn btn-{{ ($solution->pivot->iinstallstate) ? 'success' : 'secondary' }} ml-auto abtn">{{ ($solution->pivot->iinstallstate) ? 'УЖЕ МОЁ' : 'ПОДКЛЮЧИТЬ' }}</button>	
+									<button type="submit" class="btn btn-{{ ($solution->pivot->iinstallstate) ? 'primary' : 'secondary' }} ml-auto abtn">{{ ($solution->pivot->iinstallstate) ? 'УЖЕ МОЁ' : 'ПОДКЛЮЧИТЬ' }}</button>	
 								</form>	
 							</td>
 						</tr>
