@@ -171,7 +171,7 @@
 					Сервер:
 				</div>
 				<div class="col-6">
-					<input type="text" name="" value="dbco_customer > ccustomerserverpassword - уверен?" id="" class="form-control m_formControl" placeholder="" />
+					<input type="text" name="ccustomerservername" value="{{ $dbco_customer->ccustomerservername }}" id="ccustomerservername" class="form-control m_formControl" placeholder="" />
 				</div>
 			</div>
 		</div>

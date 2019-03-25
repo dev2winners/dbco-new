@@ -34,18 +34,20 @@
 			
 			
 			$this->validate($request, [
-			'bticketfile' => 'size:1000|image',
+			'bticketfile' => 'max:1000|image',
 			'ctickettext' => 'required',
 			]);
 			
+			$ticket = Ticket::create($request->all());
+			
 			$file = $request->bticketfile; // идентификатор файла 
 			
-			$filecontent = $file->openFile()->fread($file->getSize()); //содержимое файла
-			$filename = $request->bticketfile->getClientOriginalName(); //имя файла
-			
-			$ticket = Ticket::create($request->all());
-			$ticket->bticketfile = $filecontent;
-			$ticket->cticketfilename = $filename;
+			if($file) {
+				$filecontent = $file->openFile()->fread($file->getSize()); //содержимое файла
+				$filename = $request->bticketfile->getClientOriginalName(); //имя файла
+				$ticket->bticketfile = $filecontent;
+				$ticket->cticketfilename = $filename;
+			}
 			
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			

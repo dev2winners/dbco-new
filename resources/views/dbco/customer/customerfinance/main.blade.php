@@ -2,6 +2,7 @@
 
 @section('customercontent')
 
+<?php setlocale(LC_MONETARY, 'en_US'); //установили локаль для функции money_format() ?>
 
 <div class="row">
 	
@@ -28,7 +29,8 @@
 					Текущий остаток:
 				</div>
 				<div class="col-6">
-					<input type="text" name="mcustomerbalance" value="{{ $dbco_customer->mcustomerbalance }} руб." id="mcustomerbalance" class="form-control m_formControl" placeholder="" disabled />
+				
+					<input type="text" name="mcustomerbalance" value="{{ money_format('%!i', $dbco_customer->mcustomerbalance) }} руб." id="mcustomerbalance" class="form-control m_formControl" placeholder="" disabled />
 				</div>
 			</div>
 		</div>
@@ -75,7 +77,7 @@
 							<td>{{ $finance->dfinancedate }}</td>
 							<td>{{ $finance->cfinancenumber }}</td>
 							<td><a href="#">{{ $finance->cfinancepurpose }}</a></td>
-							<td class="text-right">{{ $finance->mfinancesum }}</td>
+							<td class="text-right">{{ money_format('%!i', $finance->mfinancesum) }}</td>
 						</tr>
 						@endforeach	
 						@else

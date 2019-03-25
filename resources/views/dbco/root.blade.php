@@ -71,7 +71,7 @@
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
 							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
-							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
+							<p class="my-0"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
 							<div class="d-flex mt-3">
 								<div>
 									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
@@ -126,7 +126,7 @@
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
 							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
-							<p class="my-0"><span>Дата: </span> {{ $solution->dsolutiondate }}</p>
+							<p class="my-0"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
 							<div class="d-flex mt-3">
 								<div>
 									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						

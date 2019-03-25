@@ -32,7 +32,7 @@
 			
 			$buttonState = [];
 			
-			$categories = $dbco_category->get();
+			$categories = $dbco_category->where('icategoryparent',null)->get();
 			$current_category_tag = ($isolutioncategory) ? $dbco_category->find($isolutioncategory)->ccategorytag : '#';
 			
 			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutiontag','like', $current_category_tag)->paginate(4);
