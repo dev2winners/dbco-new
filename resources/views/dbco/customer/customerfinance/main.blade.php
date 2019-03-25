@@ -66,9 +66,9 @@
 				<table class="table lk_table">
 					<tbody>
 						<tr style="border-bottom:solid 2px #ff4300">
-							<th class="text-left" style="width:20%">Дата</th>
-							<th class="text-left" style="width:20%">Номер</th>
-							<th class="text-left" style="width:40%">Назначение документа</th>
+							<th class="text-left" style="width:10%">Дата</th>
+							<th class="text-left" style="width:10%">Номер</th>
+							<th class="text-left" style="width:60%">Назначение документа</th>
 							<th class="text-left" style="width:20%">Сумма</th>
 						</tr>
 						@if (count($finances) > 0)

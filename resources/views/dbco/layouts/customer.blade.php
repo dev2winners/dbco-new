@@ -23,14 +23,10 @@
 @endif
 
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ШАПКА -->
-<div class="container mt-5">
+<div class="container my-1">
 	<div class="row">
 		
 		@include('dbco.layouts.customertopmenu')
-		
-		<div class="col-12 text-center mt-4">
-			<p class="text-center"></p>
-		</div>
 		
 	</div>
 </div>
