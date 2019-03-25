@@ -44,6 +44,7 @@ h1{font-size:1.5rem;font-weight:500}
 .offer4_right{margin-top:auto;margin-bottom:auto}
 
 .offer5_img_block{height:518px;background-image:url("../images/offer5.jpg");background-repeat:no-repeat;background-position:left center;}
+.offer7_img_block{height:518px;background-image:url("../images/offer7.jpg");background-repeat:no-repeat;background-position:left center;}
 
 
 .but1{border-radius:20px;font-size:.9rem}
@@ -55,6 +56,9 @@ h1{font-size:1.5rem;font-weight:500}
 .topReshCol p span{font-size:.8rem;color:#999}
 .topReshCol h2 a{font-size:1rem;display:inline-block;color:#e52828}
 .topReshCol .abtn{font-size:.7rem;display:inline-block;border-radius:15px}
+/******************/
+.standardToggleButton{font-size:.7rem;display:inline-block;border-radius:15px}
+/******************/
 .topReshCol .abtn_grey{color:#fff}
 .topReshCol .abtn_red{color:#fff}
 .stars{color:#f4b300;font-size:.6rem}

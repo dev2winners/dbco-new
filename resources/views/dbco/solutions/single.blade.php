@@ -31,13 +31,9 @@
 	<div class="container-fluid mt-2 py-5" style="background:#f3f3f3">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-12">
 					<p><h4>Обзор</h4></p>
 					{!! $solution->csolutionhtml !!}
-				</div>
-				
-				<div class="col-12 col-md-6">
-					<img src="" class="img-fluid" alt="" />
 				</div>
 			</div>
 		</div>
@@ -51,13 +47,9 @@
 	<div class="container-fluid mt-2 py-5" style="background:#f3f3f3">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-12">
 					<p><h4>Технические характеристики</h4></p>
 					{!! $solution->csolutiontechnicshtml !!}
-				</div>
-				
-				<div class="col-12 col-md-6">
-					<img src="" class="img-fluid" alt="" />
 				</div>
 			</div>
 		</div>
@@ -88,7 +80,7 @@
 									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 										@csrf
 										
-										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
+										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
 									</form>	
 								</td>
 							</tr>
