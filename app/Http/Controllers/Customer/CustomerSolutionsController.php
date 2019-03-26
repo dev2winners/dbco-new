@@ -23,8 +23,8 @@ class CustomerSolutionsController extends Controller
 			
 			//$versions = DbcoVersion::get();
 			
-			$versions = DbcoVersion::pluck('cversionname', 'iversionid'); // имена версий в массив
-			//$versions = DbcoVersion::pluck('cversion', 'iversionid');
+			//$versions = DbcoVersion::pluck('cversionname', 'iversionid'); // имена версий в массив
+			$versions = DbcoVersion::pluck('cversion', 'iversionid');
 			
 			//dd($solutions);
 			return view('dbco.customer.customersolutions.main', ['solutions' => $solutions, 'versions' => $versions]);
