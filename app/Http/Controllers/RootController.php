@@ -15,26 +15,43 @@
 			
 			//$solutions = DbcoSolution::take(4)->where('isolutiontype', 1)->get();
 			
-			$solutions = DbcoSolution::where('isolutiontype', 1)->get();
+			$solutions = DbcoSolution::where('isolutiontype', 1)->where('isolutiondeleted', 0)->get();
 			
 			//dd($solutions);
 			
-			if (Auth::check())
-			{
+			$authors = [];
+			
+			if (Auth::check()) {
+				$dbco_customer = DbcoCustomer::getCurrentCustomer();
+			}
+			
+			foreach($solutions as $solution){
+				if(isset($dbco_customer)){
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($dsc->isSolutionRelated($solution, $dbco_customer));
+					} else {				
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
+				}
+				
+				$authors[$solution->isolutionid] = ($author = DbcoCustomer::where('icustomerid',$solution->isolutiondeveloper)->first()) ? $author->ccustomername : '';
+			}
+			
+			
+			/* if (Auth::check())
+				{
 				$dbco_customer = DbcoCustomer::getCurrentCustomer();				
 				
 				foreach($solutions as $solution){	
-					
-					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($dsc->isSolutionRelated($solution, $dbco_customer));
-					
+				
+				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($dsc->isSolutionRelated($solution, $dbco_customer));
+				
 				}
-			} else {
+				} else {
 			    foreach($solutions as $solution){
-					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
+				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
 				}
-			}
+			} */
 			
-			return view('dbco.root',['solutions' => $solutions, 'buttonState' => $buttonState]);
+			return view('dbco.root',['solutions' => $solutions, 'buttonState' => $buttonState, 'authors' => $authors] );
 			
 		}
 	}

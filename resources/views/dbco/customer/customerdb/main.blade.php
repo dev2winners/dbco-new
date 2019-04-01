@@ -10,11 +10,11 @@
 				<div class="col-12">
 					
 					<div class="custom-control custom-radio custom-control-inline">
-						<input type="radio" name="cloudorlocal" id="cloudDb" value="0" onclick="toggleDb()" class="custom-control-input" checked>
+						<input type="radio" name="icustomerservertype" id="cloudDb" value="1" onclick="toggleDb()" class="custom-control-input" {{ ($dbco_customer->icustomerservertype) ? 'checked' : '' }}>
 						<label class="custom-control-label" for="cloudDb">База данных в облаке dbco</label>
 					</div>
 					<div class="custom-control custom-radio custom-control-inline">
-						<input type="radio" name="cloudorlocal" id="localDb" value="1" onclick="toggleDb()" class="custom-control-input">
+						<input type="radio" name="icustomerservertype" id="localDb" value="0" onclick="toggleDb()" class="custom-control-input" {{ ($dbco_customer->icustomerservertype) ? '' : 'checked' }}>
 						<label class="custom-control-label" for="localDb">Моя база данных</label>
 					</div>
 					
@@ -89,19 +89,15 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-6 offset-md-2 col-md-4">
-					<form action="{{ route('tickets.store') }}" method="POST">		
-						@csrf
-						@method('POST')
-						<input type="hidden" class="form-control" id="" value="Смените мне пожалуйста пароль для облака" name="ctickettext">
-						<button type="submit" class="btn btn-secondary ml-auto abtn">Сменить пароль</button>	
-					</form>
+					
 				</div>
 				<div class="col-6">
 					<form action="{{ route('tickets.store') }}" method="POST">		
 						@csrf
 						@method('POST')
-						<input type="hidden" class="form-control" id="" value="Я - тупой осел - храню пароли на бумажке!!! Вышлите мне пожалуйста пароль для облака еще раз! Умоляю на коленях!!!" name="ctickettext">
-						<button type="submit" class="btn btn-secondary ml-auto abtn">Выслать пароль</button>	
+						<input type="hidden" class="form-control" id="ctickettext" value="502" name="ctickettext">
+						<input type="hidden" class="form-control" id="itickettype" value="502" name="itickettype">
+						<button type="submit" class="btn btn-secondary ml-auto standardToggleButton">Сменить и выслать пароль</button>	
 					</form>
 				</div>
 			</div>
@@ -128,7 +124,7 @@
 						</select>
 					</div>
 					<div class="col-3">
-						<button type="submit" class="btn btn-secondary ml-auto abtn">Изменить</button>
+						<button type="submit" class="btn btn-secondary ml-auto standardToggleButton">Изменить</button>
 					</div>
 				</div>
 			</form>
@@ -145,8 +141,9 @@
 					<form action="{{ route('tickets.store') }}" method="POST">		
 						@csrf
 						@method('POST')
-						<input type="hidden" class="form-control" id="" value="Заклинаю вас всеми святыми! Создайте мне резервную копию моей бесценной базы! Да хранит Вас Господь!" name="ctickettext">
-						<button type="submit" class="btn btn-primary ml-auto abtn">Запросить создание резервной копии</button>	
+						<input type="hidden" class="form-control" id="ctickettext" value="701" name="ctickettext">
+						<input type="hidden" class="form-control" id="itickettype" value="701" name="itickettype">
+						<button type="submit" class="btn btn-primary ml-auto standardToggleButton"><img src="{{ asset('dbco/images/buttons/b2.png') }}" alt="Запросить создание резервной копии" class="mr-2" />Запросить создание резервной копии</button>	
 					</form>
 				</div>
 			</div>
@@ -160,81 +157,81 @@
 <div id="backuplocal" style="display: none;">
 	
 	<form action="{{ route('customerdb.update') }}" method="POST">		
-	@csrf
-	@method('PUT')
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					Сервер:
-				</div>
-				<div class="col-6">
-					<input type="text" name="ccustomerservername" value="{{ $dbco_customer->ccustomerservername }}" id="ccustomerservername" class="form-control m_formControl" placeholder="" />
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					Имя базы данных:
-				</div>
-				<div class="col-6">
-					<input type="text" name="ccustomerserverdatabase" value="{{ $dbco_customer->ccustomerserverdatabase }}" id="ccustomerserverdatabase" class="form-control m_formControl" placeholder="" />
+		@csrf
+		@method('PUT')
+		
+		<!-- ОДНА СТРОКА ФОРМЫ -->
+		<div class="container-fluid lk_formContainer">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-6 offset-md-2 col-md-4">
+						Сервер:
+					</div>
+					<div class="col-6">
+						<input type="text" name="ccustomerservername" value="{{ $dbco_customer->ccustomerservername }}" id="ccustomerservername" class="form-control m_formControl" placeholder="" />
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					Пользователь:
-				</div>
-				<div class="col-6">
-					<input type="text" name="ccustomerserverlogin" value="{{ $dbco_customer->ccustomerserverlogin }}" id="ccustomerserverlogin" class="form-control m_formControl" placeholder="" />
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					Пароль:
-				</div>
-				<div class="col-6">
-					<input type="text" name="ccustomerserverpassword" value="" id="ccustomerserverpassword" class="form-control m_formControl" placeholder="" />
+		<!-- /ОДНА СТРОКА ФОРМЫ -->
+		<!-- ОДНА СТРОКА ФОРМЫ -->
+		<div class="container-fluid lk_formContainer">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-6 offset-md-2 col-md-4">
+						Имя базы данных:
+					</div>
+					<div class="col-6">
+						<input type="text" name="ccustomerserverdatabase" value="{{ $dbco_customer->ccustomerserverdatabase }}" id="ccustomerserverdatabase" class="form-control m_formControl" placeholder="" />
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->	
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					
-					<button type="submit" class="btn btn-secondary ml-auto abtn">Сохранить</button>	
-					
+		<!-- /ОДНА СТРОКА ФОРМЫ -->
+		<!-- ОДНА СТРОКА ФОРМЫ -->
+		<div class="container-fluid lk_formContainer">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-6 offset-md-2 col-md-4">
+						Пользователь:
+					</div>
+					<div class="col-6">
+						<input type="text" name="ccustomerserverlogin" value="{{ $dbco_customer->ccustomerserverlogin }}" id="ccustomerserverlogin" class="form-control m_formControl" placeholder="" />
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	
+		<!-- /ОДНА СТРОКА ФОРМЫ -->
+		<!-- ОДНА СТРОКА ФОРМЫ -->
+		<div class="container-fluid lk_formContainer">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-6 offset-md-2 col-md-4">
+						Пароль:
+					</div>
+					<div class="col-6">
+						<input type="text" name="ccustomerserverpassword" value="" id="ccustomerserverpassword" class="form-control m_formControl" placeholder="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /ОДНА СТРОКА ФОРМЫ -->	
+		<!-- /ОДНА СТРОКА ФОРМЫ -->
+		
+		<!-- ОДНА СТРОКА ФОРМЫ -->
+		<div class="container-fluid lk_formContainer">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-6 offset-md-2 col-md-4">
+						
+						<button type="submit" class="btn btn-secondary ml-auto abtn">Сохранить</button>	
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /ОДНА СТРОКА ФОРМЫ -->
+		
 	</form>
 </div>
 
@@ -255,9 +252,18 @@
 						@if (count($backups) > 0)
 						@foreach ($backups as $backup)
 						<tr class="ttr">
-							<td>{{ $backup['dbackupdate'] }}</td>
-							<td>{{ $backup['cbackupnote'] }}</td>
-							<td>{{ $backup['testbutton'] }}</td>
+							<td>{{ $backup->dbackupdate }}</td>
+							<td>{{ $backup->cbackupnote }}</td>
+							<td>
+								<form action="{{ route('tickets.store') }}" method="POST">		
+									@csrf
+									@method('POST')
+									<input type="hidden" class="form-control" id="ctickettext" value="702" name="ctickettext">
+									<input type="hidden" class="form-control" id="itickettype" value="702" name="itickettype">
+									<input type="hidden" class="form-control" id="ibackupid" value="{{ $backup->ibackupid }}" name="ibackupid">
+									<button type="submit" class="btn btn-primary ml-auto standardToggleButton">Восстановить</button>	
+								</form>
+							</td>
 						</tr>
 						@endforeach	
 						@else

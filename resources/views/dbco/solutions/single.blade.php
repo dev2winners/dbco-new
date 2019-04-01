@@ -1,4 +1,4 @@
-@extends('dbco.layouts.main')
+@extends('dbco.layouts.main', ['page' => $page])
 
 @section('content')
 <div class="col-md-12">
@@ -18,7 +18,7 @@
 				<p class="mt-4">
 					<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 						@csrf					
-						<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
+						<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
 					</form>
 				</p>
 			</div>

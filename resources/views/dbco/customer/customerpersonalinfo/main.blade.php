@@ -89,7 +89,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-12 form-check text-center">
-					<button type="submit" class="btn btn-danger formSubmit">Сохранить</button>
+					<button type="submit" class="btn btn-primary standardToggleButton">Сохранить</button>
 				</div>
 			</div>
 		</div>

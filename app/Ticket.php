@@ -12,7 +12,9 @@
 		
 		protected $fillable = [
         'ctickettext',
-		'bticketfile'
+		'bticketfile',
+		'itickettype',
+		'iticketobject'
 		];
 		
 		/*protected $guarded = [

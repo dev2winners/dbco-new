@@ -37,10 +37,10 @@
 			
 			$dother_solutions = DbcoSolution::where('isolutionparent', $sid)->paginate(22);
 			
-			$author_name = ($author = DbcoCustomer::where('icustomerid',$solution->isolutiondeveloper)->first()) ? $author->ccustomername : 'Bill Gates';
+			$author_name = ($author = DbcoCustomer::where('icustomerid',$solution->isolutiondeveloper)->first()) ? $author->ccustomername : '';
 			
 			$dbco_version = DbcoVersion::where('iversionid', $solution->isolutionversion)->first();
-			$version = (is_object($dbco_version)) ? $dbco_version->cversion : '7 Максимальная';
+			$version = (is_object($dbco_version)) ? $dbco_version->cversion : '';
 			
 			//dd(DbcoVersion::where('iversionid', $solution->isolutionversion)->first());
 			
@@ -72,7 +72,9 @@
 				
 			}			
 			
-			return view('dbco.solutions.single', ['solution' => $solution, 'buttonState' => $buttonState, 'dother_solutions' => $dother_solutions, 'author_name' => $author_name, 'version' => $version]);
+			$page['title'] = $solution->csolutionname;
+			
+			return view('dbco.solutions.single', ['solution' => $solution, 'buttonState' => $buttonState, 'dother_solutions' => $dother_solutions, 'author_name' => $author_name, 'version' => $version, 'page' => $page]);
 			
 		}
 		

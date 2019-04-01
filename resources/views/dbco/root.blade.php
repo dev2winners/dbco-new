@@ -70,17 +70,17 @@
 							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
-							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
+							<p class="my-0"><span>Автор: </span> {{ $authors[$solution->isolutionid] }}</p>
 							<p class="my-0"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
 							<div class="d-flex mt-3">
 								<div>
-									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
+									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary standardToggleButton">Подробнее</a>						
 								</div>
 								<div class="ml-auto">
 									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 										@csrf
 										
-										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
+										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
 									</form>
 								</div>
 							</div>
@@ -125,17 +125,17 @@
 							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
 							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
-							<p class="my-0"><span>Производитель: </span> {{ $solution->isolutiondeveloper }}</p>
+							<p class="my-0"><span>Автор: </span> {{ $authors[$solution->isolutionid] }}</p>
 							<p class="my-0"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
 							<div class="d-flex mt-3">
 								<div>
-									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary abtn">ПОДРОБНЕЕ</a>						
+									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary standardToggleButton">Подробнее</a>						
 								</div>
 								<div class="ml-auto">
 									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 										@csrf
 										
-										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto abtn">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
+										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
 									</form>
 								</div>
 							</div>

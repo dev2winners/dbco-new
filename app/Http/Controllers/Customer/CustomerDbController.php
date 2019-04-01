@@ -21,10 +21,6 @@
 			
 			$backups = $dbco_customer->dbcoBackup()->orderBy('dbackupdate', 'desc')->paginate(4); //пока закаментил таблицы пустые
 			
-			//$backups = collect([['dbackupdate' => '31 июня','cbackupnote' => 'ебаные пустые таблицы блять','testbutton' => 'здесь была кнопка'],['dbackupdate' => '31 июня блять','cbackupnote' => пустые таблицы','testbutton' => 'здесь была кнопка']]);
-			
-			//dd($backups);
-			
 			return view('dbco.customer.customerdb.main',['backups' => $backups, 'dbco_customer' => $dbco_customer]);
 		}
 		
@@ -35,6 +31,19 @@
 			
 			return back()
 			->with('success','Данные ваших баз успешно изменены!');
+			
+		}
+		
+		public function post(Request $request)
+		{					
+			
+			//echo 'success';
+			
+			$result = DbcoCustomer::getCurrentCustomer()->update($request->all());
+			
+			echo $result;
+			//return back()
+			//->with('success','Это POST! Данные ваших баз успешно изменены!');
 			
 		}
 		

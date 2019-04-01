@@ -21,13 +21,13 @@
 						@foreach ($solutions as $solution)
 						<tr class="ttr">
 							<td><a href="{{ route('dbcosolution.single',['id' => $solution->isolutionid]) }}">{{ $solution->csolutionname }}</a></td>
-							<td>{{ ($solution->pivot->iinstallversion) ? $versions[$solution->pivot->iinstallversion] : '' }}</td>
+							<td>{{ $viewversions[$solution->isolutionid] }}</td>
 							<td>{{ $solution->pivot->created_at }}</td>
 							<td>{{ ($solution->pivot->iinstallstate) ? '' : $solution->pivot->updated_at }}</td>
 							<td class="status_payWait">
 								<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
 									@csrf					
-									<button type="submit" class="btn btn-{{ ($solution->pivot->iinstallstate) ? 'secondary' : 'primary' }} ml-auto standardToggleButton">{{ ($solution->pivot->iinstallstate) ? 'ЭТО УЖЕ МОЁ' : 'ПОДКЛЮЧИТЬ' }}
+									<button type="submit" class="btn btn-{{ ($solution->pivot->iinstallstate) ? 'secondary' : 'primary' }} ml-auto standardToggleButton">{{ ($solution->pivot->iinstallstate) ? 'Это уже мое' : 'Подключить' }}
 									</button>	
 								</form>	
 							</td>

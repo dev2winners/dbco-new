@@ -15,11 +15,11 @@
 		
 		public function createSolutionButtonStateData($state) {
 			if('success' == $state){
-				$result = ['state' => 'secondary', 'text' => 'ЭТО УЖЕ МОЕ'];	
+				$result = ['state' => 'secondary', 'text' => 'Это уже мое'];	
 				}elseif('primary' == $state){
-				$result = ['state' => 'primary', 'text' => 'ПОДКЛЮЧИТЬ'];	
+				$result = ['state' => 'primary', 'text' => 'Подключить'];	
 				}elseif('secondary' == $state){
-				$result = ['state' => 'secondary', 'text' => 'АВТОРИЗУЙТЕСЬ'];	
+				$result = ['state' => 'secondary', 'text' => 'Авторизуйтесь'];	
 			}
 			return $result;
 		}

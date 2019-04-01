@@ -4,6 +4,7 @@
 	
 	use App\User;
 	use App\Ticket;
+	use App\DbcoTicketType;
 	use App\DbcoCustomer;
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\DB;
@@ -35,18 +36,27 @@
 			
 			$this->validate($request, [
 			'bticketfile' => 'max:1000|image',
-			'ctickettext' => 'required',
+			'ctickettext' => 'required', //для обработки номерных тикетов
 			]);
 			
 			$ticket = Ticket::create($request->all());
 			
+			/*******************/
 			$file = $request->bticketfile; // идентификатор файла 
-			
 			if($file) {
 				$filecontent = $file->openFile()->fread($file->getSize()); //содержимое файла
 				$filename = $request->bticketfile->getClientOriginalName(); //имя файла
 				$ticket->bticketfile = $filecontent;
 				$ticket->cticketfilename = $filename;
+			}
+			/*******************/
+			
+			if($ticket->itickettype) {
+				$ticket->ctickettext = DbcoTicketType::where('itickettypeid',$ticket->itickettype)->first()->ctickettypetext;
+			}
+			
+			if($request->ibackupid) {
+				$ticket->iticketobject = $request->ibackupid;
 			}
 			
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();

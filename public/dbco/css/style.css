@@ -56,9 +56,9 @@ h1{font-size:1.5rem;font-weight:500}
 .topReshCol p span{font-size:.8rem;color:#999}
 .topReshCol h2 a{font-size:1rem;display:inline-block;color:#e52828}
 .topReshCol .abtn{font-size:.7rem;display:inline-block;border-radius:15px}
-/******************/
-.standardToggleButton{font-size:.7rem;display:inline-block;border-radius:15px}
-/******************/
+
+
+
 .topReshCol .abtn_grey{color:#fff}
 .topReshCol .abtn_red{color:#fff}
 .stars{color:#f4b300;font-size:.6rem}
@@ -138,3 +138,10 @@ h1{font-size:1.5rem;font-weight:500}
 html{position:relative;min-height:100%;padding-bottom:250px}
 .footer{position:absolute;bottom:0;width:100%;line-height:18pt;background-color:#fff;border-top:solid 1px #999}
 .footer a,.footer a:hover{color:#eee !important;text-decoration:none !important}
+
+
+/******************/
+
+.standardToggleButton, .standardAuthButton {font-size:.8rem;display:inline-block;border-radius:15px}
+
+/******************/

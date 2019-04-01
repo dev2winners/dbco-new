@@ -8,7 +8,7 @@
 	@method('POST')
 	
 	<div class="container-fluid lk_formContainerWithoutMargin pb-5">
-		<div class="container py-5" style="background:#fff">
+		<div class="container pb-1 pt-5" style="background:#fff">
 			<!--<div class="form-group row">
 				<label for="f_tema" class="col-2 col-form-label text-right">Тема:</label>
 				<div class="col-8">
@@ -19,20 +19,16 @@
 			<div class="form-group row">
 				<label for="ctickettext" class="col-2 col-form-label text-right">Сообщение:</label>
 				<div class="col-8">
-					<textarea class="form-control" rows="10" id="ctickettext" value="" name="ctickettext"></textarea>
+					<textarea class="form-control" rows="5" id="ctickettext" value="" name="ctickettext"></textarea>
 				</div>
 			</div>
 			
 			<div class="form-group row">
-				<div class="offset-2 col-10">
+				<div class="offset-2 col-5">
 					<input type="file" id="bticketfile" name="bticketfile" />
 				</div>
-			</div>
-			
-			
-			<div class="form-group row">
-				<div class="offset-2 col-10">
-					<button type="submit" class="btn btn-danger formSubmit">Отправить</button>
+				<div class="col-md-3">
+					<button type="submit" class="btn btn-primary standardToggleButton float-right">Отправить</button>
 				</div>
 			</div>
 		</div>
@@ -40,7 +36,7 @@
 </form>
 
 
-<div class="container-fluid lk_formContainerWithoutMargin pt-5 pb-5">
+<div class="container-fluid lk_formContainerWithoutMargin pt-0 pb-2">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
