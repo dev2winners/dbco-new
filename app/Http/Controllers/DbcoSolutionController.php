@@ -35,12 +35,12 @@
 			$categories = $dbco_category->where('icategoryparent',null)->get();
 			$current_category_tag = ($isolutioncategory) ? $dbco_category->find($isolutioncategory)->ccategorytag : '#';
 			
-			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutiontag','like', $current_category_tag)->paginate(4);
+			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutiontag','like', $current_category_tag)->where('isolutiondeleted', 0)->paginate(4);
 			
 			//dd($solutions);
 			
 			
-			if (Auth::check())
+			/* if (Auth::check())
 			{
 				$dbco_customer = DbcoCustomer::getCurrentCustomer();			
 				foreach($solutions as $solution){	
@@ -54,10 +54,25 @@
 					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
 					
 				}
+			} */
+			
+			$authors = [];
+			
+			if (Auth::check()) {
+				$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			}
 			
+			foreach($solutions as $solution){
+				if(isset($dbco_customer)){
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));
+					} else {				
+					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
+				}
+				
+				$authors[$solution->isolutionid] = ($author = DbcoCustomer::where('icustomerid',$solution->isolutiondeveloper)->first()) ? $author->ccustomername : '';
+			}
 			
-			return view('dbco.solutions.index', ['solutions' => $solutions, 'buttonState' => $buttonState, 'categories' => $categories, 'isolutioncategory' => $isolutioncategory]);
+			return view('dbco.solutions.index', ['solutions' => $solutions, 'buttonState' => $buttonState, 'categories' => $categories, 'isolutioncategory' => $isolutioncategory, 'authors' => $authors]);
 			
 		}
 		

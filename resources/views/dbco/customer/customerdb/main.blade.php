@@ -10,11 +10,11 @@
 				<div class="col-12">
 					
 					<div class="custom-control custom-radio custom-control-inline">
-						<input type="radio" name="icustomerservertype" id="cloudDb" value="1" onclick="toggleDb()" class="custom-control-input" {{ ($dbco_customer->icustomerservertype) ? 'checked' : '' }}>
+						<input type="radio" name="icustomerservertype" id="cloudDb" value="1" class="custom-control-input" {{ ($dbco_customer->icustomerservertype) ? 'checked' : '' }}>
 						<label class="custom-control-label" for="cloudDb">База данных в облаке dbco</label>
 					</div>
 					<div class="custom-control custom-radio custom-control-inline">
-						<input type="radio" name="icustomerservertype" id="localDb" value="0" onclick="toggleDb()" class="custom-control-input" {{ ($dbco_customer->icustomerservertype) ? '' : 'checked' }}>
+						<input type="radio" name="icustomerservertype" id="localDb" value="0" class="custom-control-input" {{ ($dbco_customer->icustomerservertype) ? '' : 'checked' }}>
 						<label class="custom-control-label" for="localDb">Моя база данных</label>
 					</div>
 					
@@ -113,18 +113,13 @@
 				@method('PUT')
 				<div class="row d-flex align-items-center">
 					<div class="col-6 offset-md-2 col-md-4">
-						Периодичность резервного копирования:<br />
-						<strong>{{ (168 == $dbco_customer->icustomerbackup) ? 'Еженедельно' : 'Не сохраняется' }}</strong>
+						Периодичность резервного копирования:
 					</div>
 					<div class="col-3">
 						<select class="custom-select form-control m_formControl" id="icustomerbackup" name="icustomerbackup" style="max-width:400px;">
-						    <option value="1" selected>...</option>
-							<option value="0">Нет</option>
-							<option value="168">Еженедельно</option>
+							<option value="0" {{ (168 != $dbco_customer->icustomerbackup) ? 'selected' : '' }}>Нет</option>
+							<option value="168" {{ (168 == $dbco_customer->icustomerbackup) ? 'selected' : '' }}>Еженедельно</option>
 						</select>
-					</div>
-					<div class="col-3">
-						<button type="submit" class="btn btn-secondary ml-auto standardToggleButton">Изменить</button>
 					</div>
 				</div>
 			</form>
@@ -151,6 +146,52 @@
 	</div>
 	<!-- /ОДНА СТРОКА ФОРМЫ -->
 	
+	
+	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
+	
+	<div class="container-fluid lk_formContainerWithoutMargin pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<table class="table lk_table">
+						<tbody>
+							<tr style="border-bottom:solid 2px #ff4300">
+								<th class="text-left" style="width:20%">Дата</th>
+								<th class="text-left" style="width:60%">Комментарий</th>
+								<th class="text-left" style="width:20%">Восстановить</th>
+							</tr>
+							
+							@if (count($backups) > 0)
+							@foreach ($backups as $backup)
+							<tr class="ttr">
+								<td>{{ $backup->dbackupdate }}</td>
+								<td>{{ $backup->cbackupnote }}</td>
+								<td>
+									<form action="{{ route('tickets.store') }}" method="POST">		
+										@csrf
+										@method('POST')
+										<input type="hidden" class="form-control" id="ctickettext" value="702" name="ctickettext">
+										<input type="hidden" class="form-control" id="itickettype" value="702" name="itickettype">
+										<input type="hidden" class="form-control" id="ibackupid" value="{{ $backup->ibackupid }}" name="ibackupid">
+										<button type="submit" class="btn btn-primary ml-auto standardToggleButton">Восстановить</button>	
+									</form>
+								</td>
+							</tr>
+							@endforeach	
+							@else
+							
+							@endif
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
 	
 </div>
 
@@ -235,50 +276,6 @@
 	</form>
 </div>
 
-<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 
-<div class="container-fluid lk_formContainerWithoutMargin pb-5">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<table class="table lk_table">
-					<tbody>
-						<tr style="border-bottom:solid 2px #ff4300">
-							<th class="text-left" style="width:20%">Дата</th>
-							<th class="text-left" style="width:60%">Комментарий</th>
-							<th class="text-left" style="width:20%">Восстановить</th>
-						</tr>
-						
-						@if (count($backups) > 0)
-						@foreach ($backups as $backup)
-						<tr class="ttr">
-							<td>{{ $backup->dbackupdate }}</td>
-							<td>{{ $backup->cbackupnote }}</td>
-							<td>
-								<form action="{{ route('tickets.store') }}" method="POST">		
-									@csrf
-									@method('POST')
-									<input type="hidden" class="form-control" id="ctickettext" value="702" name="ctickettext">
-									<input type="hidden" class="form-control" id="itickettype" value="702" name="itickettype">
-									<input type="hidden" class="form-control" id="ibackupid" value="{{ $backup->ibackupid }}" name="ibackupid">
-									<button type="submit" class="btn btn-primary ml-auto standardToggleButton">Восстановить</button>	
-								</form>
-							</td>
-						</tr>
-						@endforeach	
-						@else
-						
-						@endif
-						
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
 
 @endsection			

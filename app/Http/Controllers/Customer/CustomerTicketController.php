@@ -9,6 +9,7 @@
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\DB;
 	use App\Http\Controllers\Controller;
+	use App\Http\Controllers\MssqlExtController;
 	
 	class CustomerTicketController extends Controller
 	{
@@ -41,6 +42,8 @@
 			
 			$ticket = Ticket::create($request->all());
 			
+			//dd($ticket);
+			
 			/*******************/
 			$file = $request->bticketfile; // идентификатор файла 
 			if($file) {
@@ -62,6 +65,9 @@
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
 			$dbco_customer->dbcoTicket()->save($ticket); // сохраняем модель с отношением к юзеру
+			
+			// оповещаем внешний сервер
+			MssqlExtController::callMssqlProcedure('sp_update_ticket '.$ticket->iticketid); // оповещаем внешний сервер
 			
 			return redirect()->route('tickets.main')
 			->with('success','Ваш запрос в службу поддержки зарегистрирован!');

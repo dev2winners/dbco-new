@@ -34,13 +34,15 @@
 				<table class="table lk_table">
 					<tbody>
 						<tr style="border-bottom:solid 2px #ff4300">
+							
 							<th class="text-left" style="width:30%">Файл</th>
 							<th class="text-left" style="width:70%">Название</th>
 						</tr>
 						@if (count($languages) > 0)
 						@foreach ($languages as $language)
 						<tr class="ttr">
-							<td><a href="https://download.dbco.ru/{{ $language->cdownloadfile }}" target="_blank">{{ $language->cdownloadfile }}</a></td>
+							
+							<td><a href="https://download.dbco.ru/{{ $language->cdownloadfile }}" target="_blank"><img src="https://static.dbco.ru/{{ $language->cdownloadico }}" class="mr-2" /> {{ $language->cdownloadfile }}</a></td>
 							<td>{{ $language->cdownloadname }}</td>
 						</tr>
 						@endforeach	

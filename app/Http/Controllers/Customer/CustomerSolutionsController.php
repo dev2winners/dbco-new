@@ -25,7 +25,7 @@
 				foreach($solutions as $solution) {
 					
 					$dbco_version = DbcoVersion::where('iversionid', $solution->isolutionversion)->first();
-					$version = (is_object($dbco_version)) ? $dbco_version->cversion : 'пре-альфа, взломанный триал';
+					$version = (is_object($dbco_version)) ? $dbco_version->cversion : '-';
 					$viewversions[$solution->isolutionid] = $version;
 					
 				}

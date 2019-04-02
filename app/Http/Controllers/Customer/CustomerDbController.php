@@ -34,7 +34,7 @@
 			
 		}
 		
-		public function post(Request $request)
+		public function postupdate(Request $request)
 		{					
 			
 			//echo 'success';

@@ -34,4 +34,4 @@ Route::get('/lk/solutions', 'Customer\CustomerSolutionsController@main')->name('
 Route::get('/lk/finance', 'Customer\CustomerFinanceController@main')->name('customerfinance.main')->middleware('verified');
 Route::get('/lk/db', 'Customer\CustomerDbController@main')->name('customerdb.main')->middleware('verified');
 Route::put('/lk/db', 'Customer\CustomerDbController@update')->name('customerdb.update')->middleware('verified');
-Route::post('/lk/db', 'Customer\CustomerDbController@post')->name('customerdb.post')->middleware('verified');
+Route::post('/lk/db', 'Customer\CustomerDbController@postupdate')->name('customerdb.postupdate')->middleware('verified');
