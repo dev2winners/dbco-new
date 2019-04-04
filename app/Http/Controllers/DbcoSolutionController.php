@@ -37,24 +37,6 @@
 			
 			$solutions = DbcoSolution::where('isolutiontype', 1)->where('csolutiontag','like', $current_category_tag)->where('isolutiondeleted', 0)->paginate(4);
 			
-			//dd($solutions);
-			
-			
-			/* if (Auth::check())
-			{
-				$dbco_customer = DbcoCustomer::getCurrentCustomer();			
-				foreach($solutions as $solution){	
-					
-					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));
-					
-				}
-				} else {
-				foreach($solutions as $solution){	
-					
-					$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
-					
-				}
-			} */
 			
 			$authors = [];
 			

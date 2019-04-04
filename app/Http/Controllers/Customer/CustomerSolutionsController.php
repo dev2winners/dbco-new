@@ -17,9 +17,12 @@
 		public function main()
 		{		
 			
+			$viewversions = [];
+			
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
 			$solutions = $dbco_customer->dbcoSolutions()->where('isolutiontype','1')->orderBy('dbco_install.dinstalldate', 'desc')->get();
+					
 			
 			if($solutions){
 				foreach($solutions as $solution) {

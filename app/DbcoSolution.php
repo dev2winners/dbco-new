@@ -13,6 +13,8 @@
 		public $primaryKey = 'isolutionid';
 		public $timestamps = false;
 		
+		public $isOwned = 0; // принадлежит ли текущему пользователю (DbcoCustomer)
+		
 		public function createSolutionButtonStateData($state) {
 			if('success' == $state){
 				$result = ['state' => 'secondary', 'text' => 'Это уже мое'];	

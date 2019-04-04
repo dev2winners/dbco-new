@@ -35,3 +35,6 @@ Route::get('/lk/finance', 'Customer\CustomerFinanceController@main')->name('cust
 Route::get('/lk/db', 'Customer\CustomerDbController@main')->name('customerdb.main')->middleware('verified');
 Route::put('/lk/db', 'Customer\CustomerDbController@update')->name('customerdb.update')->middleware('verified');
 Route::post('/lk/db', 'Customer\CustomerDbController@postupdate')->name('customerdb.postupdate')->middleware('verified');
+
+/**----- для ajax-свитчей ------**/
+Route::post('/togglesolutionajax', 'ToggleSolutionAjaxController@main')->name('togglesolutionajax.main')->middleware('verified');
