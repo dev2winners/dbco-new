@@ -8,6 +8,7 @@
 	use App\Http\Controllers\DbcoSolutionController;
 	use Illuminate\Support\Facades\Auth;
 	use App\Page;
+	use App\Http\Controllers\ServiceClassController;
 	
 	class RootController extends Controller
 	{
@@ -36,12 +37,7 @@
 			if (Auth::check()) {
 				$dbco_customer = DbcoCustomer::getCurrentCustomer();
 				
-				$own_solutions_isolutionid = $dbco_customer->getOwnSolutionsIsolutionid(); //получаем id всех солюшенов пользователя
-				foreach($solutions as $solution) { //в цикле устанавливаем isOwned для каждого солюшена					
-					if($own_solutions_isolutionid->contains($solution->isolutionid)){
-						$solution->isOwned = 1;
-					}					
-				}
+				ServiceClassController::setIsOwnedSolutionFlag($dbco_customer, $solutions); ////устанавливаем isOwned для каждого солюшена в коллекции для отображения в представлении
 				
 			}
 			/************* <<<<<<<<<<<<<<< УСТАНАВЛИВАЕМ ФЛАГ ДЛЯ СОЛЮШЕНОВ ПОЛЬЗОВАТЕЛЯ ****************/

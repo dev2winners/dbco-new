@@ -10,6 +10,7 @@
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\Auth;
 	use App\Http\Controllers\MssqlExtController;
+	use App\Http\Controllers\ServiceClassController;
 	
 	class DbcoSingleSolutionController extends Controller
 	{
@@ -47,6 +48,9 @@
 			if (Auth::check())
 			{
 				$dbco_customer = DbcoCustomer::getCurrentCustomer();
+				$solutions = collect([$solution]); // костыль для использования следующей функции (ему нужна коллекция на вход):
+				ServiceClassController::setIsOwnedSolutionFlag($dbco_customer, $solutions); ////устанавливаем isOwned для каждого солюшена в коллекции для отображения в представлении
+				
 				
 				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData($this->isSolutionRelated($solution, $dbco_customer));
 				
@@ -56,6 +60,8 @@
 						$buttonState[$dother_solution->isolutionid] = $dother_solution->createSolutionButtonStateData($this->isSolutionRelated($dother_solution, $dbco_customer));
 						
 					}
+					
+					ServiceClassController::setIsOwnedSolutionFlag($dbco_customer, $dother_solutions); ////устанавливаем isOwned для каждого солюшена в коллекции для отображения в представлении
 				} 
 				
 				} else {				

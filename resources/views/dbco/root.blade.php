@@ -65,24 +65,13 @@
 						<div class="card p-3">
 							<div class="stars text-right"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i></div>
 							<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}">
-							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
-							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
+								<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
+								<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
 							</a>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
 							<p class="my-0"><span>Автор: </span> {{ $authors[$solution->isolutionid] }}</p>
 							<p class="my-0"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
-							<!--<div class="d-flex mt-3">
-								<div>
-									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary standardToggleButton">Подробнее</a>						
-								</div>
-								<div class="ml-auto">
-									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
-										@csrf
-										
-										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
-									</form>
-								</div>
-							</div>-->
+							
 							
 							
 							<div class="circle">
@@ -128,23 +117,14 @@
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3 topReshCol pb-4">
 						<div class="card p-3">
 							<div class="stars text-right"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i></div>
-							<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
-							<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
+							<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}">
+								<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
+								<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
+							</a>
 							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
 							<p class="my-0"><span>Автор: </span> {{ $authors[$solution->isolutionid] }}</p>
 							<p class="my-0"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
-							<div class="d-flex mt-3">
-								<div>
-									<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}" role="button" class="btn btn-outline-secondary standardToggleButton">Подробнее</a>						
-								</div>
-								<div class="ml-auto">
-									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
-										@csrf
-										
-										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
-									</form>
-								</div>
-							</div>
+							
 							
 							
 							<div class="circle">

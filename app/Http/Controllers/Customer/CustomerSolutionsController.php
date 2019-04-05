@@ -6,6 +6,7 @@
 	use App\DbcoVersion;
 	use Illuminate\Http\Request;
 	use App\Http\Controllers\Controller;
+	use App\Http\Controllers\ServiceClassController;
 	
 	class CustomerSolutionsController extends Controller
 	{
@@ -25,6 +26,9 @@
 					
 			
 			if($solutions){
+			
+			ServiceClassController::setIsOwnedSolutionFlag($dbco_customer, $solutions); ////устанавливаем isOwned для каждого солюшена в коллекции для отображения в представлении
+			
 				foreach($solutions as $solution) {
 					
 					$dbco_version = DbcoVersion::where('iversionid', $solution->isolutionversion)->first();

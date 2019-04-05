@@ -1,4 +1,15 @@
-function toggleDb() {
+// служебная функция //
+
+function dump(obj, obj_name) {
+	var result = ""
+	for (var i in obj)
+    result += obj_name + "." + i + " = " + obj[i] + "\n";
+	return result
+}
+
+//\\ служебная функция \\
+
+function toggleDb() { // для /lk/db
 	var icustomerservertype;
 	icustomerservertype = $('#backupdbcloud input[name=icustomerservertype]:radio:checked').val();	
 	if(icustomerservertype == 1){
@@ -38,9 +49,9 @@ $(function() {
     toggleDb();	
 });
 
-$('#cloudDb').on('click', toggleDb);
-$('#localDb').on('click', toggleDb);
-$('#icustomerbackup').on('change', changeBackupPeriod);
+$('#cloudDb').on('click', toggleDb); // для /lk/db
+$('#localDb').on('click', toggleDb); // для /lk/db
+$('#icustomerbackup').on('change', changeBackupPeriod); // для /lk/db
 
 // работаем с чекбоксами-переключателями для солюшенов
 
@@ -58,8 +69,9 @@ $('#maincontent input:checkbox').on('click', function(event){
 	$.post({
 		url: '/togglesolutionajax',
 		data: {'_token': $('meta[name="csrf-token"]').attr('content'), 'isolutionid': $(this).attr('solid')}
-		}).done(function (data) {		
-		console.log( ' data: '+data );
+	})
+	.done(function (data, textStatus, xhr) {		
+		console.log( 'Сервер вернул сакцесс)) data: '+data + '  textStatus: ' + textStatus + '   xhr: ' + xhr + '   ');
 		console.log( 'this id: '+thisSwitchId );
 		console.log( 'this name: '+thisSwitchName );
 		console.log( 'Состояние свитча после аякса: '+$(that).is(':checked') ); //
@@ -71,6 +83,12 @@ $('#maincontent input:checkbox').on('click', function(event){
 		chkd = (11 == serverData.state) ? true : false;
 		$(that).prop('checked', chkd);
 		
+	})
+	.fail(function(data, textStatus, xhr) {
+		console.log( 'Сервер вернул ошибку data: '+data + '  textStatus: ' + textStatus + '   xhr: ' + xhr + '   '); //
+		if('Forbidden' == xhr){
+			window.location.href = '/login';
+		}
 	});
 	
 });

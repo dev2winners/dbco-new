@@ -9,6 +9,7 @@
 	use Illuminate\Http\Request;
 	use Illuminate\Support\Facades\Auth;
 	use App\Http\Controllers\MssqlExtController;
+	use App\Http\Controllers\ServiceClassController;
 	
 	class DbcoSolutionController extends Controller
 	{
@@ -42,6 +43,9 @@
 			
 			if (Auth::check()) {
 				$dbco_customer = DbcoCustomer::getCurrentCustomer();
+				
+				ServiceClassController::setIsOwnedSolutionFlag($dbco_customer, $solutions); //устанавливаем isOwned для каждого солюшена в коллекции для отображения в представлении
+				
 			}
 			
 			foreach($solutions as $solution){

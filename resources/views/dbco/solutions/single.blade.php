@@ -1,7 +1,7 @@
 @extends('dbco.layouts.main', ['page' => $page])
 
 @section('content')
-<div class="col-md-12">
+<div class="col-md-12" id="maincontent">
 	
 	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ОДНО РЕШЕНИЕ, КАРТОЧКА ТОВАРА -->
 	<div class="container oneSolution mt-5">
@@ -15,12 +15,14 @@
 				<p class="my-2"><span>Автор: </span> {{ $author_name }}</p>
 				<p class="my-2"><span>Версия: </span> {{ $version }}</p>
 				<p class="my-2"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
-				<p class="mt-4">
-					<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
-						@csrf					
-						<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
-					</form>
-				</p>
+				
+				<div class="custom-control custom-switch">
+					<input type="checkbox" solid="{{ $solution->isolutionid }}" class="custom-control-input" id="checkbox-switch-{{ $solution->isolutionid }}"
+					name="checkbox-switch-{{ $solution->isolutionid }}"
+					{{ ($solution->isOwned) ? 'checked' : '' }}>
+					<label class="custom-control-label" for="checkbox-switch-{{ $solution->isolutionid }}"></label>
+				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -65,7 +67,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-				<p><h4>Опции</h4></p>
+					<p><h4>Опции</h4></p>
 					<table class="table lk_table">
 						<tbody>
 							<tr style="border-bottom:solid 2px #ff4300">
@@ -77,11 +79,12 @@
 							<tr class="ttr">
 								<td><a href="{{ route('dbcosolution.single',['id' => $solution->isolutionid]) }}">{{ $solution->csolutionname }}</a></td>
 								<td class="status_payWait">
-									<form action="{{ route('dbcosolution.toggle', $solution->isolutionid) }}" method="POST">		
-										@csrf
-										
-										<button type="submit" class="btn btn-{{ $buttonState[$solution->isolutionid]['state'] }} ml-auto standardToggleButton">{{ $buttonState[$solution->isolutionid]['text'] }}</button>	
-									</form>	
+									<div class="custom-control custom-switch">
+										<input type="checkbox" solid="{{ $solution->isolutionid }}" class="custom-control-input" id="checkbox-switch-{{ $solution->isolutionid }}"
+										name="checkbox-switch-{{ $solution->isolutionid }}"
+										{{ ($solution->isOwned) ? 'checked' : '' }}>
+										<label class="custom-control-label" for="checkbox-switch-{{ $solution->isolutionid }}"></label>
+									</div>	
 								</td>
 							</tr>
 							@endforeach	
