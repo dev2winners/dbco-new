@@ -2,8 +2,9 @@
 
 @section('content')
 <div class="content" id="maincontent">
-	<div class="title m-b-md" style="text-align:center;">
-		<h1>DBCO Inc.</h1>
+	<div class="title m-b-md text-center">
+		<h1>{{ isset($page['content'][0]['title']) ? $page['content'][0]['title'] : 'DBCO inc.' }}</h1>
+		{!! isset($page['content'][0]['text']) ? $page['content'][0]['text'] : '' !!}
 	</div>
 	
 	
@@ -18,8 +19,8 @@
 				</div>
 				
 				<div class="col-12 col-lg-6 offer4_right pl-5 pb-4">
-					<h3 class="my-4">{{ $page['content'][0]['title'] }}</h3>
-					{!! $page['content'][0]['text'] !!}
+					<h3 class="my-4">{{ isset($page['content'][1]['title']) ? $page['content'][1]['title'] : '' }}</h3>
+					{!! isset($page['content'][1]['text']) ? $page['content'][1]['text'] : '' !!}
 					<a href="{{ route('resources.main') }}" role="button" class="btn btn-secondary but1 px-4">Попробовать прямо сейчас</a>
 				</div>
 				
@@ -27,6 +28,10 @@
 		</div>
 	</div>
 	
+	<div class="col-12 text-center mt-5 px-4">
+		{!! isset($page['content'][2]['title']) ? $page['content'][2]['title'] : '' !!}
+		{!! isset($page['content'][2]['text']) ? $page['content'][2]['text'] : '' !!}
+	</div>	
 	
 	<div class="container-fluid offer4 mt-5">
 		<div class="container" style="height:100%">
@@ -35,8 +40,8 @@
 				
 				
 				<div class="col-12 col-lg-6 offer4_right pr-5 pb-4">
-					<h3 class="my-4">{{ $page['content'][1]['title'] }}</h3>
-					{!! $page['content'][1]['text'] !!}
+					<h3 class="my-4">{{ isset($page['content'][3]['title']) ? $page['content'][3]['title'] : '' }}</h3>
+					{!! isset($page['content'][3]['text']) ? $page['content'][3]['text'] : '' !!}
 				</div>
 				
 				<div class="col-6 d-none d-lg-block offer5_img_block">
@@ -47,9 +52,18 @@
 		</div>
 	</div>
 	
+	<div class="col-12 text-center mt-5 px-4">
+		{!! isset($page['content'][4]['title']) ? $page['content'][4]['title'] : '' !!}
+		{!! isset($page['content'][4]['text']) ? $page['content'][4]['text'] : '' !!}
+	</div>
 	
-	<div class="mt-5" style="text-align:center;">
+	<div class="mt-5 col-12 text-center">
 		<h1>Новинки</h1>
+	</div>
+
+	<div class="col-12 text-center mt-5 px-4">
+		{!! isset($page['content'][5]['title']) ? $page['content'][5]['title'] : '' !!}
+		{!! isset($page['content'][5]['text']) ? $page['content'][5]['text'] : '' !!}
 	</div>
 	
 	<div>
@@ -105,6 +119,11 @@
 		<h1>Самые популярные</h1>
 	</div>
 	
+	<div class="col-12 text-center mt-5 px-4">
+		{!! isset($page['content'][6]['title']) ? $page['content'][6]['title'] : '' !!}
+		{!! isset($page['content'][6]['text']) ? $page['content'][6]['text'] : '' !!}
+	</div>
+	
 	<div>
 		@if (count($solutions) > 0)
 		<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
@@ -152,6 +171,11 @@
 		@else
 		Что-то пошло не так...
 		@endif
+	</div>
+	
+	<div class="col-12 text-center mt-5 px-4">
+		{!! isset($page['content'][7]['title']) ? $page['content'][7]['title'] : '' !!}
+		{!! isset($page['content'][7]['text']) ? $page['content'][7]['text'] : '' !!}
 	</div>
 	
 	<div class="links">

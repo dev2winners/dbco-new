@@ -21,6 +21,8 @@
 		<link href="{{ asset('dbco/css/style.css') }}" rel="stylesheet">
 		<link href="{{ asset('dbco/css/ro.css') }}" rel="stylesheet"> 
 		
+		<link rel="icon" type="image/png" href="{{ asset('favicon.png') }}" />
+		
 		
 		
 	</head>
