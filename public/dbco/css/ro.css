@@ -1,4 +1,4 @@
-.card a:hover {
+.card a:hover, .ttr a:hover  {
 	text-decoration:none;
 	text-shadow: 1px 1px 4px #bbb;
 }

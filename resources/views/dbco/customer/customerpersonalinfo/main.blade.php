@@ -44,7 +44,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-6 offset-md-2 col-md-4">
-					email:
+					E-mail:
 				</div>
 				<div class="col-6">
 					<input type="text" name="ccustomermail" value="{{ $dbco_customer->ccustomermail }}" id="ccustomermail" class="form-control m_formControl" placeholder="mail@mail.com" disabled />
