@@ -1,6 +1,12 @@
 @extends('dbco.layouts.main')
 
 @section('content')
+
+<div class="col-12 text-center mt-5 px-4">
+	{!! isset($page['content'][0]['title']) ? $page['content'][0]['title'] : '' !!}
+	{!! isset($page['content'][0]['text']) ? $page['content'][0]['text'] : '' !!}
+</div>
+
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ОДНО РЕШЕНИЕ, КАРТОЧКА ТОВАРА -->
 
 <div class="container-fluid offer4 mt-5">
@@ -12,9 +18,8 @@
 			</div>
 			
 			<div class="col-12 col-lg-6 offer4_right pl-5 pb-4">
-				<h3 class="my-4">Всё для построения именно вашего решения</h3>
-				<p>Не дайте потеряться нужным разрозненным сведениям, которые не удается сохранить в стандартной учетной системе. Платформа dbco поможет построить именно то, что необходимо вам и вашему бизнесу. Вы лучше других понимаете все потребности и особенности.</p> 
-				<p>Просто выберите и включите готовые решения и дополнительные функции – через минуту все готово к использованию.</p>
+				<h3 class="my-4">{!! isset($page['content'][1]['title']) ? $page['content'][1]['title'] : '' !!}</h3>
+				{!! isset($page['content'][1]['text']) ? $page['content'][1]['text'] : '' !!}
 				<a href="https://download.dbco.ru/dbco.exe" role="button" class="btn btn-danger but1 px-4">Скачать dbco</a>
 			</div>
 			
@@ -24,6 +29,17 @@
 
 <!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР. ОДНО РЕШЕНИЕ, КАРТОЧКА ТОВАРА -->
 
+<div class="col-12 text-center mt-5 px-4">
+	{!! isset($page['content'][2]['title']) ? $page['content'][2]['title'] : '' !!}
+	{!! isset($page['content'][2]['text']) ? $page['content'][2]['text'] : '' !!}
+</div>
+
+<div class="col-12 text-center mt-5 px-4">
+	{!! isset($page['content'][3]['title']) ? $page['content'][3]['title'] : '' !!}
+	{!! isset($page['content'][3]['text']) ? $page['content'][3]['text'] : '' !!}
+</div>
+
+
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
 <div class="container-fluid lk_formContainerWithoutMargin pb-5">
 	<div class="container">
@@ -31,6 +47,8 @@
 		<div class="row">
 			<div class="col-12">
 				<h1>Локализации</h1>
+				{!! isset($page['content'][4]['title']) ? $page['content'][4]['title'] : '' !!}
+				{!! isset($page['content'][4]['text']) ? $page['content'][4]['text'] : '' !!}
 				<table class="table lk_table">
 					<tbody>
 						<tr style="border-bottom:solid 2px #ff4300">
@@ -65,6 +83,8 @@
 		<div class="row">
 			<div class="col-12">
 				<h1>Инструкции</h1>
+				{!! isset($page['content'][5]['title']) ? $page['content'][5]['title'] : '' !!}
+				{!! isset($page['content'][5]['text']) ? $page['content'][5]['text'] : '' !!}
 				<table class="table lk_table">
 					<tbody>
 						<tr style="border-bottom:solid 2px #ff4300">
@@ -97,6 +117,8 @@
 		<div class="row">
 			<div class="col-12">
 				<h1>Дополнительно</h1>
+				{!! isset($page['content'][6]['title']) ? $page['content'][6]['title'] : '' !!}
+				{!! isset($page['content'][6]['text']) ? $page['content'][6]['text'] : '' !!}
 				<table class="table lk_table">
 					<tbody>
 						<tr style="border-bottom:solid 2px #ff4300">
@@ -121,5 +143,10 @@
 	</div>
 </div>
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
+
+<div class="col-12 text-center mt-5 px-4">
+	{!! isset($page['content'][7]['title']) ? $page['content'][7]['title'] : '' !!}
+	{!! isset($page['content'][7]['text']) ? $page['content'][7]['text'] : '' !!}
+</div>
 
 @endsection

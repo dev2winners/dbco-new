@@ -19,20 +19,6 @@
 			
 			$authors = [];			
 			
-			/************** потом перенести это в модель >>>>>>>>>> ***************/
-			$page = [];
-			$uri = '/';
-			$pageObj = $pages->where('uri',$uri)->first();
-			$page['title'] = json_decode($pageObj->meta)->title;
-			
-			if($pageObj->content) {
-				foreach (json_decode($pageObj->content) as $content){
-					$page['content'][$content->id]['title'] = $content->title;
-					$page['content'][$content->id]['text'] = $content->text;
-				}				
-			}			
-			/************* <<<<<<<<<<<<<<< потом перенести это в модель ****************/
-			
 			/************** УСТАНАВЛИВАЕМ ФЛАГ ДЛЯ СОЛЮШЕНОВ ПОЛЬЗОВАТЕЛЯ >>>>>>>>>> ***************/
 			if (Auth::check()) {
 				$dbco_customer = DbcoCustomer::getCurrentCustomer();
@@ -53,7 +39,7 @@
 			}
 
 			
-			return view('dbco.root',['solutions' => $solutions, 'buttonState' => $buttonState, 'authors' => $authors, 'page' => $page] );
+			return view('dbco.root',['solutions' => $solutions, 'buttonState' => $buttonState, 'authors' => $authors, 'page' => $pages->setPageDataForView($uri = '/')] );
 			
 		}
 	}
