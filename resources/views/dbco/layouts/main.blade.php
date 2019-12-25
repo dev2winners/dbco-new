@@ -23,7 +23,20 @@
 		
 		<link rel="icon" type="image/png" href="{{ asset('favicon.png') }}" />
 		
-		
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56172334, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56172334" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->		
 		
 	</head>
 	<body>
@@ -34,16 +47,14 @@
 				<div class="d-flex align-items-center c_header">
 					<div class="ml-auto header_right">
 						@guest
-						<a href="{{ route('login') }}">Вход</a>
-						@if (Route::has('register'))
-						/ <a href="{{ route('register') }}">Регистрация</a>
-						@endif
+						<a href="{{ route('login') }}">{{__('Мой кабинет')}}</a>
+
 						@else
-						{{ Auth::user()->email }} 
+							<a href="/lk/customer">{{ Auth::user()->email }}</a>
 						<a href="{{ route('logout') }}"
 						onclick="event.preventDefault();
 						document.getElementById('logout-form').submit();">
-							Выйти
+							{{__('Выйти')}}
 						</a>
 						
 						<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -53,7 +64,11 @@
 					</div> 
 					
 					
-					<div class="header_flag"><a href="#"><img src="{{ asset('dbco/images/ru.png') }}" title="Русский" alt="Русский" /></a></div>
+					<div class="header_flag">{{app()->getLocale()}}
+						<a href="/setlocale/ru"><img src="/images/ru.jpg" title="{{__('Русский')}}" alt="{{__('Русский')}}" /></a>
+						<a href="/setlocale/en"><img src="/images/en.png" title="{{__('English')}}" alt="{{__('English')}}" /></a>
+
+					</div>
 				</div>
 			</div>
 		</div>
@@ -82,7 +97,7 @@
 					
 					<div class="row" style="position:relative">
 						<div class="col-12 my-4 pt-5 pt-md-1 text-center footer_copy">
-							&copy; 2002-2019 DBCO. Все права защищены
+							&copy; 2002-2019 DBCO. {{__('Все права защищены')}}
 						</div>
 						
 					</div>
@@ -104,9 +119,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>		
 		
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"  ></script>
 		<script src="{{ asset('dbco/js/js.js') }}"></script>
 		<script src="{{ asset('dbco/js/main.js') }}"></script>		
-		
+		<script src="{{ asset('/js/all.js') }}"></script>
+
 	</body>
 </html>

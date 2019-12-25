@@ -1,0 +1,885 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0" type="DELANGTABLE">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION="Tovabba"/>
+		<ROW ID="allfiles"	TRANSLATION="Osszes fajl"/>
+		<ROW ID="and"	TRANSLATION="S"/>
+		<ROW ID="atpos"	TRANSLATION="abban a helyzetben,"/>
+		<ROW ID="auto"	TRANSLATION="Automatikusan"/>
+		<ROW ID="bottom"	TRANSLATION="Also"/>
+		<ROW ID="by"	TRANSLATION="a"/>
+		<ROW ID="cell"	TRANSLATION="Cella"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Kodolasi rendszer"/>
+		<ROW ID="cp.dos866"	TRANSLATION="DOS-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Utf-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="A Windows-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="Hozzon letre egy fajlt a kovetkezo tipus"/>
+		<ROW ID="createmessage"	TRANSLATION="Uzenet letrehozasa"/>
+		<ROW ID="csvfiles"	TRANSLATION="CSV (elvalaszto ';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="Az aktualis adatkeszletben"/>
+		<ROW ID="da.about"	TRANSLATION="...|Kijelzo program informaciokat, verzioszama, valamint szerzoi jogok"/>
+		<ROW ID="da.access"	TRANSLATION="Hozzaferes|Engedelyeinek beallitasa a felhasznaloi hozzaferes"/>
+		<ROW ID="da.action"	TRANSLATION="Akcio|Egy muvelet elvegzesere..."/>
+		<ROW ID="da.actions"	TRANSLATION="Akcio"/>
+		<ROW ID="da.add"	TRANSLATION="Add"/>
+		<ROW ID="da.advfind"	TRANSLATION="Osszetett kereses|Kereses megkezdese, amely meghatarozza tovabbi parameterek"/>
+		<ROW ID="da.agrave"	TRANSLATION="Az atlagos ertek|Szamitsuk ki az atlagos ertekeit"/>
+		<ROW ID="da.agrcount"	TRANSLATION="A szamot|Szamolja meg a kivalasztott ertekek"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Max|Kiszamitasahoz a legnagyobb a kivalasztott ertekek"/>
+		<ROW ID="da.agrmin"	TRANSLATION="Legalabb|Kiszamitasahoz a minimum, hogy a kivalasztott ertekek"/>
+		<ROW ID="da.agrno"	TRANSLATION="Nem|Kiszamitasahoz a jelzofeny a kivalasztott ertekek"/>
+		<ROW ID="da.agrsum"	TRANSLATION="A ertekeinek osszege|Szamitsa ki az osszeg a kivalasztott ertekek"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="Az ertekek szama|Kiszamitasahoz a kiosztott nem ures ertekek"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="Kozpont|Igazitsa a szoveget kozpont"/>
+		<ROW ID="da.alignleft"	TRANSLATION="A bal szelen|A szoveg balra igazitasa"/>
+		<ROW ID="da.alignright"	TRANSLATION="A jobb szele|Igazitasa szoveg jobbra igazitott"/>
+		<ROW ID="da.all"	TRANSLATION="Osszes"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Osszes|Musor tartalma minden mezo"/>
+		<ROW ID="da.apply"	TRANSLATION="Alkalmazni"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="Helyezze horgonyok|Helyezze a horgony a rendszer elemei"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Szamitas|Automatikusan kiszamitja az eredmenye, hogy a kivalasztott ertekek"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Automatikus elhelyezese|Automatikusan helyzetben a terkep megjelenitesehez a kivalasztott objektum"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Automatikusan menti a valtozasokat|A telefon automatikusan mentsen minden valtozik targyak"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Autoscale|Automatikusan nagyitja a terkepet, hogy az osszes kivalasztott objektumok"/>
+		<ROW ID="da.back"	TRANSLATION="Ezelott|Vissza"/>
+		<ROW ID="da.backup"	TRANSLATION="Adatok archivalasa|Irni a biztonsagi adatokat,"/>
+		<ROW ID="da.browse"	TRANSLATION="Felulvizsgalat...|Valasszon egy fajl vagy konyvtar"/>
+		<ROW ID="da.cancel"	TRANSLATION="Megse"/>
+		<ROW ID="da.chart3d"	TRANSLATION="Egy 3D-s abrazolasa|Mutasd meg a 3D nezet"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Mezo menetrend"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Szalag diagram"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Oszlopdiagram"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="Bezier Gorbek|A sima, zokkenomentes a grafikon Bezier gorbek"/>
+		<ROW ID="da.charthide"	TRANSLATION="Ossze kis|Ossze kis teljesitmeny egy"/>
+		<ROW ID="da.chartline"	TRANSLATION="Vonal grafikon"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Logaritmikus skala|Valasszon ki egy logaritmikus skala"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Kordiagram"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="A Scatter plot"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="A verem"/>
+		<ROW ID="da.choose"	TRANSLATION="Valasszon|Valassza ki a listabol"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Valassza ki az oszlopok"/>
+		<ROW ID="da.clear"	TRANSLATION="Tiszta"/>
+		<ROW ID="da.clearall"	TRANSLATION="Osszes torlese"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Szuntesse|Torolje az osszes targyak"/>
+		<ROW ID="da.close"	TRANSLATION="Kozel"/>
+		<ROW ID="da.colclear"	TRANSLATION="Visszaallitasa|Visszaallitani a megjelenitesi beallitasok oszlop alapertelmezett"/>
+		<ROW ID="da.colclearall"	TRANSLATION="Hogy minden torlese|Visszaallitasa a felhasznaloi beallitasok oszlop kijelzo alapertelmezes szerint"/>
+		<ROW ID="da.collapse"	TRANSLATION="Osszeomlas|Osszeomlik a tartalmat az aktualis csomopont"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Az osszes osszecsukasa|Osszeomlik a tartalom minden csomopont"/>
+		<ROW ID="da.colsave"	TRANSLATION="Mentes|A mentes megjelenitesi beallitasok az oszlopok"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Mentes minden|Mentes minden felhasznaloi beallitasok oszlop megjelenitese"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Oszlop elrejtese|Rejtsd el a kivalasztott oszlop"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="Rendezes csokkeno sorrendben"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="A rendezes novekvo sorrendben"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Parancs parameterek"/>
+		<ROW ID="da.commands"	TRANSLATION="Csapat|Csapat"/>
+		<ROW ID="da.conditionand"	TRANSLATION="- Minden korulmenyek kozott"/>
+		<ROW ID="da.conditionor"	TRANSLATION="VAGY az Egyik feltetelek"/>
+		<ROW ID="da.consistency"	TRANSLATION="Metaadat-kovetkezetesseg"/>
+		<ROW ID="da.continue"	TRANSLATION="Tovabb|Tovabb tovabb"/>
+		<ROW ID="da.copy"	TRANSLATION="Masolas|Masolja a kivalasztott objektumok"/>
+		<ROW ID="da.copychart"	TRANSLATION="Masolas|Copy chart, mint egy kep"/>
+		<ROW ID="da.correct"	TRANSLATION="Fix|A javitashoz automatikusan"/>
+		<ROW ID="da.create"	TRANSLATION="Letre"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="Az asztali parancsikon letrehozasa fut a kivalasztott konfiguracio"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Cimke|Parancsikon letrehozasa"/>
+		<ROW ID="da.cut"	TRANSLATION="Vagas|Vagjuk a kivalasztott objektumok"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Export|Adatok exportalasa fajlba"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Import|Adatok beolvasasa fajlbol"/>
+		<ROW ID="da.days"	TRANSLATION="Nap"/>
+		<ROW ID="da.decline"	TRANSLATION="Sor torlesehez"/>
+		<ROW ID="da.default"	TRANSLATION="Alapertelmezes szerint"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Takaritas adatbazis|Megtisztulas bejegyzesek torlesre jelolt"/>
+		<ROW ID="da.delete"	TRANSLATION="Eltavolitani|Tavolitsa el a kivalasztott objektumok"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Tavolitsa el a szurot|Torli a kivalasztott szuro"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Beallitas|Testre az urlap kijelzo tulajdonsagok a targy"/>
+		<ROW ID="da.dictionary"	TRANSLATION="Szotar|Hozzaferes a lokalizacio szotar"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Elhelyezni"/>
+		<ROW ID="da.dofilter"	TRANSLATION="Vegre|A szuro altal allapota"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="Masolat a kivalasztott|Lemasolni a mezo erteke a kivalasztott objektumok"/>
+		<ROW ID="da.edit"	TRANSLATION="Szerkesztes"/>
+		<ROW ID="da.editmode"	TRANSLATION="Szerkesztes|Hogy kezdjuk el szerkeszteni targyak"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( ures )"/>
+		<ROW ID="da.exit"	TRANSLATION="Kimenet|A kimenet a program"/>
+		<ROW ID="da.expand"	TRANSLATION="Telepiteni|Bontsa ki a tartalom, a jelenlegi csomopont"/>
+		<ROW ID="da.export"	TRANSLATION="Mentes|Mentse a dokumentumot, hogy egy fajlt"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Exportalas XML|A kiviteli adatok NELKUL XML"/>
+		<ROW ID="da.exportto"	TRANSLATION="Export|A fajlt exportalni..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Gyors nyomtatas|Valasszuk a lehetoseget, majd nyomtassa ki a dokumentumot"/>
+		<ROW ID="da.favorites"	TRANSLATION="Add hozza a kedvencekhez"/>
+		<ROW ID="da.file"	TRANSLATION="Fajl"/>
+		<ROW ID="da.filter"	TRANSLATION="Szuro|A kivalasztott objektumok szuro"/>
+		<ROW ID="da.filtername"	TRANSLATION="A neve szuro"/>
+		<ROW ID="da.find"	TRANSLATION="Talalni|Egy objektum az aktualis adatkeszletben"/>
+		<ROW ID="da.findnext"	TRANSLATION="A kovetkezo bejegyzes|A kovetkezo rekord"/>
+		<ROW ID="da.findprev"	TRANSLATION="Az elozo bejegyzes|Az elozo bejegyzes"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="Megtalalni a szelesseg|Automatikusan hatarozza meg az oszlop szelesseget altal tartalom"/>
+		<ROW ID="da.formatcol"	TRANSLATION="Oszlop tulajdonsagok"/>
+		<ROW ID="da.forward"	TRANSLATION="Elore|Hajra"/>
+		<ROW ID="da.go"	TRANSLATION="Menj"/>
+		<ROW ID="da.grid"	TRANSLATION="Show grid|Kijelzo racs a kep alatt"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Csoport"/>
+		<ROW ID="da.groupby"	TRANSLATION="Csoport"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="A csoport altal oszlop"/>
+		<ROW ID="da.grouping"	TRANSLATION="Csoport|A csoport a kijelolt objektumok"/>
+		<ROW ID="da.guide"	TRANSLATION="Felhasznaloi kezikonyv|A call of the user ' s guide"/>
+		<ROW ID="da.help"	TRANSLATION="Sugo|Hivja a help rendszer"/>
+		<ROW ID="da.hide"	TRANSLATION="Elrejtese"/>
+		<ROW ID="da.holdover"	TRANSLATION="Elhalasztasa|Hogy elhalasztja a reagalasi ido, a feladat"/>
+		<ROW ID="da.homepage"	TRANSLATION="Kezdolap|Nyissa meg a fooldal az Internet"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="A nagy ikonok|Kijelzo nagy ikonok hasznalata"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="Hatalmas ikonok|Kijelzo egy hatalmas ikon"/>
+		<ROW ID="da.iconslist"	TRANSLATION="Lista|Kijelzo lista nezetben"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Nagy lista|Kijelzo lista nezetben, nagy elemekkel"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Ikonok|Kijelzo a standard ikonok"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Tablazat|Megjelenik egy tablazat, a reszletes informaciokat"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="Fokozott tablazat|Megjelenites az asztalon ket sorban"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Tablazat szelessege|A kijelzo egy asztalt az ablak szelessege"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Kis ikonok|Megjelenitese targyak, mint az ikonok, a nevek, a jobb"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Cserep|Milyen targyakat egy racs nezetben jelenik meg az alapveto informaciok"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Reszletes cserep|A kijelzon a targyakat a lapban reszletes informaciok"/>
+		<ROW ID="da.incline"	TRANSLATION="Add vonal"/>
+		<ROW ID="da.insert"	TRANSLATION="Add|Uj objektum"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Kijeloles megforditasa|Fordult a kivalasztott objektumok a tobbi pedig forditva"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Utolso hozzaszolas|Musor utolso uzenet"/>
+		<ROW ID="da.link"	TRANSLATION="Munkatars"/>
+		<ROW ID="da.linkall"	TRANSLATION="Osszes Link"/>
+		<ROW ID="da.linkto"	TRANSLATION="Emlekszem, a helyi|Emlekszem, a windows a fajl..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Letoltes|Hogy letolt egy fajlt..."/>
+		<ROW ID="da.loadto"	TRANSLATION="Feltolteni|Feltolteni egy fajlt,..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Lepjen velunk kapcsolatba|Irj egy levelet, hogy a fejlesztok a program"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="Menu|Megjelenitese/elrejtese a fo menu"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Otthon|Nyissa meg a fo oldal"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Oszd gorbek"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Ellenorizze|Ellenorizze, minta a query string, hogy a terkepen"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="Egyesiteni egy"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="Jelenitse meg a koordinatakat,|Jelenitse meg a koordinatakat, a csucsa pedig a szegmensek hossza"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Jobb mod|Javult Prolisok meretezett kep"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="A Google|Google terkep"/>
+		<ROW ID="da.maptoback"	TRANSLATION="A hatterben|Mozgatni a targyat a hatterben"/>
+		<ROW ID="da.maptofront"	TRANSLATION="Az eloterben|Hogy az objektum athelyezese az eloterben"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Yandex|Hasznalja a Yandex terkep"/>
+		<ROW ID="da.menugroup"	TRANSLATION="Menu"/>
+		<ROW ID="da.menuitem"	TRANSLATION="A menu elem"/>
+		<ROW ID="da.menumove"	TRANSLATION="Mozgas"/>
+		<ROW ID="da.menuorder"	TRANSLATION="Az elrendezes menu"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="A beagyazott menupontban"/>
+		<ROW ID="da.modify"	TRANSLATION="Valtoztatni|Valtoztatni a tulajdonsagait egy objektum"/>
+		<ROW ID="da.months"	TRANSLATION="Egy honap"/>
+		<ROW ID="da.movedown"	TRANSLATION="Le|Lejjebb"/>
+		<ROW ID="da.moveto"	TRANSLATION="Mozgas|Mozgatni az objektumot"/>
+		<ROW ID="da.moveup"	TRANSLATION="Fel|Mozgas"/>
+		<ROW ID="da.news"	TRANSLATION="Hirek, frissitesek|Informacio a frissitesek, hirek fejleszto"/>
+		<ROW ID="da.note"	TRANSLATION="Megjegyzes|Hozzon letre egy megjegyzes, hogy a kijelolt objektum"/>
+		<ROW ID="da.ok"	TRANSLATION="OK"/>
+		<ROW ID="da.open"	TRANSLATION="Megnyitas|Hozzaferes a tartalmat az aktualis objektum"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Megnyitas|Hogy nyissa meg az aktualis ablakon, mint a fo"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Megnyitas uj ablakban"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Nyitva adatkeszlet"/>
+		<ROW ID="da.operations"	TRANSLATION="Muveletek"/>
+		<ROW ID="da.order"	TRANSLATION="Rendeles"/>
+		<ROW ID="da.orderby"	TRANSLATION="Rendezes"/>
+		<ROW ID="da.parameters"	TRANSLATION="Beallitasok|Allitsa be a parametereket"/>
+		<ROW ID="da.paste"	TRANSLATION="Helyezze be|Helyezzen targyakat"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Sarok csomopont"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="Kezdjuk csomopontok szerkesztese|Hogy kezdjuk el szerkeszteni a csomopontok, illetve szegmensek abra"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="Az ives, szegmens"/>
+		<ROW ID="da.pointclose"	TRANSLATION="Zarja be a forma|Zarja be az elso, valamint az utolso csomopontok egy szegmens"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="Lehet eltavolitani a node"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Dupla csomo"/>
+		<ROW ID="da.pointend"	TRANSLATION="Befejezni modositasa a csomopontok|Befejezni modositasa az alkatreszeket, segmentov adatok"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="Hozzon letre egy csomopont"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="Egy vonal"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="Egy sima pont"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Nyitva abra"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Elrendezes"/>
+		<ROW ID="da.presentation"	TRANSLATION="Nezet"/>
+		<ROW ID="da.preview"	TRANSLATION="Megtekintes|A dokumentum elonezeti"/>
+		<ROW ID="da.print"	TRANSLATION="Nyomtatas|Valasszuk a lehetoseget, majd nyomtassa ki a dokumentumot"/>
+		<ROW ID="da.properties"	TRANSLATION="Tulajdonsagok|Megjelenites tulajdonsagai a kivalasztott objektumok"/>
+		<ROW ID="da.regtables"	TRANSLATION="Ellenorizze, tablazatok"/>
+		<ROW ID="da.remember"	TRANSLATION="Emlekezteto|Megjeleniti az ablakot a felhasznalo emlekeztetett"/>
+		<ROW ID="da.rename"	TRANSLATION="Atnevezes|Atnevezes a kivalasztott objektum"/>
+		<ROW ID="da.report"	TRANSLATION="Jelentes|Valassza ki, majd letrehoz egy jelentes"/>
+		<ROW ID="da.representation"	TRANSLATION="Az aktualis nezetben"/>
+		<ROW ID="da.reset"	TRANSLATION="Reset"/>
+		<ROW ID="da.restore"	TRANSLATION="Visszaallitasa|Visszaallitani a tavoli targyak"/>
+		<ROW ID="da.rotate"	TRANSLATION="Kapcsold"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Az oramutato jarasaval ellentetes iranyba|Elforgatas az objektum az oramutato jarasaval ellentetes iranyba"/>
+		<ROW ID="da.rotate90"	TRANSLATION="Az oramutato jarasaval megegyezo iranyba|Elforgatas az objektum az oramutato jarasaval megegyezo iranyba"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="Vizszintesen|Forgassa el a targy vizszintesen"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="Fuggoleges|Elforgatas az objektum fuggolegesen"/>
+		<ROW ID="da.rssnews"	TRANSLATION="Hirek"/>
+		<ROW ID="da.rulers"	TRANSLATION="Vonal|Show uralkodok"/>
+		<ROW ID="da.save"	TRANSLATION="Mentes|Mentsd meg a legujabb valtozas"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Mentsd meg a szurot|A mentes aktualis szuro"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Mentes fajl...|Az adatok mentesehez, vagy kep fajl"/>
+		<ROW ID="da.scan"	TRANSLATION="Dokumentum szkennelesehez|Dokumentum szkennelesehez"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="Dokumentum szkennelesehez ...|Valasszon egy szkenner, illetve a dokumentum beolvasasat"/>
+		<ROW ID="da.search"	TRANSLATION="Kereses"/>
+		<ROW ID="da.selectall"	TRANSLATION="Osszes kijelolese|Valassza ki a targyak"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="Valassza ki az oszlop|Jelolje ki a kivalasztott oszlop"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="Valasszon egy szuro|Valassza ki a mentett szuro"/>
+		<ROW ID="da.service"	TRANSLATION="Szolgaltatas"/>
+		<ROW ID="da.setfilter"	TRANSLATION="Alkalmazni szuro|Alkalmazza a szurot, hogy a kijelolt adatsort"/>
+		<ROW ID="da.settings"	TRANSLATION="Beallitas|Megtekintheti, illetve modosithatja a program beallitasait"/>
+		<ROW ID="da.shortcut"	TRANSLATION="Kapcsolat|Hozzon letre egy kapcsolat, hogy a kijelolt objektum"/>
+		<ROW ID="da.show"	TRANSLATION="Terkep"/>
+		<ROW ID="da.showarchived"	TRANSLATION="Musor archivuma|A kijelzo archivalt bejegyzesek"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="A tartalom|Megjelenitese/elrejtese az elonezeti panel tartalom"/>
+		<ROW ID="da.showempty"	TRANSLATION="Mutasd meg ures|Mutasd meg ures csoportok"/>
+		<ROW ID="da.showhint"	TRANSLATION="Tippek|Modositja a megjelenitesi modot tippek"/>
+		<ROW ID="da.showremoved"	TRANSLATION="Show-torolt|Hogy jelenik meg a torolt bejegyzesek"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="Megmutatni, hogy a kapcsolat|Mutasd meg a kapcsolat egy kulon lapon"/>
+		<ROW ID="da.sorting"	TRANSLATION="Beallitas...|Konfiguralasa a beallitasok, majd a rendezes targyak"/>
+		<ROW ID="da.splitby"	TRANSLATION="Osztva"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="A normal menu|Kijelzo a standard menu"/>
+		<ROW ID="da.statusbar"	TRANSLATION="Allapot|Megjeleniti, illetve elrejti az allapotsort"/>
+		<ROW ID="da.switchmode"	TRANSLATION="A mod bekapcsolasahoz|A mod bekapcsolasahoz (Felhasznalo-Epitesz)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="Torli az osszes bejegyzesek|Hogy az osszes bejegyzes torlese a kivalasztott adatsort"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Adatok exportalasa XML|Export-a kivalasztott adatok XML fajlok"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Import adatokat XML|Behozatali a kivalasztott adatkeszlet a XML fajl"/>
+		<ROW ID="da.tableprop"	TRANSLATION="Adatkeszlet tulajdonsagok...|Valtoztatni a tulajdonsagait az adatkeszlet"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="Lehet eltavolitani a tavoli|Torolje az osszes torlesre megjelolt rekordokat a kivalasztott adatsort"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="Valogatas csapat|Rendezni a parancsok a kijelolt adatallomany"/>
+		<ROW ID="da.test"	TRANSLATION="Ellenorizze|Ellenorizze, hogy a kivalasztott objektumok"/>
+		<ROW ID="da.testconnect"	TRANSLATION="A kapcsolat teszt"/>
+		<ROW ID="da.undo"	TRANSLATION="Megszakitasahoz|A visszavonas az utolso valtozas"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Tobbszoros|Lehetosegre a kijelolt objektum"/>
+		<ROW ID="da.unreguser"	TRANSLATION="A teljes ules|A teljes ules"/>
+		<ROW ID="da.up"	TRANSLATION="Fel|Egy szinttel feljebb"/>
+		<ROW ID="da.update"	TRANSLATION="Frissites|Frissiteni a tartalmat az aktualis ablak"/>
+		<ROW ID="da.view"	TRANSLATION="Nezet"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="Naptar|Kijelzo targyakat a naptar"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Kartya|A kijelzon a kartya targyak"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Tablazat|Kijelzo statisztikai tablazat targyak"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Csoport|Megjelenitese targyak altal szervezett csoportok"/>
+		<ROW ID="da.viewlist"	TRANSLATION="Lista|Adatok megjelenitese lista nezetben"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Terkep|Adatok megjelenitese formajaban vektoros abrak"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Osszefoglalo tablazat|Adatok megjelenitese egy kimutatastabla"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Terkep|Adatok megjelenitese formajaban tylovay kartya"/>
+		<ROW ID="da.viewtree"	TRANSLATION="Fa|Adatok megjelenitese egy fa szerkezet"/>
+		<ROW ID="da.weeks"	TRANSLATION="Het"/>
+		<ROW ID="da.years"	TRANSLATION="Ev"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="Az alapertelmezett skala|Megjeleniti az alapertelmezett skala"/>
+		<ROW ID="da.zoomin"	TRANSLATION="Hogy novelje|Nagyitashoz"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="A teljes kep|Megjeleniti a teljes kepet"/>
+		<ROW ID="da.zoomout"	TRANSLATION="Csokkentese|Nagyitas a kepre"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="Az egesz objektum|A kijelzon a kivalasztott objektumok, mint egy egesz"/>
+		<ROW ID="db"	TRANSLATION="DB"/>
+		<ROW ID="de.barcode"	TRANSLATION="A olvassa el a vonalkod nem regisztralt konyvtarak."/>
+		<ROW ID="de.connecter"	TRANSLATION="Amikor csatlakoztatja hiba tortent '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="A kapcsolat sikeres volt"/>
+		<ROW ID="de.contain"	TRANSLATION="Mappa '%s' tartalmaz, visszaallitva mappak vagy targyak %d Db."/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Nincs telepitve, vagy nem all rendelkezesre a szolgaltatas %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="A program eloirja, szolgaltatas ~ ~ ~ ~ verzio %s. Jelenleg telepitett verziot %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Konfiguracios mod is elerheto, csak a rendszergazda."/>
+		<ROW ID="de.empty"	TRANSLATION="Mezo '%s' meg kell hatarozni. Kerjuk, adja meg, hogy egy nem-ures ertek."/>
+		<ROW ID="de.error"	TRANSLATION="Hiba|Hiba"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="Ez a mezo nem tarsul a megadott tablazat. Mismatching tipusok."/>
+		<ROW ID="de.file"	TRANSLATION="File '%s' serult, hianyzo vagy nem megfelelo formatumu."/>
+		<ROW ID="de.fileexists"	TRANSLATION="A megadott fajl nem letezik. Overwrite?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Valtozas elfogadott. A bejegyzes nem jelenik meg az aktualis listat, mert megfelel a jelenlegi szuresi felteteleknek."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="A megvaltozott targy nem jelenik meg, mert az megfelel a jelenlegi szuresi felteteleknek."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="Rossz a link. A targy hianyzik, vagy nem erheto el"/>
+		<ROW ID="de.linkself"	TRANSLATION="A kivalasztott rekord nem lehet jar"/>
+		<ROW ID="de.needload"	TRANSLATION="Hogy kezdodott a program, letoltes"/>
+		<ROW ID="de.openfile"	TRANSLATION="Hiba a fajl megnyitasa."/>
+		<ROW ID="de.owner"	TRANSLATION="Helytelen tulajdonos a tetel"/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="Nem tudja mozgatni a tetel, hogy egy mappa/csoport tag 'eltavolitani'."/>
+		<ROW ID="de.password"	TRANSLATION="Rossz login vagy a jelszot. Nezd meg a nevet, majd irja be ujra a jelszot."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Kerjuk, vegye figyelembe, hogy a Caps Lock billentyu. A jelszavak esetben-erzekeny."/>
+		<ROW ID="de.port0"	TRANSLATION="A keszulek keszen all"/>
+		<ROW ID="de.port1"	TRANSLATION="A keszulek nincs hasznalatban"/>
+		<ROW ID="de.port2"	TRANSLATION="A port foglalt, vagy eltunt"/>
+		<ROW ID="de.port3"	TRANSLATION="Inicializalja a keszulek"/>
+		<ROW ID="de.port4"	TRANSLATION="Eltunt etkezes"/>
+		<ROW ID="de.port5"	TRANSLATION="A keszulek nem csatlakozik"/>
+		<ROW ID="de.readonly"	TRANSLATION="Az adatok csak olvashato."/>
+		<ROW ID="de.regabsent"	TRANSLATION="A Demo verzio a program! A vasarlas utan a termek, kuldje el a regisztracios fajlt: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="A mezok szerkesztese, feltetelek, formai elemeit az adatlapra tilos."/>
+		<ROW ID="de.unique"	TRANSLATION="A mezo erteke '%s' egyedinek kell lennie"/>
+		<ROW ID="df.active"	TRANSLATION="Aktivan"/>
+		<ROW ID="df.address"	TRANSLATION="Cim"/>
+		<ROW ID="df.admin"	TRANSLATION="Adminisztrator"/>
+		<ROW ID="df.after"	TRANSLATION="Utan"/>
+		<ROW ID="df.alias"	TRANSLATION="Alnev"/>
+		<ROW ID="df.anchor"	TRANSLATION="Horgony"/>
+		<ROW ID="df.archived"	TRANSLATION="Archivum"/>
+		<ROW ID="df.author"	TRANSLATION="Szerzo"/>
+		<ROW ID="df.barcode"	TRANSLATION="Vonalkod"/>
+		<ROW ID="df.basedon"	TRANSLATION="Alapjan"/>
+		<ROW ID="df.before"	TRANSLATION="Mielott"/>
+		<ROW ID="df.blocked"	TRANSLATION="Blokkolt"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Szegely szine"/>
+		<ROW ID="df.breakline"	TRANSLATION="Elvalaszto"/>
+		<ROW ID="df.calculated"	TRANSLATION="Szamitott"/>
+		<ROW ID="df.caption"	TRANSLATION="Cim"/>
+		<ROW ID="df.category"	TRANSLATION="Kategoria|Kategoria"/>
+		<ROW ID="df.color"	TRANSLATION="Szin"/>
+		<ROW ID="df.column"	TRANSLATION="Oszlop"/>
+		<ROW ID="df.command"	TRANSLATION="Csapat"/>
+		<ROW ID="df.condition"	TRANSLATION="Allapot"/>
+		<ROW ID="df.connection"	TRANSLATION="Kapcsolat"/>
+		<ROW ID="df.created"	TRANSLATION="Letrehozott"/>
+		<ROW ID="df.date"	TRANSLATION="Idopont"/>
+		<ROW ID="df.deadline"	TRANSLATION="Ido"/>
+		<ROW ID="df.default"	TRANSLATION="Alapertelmezes szerint"/>
+		<ROW ID="df.deleted"	TRANSLATION="Eltavolitani"/>
+		<ROW ID="df.description"	TRANSLATION="Leiras"/>
+		<ROW ID="df.directory"	TRANSLATION="Referencia"/>
+		<ROW ID="df.editor"	TRANSLATION="Szerkeszto"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Mezo hiba"/>
+		<ROW ID="df.expression"	TRANSLATION="Azt a kifejezest,"/>
+		<ROW ID="df.file"	TRANSLATION="Fajl"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Szin"/>
+		<ROW ID="df.filter"	TRANSLATION="Szuro"/>
+		<ROW ID="df.folder"	TRANSLATION="Mappa"/>
+		<ROW ID="df.generator"	TRANSLATION="Generator,"/>
+		<ROW ID="df.group"	TRANSLATION="Csoport"/>
+		<ROW ID="df.height"	TRANSLATION="Magassag"/>
+		<ROW ID="df.hidden"	TRANSLATION="Rejtett"/>
+		<ROW ID="df.ico"	TRANSLATION="Ikonra"/>
+		<ROW ID="df.id"	TRANSLATION="Kod"/>
+		<ROW ID="df.latitude"	TRANSLATION="Szelesseg"/>
+		<ROW ID="df.layer"	TRANSLATION="Reteg"/>
+		<ROW ID="df.link"	TRANSLATION="Kapcsolat"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Kommunikacio a palyan"/>
+		<ROW ID="df.login"	TRANSLATION="Bemenet neve"/>
+		<ROW ID="df.longitude"	TRANSLATION="Hosszusag"/>
+		<ROW ID="df.mail"	TRANSLATION="Mail"/>
+		<ROW ID="df.message"	TRANSLATION="Uzenet"/>
+		<ROW ID="df.modified"	TRANSLATION="Megvaltozott"/>
+		<ROW ID="df.name"	TRANSLATION="Nev"/>
+		<ROW ID="df.namefield"	TRANSLATION="A cim mezo"/>
+		<ROW ID="df.note"	TRANSLATION="Megjegyzes"/>
+		<ROW ID="df.notnull"	TRANSLATION="Nem ures"/>
+		<ROW ID="df.offstate"	TRANSLATION="Le"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="Tartalmazza a menu 'Letrehozas'"/>
+		<ROW ID="df.order"	TRANSLATION="Rendeles"/>
+		<ROW ID="df.originalname"	TRANSLATION="A neve az adatbazisban"/>
+		<ROW ID="df.owner"	TRANSLATION="Tulajdonos"/>
+		<ROW ID="df.password"	TRANSLATION="Jelszo"/>
+		<ROW ID="df.period"	TRANSLATION="Idoszak"/>
+		<ROW ID="df.person"	TRANSLATION="Nev"/>
+		<ROW ID="df.phone"	TRANSLATION="Telefon"/>
+		<ROW ID="df.pointer"	TRANSLATION="Index"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Elsodleges kulcs"/>
+		<ROW ID="df.priority"	TRANSLATION="A fontos"/>
+		<ROW ID="df.readonly"	TRANSLATION="Csak olvashato"/>
+		<ROW ID="df.role"	TRANSLATION="A szerep"/>
+		<ROW ID="df.rolelink"	TRANSLATION="Kulso szerepe"/>
+		<ROW ID="df.rotate"	TRANSLATION="Kapcsold"/>
+		<ROW ID="df.server"	TRANSLATION="Szerver"/>
+		<ROW ID="df.size"	TRANSLATION="Meret"/>
+		<ROW ID="df.source"	TRANSLATION="Forras"/>
+		<ROW ID="df.state"	TRANSLATION="Allapot"/>
+		<ROW ID="df.stored"	TRANSLATION="Tarolt"/>
+		<ROW ID="df.system"	TRANSLATION="Rendszer"/>
+		<ROW ID="df.table"	TRANSLATION="Tablazat"/>
+		<ROW ID="df.template"	TRANSLATION="Sablon"/>
+		<ROW ID="df.time"	TRANSLATION="Ido"/>
+		<ROW ID="df.translation"	TRANSLATION="Forditas"/>
+		<ROW ID="df.transparent"	TRANSLATION="Atlatszo"/>
+		<ROW ID="df.type"	TRANSLATION="Tipus"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Beallitasok importalasa/exportalasa"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Egyeni szuro"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Konfiguralja a teruleteken jelenik meg"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Helyi szuro"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Globalis szuro"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="Beallitas terkep retegek"/>
+		<ROW ID="df.unique"	TRANSLATION="Egyedi"/>
+		<ROW ID="df.user"	TRANSLATION="A felhasznalo"/>
+		<ROW ID="df.value"	TRANSLATION="Az ertek"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Ne helyezze be az erteket"/>
+		<ROW ID="df.varname"	TRANSLATION="A nev a kifejezest,"/>
+		<ROW ID="df.version"	TRANSLATION="Valtozat"/>
+		<ROW ID="df.visible"	TRANSLATION="Lathato"/>
+		<ROW ID="df.width"	TRANSLATION="Szelesseg"/>
+		<ROW ID="di.column"	TRANSLATION="Oszlop|Oszlopok"/>
+		<ROW ID="di.menuelem"	TRANSLATION="A menu elem|A menu tetelek"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="Az aktiv reteg"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Igazitas"/>
+		<ROW ID="dl.animation"	TRANSLATION="Animacio"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="Automatikus szuro"/>
+		<ROW ID="dl.captionright"	TRANSLATION="Musor cime pont"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="Altalanos hivatkozasok"/>
+		<ROW ID="dl.check"	TRANSLATION="Ellenorizze"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Ellenorizze a hirek, frissitesek a fejleszto honlapjan"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Halozati cim"/>
+		<ROW ID="dl.computername"	TRANSLATION="Szamitogep"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Konfiguracio"/>
+		<ROW ID="dl.configurator"	TRANSLATION="A Konfigurator"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Megerositest..."/>
+		<ROW ID="dl.copies"	TRANSLATION="Masolatok"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="Masolja a rejtett mezok a vagolapra beillesztes mas alkalmazasok"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="Masolja a mezo fejlecenek a vagolapra beillesztes mas alkalmazasok"/>
+		<ROW ID="dl.correspond"	TRANSLATION="Merkozes"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="Hasznalja a teruleteken nem ervenyes ez a kifejezes."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Processzor frekvencia"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Processzor"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Szolgaltato"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Meghatarozza automatikusan"/>
+		<ROW ID="dl.datacom"	TRANSLATION="vesszovel tagolt"/>
+		<ROW ID="dl.datatab"	TRANSLATION="a tabulatorral tagolt"/>
+		<ROW ID="dl.datatext"	TRANSLATION="Szoveges fajl"/>
+		<ROW ID="dl.device"	TRANSLATION="Keszulek"/>
+		<ROW ID="dl.directories"	TRANSLATION="Referencia"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="Rahuzza bejegyzesek"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="Az adatbazis-vezeto"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="Szolgaltatasok adatbazis"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="Levelezo kliens"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Irodai Programcsomag"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="OLAP-szolgaltatasok"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="Engedelyezze a felvetel a hibakeresesi informaciok"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="Jelentkezzen SQL lekerdezesek"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Mindenhol"/>
+		<ROW ID="dl.faster"	TRANSLATION="Gyorsabban"/>
+		<ROW ID="dl.findin"	TRANSLATION="Kereses a targy a lista:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="Hol kell keresni"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Keresesi eredmenyek"/>
+		<ROW ID="dl.findtext"	TRANSLATION="A szoveg keresese"/>
+		<ROW ID="dl.form"	TRANSLATION="Formaban"/>
+		<ROW ID="dl.format"	TRANSLATION="Formatum"/>
+		<ROW ID="dl.forms"	TRANSLATION="Formaban"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="Mindig jelentkezzen a teljes idopont"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Kiemelve sor"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Racsvonalak"/>
+		<ROW ID="dl.guard"	TRANSLATION="Vedelem"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="Elrejteni rendszer adatok"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="Lehetove HTTP hozzaferes (beta)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="Figyelmen kivul hagyja az esetben"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Figyelmen kivul hagyja a szamok"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Kereses reszekent"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Anelkul, hogy figyelembe veve a szorend"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Figyelmen kivul specialis karakterek"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Tovabb streaming adatok a regi formatum"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="Az aktualis lista"/>
+		<ROW ID="dl.indataset"	TRANSLATION="Az adatkeszlet"/>
+		<ROW ID="dl.information"	TRANSLATION="Informacio..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Felulet"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="Az utolso nezet, export"/>
+		<ROW ID="dl.layers"	TRANSLATION="Retegek"/>
+		<ROW ID="dl.locating"	TRANSLATION="Helymeghatarozas az aktiv objektum"/>
+		<ROW ID="dl.location"	TRANSLATION="Helyszin"/>
+		<ROW ID="dl.locksession"	TRANSLATION="Hogy blokkolja a felhasznaloi munkamenet utan inaktiv (perc)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Bejelentkezes"/>
+		<ROW ID="dl.map"	TRANSLATION="Terkep"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="Cache terkep csempe"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="Hogy korlatozza egy fajl meretet megabajtban"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="A rendelkezesre allo memoria"/>
+		<ROW ID="dl.metadata"	TRANSLATION="Bazis metastructure"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Metrikus|A fo metrikus skala"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Egyeb szinek..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Nyomja meg a [Ctrl] igazitsa a koordinatak az aktualis pont, a tobbi pont az a forma,"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Tavolitsa el az oszlopok"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Sorok torlese"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="Hasznalata automatikus szuro"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="Cella formazasa"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="Az oszlop formazasa"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="String formazas"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Oszlop beszurasa"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Behelyezese hivatkozasok"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Sorok beszurasa"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="Valogatas"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="A hasznalata pivot tablak"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="Szerkesztes parancsfajlok"/>
+		<ROW ID="dl.no"	TRANSLATION="Nem"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="Nem"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="A muvelet eltart egy ideig, nem lehet megszakitani."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Akkor rendezes"/>
+		<ROW ID="dl.osversion"	TRANSLATION="OPERACIOS rendszer verzioja"/>
+		<ROW ID="dl.other"	TRANSLATION="Egyeb"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Kimeneti fajlokat"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="A beallitasok oldal"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Fajlokat"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="Valassza ki a muveletet"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="Utan kattintson a tovabb gombra, majd inditsa el a muveletet"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Valassza ki a adatkeszlet az adatcsere"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Meghatarozza, hogy milyen tipusu kulso fajl vagy valassza ki a nezet"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Valassza ki a kivant mezoket, hogy az export"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="Adja meg a szuro a kivalasztott adatkeszlet"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="A muvelet"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Adja meg a tipusa, helye, neve, a kulso fajl"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Adjuk meg a mezok sorrendjet huzza az ertekek a bal oldali listaban a megfelelo"/>
+		<ROW ID="dl.port"	TRANSLATION="Port"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Adatbit"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Paritas"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Atviteli sebesseg (bit/s)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Stop bitek"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="A stop byte"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Timeout (MS)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Elfoglalt"/>
+		<ROW ID="dl.printer"	TRANSLATION="Nyomtato"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Ingyenes"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Stilus nyomtatas"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="Amikor a muvelet hiba tortent."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="A muvelet sikeresen befejezodott"/>
+		<ROW ID="dl.properties"	TRANSLATION="Tulajdonsagok"/>
+		<ROW ID="dl.question"	TRANSLATION="Kerdes..."/>
+		<ROW ID="dl.random"	TRANSLATION="Veletlenul"/>
+		<ROW ID="dl.reading"	TRANSLATION="Olvassa el az adatok"/>
+		<ROW ID="dl.recipient"	TRANSLATION="A cimzett"/>
+		<ROW ID="dl.registration"	TRANSLATION="A bejelentkezeshez, kerjuk, irja be jelszavat"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Inditasi emlekeztetok, miutan a felhasznalo bejelentkezesi"/>
+		<ROW ID="dl.results"	TRANSLATION="Eredmenyek"/>
+		<ROW ID="dl.scale"	TRANSLATION="Merleg"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="Hol kell keresni"/>
+		<ROW ID="dl.separator"	TRANSLATION="Elvalaszto"/>
+		<ROW ID="dl.sheet"	TRANSLATION="Lap"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="Mutasd meg cimek"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Ellenorizze, skip rekord ervenytelen Idegen kulcs"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Ugras a lemez a rossz adatok tipus"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Ugras az elso rekordra, mint egy fejlec"/>
+		<ROW ID="dl.slower"	TRANSLATION="Lassabb"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="Csokkeno"/>
+		<ROW ID="dl.sortup"	TRANSLATION="Novekvo"/>
+		<ROW ID="dl.soundon"	TRANSLATION="Kapcsolja be a hang"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="A nyomtatasi peldanyszamot"/>
+		<ROW ID="dl.start"	TRANSLATION="Start"/>
+		<ROW ID="dl.step"	TRANSLATION="Lepes"/>
+		<ROW ID="dl.stop"	TRANSLATION="Stop"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="A stilus beallitasok"/>
+		<ROW ID="dl.systemres"	TRANSLATION="Rendszer eroforrasok"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Konyvjelzok...|Konyvjelzo"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Forro."/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Kategoria"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Csapat"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Egyeni"/>
+		<ROW ID="dl.thickness"	TRANSLATION="Vastagsag"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="Eszkoztar"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="Az eszkoztar"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Parancsikon"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Beallitasok"/>
+		<ROW ID="dl.totray"	TRANSLATION="Talcara ha bezarjak a programablak"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Adat nem all rendelkezesre"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="Frissites a bejegyzes megfelelo Elsodleges kulcs"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="A frissites csak a nem-ures ertekek"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Hasznalja vonalkod olvaso"/>
+		<ROW ID="dl.username"	TRANSLATION="A felhasznalo"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="A neve az aktualis Windows-felhasznalo"/>
+		<ROW ID="dl.version"	TRANSLATION="Valtozat"/>
+		<ROW ID="dl.view"	TRANSLATION="Megjelenitesi beallitasok"/>
+		<ROW ID="dl.warning"	TRANSLATION="Figyelmeztetes..."/>
+		<ROW ID="dl.yes"	TRANSLATION="Igen"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="A parancs|Vegrehajtasa a kivalasztott parancs"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Szeretne, hogy tavolitsa el"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="Ezek a hivatkozasok torlesre kerul, tovabbra is?"/>
+		<ROW ID="dm.sequence"	TRANSLATION="Valassza ki ~ ~ ~ ~ szeretne latni. Gombok Fel 'vagy ' Le' megadhatja, hogy a sorrend."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Gombok Fel 'vagy ' Le' beallitasa erdekeben a parancsokat. Ha szukseges, Meg tudja jeleniteni az elvalaszto mielott a parancsot."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Valassza ki a fajl megoldas"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="A muvelet befejezesehez, akkor at kell masolni a fajlt '%s' konyvtar '%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Eltavolitasa megoldas"/>
+		<ROW ID="dm.solloading"	TRANSLATION="A megoldas toltve"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Tovabbi munka csak akkor lehetseges, miutan belep a rendszerbe."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Kirakodas megoldasok"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="A frissitesi beallitasok|A lista frissitese a parancs opciok"/>
+		<ROW ID="dt.action"	TRANSLATION="Esemeny tipus|Tipusu esemenyek"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="Az esemeny allapota|Esemeny feltetelek"/>
+		<ROW ID="dt.additional"	TRANSLATION="Tovabbi informaciok"/>
+		<ROW ID="dt.alignment"	TRANSLATION="Az igazitas tipus|Tipusu igazitas"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Kodolasi|Kodolasi"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="A mode parameter|Beallitasok uzemmodok"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="A parancs tipus|Tipusu parancsok"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Allapot|A feltetel"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Korlatozas|Korlatok"/>
+		<ROW ID="dt.data"	TRANSLATION="Adatok"/>
+		<ROW ID="dt.database"	TRANSLATION="Adatbazis|Adatbazis"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="A tipusu adatbazis|Adatbazis tipus"/>
+		<ROW ID="dt.dataset"	TRANSLATION="Az adatkeszlet|Adatok"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="Az adatok tipus"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Adatok tipus|Adattipusok"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="Szotar|Szotarak"/>
+		<ROW ID="dt.event"	TRANSLATION="Akcio|Akcio"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Az ertesites tipusat,|Ertesitesi tipusok"/>
+		<ROW ID="dt.field"	TRANSLATION="Mezo|Mezo"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="A mezo kategoria|Kategoria mezok"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="A szerepet mezo|A mezok"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Betuszin|Egy lista a betutipus szin"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="Betustilus|Betutipusok,"/>
+		<ROW ID="dt.formelement"	TRANSLATION="Az urlap elem|Urlap elemek"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="A tipusu urlap elem|Tipusu urlap elem"/>
+		<ROW ID="dt.language"	TRANSLATION="Nyelv|Nyelvek"/>
+		<ROW ID="dt.logintype"	TRANSLATION="A hozzaferes tipusa"/>
+		<ROW ID="dt.membership"	TRANSLATION="Csoport tagsag|Csoport tagsag"/>
+		<ROW ID="dt.menu"	TRANSLATION="Menu|A menu"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Metaadat"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="A tipus a csomopont|Node tobb fajltipus megnyitasahoz"/>
+		<ROW ID="dt.note"	TRANSLATION="Megjegyzes|Megjegyzesek"/>
+		<ROW ID="dt.object"	TRANSLATION="Targy"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="A hatas torlese|Fellepesek, amikor torlese"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="A muvelet tipusa|Muvelettipusok"/>
+		<ROW ID="dt.param"	TRANSLATION="Lehetoseg|Beallitasok"/>
+		<ROW ID="dt.policy"	TRANSLATION="Biztonsagi politika|Biztonsagi politika"/>
+		<ROW ID="dt.procedure"	TRANSLATION="A nev az eljaras|A nevek eljarasok"/>
+		<ROW ID="dt.report"	TRANSLATION="Jelentes|Jelentesek"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="A jelentes parameter|Jelentes parameterei"/>
+		<ROW ID="dt.right"	TRANSLATION="Felhasznaloi jog|Felhasznaloi jogok"/>
+		<ROW ID="dt.role"	TRANSLATION="Szerepet kapcsolatban|Szerepet kapcsolatban"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="Kapcsolat|Kapcsolat"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Tipus kijelzo mezo|Tipusu mezok megjelenitese"/>
+		<ROW ID="dt.solution"	TRANSLATION="A hatarozat|Megoldasok"/>
+		<ROW ID="dt.task"	TRANSLATION="Feladat|Feladatok"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Irja be a felhasznaloi adatok"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="A muvelet tipusa|Muvelettipusok"/>
+		<ROW ID="dt.user"	TRANSLATION="A felhasznalo|Felhasznalok"/>
+		<ROW ID="dt.usertask"	TRANSLATION="A feladat a felhasznaloi|A felhasznalok feladatai"/>
+		<ROW ID="dt.usertype"	TRANSLATION="Felhasznalo tipus|Tipusu felhasznalo"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Kijelzo tipus|Megjelenitonek"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="A gyakorisag, a szamitas"/>
+		<ROW ID="dtadditionally"	TRANSLATION="Tovabba"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="Minden keres"/>
+		<ROW ID="dv.button"	TRANSLATION="Gomb"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Lepcsozetes torlese"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="A vagolapra"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="Fekete"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="Kek"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Csokolade"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="CIAN"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Malna"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="Alapertelmezes szerint"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="Szurke"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Zold"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Zold"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="Lila"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="Kek"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="Lila"/>
+		<ROW ID="dv.colorred"	TRANSLATION="Piros"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="Turkiz"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="Feher"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Sarga"/>
+		<ROW ID="dv.day1"	TRANSLATION="Hetfo"/>
+		<ROW ID="dv.day2"	TRANSLATION="Kedd"/>
+		<ROW ID="dv.day3"	TRANSLATION="Kornyezet"/>
+		<ROW ID="dv.day4"	TRANSLATION="Csutortok"/>
+		<ROW ID="dv.day5"	TRANSLATION="Pentek"/>
+		<ROW ID="dv.day6"	TRANSLATION="Szombat"/>
+		<ROW ID="dv.day7"	TRANSLATION="Vasarnap"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Tiltott"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="Szures"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Figyelmeztetes"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Valos szam"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Formaban"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="A reszletek ablakban"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Egesz szam"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Lancolt lista"/>
+		<ROW ID="dv.elempage"	TRANSLATION="Konyvjelzo"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="A konyvjelzo ablakban az adatok"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Panel"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="A felirat"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Vonal"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Kapcsolo"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="Lista kapcsolok"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="Fa bejegyzesek"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Fa lista"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Megengedett"/>
+		<ROW ID="dv.explorer"	TRANSLATION="File Explorer"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Kedvencek koze"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Csak az elso keres"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Meresz"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="Fokozott"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Kiemelte,"/>
+		<ROW ID="dv.globalref"	TRANSLATION="A globalis Kezikonyv"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="A titkositott jelszo"/>
+		<ROW ID="dv.localref"	TRANSLATION="A helyi konyvtar"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="Az elsodleges adatkeszlet"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Nem"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Tulajdonsag"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Elem"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Csoport"/>
+		<ROW ID="dv.noname"	TRANSLATION="Nev nelkul"/>
+		<ROW ID="dv.onall"	TRANSLATION="Barmilyen mutet"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="Ha mozog a kukaba"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="Torlese"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="Amikor behelyezi"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="A bejaratnal"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="Amikor kilep"/>
+		<ROW ID="dv.onreading"	TRANSLATION="Ha olvasas"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="Amikor szerkesztese"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="Magas"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Alacsony"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="Normal"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Tilalom"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="A kivalasztott objektumok %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="Hogy allithatja alaphelyzetbe a csatlakozasi"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="A rabszolga adatkeszlet"/>
+		<ROW ID="dv.text"	TRANSLATION="Szoveg"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="Akcio %s nem talalhato"/>
+		<ROW ID="error.additem"	TRANSLATION="Hozzateve bejegyzesek ebben a Kezikonyvben tilos."/>
+		<ROW ID="error.argcount"	TRANSLATION="Ervenytelen szamu parameter a funkcio hivas"/>
+		<ROW ID="error.argtype"	TRANSLATION="Ervenytelen argumentum tipusa"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="Varhato egy zaro zarojel"/>
+		<ROW ID="error.char"	TRANSLATION="mezo '%s' ervenytelen karaktert vagy karaktereket '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="Targy '%s' nem torolt objektumok szakasz:%s'."/>
+		<ROW ID="error.children"	TRANSLATION="C ' ~ ~ ~ ~ kapcsolodo tema targyak '%s' (%d Db.)"/>
+		<ROW ID="error.connect"	TRANSLATION="Ervenytelen eleresi utat, vagy az nem elerheto az adatbazis szerver."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="Hiba csatlakozas adatbazis metastructure."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="Adatbazis %s nem talaltam, hogy vegre egy tarolt eljaras."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="Adatbazis %s nem tamogatja a kivegzes a tarolt eljarasok."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="Az adatok allitsa be kell lepnie a hatarozat%s'."/>
+		<ROW ID="error.default"	TRANSLATION="A targy jelolt 'default' nem lehet torolni."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Targy megvaltozott masik felhasznalo altal. Szeretned torolni a targyat?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="A targy mar torolt masik felhasznalo altal."/>
+		<ROW ID="error.double"	TRANSLATION="A megadott ertek a kulcs mezo nem egyedi. Lehet, hogy a bejegyzes az adott ertek jelolve torlesre."/>
+		<ROW ID="error.edit"	TRANSLATION="nem meghatarozott ertekek a szukseges mezoket, vagy lepett ervenytelen adatok."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="Az ilyen tipusu elemet meg kell hatarozni mezo"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="Az ilyen tipusu elem nem kell meghatarozott teruleten"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="Ez az elem nem tarsul a megadott tabla"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="Ez az elem nem lehet meghatarozott kapcsolat"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="Ez az elem meg kell hatarozni kapcsolat"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="A megadott elem nem lehet a tulajdonos"/>
+		<ROW ID="error.elem.type"	TRANSLATION="Az elem tipus nem kompatibilis a mezo tipus"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Ismeretlen tulajdonos"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="Egy ures kifejezes"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="A feladat lista ures."/>
+		<ROW ID="error.exprend"	TRANSLATION="A vegen mar azt a kifejezest,"/>
+		<ROW ID="error.field"	TRANSLATION="Hiba a mezo leiras"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="Hiba szamitas az ertek mezo '%s' miatt korkoros hivatkozas"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Mezo %s nem letezik"/>
+		<ROW ID="error.find"	TRANSLATION="Nem talalhato barmely objektum, amely tartalmazza a megadott ertek"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="A mezo NEM URES, akkor meg kell adni egy alapertelmezett ertek"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="Mezo - a alapjan a mappak megadhat egy erteket 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="A tablazatban kell tartalmaznia csak az egyik mezo"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Ervenytelen allando ertek"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Ervenytelen karakter"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="Type mismatch"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Hibas utat, vagy a fajl nevet."/>
+		<ROW ID="error.inlist"	TRANSLATION="A parameter lehet egy erteket a listabol:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Ervenytelen tag tipusu biztonsag."/>
+		<ROW ID="error.length"	TRANSLATION="a karakterek szama a mezo '%s' nem haladhatja meg a %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="A metastructure nincs szukseg a program mukodese adatok alapjan."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Verzio metastructure nem egyezik a program verzioszamat."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="Be kell irni a nevet."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="A nevet, a hatarozatban meg kell hatarozni"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="Nincs kijelolt objektum"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="Nincs megadva, a cache az akcio"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="Ne adjon meg egy adatkeszlet fellepes"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Nem hajtottak vegre, amikor hasznalja a regi metastructure!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Ervenytelen operandus tipusa"/>
+		<ROW ID="error.printer"	TRANSLATION="Hiba nyomtato inicializalasa. Dokumentum nyomtatasa elmarad."/>
+		<ROW ID="error.printerno"	TRANSLATION="Nem all rendelkezesre nyomtato"/>
+		<ROW ID="error.readfield"	TRANSLATION="Hiba olvasas mezo adatok '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="Nem eleg jogok vegrehajtani a muveletet"/>
+		<ROW ID="error.scan"	TRANSLATION="Hiba szkenner."/>
+		<ROW ID="error.setfield"	TRANSLATION="Ne adjon meg egy erteket adja meg, ha nem ures a mezo erteke"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Talaltam egy hasonlo elemet. Menni hozza?"/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Valassza ki az elemet kereses"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="Hasonlo tetel nem talalhato"/>
+		<ROW ID="error.sort"	TRANSLATION="Valogatas a szamitott mezok a mezok, a fajlok nem engedelyezett"/>
+		<ROW ID="error.sortfield"	TRANSLATION="A kivalasztott mezo mar jelen van a lista a rendezes mezoket."/>
+		<ROW ID="error.start"	TRANSLATION="Ez a muvelet csak akkor elerheto, a hitelesites utan."/>
+		<ROW ID="error.statementend"	TRANSLATION="Varatlan vegen kifejezes"/>
+		<ROW ID="error.strlen"	TRANSLATION="A string hossza mezoben ' ~ ~ ~ ~ tul nagy"/>
+		<ROW ID="error.tree"	TRANSLATION="Hiba a teremtes objektum fa. Hianyzik a tulajdonos a fa csomopont '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="A lezaratlan string"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="Varatlan vegen kifejezes"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="Informacio a tagsag a megadott felhasznalo ebben a csoportban mar szerepel az adatbazisban."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Ismeretlen fuggveny"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Ismeretlen azonosito"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Targy megvaltozott masik felhasznalo altal. Menteni A valtozasokat?"/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Targy megvaltozott masik felhasznalo altal."/>
+		<ROW ID="error.updateitem"	TRANSLATION="Hiba tortent a fajl frissitesek"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="A felhasznaloi fiok le van zarva."/>
+		<ROW ID="figure"	TRANSLATION="Abra"/>
+		<ROW ID="filefilters"	TRANSLATION="A jelentesek MSExcel|*.xls|InterBase fajl|*.gdb|Configuration|*.cfg|Minden fajl|*.*"/>
+		<ROW ID="for"	TRANSLATION="A"/>
+		<ROW ID="imp.break"	TRANSLATION="A muvelet lefujva"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Hozzon letre egy uj rekord"/>
+		<ROW ID="imp.data"	TRANSLATION="Hogyan adatok beolvasasa"/>
+		<ROW ID="imp.dterror"	TRANSLATION="Hiba a tipusu adatokat a mezo"/>
+		<ROW ID="imp.empty"	TRANSLATION="A mezo erteke ures"/>
+		<ROW ID="imp.first"	TRANSLATION="Az elso bejegyzes"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Ellenorzo idegen kulcs"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="Idegen kulcs nem letezik"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Figyelmen kivul hagyja a hibat"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="A veletlen az elsodleges kulcs"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Hozzaadott rekordok"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Kimarad bejegyzesek"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Frissitett bejegyzesek"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Ugras a bejegyzest"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Ugras a mezo erteke"/>
+		<ROW ID="imp.title"	TRANSLATION="Miss mint cim"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="A frissites egy rekord"/>
+		<ROW ID="inexpr"	TRANSLATION="a kifejezes"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="%s Mentett."/>
+		<ROW ID="line"	TRANSLATION="Vonal"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 km"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 km"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 km"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 km"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 m"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 m"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 m"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 m"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 m"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 m"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 m"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 m"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 km"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 m"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 m"/>
+		<ROW ID="map.scale22"	TRANSLATION="1,5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0,75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 m"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 km"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 km"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 km"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 km"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 km"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 km"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 km"/>
+		<ROW ID="mmmmm1"	TRANSLATION="Januar|Jan"/>
+		<ROW ID="mmmmm10"	TRANSLATION="Oktober|Oktober"/>
+		<ROW ID="mmmmm11"	TRANSLATION="November|November"/>
+		<ROW ID="mmmmm12"	TRANSLATION="December|Fogyasszunk"/>
+		<ROW ID="mmmmm2"	TRANSLATION="Februar|Februar"/>
+		<ROW ID="mmmmm3"	TRANSLATION="Marcius|Mar"/>
+		<ROW ID="mmmmm4"	TRANSLATION="Aprilis|- APR -"/>
+		<ROW ID="mmmmm5"	TRANSLATION="Majus|Majus"/>
+		<ROW ID="mmmmm6"	TRANSLATION="Junius|Junius"/>
+		<ROW ID="mmmmm7"	TRANSLATION="Julius|Julius"/>
+		<ROW ID="mmmmm8"	TRANSLATION="Augusztus|Augusztus"/>
+		<ROW ID="mmmmm9"	TRANSLATION="Szeptember|Szeptember"/>
+		<ROW ID="not"	TRANSLATION="Nem"/>
+		<ROW ID="openurl"	TRANSLATION="Nyitva URL"/>
+		<ROW ID="opeq"	TRANSLATION="Mindegy"/>
+		<ROW ID="opge"	TRANSLATION="Nagyobb vagy egyenlo"/>
+		<ROW ID="opgt"	TRANSLATION="Tobb"/>
+		<ROW ID="opisfalse"	TRANSLATION="Hazugsag"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Nem ures"/>
+		<ROW ID="opisnull"	TRANSLATION="Ures"/>
+		<ROW ID="opistrue"	TRANSLATION="Az igazsag"/>
+		<ROW ID="ople"	TRANSLATION="Kisebb vagy egyenlo"/>
+		<ROW ID="oplike"	TRANSLATION="Tartalmaz"/>
+		<ROW ID="oplt"	TRANSLATION="Kevesebb,"/>
+		<ROW ID="opne"	TRANSLATION="Nem egyenlo"/>
+		<ROW ID="opnotlike"	TRANSLATION="Nem tartalmaz"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="A kezeles nem szukseges"/>
+		<ROW ID="process.tables"	TRANSLATION="Feldolgozott tablazatok:"/>
+		<ROW ID="quantity"	TRANSLATION="A szamot"/>
+		<ROW ID="query.savechanges"	TRANSLATION="Menteni a valtozasokat?"/>
+		<ROW ID="querydelete"	TRANSLATION="Eltavolitasa utan a targy, az informacio nem all rendelkezesre. Torolje az objektum '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Torolje az objektum ' ~ ~ ~ ~ nelkul a lehetoseget a kesobbi helyreallitasi?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Torli a kivalasztott objektumok ('%s') nelkul lehetoseget a kesobbi helyreallitasi?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Frissites idoszakos uzenet"/>
+		<ROW ID="registration"	TRANSLATION="Ellenorizze"/>
+		<ROW ID="send"	TRANSLATION="Kuldeni"/>
+		<ROW ID="sendmail"	TRANSLATION="Kuldjon e-mailt"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="Hogy kuldjon egy uzenetet, hogy a cimzettek listajat"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Normal"/>
+		<ROW ID="updatemessages"	TRANSLATION="Frissitesi uzenetek"/>
+		<ROW ID="updating"	TRANSLATION="Frissites"/>
+		<ROW ID="use"	TRANSLATION="Hasznalat"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="Nezet"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="Valtson at egy masik lapon, meg kell menteni az aktualis rekord."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="Valtson at egy masik lapon, meg kell menteni az aktualis rekord."/>
+	</ROWDATA>
+</DATAPACKET>

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#fff !important">
 	<div class="container">
-		<a class="navbar-brand" style="margin-right:0" href="/"><img src="{{ asset('dbco/images/logo.png') }}" /></a>
+		<a class="navbar-brand" style="margin-right:0" href="/"><img src="{{ asset('dbco/images/logo.jpg') }}" /></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -9,16 +9,16 @@
 			<ul class="navbar-nav mr-auto ml-auto c_menu" >
 				
 				<li class="nav-item p_menu {{ ('root' == Route::currentRouteName()) ? 'active' : '' }}">
-					<a class="nav-link" href="{{ route('root') }}">Главная</a>
+					<a class="nav-link" href="{{ route('root') }}">{{__('Главная')}}</a>
 				</li>
 				<li class="nav-item p_menu {{ ('dbcosolution.index' == Route::currentRouteName()) ? 'active' : '' }}">
-					<a class="nav-link " href="{{ route('dbcosolution.index') }}">Решения dbco</a>
+					<a class="nav-link " href="{{ route('dbcosolution.index') }}">{{__('Решения dbco')}}</a>
 				</li>
 				<li class="nav-item p_menu {{ ('resources.main' == Route::currentRouteName()) ? 'active' : '' }}">
-					<a class="nav-link " href="{{ route('resources.main') }}">Ресурсы</a>
+					<a class="nav-link " href="{{ route('resources.main') }}">{{__('Ресурсы')}}</a>
 				</li>				
 				<li class="nav-item p_menu {{ ('customer.main' == Route::currentRouteName()) ? 'active' : '' }}">
-					<a class="nav-link" href="{{ route('customer.main') }}">Мой кабинет</a>
+					<a class="nav-link" href="{{ route('customer.main') }}">{{__('Мой кабинет')}}</a>
 				</li>
 					
 			</ul>

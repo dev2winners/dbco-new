@@ -1,12 +1,24 @@
 @extends('dbco.layouts.main')
 
 @section('content')
+<script>
+	var solution_in_load=[];
+	@if(count($isInLoad)>0)
+@for($i=0;$i<count($isInLoad);$i++)
+			solution_in_load.push({{$isInLoad[$i]}});
+	@endfor
+
+
+@endif
+</script>
+
+
 <div class="col-md-12" id="maincontent">
 	
 	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ЗАГОЛОВОК -->
 	<div class="container-fluid offer2">
 		<div class="text-center mt-4">
-			<h1>Все решения</h1>
+			<h1>{{__('Все решения')}}</h1>
 		</div>
 	</div>
 	<!-- /ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
@@ -18,10 +30,11 @@
 	@endif
 	
 	<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. category -->
-	<div class="col-12 offset-md-2 col-md-8 offset-md-2 topReshenSubMenu pb-4 d-md-flex align-items-center justify-content-between text-center mt-4">
+<!-- Я	<div class="col-12 offset-md-2 col-md-8 offset-md-2 topReshenSubMenu pb-4 d-md-flex align-items-center justify-content-between text-center mt-4">  -->
+	<div class="col-12 offset-md-2 col-md-8 offset-md-2 topReshenSubMenu pb-4 align-items-center justify-content-between text-center mt-4">
 		
 		@foreach ($categories as $category)
-		<a href="{{ route('dbcosolution.index', ['isolutioncategory' => $category->icategoryid]) }}" class="{{ ($category->icategoryid == $isolutioncategory) ? 'active' : '' }}">{{ $category->ccategoryname }}</a>
+		<a href="{{ route('dbcosolution.index', ['isolutioncategory' => $category->icategoryid]) }}" class="{{ ($category->icategoryid == $isolutioncategory) ? 'active' : '' }}">{{ __($category->ccategoryname) }}</a>
 		@endforeach
 		
 	</div>
@@ -36,34 +49,10 @@
 				
 				
 				<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ -->
-				<div class="row">	
-					
-					@foreach ($solutions as $solution)
-					<!-- КАРТОЧКА -->
-					<div class="col-12 col-md-6 col-lg-4 col-xl-3 topReshCol pb-4">
-						<div class="card p-3">
-							<div class="stars text-right"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i></div>
-							<a href="{{ route('dbcosolution.single', ['id' => $solution->isolutionid]) }}">
-								<img src="{{ $solution->csolutionpicture }}" class="img-fluid d-flex m-auto" style="width:108px;" />
-								<h2 class="text-center mt-4">{{ $solution->csolutionname }}</h2>
-							</a>
-							<p class="mt-3 mb-1">{{ $solution->csolutiontext }}</p>
-							<p class="my-0"><span>Автор: </span> {{ $authors[$solution->isolutionid] }}</p>							
-							<p class="my-0"><span>Дата: </span> {{ date_create($solution->dsolutiondate)->Format('Y-m-d') }}</p>
-								
-								
-								<div class="circle">
-									<div class="custom-control custom-switch">
-										<input type="checkbox" solid="{{ $solution->isolutionid }}" class="custom-control-input" id="checkbox-switch-{{ $solution->isolutionid }}"
-										name="checkbox-switch-{{ $solution->isolutionid }}"
-										{{ ($solution->isOwned) ? 'checked' : '' }}>
-										<label class="custom-control-label" for="checkbox-switch-{{ $solution->isolutionid }}"></label>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- /КАРТОЧКА -->
-						@endforeach	
+				<div class="row tbodi_table">
+
+					@include('dbco.solutions.single_block')
+
 						
 					</div>
 				</div>
@@ -77,16 +66,21 @@
 				<div class="container" style="height:100%">				
 					<div class="row">
 						<div class="alert alert-danger ml-auto mr-auto">
-							<p class="">По вашему запросу решений не найдено...</p>
+							<p class="">{{__('По вашему запросу решений не найдено')}}...</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			@endif
 		</div>
-		
-		
-		{!! $solutions->links() !!}
+
+	<div class="col-md-12 field_for_button text-center">
+		@if($solutions->lastPage()>1)
+			<button type="button " class="btn btn-primary ticket_add_page col-md-6 standardAuthButton" data-page="1"
+					data-url="/dbcosolution/{{$isolutioncategory}}" >Показать еще</button>
+		@endif
+	</div>
+
 		
 	</div>
 @endsection

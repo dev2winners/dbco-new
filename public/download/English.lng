@@ -1,0 +1,885 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0" type="DELANGTABLE">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION="Additionally"/>
+		<ROW ID="allfiles"	TRANSLATION="All files"/>
+		<ROW ID="and"	TRANSLATION="And"/>
+		<ROW ID="atpos"	TRANSLATION="in the position"/>
+		<ROW ID="auto"	TRANSLATION="Automatically"/>
+		<ROW ID="bottom"	TRANSLATION="Bottom"/>
+		<ROW ID="by"	TRANSLATION="at"/>
+		<ROW ID="cell"	TRANSLATION="Cell"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Encoding system"/>
+		<ROW ID="cp.dos866"	TRANSLATION="DOS-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Utf-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="Windows-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="To create a file of the following type"/>
+		<ROW ID="createmessage"	TRANSLATION="Create message"/>
+		<ROW ID="csvfiles"	TRANSLATION="CSV (separator ';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="The current dataset"/>
+		<ROW ID="da.about"	TRANSLATION="About...|Display program information, version number and copyright"/>
+		<ROW ID="da.access"	TRANSLATION="Access|To set permissions for user access"/>
+		<ROW ID="da.action"	TRANSLATION="Action|To perform an action..."/>
+		<ROW ID="da.actions"	TRANSLATION="Action"/>
+		<ROW ID="da.add"	TRANSLATION="Add"/>
+		<ROW ID="da.advfind"	TRANSLATION="Advanced search|Start search, specifying additional parameters"/>
+		<ROW ID="da.agrave"	TRANSLATION="The average value|Calculate the average of the values of"/>
+		<ROW ID="da.agrcount"	TRANSLATION="The number|Count the number of selected values"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Max|To calculate the maximum of the selected values"/>
+		<ROW ID="da.agrmin"	TRANSLATION="At least|To calculate the minimum of the selected values"/>
+		<ROW ID="da.agrno"	TRANSLATION="No|To calculate the indicator for the selected values"/>
+		<ROW ID="da.agrsum"	TRANSLATION="The sum of the values|Calculate sum of selected values"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="The number of values|To calculate the number of allocated non-empty values"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="Center|Align text center"/>
+		<ROW ID="da.alignleft"	TRANSLATION="On the left edge|Align text left"/>
+		<ROW ID="da.alignright"	TRANSLATION="On the right edge|Align text right-aligned"/>
+		<ROW ID="da.all"	TRANSLATION="All"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Show all|Show the contents of all fields"/>
+		<ROW ID="da.apply"	TRANSLATION="To apply"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="To place anchors|To place the anchor in the arrangement of elements"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Calculation|Automatically calculate the result of the selected values"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Auto-positioning|Automatically position the map to display the selected object"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Automatically save changes|Automatically save all changes to objects"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Autoscale|Automatically zoom the map to show all selected objects"/>
+		<ROW ID="da.back"	TRANSLATION="Ago|Back"/>
+		<ROW ID="da.backup"	TRANSLATION="Data archiving|To write the backup data"/>
+		<ROW ID="da.browse"	TRANSLATION="Review...|To choose a file or directory"/>
+		<ROW ID="da.cancel"	TRANSLATION="Cancel"/>
+		<ROW ID="da.chart3d"	TRANSLATION="A 3D representation of|Show 3D view"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Field schedule"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Strip chart"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Bar chart"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="Bezier Curves|To smooth the graph Bezier curves"/>
+		<ROW ID="da.charthide"	TRANSLATION="To combine small|Combine a small performance in one"/>
+		<ROW ID="da.chartline"	TRANSLATION="Line graph"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Logarithmic scale|To select a logarithmic scale"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Pie chart"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="Scatter plot"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="To be on the stack"/>
+		<ROW ID="da.choose"	TRANSLATION="Choose|Choose from the list"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Choose columns"/>
+		<ROW ID="da.clear"	TRANSLATION="Clean"/>
+		<ROW ID="da.clearall"	TRANSLATION="Clear all"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Deselect|Deselect all objects"/>
+		<ROW ID="da.close"	TRANSLATION="Close"/>
+		<ROW ID="da.colclear"	TRANSLATION="To restore|To restore the display settings column default"/>
+		<ROW ID="da.colclearall"	TRANSLATION="To reset all|To reset all user settings column display by default"/>
+		<ROW ID="da.collapse"	TRANSLATION="Collapse|To collapse the contents of the current node"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Collapse all|To collapse the contents of all nodes"/>
+		<ROW ID="da.colsave"	TRANSLATION="Save|Save display settings of the columns"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Save for all|Save for all user settings column display"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Hide column|Hide the selected column"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="Sort descending"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="Sort ascending"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Command parameters"/>
+		<ROW ID="da.commands"	TRANSLATION="Team|Team"/>
+		<ROW ID="da.conditionand"	TRANSLATION="And - All conditions"/>
+		<ROW ID="da.conditionor"	TRANSLATION="OR is One of the conditions"/>
+		<ROW ID="da.consistency"	TRANSLATION="Metadata consistency"/>
+		<ROW ID="da.continue"	TRANSLATION="Further|To continue and go further"/>
+		<ROW ID="da.copy"	TRANSLATION="Copy|To copy selected objects"/>
+		<ROW ID="da.copychart"	TRANSLATION="Copy|Copy chart as a picture"/>
+		<ROW ID="da.correct"	TRANSLATION="Fix|To fix automatically"/>
+		<ROW ID="da.create"	TRANSLATION="To create"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="On the desktop create a shortcut to run the selected configuration"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Label|To create a shortcut"/>
+		<ROW ID="da.cut"	TRANSLATION="Cut|Cut the selected objects"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Export|Export data to a file"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Import|Import data from a file"/>
+		<ROW ID="da.days"	TRANSLATION="Day"/>
+		<ROW ID="da.decline"	TRANSLATION="To delete a row"/>
+		<ROW ID="da.default"	TRANSLATION="By default"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Cleanup database|Purging records marked for deletion"/>
+		<ROW ID="da.delete"	TRANSLATION="To remove|To remove the selected objects"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Remove filter|Delete the selected filter"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Setting|Customize the form display properties of the object"/>
+		<ROW ID="da.dictionary"	TRANSLATION="Dictionary|To access the localization dictionary"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Positioned on"/>
+		<ROW ID="da.dofilter"	TRANSLATION="To perform|Filter by condition"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="Duplicate for the selected|To duplicate the field value for the selected objects"/>
+		<ROW ID="da.edit"	TRANSLATION="Edit"/>
+		<ROW ID="da.editmode"	TRANSLATION="Edit|To start editing objects"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( empty )"/>
+		<ROW ID="da.exit"	TRANSLATION="Output|The output from the program"/>
+		<ROW ID="da.expand"	TRANSLATION="To deploy|To expand the content of the current node"/>
+		<ROW ID="da.export"	TRANSLATION="Save|To save the document to a file"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Export to XML|To export data in ADO XML"/>
+		<ROW ID="da.exportto"	TRANSLATION="Export|To export the file in..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Quick print|Select and print the document"/>
+		<ROW ID="da.favorites"	TRANSLATION="Add to favorites"/>
+		<ROW ID="da.file"	TRANSLATION="File"/>
+		<ROW ID="da.filter"	TRANSLATION="Filter|The selection of objects to filter"/>
+		<ROW ID="da.filtername"	TRANSLATION="The name of the filter"/>
+		<ROW ID="da.find"	TRANSLATION="Find|Look for an object in the current dataset"/>
+		<ROW ID="da.findnext"	TRANSLATION="The following entry|Go to the next record"/>
+		<ROW ID="da.findprev"	TRANSLATION="Previous entry|Go to the previous record"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="To find the width|Automatically determine the column width by content"/>
+		<ROW ID="da.formatcol"	TRANSLATION="Column properties"/>
+		<ROW ID="da.forward"	TRANSLATION="Forward|Go ahead"/>
+		<ROW ID="da.go"	TRANSLATION="Go"/>
+		<ROW ID="da.grid"	TRANSLATION="Show grid|Display grid under the image"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Group"/>
+		<ROW ID="da.groupby"	TRANSLATION="Group by"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="Group by column"/>
+		<ROW ID="da.grouping"	TRANSLATION="Group|To group the selected objects"/>
+		<ROW ID="da.guide"	TRANSLATION="User manual|The call of the user's guide"/>
+		<ROW ID="da.help"	TRANSLATION="Help|Call the help system"/>
+		<ROW ID="da.hide"	TRANSLATION="Hide"/>
+		<ROW ID="da.holdover"	TRANSLATION="To postpone|To defer the response time of the task"/>
+		<ROW ID="da.homepage"	TRANSLATION="Home page|To open your home page in Internet"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="Large icons|Display using large icons"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="Huge icons|Display a huge icon"/>
+		<ROW ID="da.iconslist"	TRANSLATION="List|Display in list view"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Big list|Display in list view with large elements"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Icons|Display using standard icons"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Table|Display a table with detailed information"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="Increased table|Display the table in two rows"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Table width|Display in a table the width of the window"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Small icons|Display objects as icons and names on the right"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Tile|How objects are displayed in a grid with basic information"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Detailed tile|The display of objects in the form of tiles with detailed information"/>
+		<ROW ID="da.incline"	TRANSLATION="Add line"/>
+		<ROW ID="da.insert"	TRANSLATION="Add|To add a new object"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Invert selection|Turning selected objects in an unselected and Vice versa"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Last post|Show last message"/>
+		<ROW ID="da.link"	TRANSLATION="Associate"/>
+		<ROW ID="da.linkall"	TRANSLATION="Link all"/>
+		<ROW ID="da.linkto"	TRANSLATION="Remember the shortcut|Remember the shortcut of the file..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Download|To download a file from..."/>
+		<ROW ID="da.loadto"	TRANSLATION="To upload|To upload a file in..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Contact us|Write a letter to the developers of the program"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="Menu|Show/hide the main menu"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Home|To open the main page"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Divide curves"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Check|Check pattern the query string to the map"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="To unite in one"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="To display the coordinates|To display the coordinates of the vertices and the lengths of segments"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Improved mode|Improved Prolisok scaled image"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="Google|To use Google map"/>
+		<ROW ID="da.maptoback"	TRANSLATION="In the background|To move the object into the background"/>
+		<ROW ID="da.maptofront"	TRANSLATION="In the foreground|To move the object to the foreground"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Yandex|To use the Yandex map"/>
+		<ROW ID="da.menugroup"	TRANSLATION="Menu"/>
+		<ROW ID="da.menuitem"	TRANSLATION="Menu item"/>
+		<ROW ID="da.menumove"	TRANSLATION="Move"/>
+		<ROW ID="da.menuorder"	TRANSLATION="The arrange menu"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="The nested menu item"/>
+		<ROW ID="da.modify"	TRANSLATION="To change|To change the properties of an object"/>
+		<ROW ID="da.months"	TRANSLATION="A month"/>
+		<ROW ID="da.movedown"	TRANSLATION="Down|Move down"/>
+		<ROW ID="da.moveto"	TRANSLATION="Move|To move the object in"/>
+		<ROW ID="da.moveup"	TRANSLATION="Up|Move up"/>
+		<ROW ID="da.news"	TRANSLATION="News and updates|Information about updates and news developer"/>
+		<ROW ID="da.note"	TRANSLATION="Note|Create a note to a selected object"/>
+		<ROW ID="da.ok"	TRANSLATION="OK"/>
+		<ROW ID="da.open"	TRANSLATION="Open|To access the contents of the current object"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Open|To open the current window as the main"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Open in a new window"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Open dataset"/>
+		<ROW ID="da.operations"	TRANSLATION="Operations"/>
+		<ROW ID="da.order"	TRANSLATION="Order"/>
+		<ROW ID="da.orderby"	TRANSLATION="Arrange by"/>
+		<ROW ID="da.parameters"	TRANSLATION="Settings|To set the parameters"/>
+		<ROW ID="da.paste"	TRANSLATION="Insert|Insert objects"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Corner node"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="To start editing nodes|To start editing nodes and segments figure"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="The curved segment"/>
+		<ROW ID="da.pointclose"	TRANSLATION="To close the shape|To close the first and last nodes of a segment"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="To remove the node"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Reef knot"/>
+		<ROW ID="da.pointend"	TRANSLATION="To finish modifying the nodes|To finish modifying the components and segmentov figures"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="Create a node"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="A line segment"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="A smooth point"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Open figure"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Layout"/>
+		<ROW ID="da.presentation"	TRANSLATION="View"/>
+		<ROW ID="da.preview"	TRANSLATION="Viewing|Document preview"/>
+		<ROW ID="da.print"	TRANSLATION="Print|Select and print the document"/>
+		<ROW ID="da.properties"	TRANSLATION="Properties|Display properties of selected objects"/>
+		<ROW ID="da.regtables"	TRANSLATION="Check tables"/>
+		<ROW ID="da.remember"	TRANSLATION="Reminder|Show the window the user is reminded"/>
+		<ROW ID="da.rename"	TRANSLATION="Rename|Rename a selected object"/>
+		<ROW ID="da.report"	TRANSLATION="Report|To select and generate a report"/>
+		<ROW ID="da.representation"	TRANSLATION="The current view"/>
+		<ROW ID="da.reset"	TRANSLATION="Reset"/>
+		<ROW ID="da.restore"	TRANSLATION="To restore|To restore objects from a remote"/>
+		<ROW ID="da.rotate"	TRANSLATION="Turn"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Counterclockwise|To rotate the object counterclockwise"/>
+		<ROW ID="da.rotate90"	TRANSLATION="Clockwise|To rotate the object clockwise"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="Horizontally|Rotate the object horizontally"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="Vertical|To rotate the object vertically"/>
+		<ROW ID="da.rssnews"	TRANSLATION="News"/>
+		<ROW ID="da.rulers"	TRANSLATION="Line|Show rulers"/>
+		<ROW ID="da.save"	TRANSLATION="Save|Save the latest change"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Save the filter|Save current filter"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Save to file...|To save data or picture to a file"/>
+		<ROW ID="da.scan"	TRANSLATION="To scan a document|To scan a document"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="To scan a document from ...|Choose a scanner and scan the document"/>
+		<ROW ID="da.search"	TRANSLATION="Search"/>
+		<ROW ID="da.selectall"	TRANSLATION="Select all|Select all the objects"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="To select the column|Highlight selected column"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="To choose a filter|To select the saved filter"/>
+		<ROW ID="da.service"	TRANSLATION="Service"/>
+		<ROW ID="da.setfilter"	TRANSLATION="Apply filter|To apply a filter to the selected data set"/>
+		<ROW ID="da.settings"	TRANSLATION="Setting|View and modify program settings"/>
+		<ROW ID="da.shortcut"	TRANSLATION="The relationship|To create a relationship to the selected object"/>
+		<ROW ID="da.show"	TRANSLATION="Show"/>
+		<ROW ID="da.showarchived"	TRANSLATION="Show archive|To display archived records"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="The contents|Show/hide the preview pane content"/>
+		<ROW ID="da.showempty"	TRANSLATION="Show empty|Show empty groups"/>
+		<ROW ID="da.showhint"	TRANSLATION="Tooltips|Changing the display mode tooltips"/>
+		<ROW ID="da.showremoved"	TRANSLATION="Show deleted|To display deleted records"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="To show the relationship|Show the relationship on a separate tab"/>
+		<ROW ID="da.sorting"	TRANSLATION="Setup...|Configure settings and organize objects"/>
+		<ROW ID="da.splitby"	TRANSLATION="Split by"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="The standard menu|Display the standard menu"/>
+		<ROW ID="da.statusbar"	TRANSLATION="Status|Displaying and hiding the status bar"/>
+		<ROW ID="da.switchmode"	TRANSLATION="To switch the mode|To switch the mode (User-Architect)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="To delete all records|To delete all records in the selected data sets"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Export data to XML|Export of selected datasets to XML files"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Import data from XML|Import the selected dataset from XML file"/>
+		<ROW ID="da.tableprop"	TRANSLATION="Dataset properties...|To change the properties of the dataset"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="To remove remote|Delete all marked as deleted records in the selected data sets"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="Sorting teams|To sort the commands for the selected dataset"/>
+		<ROW ID="da.test"	TRANSLATION="Check|Check the selected objects"/>
+		<ROW ID="da.testconnect"	TRANSLATION="The connection test"/>
+		<ROW ID="da.undo"	TRANSLATION="To cancel|Undo the last change"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Ungroup|Ungroup the selected object"/>
+		<ROW ID="da.unreguser"	TRANSLATION="To complete the session|To complete the session"/>
+		<ROW ID="da.up"	TRANSLATION="Up|Up one level"/>
+		<ROW ID="da.update"	TRANSLATION="Update|Refresh the contents of the current window"/>
+		<ROW ID="da.view"	TRANSLATION="View"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="Calendar|Display objects on the calendar"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Card|The display of the card objects"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Chart|Display statistical chart objects"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Group|Display objects are organized by groups"/>
+		<ROW ID="da.viewlist"	TRANSLATION="List|Displaying data in list view"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Map|Displaying data in the form of vector diagrams"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Summary table|Displaying data in a pivot table"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Map|Displaying data in the form of tylovay card"/>
+		<ROW ID="da.viewtree"	TRANSLATION="Tree|Displaying data in a tree structure"/>
+		<ROW ID="da.weeks"	TRANSLATION="Week"/>
+		<ROW ID="da.years"	TRANSLATION="Year"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="The default scale|To display the default scale"/>
+		<ROW ID="da.zoomin"	TRANSLATION="To increase|To zoom in"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="The entire image|To display the entire image"/>
+		<ROW ID="da.zoomout"	TRANSLATION="To reduce|To zoom out the image"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="The whole object|To display the selected objects as a whole"/>
+		<ROW ID="db"	TRANSLATION="DB"/>
+		<ROW ID="de.barcode"	TRANSLATION="The read bar code is not registered in directories."/>
+		<ROW ID="de.connecter"	TRANSLATION="When you connect an error occurred '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="The connection was successful"/>
+		<ROW ID="de.contain"	TRANSLATION="Folder '%s' contains undeleted folders or objects %d PCs."/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Not installed or not available in service %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="The program requires service %s, version %s. Currently installed version %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Configuration mode accessible only to the administrator."/>
+		<ROW ID="de.empty"	TRANSLATION="Field '%s' must be specified. Please specify a non-empty value."/>
+		<ROW ID="de.error"	TRANSLATION="Error|Error"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="This field cannot be associated with the specified table. Mismatching types."/>
+		<ROW ID="de.file"	TRANSLATION="File '%s' corrupted, missing or of an incorrect format."/>
+		<ROW ID="de.fileexists"	TRANSLATION="The specified file exists. Overwrite?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Change accepted. The entry does not appear in the current list because it satisfies current filter conditions."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="The changed object is not displayed, because it satisfies current filter conditions."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="The wrong link. The object is missing or unavailable"/>
+		<ROW ID="de.linkself"	TRANSLATION="The selected record can not be associated"/>
+		<ROW ID="de.needload"	TRANSLATION="To get started with the program download"/>
+		<ROW ID="de.openfile"	TRANSLATION="Error opening the file."/>
+		<ROW ID="de.owner"	TRANSLATION="Incorrect owner of the item"/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="You cannot move the item to a folder/group with tag 'removed'."/>
+		<ROW ID="de.password"	TRANSLATION="Wrong login or password. Check the name and retype the password."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Please note, the Caps Lock key. Passwords are case-sensitive."/>
+		<ROW ID="de.port0"	TRANSLATION="The device is ready"/>
+		<ROW ID="de.port1"	TRANSLATION="The device is not being used"/>
+		<ROW ID="de.port2"	TRANSLATION="The port is busy or missing"/>
+		<ROW ID="de.port3"	TRANSLATION="Initialize the device"/>
+		<ROW ID="de.port4"	TRANSLATION="Missing meals"/>
+		<ROW ID="de.port5"	TRANSLATION="The device is not connected"/>
+		<ROW ID="de.readonly"	TRANSLATION="The data are read-only."/>
+		<ROW ID="de.regabsent"	TRANSLATION="Demo version of the program! After purchasing the product, send the registration file at: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="Edit the fields, conditions, form elements of this dataset are prohibited."/>
+		<ROW ID="de.unique"	TRANSLATION="The value of the field '%s' must be unique"/>
+		<ROW ID="df.active"	TRANSLATION="Actively"/>
+		<ROW ID="df.address"	TRANSLATION="Address"/>
+		<ROW ID="df.admin"	TRANSLATION="Administrator"/>
+		<ROW ID="df.after"	TRANSLATION="After"/>
+		<ROW ID="df.alias"	TRANSLATION="Alias"/>
+		<ROW ID="df.anchor"	TRANSLATION="Anchor"/>
+		<ROW ID="df.archived"	TRANSLATION="Archive"/>
+		<ROW ID="df.author"	TRANSLATION="Author"/>
+		<ROW ID="df.barcode"	TRANSLATION="Barcode"/>
+		<ROW ID="df.basedon"	TRANSLATION="Based on"/>
+		<ROW ID="df.before"	TRANSLATION="Before"/>
+		<ROW ID="df.blocked"	TRANSLATION="Blocked"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Border color"/>
+		<ROW ID="df.breakline"	TRANSLATION="Separator"/>
+		<ROW ID="df.calculated"	TRANSLATION="Calculated"/>
+		<ROW ID="df.caption"	TRANSLATION="Title"/>
+		<ROW ID="df.category"	TRANSLATION="Category|Category"/>
+		<ROW ID="df.color"	TRANSLATION="Color"/>
+		<ROW ID="df.column"	TRANSLATION="Column"/>
+		<ROW ID="df.command"	TRANSLATION="Team"/>
+		<ROW ID="df.condition"	TRANSLATION="Condition"/>
+		<ROW ID="df.connection"	TRANSLATION="Connection"/>
+		<ROW ID="df.created"	TRANSLATION="Created"/>
+		<ROW ID="df.date"	TRANSLATION="Date"/>
+		<ROW ID="df.deadline"	TRANSLATION="Time"/>
+		<ROW ID="df.default"	TRANSLATION="By default"/>
+		<ROW ID="df.deleted"	TRANSLATION="Removed"/>
+		<ROW ID="df.description"	TRANSLATION="Description"/>
+		<ROW ID="df.directory"	TRANSLATION="Reference"/>
+		<ROW ID="df.editor"	TRANSLATION="Editor"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Field error"/>
+		<ROW ID="df.expression"	TRANSLATION="The expression"/>
+		<ROW ID="df.file"	TRANSLATION="File"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Fill color"/>
+		<ROW ID="df.filter"	TRANSLATION="Filter"/>
+		<ROW ID="df.folder"	TRANSLATION="Folder"/>
+		<ROW ID="df.generator"	TRANSLATION="Generator"/>
+		<ROW ID="df.group"	TRANSLATION="Group"/>
+		<ROW ID="df.height"	TRANSLATION="Height"/>
+		<ROW ID="df.hidden"	TRANSLATION="Hidden"/>
+		<ROW ID="df.ico"	TRANSLATION="Icon"/>
+		<ROW ID="df.id"	TRANSLATION="Code"/>
+		<ROW ID="df.latitude"	TRANSLATION="Latitude"/>
+		<ROW ID="df.layer"	TRANSLATION="Layer"/>
+		<ROW ID="df.link"	TRANSLATION="Link"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Communication on the field"/>
+		<ROW ID="df.login"	TRANSLATION="Input name"/>
+		<ROW ID="df.longitude"	TRANSLATION="Longitude"/>
+		<ROW ID="df.mail"	TRANSLATION="Mail"/>
+		<ROW ID="df.message"	TRANSLATION="Message"/>
+		<ROW ID="df.modified"	TRANSLATION="Changed"/>
+		<ROW ID="df.name"	TRANSLATION="Name"/>
+		<ROW ID="df.namefield"	TRANSLATION="The title field"/>
+		<ROW ID="df.note"	TRANSLATION="Note"/>
+		<ROW ID="df.notnull"	TRANSLATION="Not empty"/>
+		<ROW ID="df.offstate"	TRANSLATION="Off"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="To include in the menu 'Create'"/>
+		<ROW ID="df.order"	TRANSLATION="Order"/>
+		<ROW ID="df.originalname"	TRANSLATION="The name in the database"/>
+		<ROW ID="df.owner"	TRANSLATION="Owner"/>
+		<ROW ID="df.password"	TRANSLATION="Password"/>
+		<ROW ID="df.period"	TRANSLATION="Period"/>
+		<ROW ID="df.person"	TRANSLATION="Name"/>
+		<ROW ID="df.phone"	TRANSLATION="Phone"/>
+		<ROW ID="df.pointer"	TRANSLATION="Index"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Primary key"/>
+		<ROW ID="df.priority"	TRANSLATION="The importance"/>
+		<ROW ID="df.readonly"	TRANSLATION="Read-only"/>
+		<ROW ID="df.role"	TRANSLATION="The role"/>
+		<ROW ID="df.rolelink"	TRANSLATION="External role"/>
+		<ROW ID="df.rotate"	TRANSLATION="Turn"/>
+		<ROW ID="df.server"	TRANSLATION="Server"/>
+		<ROW ID="df.size"	TRANSLATION="Size"/>
+		<ROW ID="df.source"	TRANSLATION="Source"/>
+		<ROW ID="df.state"	TRANSLATION="Condition"/>
+		<ROW ID="df.stored"	TRANSLATION="Stored"/>
+		<ROW ID="df.system"	TRANSLATION="System"/>
+		<ROW ID="df.table"	TRANSLATION="Table"/>
+		<ROW ID="df.template"	TRANSLATION="Template"/>
+		<ROW ID="df.time"	TRANSLATION="Time"/>
+		<ROW ID="df.translation"	TRANSLATION="Translation"/>
+		<ROW ID="df.transparent"	TRANSLATION="Transparent"/>
+		<ROW ID="df.type"	TRANSLATION="Type"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Settings import/export"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Custom filter"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Configure fields to be displayed"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Local filter"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Global filter"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="Setting map layers"/>
+		<ROW ID="df.unique"	TRANSLATION="Unique"/>
+		<ROW ID="df.user"	TRANSLATION="The user"/>
+		<ROW ID="df.value"	TRANSLATION="The value"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Do not insert the value"/>
+		<ROW ID="df.varname"	TRANSLATION="The name in the expression"/>
+		<ROW ID="df.version"	TRANSLATION="Version"/>
+		<ROW ID="df.visible"	TRANSLATION="Visible"/>
+		<ROW ID="df.width"	TRANSLATION="Width"/>
+		<ROW ID="di.column"	TRANSLATION="Column|Columns"/>
+		<ROW ID="di.menuelem"	TRANSLATION="Menu item|Menu items"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="The active layer"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Alignment"/>
+		<ROW ID="dl.animation"	TRANSLATION="Animation"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="AutoFilter"/>
+		<ROW ID="dl.captionright"	TRANSLATION="Show title right"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="General references"/>
+		<ROW ID="dl.check"	TRANSLATION="Check"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Check the news and updates on the developer website"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Network address"/>
+		<ROW ID="dl.computername"	TRANSLATION="Computer"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Configuration"/>
+		<ROW ID="dl.configurator"	TRANSLATION="The Configurator"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Confirmation..."/>
+		<ROW ID="dl.copies"	TRANSLATION="Copies"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="Copy the hidden fields to the clipboard for pasting into other applications"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="Copy the field headers to the clipboard for pasting into other applications"/>
+		<ROW ID="dl.correspond"	TRANSLATION="Matches"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="Using fields is not valid in this expression."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Processor frequency"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Processor"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Provider"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Determine automatically"/>
+		<ROW ID="dl.datacom"	TRANSLATION="comma-delimited"/>
+		<ROW ID="dl.datatab"	TRANSLATION="with tab delimited"/>
+		<ROW ID="dl.datatext"	TRANSLATION="Text file"/>
+		<ROW ID="dl.device"	TRANSLATION="Device"/>
+		<ROW ID="dl.directories"	TRANSLATION="Reference"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="Dragging and dropping records"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="The database driver"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="Services database"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="Mail client"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Office Suite"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="OLAP services"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="Enable recording of debugging information"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="To log SQL queries"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Everywhere"/>
+		<ROW ID="dl.faster"	TRANSLATION="Faster"/>
+		<ROW ID="dl.findin"	TRANSLATION="Search of object in the list:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="Where to look"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Search results"/>
+		<ROW ID="dl.findtext"	TRANSLATION="To search for text"/>
+		<ROW ID="dl.form"	TRANSLATION="Form"/>
+		<ROW ID="dl.format"	TRANSLATION="Format"/>
+		<ROW ID="dl.forms"	TRANSLATION="Form"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="Always log the full date and time"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Highlighting rows"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Grid lines"/>
+		<ROW ID="dl.guard"	TRANSLATION="Protection"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="To hide system data"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="To allow HTTP access (beta)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="Ignore case"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Ignore the numbers"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Search as part of"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Without considering the word order"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Ignore special characters"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Keep streaming data in the old format"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="In the current list"/>
+		<ROW ID="dl.indataset"	TRANSLATION="In the dataset"/>
+		<ROW ID="dl.information"	TRANSLATION="Information..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Interface"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="The last view, export"/>
+		<ROW ID="dl.layers"	TRANSLATION="Layers"/>
+		<ROW ID="dl.locating"	TRANSLATION="Positioning on the active object"/>
+		<ROW ID="dl.location"	TRANSLATION="Location"/>
+		<ROW ID="dl.locksession"	TRANSLATION="To block a user session after being idle for (minutes)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Logging"/>
+		<ROW ID="dl.map"	TRANSLATION="Map"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="To cache map tiles"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="To limit the size of a file in megabytes"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="Available memory"/>
+		<ROW ID="dl.metadata"	TRANSLATION="Base metastructure"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Metric|The main metric scale"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Other colors..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Press [Ctrl] to align the coordinates of the current point with other points of the shape"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Remove columns"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Deleting rows"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="The use of AutoFilter"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="Cell formatting"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="The column formatting"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="String formatting"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Inserting columns"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Inserting hyperlinks"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Inserting rows"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="Sorting"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="The use of pivot tables"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="Editing scripts"/>
+		<ROW ID="dl.no"	TRANSLATION="No"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="No"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="The operation will take some time and cannot be interrupted."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Then arrange by"/>
+		<ROW ID="dl.osversion"	TRANSLATION="OS version"/>
+		<ROW ID="dl.other"	TRANSLATION="Other"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Output files"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="Settings page"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Extensions"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="Select the action"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="After clicking NEXT will start the operation"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Select the dataset for data exchange"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Specify the type of external file or select the view"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Select the fields you want to export"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="Specify the filter for the selected dataset"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="The operation"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Specify the type, location and name of the external file"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Define the order of fields by dragging the values from the left list to the right"/>
+		<ROW ID="dl.port"	TRANSLATION="Port"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Data bits"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Parity"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Bit rate (bit/s)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Stop bits"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="The stop byte"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Timeout (MS)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Busy"/>
+		<ROW ID="dl.printer"	TRANSLATION="Printer"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Free"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Style print"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="When operation error has occurred."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="The operation completed successfully"/>
+		<ROW ID="dl.properties"	TRANSLATION="Properties"/>
+		<ROW ID="dl.question"	TRANSLATION="Question..."/>
+		<ROW ID="dl.random"	TRANSLATION="Accidentally"/>
+		<ROW ID="dl.reading"	TRANSLATION="Read data"/>
+		<ROW ID="dl.recipient"	TRANSLATION="The recipient"/>
+		<ROW ID="dl.registration"	TRANSLATION="To login, please enter Your name and password"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Startup reminders after user login"/>
+		<ROW ID="dl.results"	TRANSLATION="Results"/>
+		<ROW ID="dl.scale"	TRANSLATION="Scale"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="Where to look"/>
+		<ROW ID="dl.separator"	TRANSLATION="Separator"/>
+		<ROW ID="dl.sheet"	TRANSLATION="Sheet"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="Show titles"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Check and skip records with invalid Foreign key"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Skip the record with the wrong data type"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Skip the first record as a header"/>
+		<ROW ID="dl.slower"	TRANSLATION="Slower"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="Descending"/>
+		<ROW ID="dl.sortup"	TRANSLATION="Ascending"/>
+		<ROW ID="dl.soundon"	TRANSLATION="To turn on the sound"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="To print copies"/>
+		<ROW ID="dl.start"	TRANSLATION="Start"/>
+		<ROW ID="dl.step"	TRANSLATION="Step"/>
+		<ROW ID="dl.stop"	TRANSLATION="Stop"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="The style options"/>
+		<ROW ID="dl.systemres"	TRANSLATION="System resources"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Bookmarks...|Bookmark"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Hot."/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Category"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Team"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Custom"/>
+		<ROW ID="dl.thickness"	TRANSLATION="Thickness"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="Toolbar"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="The toolbar"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Shortcut"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Settings"/>
+		<ROW ID="dl.totray"	TRANSLATION="Minimize to tray when closing the program window"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Data is not available"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="To update a record with matching Primary key"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="Update only non-empty values"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Use reader barcode"/>
+		<ROW ID="dl.username"	TRANSLATION="The user"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="The name of the current Windows user"/>
+		<ROW ID="dl.version"	TRANSLATION="Version"/>
+		<ROW ID="dl.view"	TRANSLATION="Display settings"/>
+		<ROW ID="dl.warning"	TRANSLATION="Warning..."/>
+		<ROW ID="dl.yes"	TRANSLATION="Yes"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="The command|Execution of the selected command"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Do you want to remove"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="These shortcuts will be deleted, continue?"/>
+		<ROW ID="dm.sequence"	TRANSLATION="Select ~ ~ ~ ~ that You would like to see. Buttons 'Up' and 'Down' you can specify their sequence."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Buttons 'Up' and 'Down' to set the order of the commands. If necessary, You can display the separator before the command."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Select the solution file"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="To complete the operation, you must copy the file '%s' in the directory '%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Removal solution"/>
+		<ROW ID="dm.solloading"	TRANSLATION="The solution is loaded"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Further work is possible only after logging into the system."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Unloading solutions"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="Update settings|Update list of command options"/>
+		<ROW ID="dt.action"	TRANSLATION="Event type|Types of events"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="The event condition|Event under the terms"/>
+		<ROW ID="dt.additional"	TRANSLATION="Additional information"/>
+		<ROW ID="dt.alignment"	TRANSLATION="The alignment type|Types of alignment"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Encoding|Encoding"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="The mode parameter|Settings profiles"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="The command type|Types of commands"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Condition|The condition"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Restriction|Limitations"/>
+		<ROW ID="dt.data"	TRANSLATION="Data"/>
+		<ROW ID="dt.database"	TRANSLATION="Database|Database"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="The type of database|Database types"/>
+		<ROW ID="dt.dataset"	TRANSLATION="The dataset|Datasets"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="The dataset type"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Data type|Data types"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="Dictionary|Dictionaries"/>
+		<ROW ID="dt.event"	TRANSLATION="Action|Action"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Notification type|Notification types"/>
+		<ROW ID="dt.field"	TRANSLATION="Field|Field"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="The field category|Category fields"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="The role field|Of fields"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Font color|A list of font colours"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="Font style|Font styles"/>
+		<ROW ID="dt.formelement"	TRANSLATION="The form element|Form elements"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="The type of form element|Types of form element"/>
+		<ROW ID="dt.language"	TRANSLATION="Language|Languages"/>
+		<ROW ID="dt.logintype"	TRANSLATION="The type of access"/>
+		<ROW ID="dt.membership"	TRANSLATION="Group membership|Group membership"/>
+		<ROW ID="dt.menu"	TRANSLATION="Menu|The menu"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Metadata"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="The type of the node|Node types"/>
+		<ROW ID="dt.note"	TRANSLATION="Note|Notes"/>
+		<ROW ID="dt.object"	TRANSLATION="Object"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="The effect of deleting|Actions when deleting"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="The type of operation|Types of operations"/>
+		<ROW ID="dt.param"	TRANSLATION="Option|Settings"/>
+		<ROW ID="dt.policy"	TRANSLATION="Security policy|Security policy"/>
+		<ROW ID="dt.procedure"	TRANSLATION="The name of the procedure|The names of the procedures"/>
+		<ROW ID="dt.report"	TRANSLATION="Report|Reports"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="The report parameter|Report parameters"/>
+		<ROW ID="dt.right"	TRANSLATION="User right|User rights"/>
+		<ROW ID="dt.role"	TRANSLATION="Role in relation to|Role in relation to"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="The relationship|The relationship"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Type display field|Types of display fields"/>
+		<ROW ID="dt.solution"	TRANSLATION="The decision|Solutions"/>
+		<ROW ID="dt.task"	TRANSLATION="Task|Tasks"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Type of user data"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="The type of operation|Types of operations"/>
+		<ROW ID="dt.user"	TRANSLATION="The user|Users"/>
+		<ROW ID="dt.usertask"	TRANSLATION="The task of the user|Users tasks"/>
+		<ROW ID="dt.usertype"	TRANSLATION="User type|Types of user"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Display type|Renderers"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="The periodicity of the calculation"/>
+		<ROW ID="dtadditionally"	TRANSLATION="Additionally"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="With each request"/>
+		<ROW ID="dv.button"	TRANSLATION="Button"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Cascading delete"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="The clipboard"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="Black"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="Blue"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Chocolate"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="CYANOGEN"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Raspberry"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="By default"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="Grey"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Green"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Green"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="Purple"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="Blue"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="Purple"/>
+		<ROW ID="dv.colorred"	TRANSLATION="Red"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="Turquoise"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="White"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Yellow"/>
+		<ROW ID="dv.day1"	TRANSLATION="Monday"/>
+		<ROW ID="dv.day2"	TRANSLATION="Tuesday"/>
+		<ROW ID="dv.day3"	TRANSLATION="Environment"/>
+		<ROW ID="dv.day4"	TRANSLATION="Thursday"/>
+		<ROW ID="dv.day5"	TRANSLATION="Friday"/>
+		<ROW ID="dv.day6"	TRANSLATION="Saturday"/>
+		<ROW ID="dv.day7"	TRANSLATION="Sunday"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Banned"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="Filtering"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Warning"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Real number"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Form"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="The details window"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Integer"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Linked list"/>
+		<ROW ID="dv.elempage"	TRANSLATION="Bookmark"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="The bookmark window with the data"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Panel"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="The inscription"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Line"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Switch"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="List of switches"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="Tree records"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Tree list"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Allowed"/>
+		<ROW ID="dv.explorer"	TRANSLATION="File Explorer"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Favorites"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Only for the first request"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Bold"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="Increased"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Underlined"/>
+		<ROW ID="dv.globalref"	TRANSLATION="The global Handbook"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="The encrypted password"/>
+		<ROW ID="dv.localref"	TRANSLATION="Local directory"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="The primary dataset"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Never"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Attribute"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Item"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Group"/>
+		<ROW ID="dv.noname"	TRANSLATION="Without a name"/>
+		<ROW ID="dv.onall"	TRANSLATION="With any surgery"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="When you move to the trash"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="Deleting"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="When you insert"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="At the entrance"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="When you exit"/>
+		<ROW ID="dv.onreading"	TRANSLATION="When reading"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="When editing"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="High"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Low"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="Normal"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Ban"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="Selected objects %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="To reset the connection"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="The slave dataset"/>
+		<ROW ID="dv.text"	TRANSLATION="Text"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="Action %s not found"/>
+		<ROW ID="error.additem"	TRANSLATION="Adding entries in this Handbook is prohibited."/>
+		<ROW ID="error.argcount"	TRANSLATION="Invalid number of arguments in the function call"/>
+		<ROW ID="error.argtype"	TRANSLATION="Invalid argument type"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="Expected a closing parenthesis"/>
+		<ROW ID="error.char"	TRANSLATION="field '%s' you entered an invalid character or the characters '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="Object '%s' are not deleted objects section '%s'."/>
+		<ROW ID="error.children"	TRANSLATION="C ' ~ ~ ~ ~ related topic objects '%s' (%d PCs.)"/>
+		<ROW ID="error.connect"	TRANSLATION="Invalid path or is not available to the database server."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="Error connecting to database metastructure."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="Database %s not found to execute a stored procedure."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="Database %s does not support execution of stored procedures."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="The data set must enter into the decision '%s'."/>
+		<ROW ID="error.default"	TRANSLATION="The object marked 'default' cannot be deleted."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Object changed by another user. You want to delete the object?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="The object has been deleted by another user."/>
+		<ROW ID="error.double"	TRANSLATION="The specified value of the key field is not unique. Perhaps the entry with the given value is marked as deleted."/>
+		<ROW ID="error.edit"	TRANSLATION="not specified values for the required fields or entered invalid data."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="For this type of element must be specified field"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="For this type of element should not be specified field"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="This element cannot be associated with the specified table"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="This element must not be specified connection"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="This element needs to be specified connection"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="The specified element can not be the owner"/>
+		<ROW ID="error.elem.type"	TRANSLATION="The element type is incompatible with the field type"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Unknown owner"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="An empty expression"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="The task list is empty."/>
+		<ROW ID="error.exprend"	TRANSLATION="The end of the expression"/>
+		<ROW ID="error.field"	TRANSLATION="Error in field description"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="Error calculation the value of field '%s' due to circular reference"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Field %s does not exist"/>
+		<ROW ID="error.find"	TRANSLATION="Not found any object that contains the specified value"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="Field is NOT NULL, you must specify a default value"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="Field - the basis of folders can specify a value of 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="The table must contain only one field"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Invalid constant value"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Invalid character"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="Type mismatch"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Incorrect path or file name."/>
+		<ROW ID="error.inlist"	TRANSLATION="The parameter must be one value from the list:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Invalid member type security."/>
+		<ROW ID="error.length"	TRANSLATION="the number of characters in the field '%s' must not exceed %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="In metastructure there is no need for operation of the program data sets."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Version of metastructure does not match the version of the program."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="You must enter a name."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="The name of the decision should be set"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="There is no selected object"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="Is not specified, the cache for the action"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="Do not specify a dataset for action"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Not implemented when using old metastructure!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Invalid operand type"/>
+		<ROW ID="error.printer"	TRANSLATION="Error initializing printer. Printing a document is canceled."/>
+		<ROW ID="error.printerno"	TRANSLATION="No available printer"/>
+		<ROW ID="error.readfield"	TRANSLATION="Error reading field data '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="You have not enough rights to perform the operation"/>
+		<ROW ID="error.scan"	TRANSLATION="Error scanner."/>
+		<ROW ID="error.setfield"	TRANSLATION="Do not specify a value, specify a non-blank field value"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Found a similar item. To go to him?"/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Select the item to search"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="A similar item not found"/>
+		<ROW ID="error.sort"	TRANSLATION="Sorting on calculated fields and the fields in files is not allowed"/>
+		<ROW ID="error.sortfield"	TRANSLATION="The selected field is already present in the list of sort fields."/>
+		<ROW ID="error.start"	TRANSLATION="This operation is available only after authorization."/>
+		<ROW ID="error.statementend"	TRANSLATION="Unexpected end of expression"/>
+		<ROW ID="error.strlen"	TRANSLATION="The length of the string in field '%s' too large"/>
+		<ROW ID="error.tree"	TRANSLATION="Error of creation of object tree. Missing the owner of the tree node '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="Unclosed string"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="Unexpected end of expression"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="Information on the membership of the specified user in this group is already registered in the database."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Unknown function"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Unknown identifier"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Object changed by another user. To save Your changes?"/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Object changed by another user."/>
+		<ROW ID="error.updateitem"	TRANSLATION="Error getting file updates"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="The user account is locked."/>
+		<ROW ID="figure"	TRANSLATION="Figure"/>
+		<ROW ID="filefilters"	TRANSLATION="Reports in MSExcel|*.xls|InterBase files|*.gdb|Configuration|*.cfg|All files|*.*"/>
+		<ROW ID="for"	TRANSLATION="For"/>
+		<ROW ID="imp.break"	TRANSLATION="To abort the operation"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Create a new record"/>
+		<ROW ID="imp.data"	TRANSLATION="How to import data"/>
+		<ROW ID="imp.dterror"	TRANSLATION="Error the data type of the field"/>
+		<ROW ID="imp.empty"	TRANSLATION="The field value is empty"/>
+		<ROW ID="imp.first"	TRANSLATION="The first entry"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Control foreign key"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="A foreign key does not exist"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Ignore the error"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="The coincidence of the primary key"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Added records"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Skipped records"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Updated records"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Skip the entry"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Skip field value"/>
+		<ROW ID="imp.title"	TRANSLATION="Miss as a title"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="To update a record"/>
+		<ROW ID="inexpr"	TRANSLATION="in the expression"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="%s Saved."/>
+		<ROW ID="line"	TRANSLATION="Line"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 km"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 km"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 km"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 km"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 m"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 m"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 m"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 m"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 m"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 m"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 m"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 m"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 km"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 m"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 m"/>
+		<ROW ID="map.scale22"	TRANSLATION="1.5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0.75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 m"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 km"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 km"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 km"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 km"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 km"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 km"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 km"/>
+		<ROW ID="mmmmm1"	TRANSLATION="January|Jan"/>
+		<ROW ID="mmmmm10"	TRANSLATION="October|Oct"/>
+		<ROW ID="mmmmm11"	TRANSLATION="November|Nov"/>
+		<ROW ID="mmmmm12"	TRANSLATION="December|Dec"/>
+		<ROW ID="mmmmm2"	TRANSLATION="February|Feb"/>
+		<ROW ID="mmmmm3"	TRANSLATION="March|Mar"/>
+		<ROW ID="mmmmm4"	TRANSLATION="April|APR"/>
+		<ROW ID="mmmmm5"	TRANSLATION="May|May"/>
+		<ROW ID="mmmmm6"	TRANSLATION="June|Jun"/>
+		<ROW ID="mmmmm7"	TRANSLATION="July|July"/>
+		<ROW ID="mmmmm8"	TRANSLATION="August|Aug"/>
+		<ROW ID="mmmmm9"	TRANSLATION="September|Sep"/>
+		<ROW ID="not"	TRANSLATION="Not"/>
+		<ROW ID="openurl"	TRANSLATION="Open URL"/>
+		<ROW ID="opeq"	TRANSLATION="Anyway"/>
+		<ROW ID="opge"	TRANSLATION="Greater than or equal to"/>
+		<ROW ID="opgt"	TRANSLATION="More"/>
+		<ROW ID="opisfalse"	TRANSLATION="Lie"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Not empty"/>
+		<ROW ID="opisnull"	TRANSLATION="Empty"/>
+		<ROW ID="opistrue"	TRANSLATION="The truth"/>
+		<ROW ID="ople"	TRANSLATION="Less than or equal to"/>
+		<ROW ID="oplike"	TRANSLATION="Contains"/>
+		<ROW ID="oplt"	TRANSLATION="Less"/>
+		<ROW ID="opne"	TRANSLATION="Not equal"/>
+		<ROW ID="opnotlike"	TRANSLATION="Does not contain"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="Treatment is not required"/>
+		<ROW ID="process.tables"	TRANSLATION="Processed tables:"/>
+		<ROW ID="quantity"	TRANSLATION="The number"/>
+		<ROW ID="query.savechanges"	TRANSLATION="Save changes?"/>
+		<ROW ID="querydelete"	TRANSLATION="After removal of the object, information about it will not be available. Delete object '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Delete object '%s' without the possibility of subsequent recovery?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Delete selected objects ('%s') without possibility of subsequent recovery?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Update periodic message"/>
+		<ROW ID="registration"	TRANSLATION="Check"/>
+		<ROW ID="send"	TRANSLATION="Send"/>
+		<ROW ID="sendmail"	TRANSLATION="Send email"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="To send a message to list of recipients"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Standard"/>
+		<ROW ID="updatemessages"	TRANSLATION="Refresh messages"/>
+		<ROW ID="updating"	TRANSLATION="Update"/>
+		<ROW ID="use"	TRANSLATION="Use"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="View"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="To switch to another tab, you must save the current record."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="To switch to another tab, you must save the current record."/>
+	</ROWDATA>
+</DATAPACKET>

@@ -1,0 +1,885 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0" languagecode="1058" languagename="Український">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION="Додатково"/>
+		<ROW ID="allfiles"	TRANSLATION="Всі файли"/>
+		<ROW ID="and"	TRANSLATION="І"/>
+		<ROW ID="atpos"	TRANSLATION="у позиції"/>
+		<ROW ID="auto"	TRANSLATION="Автоматично"/>
+		<ROW ID="bottom"	TRANSLATION="Знизу"/>
+		<ROW ID="by"	TRANSLATION="за"/>
+		<ROW ID="cell"	TRANSLATION="Осередок"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Системи кодування"/>
+		<ROW ID="cp.dos866"	TRANSLATION="DOS-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Utf-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="Windows-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="Створити файл такого типу"/>
+		<ROW ID="createmessage"	TRANSLATION="Створити повідомлення"/>
+		<ROW ID="csvfiles"	TRANSLATION="CSV (роздільник ';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="Поточний набір даних"/>
+		<ROW ID="da.about"	TRANSLATION="Про програму...|Відображення інформації про програму, номер версії та авторські права"/>
+		<ROW ID="da.access"	TRANSLATION="Доступ|Встановити права на доступ користувачів"/>
+		<ROW ID="da.action"	TRANSLATION="Дія|Виконати дію..."/>
+		<ROW ID="da.actions"	TRANSLATION="Дії"/>
+		<ROW ID="da.add"	TRANSLATION="Додати"/>
+		<ROW ID="da.advfind"	TRANSLATION="Розширений пошук|Почати пошук з зазначенням додаткових параметрів"/>
+		<ROW ID="da.agrave"	TRANSLATION="Середнє значення|Підраховувати середнє з виділених значень"/>
+		<ROW ID="da.agrcount"	TRANSLATION="Кількість|Підраховувати кількість виділених значень"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Максимум|Підраховувати максимум з виділених значень"/>
+		<ROW ID="da.agrmin"	TRANSLATION="Мінімум|Підраховувати мінімум з виділених значень"/>
+		<ROW ID="da.agrno"	TRANSLATION="Немає|Не розраховувати показник за вибраним значенням"/>
+		<ROW ID="da.agrsum"	TRANSLATION="Сума значень|Підраховувати суму виділених значень"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="Кількість значень|Підраховувати кількість виділених непустих значень"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="По центру|Вирівнювати текст по центру"/>
+		<ROW ID="da.alignleft"	TRANSLATION="По лівому краю|Вирівнювати текст лівому краю"/>
+		<ROW ID="da.alignright"	TRANSLATION="По правому краю|Вирівняти текст праворуч"/>
+		<ROW ID="da.all"	TRANSLATION="Всі"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Показати всі|Показати вміст всіх полів"/>
+		<ROW ID="da.apply"	TRANSLATION="Застосувати"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="Розставити якорі|Розставити якоря по розташуванню елементів"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Обчислення|Автоматично підраховувати результат з виділених значень"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Автопозиционирование|Автоматично позиціонувати карту для відображення обраного об'єкта"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Автоматично зберігати зміни|Автоматично зберігати всі зміни об'єктів"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Автомасштабування|Автоматично масштабувати карту для відображення всіх виділених об'єктів"/>
+		<ROW ID="da.back"	TRANSLATION="Тому|Повернутися назад"/>
+		<ROW ID="da.backup"	TRANSLATION="Архівація даних|Зробити запис резервної копії даних"/>
+		<ROW ID="da.browse"	TRANSLATION="Огляд...|Вибрати файл або каталог"/>
+		<ROW ID="da.cancel"	TRANSLATION="Скасування"/>
+		<ROW ID="da.chart3d"	TRANSLATION="3D-подання|Показати 3D-подання"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Полігонний графік"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Стрічкова діаграма"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Стовпчикову діаграму"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="Криві Безьє|Згладжувати графік кривими Безьє"/>
+		<ROW ID="da.charthide"	TRANSLATION="Об'єднувати дрібні|Об'єднувати незначні показники в один"/>
+		<ROW ID="da.chartline"	TRANSLATION="Лінійний графік"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Логарифмічна шкала|Вибрати логарифмічну шкалу"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Кругова діаграма"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="Точковий графік"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="Складати в стек"/>
+		<ROW ID="da.choose"	TRANSLATION="Вибрати|Вибрати зі списку"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Вибрати стовпці"/>
+		<ROW ID="da.clear"	TRANSLATION="Очистити"/>
+		<ROW ID="da.clearall"	TRANSLATION="Очистити всі"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Зняти виділення|Зняття виділення з усіх об'єктів"/>
+		<ROW ID="da.close"	TRANSLATION="Закрити"/>
+		<ROW ID="da.colclear"	TRANSLATION="Відновити|Відновити налаштування відображення стовпців за замовчанням"/>
+		<ROW ID="da.colclearall"	TRANSLATION="Відновити для всіх|Відновити для всіх користувачів налаштування відображення стовпців за замовчанням"/>
+		<ROW ID="da.collapse"	TRANSLATION="Згорнути|Згорнути вміст поточного вузла"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Згорнути всі|Згорнути вміст всіх вузлів"/>
+		<ROW ID="da.colsave"	TRANSLATION="Зберегти|Зберегти налаштування відображення стовпців"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Зберегти для всіх|Зберегти для всіх користувачів налаштування відображення стовпців"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Приховати стовпець|Приховати вибраний стовпець"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="Сортувати за спаданням"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="Сортувати за зростанням"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Параметри команди"/>
+		<ROW ID="da.commands"	TRANSLATION="Команда|Команди"/>
+		<ROW ID="da.conditionand"	TRANSLATION="І - Всі умови"/>
+		<ROW ID="da.conditionor"	TRANSLATION="АБО - Одна з умов"/>
+		<ROW ID="da.consistency"	TRANSLATION="Узгодженість метаданих"/>
+		<ROW ID="da.continue"	TRANSLATION="Далі|Продовжити і перейти далі"/>
+		<ROW ID="da.copy"	TRANSLATION="Копіювати|Копіювати вибрані об'єкти"/>
+		<ROW ID="da.copychart"	TRANSLATION="Копіювати|Копіювати графік у вигляді картинки"/>
+		<ROW ID="da.correct"	TRANSLATION="Виправити|Виправити автоматично"/>
+		<ROW ID="da.create"	TRANSLATION="Створити"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="На робочому столі створений ярлик для запуску вибраної конфігурації"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Ярлик|Створити ярлик"/>
+		<ROW ID="da.cut"	TRANSLATION="Вирізати|Вирізати виділені об'єкти"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Експорт|Експорт даних в файл"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Імпорт|Імпорт даних з файлу"/>
+		<ROW ID="da.days"	TRANSLATION="День"/>
+		<ROW ID="da.decline"	TRANSLATION="Видалити рядок"/>
+		<ROW ID="da.default"	TRANSLATION="За замовчуванням"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Очищення БД|Очищення записів до видалення помічених"/>
+		<ROW ID="da.delete"	TRANSLATION="Видалити|Видалити виділені об'єкти"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Вилучити фільтр|Вилучити вибраний фільтр"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Налаштування|Настройка форми відображення властивостей об'єкта"/>
+		<ROW ID="da.dictionary"	TRANSLATION="Словник|Відкрити словник локалізації"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Розташувати по"/>
+		<ROW ID="da.dofilter"	TRANSLATION="Виконати|Виконати фільтрування за умовою"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="Дублювати для виділених|Дублювати значення поля для виділених об'єктів"/>
+		<ROW ID="da.edit"	TRANSLATION="Правка"/>
+		<ROW ID="da.editmode"	TRANSLATION="Редагування|Почати редагування об'єктів"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( порожньо )"/>
+		<ROW ID="da.exit"	TRANSLATION="Вихід|Вихід з програми"/>
+		<ROW ID="da.expand"	TRANSLATION="Розгорнути|Розгорнути вміст поточного вузла"/>
+		<ROW ID="da.export"	TRANSLATION="Зберегти|Зберегти документ у файл"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Експорт в XML|Експортувати дані в XML ADO"/>
+		<ROW ID="da.exportto"	TRANSLATION="Експортувати|Експортувати файл в..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Швидка печатка|Вибрати і роздрукувати документ"/>
+		<ROW ID="da.favorites"	TRANSLATION="Додати в Обране"/>
+		<ROW ID="da.file"	TRANSLATION="Файл"/>
+		<ROW ID="da.filter"	TRANSLATION="Фільтр|Відбір об'єктів за фільтру"/>
+		<ROW ID="da.filtername"	TRANSLATION="Ім'я фільтра"/>
+		<ROW ID="da.find"	TRANSLATION="Знайти|Шукати об'єкт в поточному наборі даних"/>
+		<ROW ID="da.findnext"	TRANSLATION="Наступна запис|Перейти до наступній записи"/>
+		<ROW ID="da.findprev"	TRANSLATION="Попередній запис|Перейти до попереднього запису"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="Підібрати ширину|Автоматично підібрати ширину стовпців по вмісту"/>
+		<ROW ID="da.formatcol"	TRANSLATION="Властивості стовпця"/>
+		<ROW ID="da.forward"	TRANSLATION="Вперед|Перейти вперед"/>
+		<ROW ID="da.go"	TRANSLATION="Перейти"/>
+		<ROW ID="da.grid"	TRANSLATION="Показати сітку|Відображати масштабну сітку під зображенням"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Групування"/>
+		<ROW ID="da.groupby"	TRANSLATION="Групувати за"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="Групувати за стовпцем"/>
+		<ROW ID="da.grouping"	TRANSLATION="Групувати|Групувати вибрані об'єкти"/>
+		<ROW ID="da.guide"	TRANSLATION="Керівництво користувача|Виклик керівництва користувача"/>
+		<ROW ID="da.help"	TRANSLATION="Довідка|Виклик довідкової системи"/>
+		<ROW ID="da.hide"	TRANSLATION="Приховати"/>
+		<ROW ID="da.holdover"	TRANSLATION="Відкласти|Відкласти час спрацьовування завдання"/>
+		<ROW ID="da.homepage"	TRANSLATION="Домашня сторінка|Відкрити домашню сторінку в інтернет"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="Великі значки|Відображення з використанням великих значків"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="Величезні значки|Відображення з використанням величезних значків"/>
+		<ROW ID="da.iconslist"	TRANSLATION="Список|Відображення у вигляді списку"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Великий список|Відображення у вигляді списку з великими елементами"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Значки|Відображення з використанням стандартних значків"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Таблиця|Відображення у вигляді таблиці з відомостями"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="Збільшена таблиця|Відображення у вигляді таблиці в два рядки"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Таблиця по ширині|Відображення у вигляді таблиці по ширині вікна"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Дрібні значки|Відображення об'єктів у вигляді піктограм і назв праворуч"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Плитка|Відображення об'єктів у вигляді плитки з основними відомостями"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Докладна плитка|Відображення об'єктів у вигляді плитки з докладними відомостями"/>
+		<ROW ID="da.incline"	TRANSLATION="Додати рядок"/>
+		<ROW ID="da.insert"	TRANSLATION="Додати|Додати новий об'єкт"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Звернути виділення|Перетворення виділених об'єктів в невиділені і навпаки"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Останнє повідомлення|Показати останнє повідомлення"/>
+		<ROW ID="da.link"	TRANSLATION="Зв'язати"/>
+		<ROW ID="da.linkall"	TRANSLATION="Зв'язати всі"/>
+		<ROW ID="da.linkto"	TRANSLATION="Запам'ятати ярлик|Запам'ятати ярлик файлу..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Завантажити|Завантажити файл з..."/>
+		<ROW ID="da.loadto"	TRANSLATION="Вивантажити|Вивантажити файл в..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Зв'яжіться з нами|Написати листа розробникам програми"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="Меню|Показати/приховати головне меню"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Головна сторінка|Відкрити головну сторінку"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Роз'єднати криві"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Перевірити|Перевірити шаблон рядка запиту на карті"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="Об'єднати в одне"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="Відображати координати|Відображати координати вершин і довжини відрізків"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Покращений режим|Покращена прорисока масштабованого зображення"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="Google|Використовувати карту Google"/>
+		<ROW ID="da.maptoback"	TRANSLATION="На задній план|Перемістити об'єкт на задній план"/>
+		<ROW ID="da.maptofront"	TRANSLATION="На передній план|Перемістити об'єкт на передній план"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Yandex|Використовувати Yandex карту"/>
+		<ROW ID="da.menugroup"	TRANSLATION="Розділ меню"/>
+		<ROW ID="da.menuitem"	TRANSLATION="Пункт меню"/>
+		<ROW ID="da.menumove"	TRANSLATION="Перемістити"/>
+		<ROW ID="da.menuorder"	TRANSLATION="Упорядкування меню"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="Вкладений пункт меню"/>
+		<ROW ID="da.modify"	TRANSLATION="Змінити|Змінити властивості об'єкта"/>
+		<ROW ID="da.months"	TRANSLATION="Місяць"/>
+		<ROW ID="da.movedown"	TRANSLATION="Вниз|Перемістити вниз"/>
+		<ROW ID="da.moveto"	TRANSLATION="Перемістити|Перемістити об'єкт в"/>
+		<ROW ID="da.moveup"	TRANSLATION="Вгору|Перемістити вгору"/>
+		<ROW ID="da.news"	TRANSLATION="Новини та оновлення|Відомості про оновлення та новини розробника"/>
+		<ROW ID="da.note"	TRANSLATION="Замітка|Створити замітку до виділеного об'єкту"/>
+		<ROW ID="da.ok"	TRANSLATION="OK"/>
+		<ROW ID="da.open"	TRANSLATION="Відкрити|Відкрити вміст поточного об'єкта"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Відкрити|Відкрити поточне вікно в якості основного"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Відкрити у новому вікні"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Відкриття набору даних"/>
+		<ROW ID="da.operations"	TRANSLATION="Операції"/>
+		<ROW ID="da.order"	TRANSLATION="Порядок"/>
+		<ROW ID="da.orderby"	TRANSLATION="Упорядкувати за"/>
+		<ROW ID="da.parameters"	TRANSLATION="Параметри|Встановити параметри"/>
+		<ROW ID="da.paste"	TRANSLATION="Вставити|Вставити об'єкти"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Кутовий вузол"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="Почати зміну вузлів|Почати зміну вузлів і сегментів фігури"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="Викривлений сегмент"/>
+		<ROW ID="da.pointclose"	TRANSLATION="Замкнути фігуру|Замкнути перший і останній вузли сегментом"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="Вилучити вузол"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Прямий вузол"/>
+		<ROW ID="da.pointend"	TRANSLATION="Закінчити редагування вузлів|Закінчити зміну вузлів і снгментов фігури"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="Створити вузол"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="Лінійний сегмент"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="Гладкий вузол"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Розімкнути фігуру"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Розкладка"/>
+		<ROW ID="da.presentation"	TRANSLATION="Подання"/>
+		<ROW ID="da.preview"	TRANSLATION="Перегляд|Попередній перегляд документа"/>
+		<ROW ID="da.print"	TRANSLATION="Друк|Вибрати і роздрукувати документ"/>
+		<ROW ID="da.properties"	TRANSLATION="Властивості|Відображення властивостей виділених об'єктів"/>
+		<ROW ID="da.regtables"	TRANSLATION="Реєстрація таблиць"/>
+		<ROW ID="da.remember"	TRANSLATION="Нагадування|Показати вікно нагадувань користувачеві"/>
+		<ROW ID="da.rename"	TRANSLATION="Перейменувати|Перейменування виділеного об'єкта"/>
+		<ROW ID="da.report"	TRANSLATION="Звіт|Вибрати і сформувати звіт"/>
+		<ROW ID="da.representation"	TRANSLATION="Поточне подання"/>
+		<ROW ID="da.reset"	TRANSLATION="Скидання"/>
+		<ROW ID="da.restore"	TRANSLATION="Відновити|Відновити об'єкти з віддалених"/>
+		<ROW ID="da.rotate"	TRANSLATION="Поворот"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Проти годинникової|Повернути об'єкт проти годинникової стрілки"/>
+		<ROW ID="da.rotate90"	TRANSLATION="За годинниковою|Повернути об'єкт за годинниковою стрілкою"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="По горизонталі|Повернути об'єкт по горизонталі"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="По вертикалі|Повернути об'єкт по вертикалі"/>
+		<ROW ID="da.rssnews"	TRANSLATION="Новини"/>
+		<ROW ID="da.rulers"	TRANSLATION="Лінійка|Показувати лінійки"/>
+		<ROW ID="da.save"	TRANSLATION="Зберегти|Зберегти останнє редагування"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Зберегти фільтр|Зберегти поточний фільтр"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Зберегти в файл...|Зберегти дані або зображення в файл"/>
+		<ROW ID="da.scan"	TRANSLATION="Сканувати документ|Сканувати документ"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="Сканувати документ з ...|Вибрати сканер і сканувати документ"/>
+		<ROW ID="da.search"	TRANSLATION="Пошук"/>
+		<ROW ID="da.selectall"	TRANSLATION="Виділити всі|Виділення всіх об'єктів"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="Виділити стовпець|Виділити вибраний стовпець"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="Вибрати фільтр|Вибрати збережений фільтр"/>
+		<ROW ID="da.service"	TRANSLATION="Сервіс"/>
+		<ROW ID="da.setfilter"	TRANSLATION="Застосувати фільтр|Застосувати фільтр до виділеного набору даних"/>
+		<ROW ID="da.settings"	TRANSLATION="Налаштування|Перегляд і зміна налаштувань програми"/>
+		<ROW ID="da.shortcut"	TRANSLATION="Взаємозв'язок|Створити взаємозв'язок до виділеного об'єкту"/>
+		<ROW ID="da.show"	TRANSLATION="Показати"/>
+		<ROW ID="da.showarchived"	TRANSLATION="Відображати архівні|Відображати архівні записи"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="Зміст|Показати/приховати область перегляду змісту"/>
+		<ROW ID="da.showempty"	TRANSLATION="Показувати порожні|Показувати порожні групи"/>
+		<ROW ID="da.showhint"	TRANSLATION="Спливаючі підказки|Зміна режиму відображення спливаючих підказок"/>
+		<ROW ID="da.showremoved"	TRANSLATION="Відображати видалені|Відображати видалені записи"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="Показати взаємозв'язки|Показати взаємозв'язки на окремій закладці"/>
+		<ROW ID="da.sorting"	TRANSLATION="Налаштування...|Налаштування параметрів і впорядкування об'єктів"/>
+		<ROW ID="da.splitby"	TRANSLATION="Розбити з"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="Стандартне меню|Відображення стандартного меню"/>
+		<ROW ID="da.statusbar"	TRANSLATION="Рядок стану|Відображення та приховування рядка стану"/>
+		<ROW ID="da.switchmode"	TRANSLATION="Перемкнути режим|Перемкнути режим (Користувач-Архітектор)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="Видалити всі записи|Видалити всі записи у виділених наборах даних"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Експорт даних в XML|Експорт з виділених наборів даних в XML файли"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Імпорт даних з XML|Імпорт у виділений набір даних з XML файлу"/>
+		<ROW ID="da.tableprop"	TRANSLATION="Властивості набору даних...|Змінити властивості набору даних"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="Видалити видалені|Видалити всі позначені видалені записи у виділених наборах даних"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="Сортування команд|Виконати сортування команд для виділеного набору даних"/>
+		<ROW ID="da.test"	TRANSLATION="Перевірити|Перевірити виділені об'єкти"/>
+		<ROW ID="da.testconnect"	TRANSLATION="Перевірка підключення"/>
+		<ROW ID="da.undo"	TRANSLATION="Скасувати|Скасувати останнє редагування"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Розгрупувати|Розгрупувати вибраний об'єкт"/>
+		<ROW ID="da.unreguser"	TRANSLATION="Завершити сесію|Завершити сесію роботи"/>
+		<ROW ID="da.up"	TRANSLATION="Вгору|На один рівень вгору"/>
+		<ROW ID="da.update"	TRANSLATION="Оновити|Оновлення вмісту поточного вікна"/>
+		<ROW ID="da.view"	TRANSLATION="Вид"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="Календар|Відображення об'єктів на календарі"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Картка|Відображення картки об'єкти"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Діаграма|Відображення статистичної діаграми об'єктів"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Групи|Відображення об'єкти з розбивкою за групами"/>
+		<ROW ID="da.viewlist"	TRANSLATION="Список|Відображення даних у вигляді списку"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Карта|Відображення даних у вигляді векторної схеми"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Зведена таблиця|Відображення даних у вигляді зведеної таблиці"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Карта|Відображення даних у вигляді тайловой карти"/>
+		<ROW ID="da.viewtree"	TRANSLATION="Дерево|Відображення даних у вигляді деревовидної структури"/>
+		<ROW ID="da.weeks"	TRANSLATION="Тиждень"/>
+		<ROW ID="da.years"	TRANSLATION="Рік"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="Масштаб за замовчуванням|Відображати в масштабі за замовчуванням"/>
+		<ROW ID="da.zoomin"	TRANSLATION="Збільшити|Збільшити масштаб зображення"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="Зображення цілком|Відображати все зображення цілком"/>
+		<ROW ID="da.zoomout"	TRANSLATION="Зменшити|Зменшити масштаб зображення"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="Об'єкт|Відображати виділені об'єкти цілком"/>
+		<ROW ID="db"	TRANSLATION="ДБ"/>
+		<ROW ID="de.barcode"	TRANSLATION="Лічений штрих-код не зареєстрований в довідниках."/>
+		<ROW ID="de.connecter"	TRANSLATION="При підключенні виникла помилка '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="З'єднання пройшло успішно"/>
+		<ROW ID="de.contain"	TRANSLATION="Папка '%s' містить невидалені папки або об'єкти %d шт."/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Не встановлена або не доступна служба %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="Для роботи програми необхідна служба %s, версія не нижче %s. В даний час встановлена версія %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Режим конфігурування доступний лише адміністратору."/>
+		<ROW ID="de.empty"	TRANSLATION="Поле '%s' повинно бути задано. Будь ласка, вкажіть непорожнє значення."/>
+		<ROW ID="de.error"	TRANSLATION="Помилка|Помилки"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="Дане поле не можна пов'язати з вказаною таблицею. Розбіжність типів."/>
+		<ROW ID="de.file"	TRANSLATION="Файл '%s' пошкоджений, відсутній або має невірний формат."/>
+		<ROW ID="de.fileexists"	TRANSLATION="Зазначений файл існує. Перезаписати?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Зміни прийняті. Запис не відображається в поточному списку, оскільки не задовольняє поточним умови фільтрації."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="Змінений об'єкт не відображається, оскільки не задовольняє поточним умови фільтра."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="Невірне посилання. Об'єкт відсутній або недоступна"/>
+		<ROW ID="de.linkself"	TRANSLATION="Вибрані записи не можуть бути пов'язані"/>
+		<ROW ID="de.needload"	TRANSLATION="Для початку роботи з програмою завантажити рішення"/>
+		<ROW ID="de.openfile"	TRANSLATION="Помилка відкриття файлу."/>
+		<ROW ID="de.owner"	TRANSLATION="Некоректний власник у елемента"/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="Неможливо перемістити в папку/групу з ознакою 'видалено'."/>
+		<ROW ID="de.password"	TRANSLATION="Невірно вказані ім'я користувача або пароль. Перевірте ім'я і повторіть введення пароля."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Зверніть увагу, натиснута клавіша Caps Lock. Паролі вводяться з урахуванням регістра."/>
+		<ROW ID="de.port0"	TRANSLATION="Пристрій готовий"/>
+		<ROW ID="de.port1"	TRANSLATION="Пристрій не використовується"/>
+		<ROW ID="de.port2"	TRANSLATION="Порт зайнятий або відсутній"/>
+		<ROW ID="de.port3"	TRANSLATION="Ініціалізація пристрою"/>
+		<ROW ID="de.port4"	TRANSLATION="Відсутній харчування"/>
+		<ROW ID="de.port5"	TRANSLATION="Пристрій не підключено"/>
+		<ROW ID="de.readonly"	TRANSLATION="Дані доступні тільки для читання."/>
+		<ROW ID="de.regabsent"	TRANSLATION="Демонстраційна версія програми! Після придбання продукту відправте реєстраційний файл за адресою: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="Редагування полів, умов, елементів форми даного набору даних заборонено."/>
+		<ROW ID="de.unique"	TRANSLATION="Значення поля '%s' повинно бути унікальним"/>
+		<ROW ID="df.active"	TRANSLATION="Активно"/>
+		<ROW ID="df.address"	TRANSLATION="Адреса"/>
+		<ROW ID="df.admin"	TRANSLATION="Адміністратор"/>
+		<ROW ID="df.after"	TRANSLATION="Після"/>
+		<ROW ID="df.alias"	TRANSLATION="Псевдонім"/>
+		<ROW ID="df.anchor"	TRANSLATION="Якір"/>
+		<ROW ID="df.archived"	TRANSLATION="Архівний"/>
+		<ROW ID="df.author"	TRANSLATION="Автор"/>
+		<ROW ID="df.barcode"	TRANSLATION="Штрих-код"/>
+		<ROW ID="df.basedon"	TRANSLATION="Заснований на"/>
+		<ROW ID="df.before"	TRANSLATION="Перед"/>
+		<ROW ID="df.blocked"	TRANSLATION="Заблокований"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Колір кордону"/>
+		<ROW ID="df.breakline"	TRANSLATION="Роздільник"/>
+		<ROW ID="df.calculated"	TRANSLATION="Обчислюване"/>
+		<ROW ID="df.caption"	TRANSLATION="Заголовок"/>
+		<ROW ID="df.category"	TRANSLATION="Категорія|Категорії"/>
+		<ROW ID="df.color"	TRANSLATION="Колір"/>
+		<ROW ID="df.column"	TRANSLATION="Стовпець"/>
+		<ROW ID="df.command"	TRANSLATION="Команда"/>
+		<ROW ID="df.condition"	TRANSLATION="Умова"/>
+		<ROW ID="df.connection"	TRANSLATION="Підключення"/>
+		<ROW ID="df.created"	TRANSLATION="Створено"/>
+		<ROW ID="df.date"	TRANSLATION="Дата"/>
+		<ROW ID="df.deadline"	TRANSLATION="Термін"/>
+		<ROW ID="df.default"	TRANSLATION="За замовчуванням"/>
+		<ROW ID="df.deleted"	TRANSLATION="Видалено"/>
+		<ROW ID="df.description"	TRANSLATION="Опис"/>
+		<ROW ID="df.directory"	TRANSLATION="Довідник"/>
+		<ROW ID="df.editor"	TRANSLATION="Редактор"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Поле помилки"/>
+		<ROW ID="df.expression"	TRANSLATION="Вираз"/>
+		<ROW ID="df.file"	TRANSLATION="Файл"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Колір заливки"/>
+		<ROW ID="df.filter"	TRANSLATION="Фільтр"/>
+		<ROW ID="df.folder"	TRANSLATION="Папка"/>
+		<ROW ID="df.generator"	TRANSLATION="Генератор"/>
+		<ROW ID="df.group"	TRANSLATION="Група"/>
+		<ROW ID="df.height"	TRANSLATION="Висота"/>
+		<ROW ID="df.hidden"	TRANSLATION="Прихований"/>
+		<ROW ID="df.ico"	TRANSLATION="Іконка"/>
+		<ROW ID="df.id"	TRANSLATION="Код"/>
+		<ROW ID="df.latitude"	TRANSLATION="Широта"/>
+		<ROW ID="df.layer"	TRANSLATION="Шар"/>
+		<ROW ID="df.link"	TRANSLATION="Зв'язок"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Зв'язок по полю"/>
+		<ROW ID="df.login"	TRANSLATION="Вхідне ім'я"/>
+		<ROW ID="df.longitude"	TRANSLATION="Довгота"/>
+		<ROW ID="df.mail"	TRANSLATION="Пошта"/>
+		<ROW ID="df.message"	TRANSLATION="Повідомлення"/>
+		<ROW ID="df.modified"	TRANSLATION="Змінено"/>
+		<ROW ID="df.name"	TRANSLATION="Назва"/>
+		<ROW ID="df.namefield"	TRANSLATION="Заголовне полі"/>
+		<ROW ID="df.note"	TRANSLATION="Примітка"/>
+		<ROW ID="df.notnull"	TRANSLATION="Не порожньо"/>
+		<ROW ID="df.offstate"	TRANSLATION="Вимкнено"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="Включити в меню 'Створити'"/>
+		<ROW ID="df.order"	TRANSLATION="Порядок"/>
+		<ROW ID="df.originalname"	TRANSLATION="Ім'я в БД"/>
+		<ROW ID="df.owner"	TRANSLATION="Власник"/>
+		<ROW ID="df.password"	TRANSLATION="Пароль"/>
+		<ROW ID="df.period"	TRANSLATION="Період"/>
+		<ROW ID="df.person"	TRANSLATION="Ім'я"/>
+		<ROW ID="df.phone"	TRANSLATION="Телефон"/>
+		<ROW ID="df.pointer"	TRANSLATION="Покажчик"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Первинний ключ"/>
+		<ROW ID="df.priority"	TRANSLATION="Важливість"/>
+		<ROW ID="df.readonly"	TRANSLATION="Тільки читання"/>
+		<ROW ID="df.role"	TRANSLATION="Роль"/>
+		<ROW ID="df.rolelink"	TRANSLATION="Зовнішня роль"/>
+		<ROW ID="df.rotate"	TRANSLATION="Поворот"/>
+		<ROW ID="df.server"	TRANSLATION="Сервер"/>
+		<ROW ID="df.size"	TRANSLATION="Розмір"/>
+		<ROW ID="df.source"	TRANSLATION="Джерело"/>
+		<ROW ID="df.state"	TRANSLATION="Стан"/>
+		<ROW ID="df.stored"	TRANSLATION="Збережене"/>
+		<ROW ID="df.system"	TRANSLATION="Системне"/>
+		<ROW ID="df.table"	TRANSLATION="Таблиця"/>
+		<ROW ID="df.template"	TRANSLATION="Шаблон"/>
+		<ROW ID="df.time"	TRANSLATION="Час"/>
+		<ROW ID="df.translation"	TRANSLATION="Переклад"/>
+		<ROW ID="df.transparent"	TRANSLATION="Прозорий"/>
+		<ROW ID="df.type"	TRANSLATION="Тип"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Налаштування імпорту/експорту"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Користувальницький фільтр"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Налаштування відображаються полів"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Локальний фільтр"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Глобальний фільтр"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="Параметри шарів карти"/>
+		<ROW ID="df.unique"	TRANSLATION="Унікально"/>
+		<ROW ID="df.user"	TRANSLATION="Користувач"/>
+		<ROW ID="df.value"	TRANSLATION="Значення"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Не вставляти значення"/>
+		<ROW ID="df.varname"	TRANSLATION="Ім'я у вираженні"/>
+		<ROW ID="df.version"	TRANSLATION="Версія"/>
+		<ROW ID="df.visible"	TRANSLATION="Видимий"/>
+		<ROW ID="df.width"	TRANSLATION="Ширина"/>
+		<ROW ID="di.column"	TRANSLATION="Стовпець|Стовпці"/>
+		<ROW ID="di.menuelem"	TRANSLATION="Пункт меню|Пункти меню"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="Активний шар"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Вирівнювання"/>
+		<ROW ID="dl.animation"	TRANSLATION="Анімація"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="Автофільтр"/>
+		<ROW ID="dl.captionright"	TRANSLATION="Показувати заголовок праворуч"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="Загальні довідники"/>
+		<ROW ID="dl.check"	TRANSLATION="Перевірка"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Перевіряти новини і оновлення на сайті розробника"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Мережевий адресу"/>
+		<ROW ID="dl.computername"	TRANSLATION="Комп'ютер"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Конфігурація"/>
+		<ROW ID="dl.configurator"	TRANSLATION="Конфігуратор"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Підтвердження..."/>
+		<ROW ID="dl.copies"	TRANSLATION="Копії"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="Копіювати приховані поля в буфер обміну для вставки в інші додатки"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="Копіювати заголовки полів в буфер обміну для вставки в інші додатки"/>
+		<ROW ID="dl.correspond"	TRANSLATION="Відповідає"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="Використання полів неприпустимо в даному виразі."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Частота процесора"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Процесор"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Провайдер"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Визначати автоматично"/>
+		<ROW ID="dl.datacom"	TRANSLATION="з роздільником кома"/>
+		<ROW ID="dl.datatab"	TRANSLATION="з роздільником табуляція"/>
+		<ROW ID="dl.datatext"	TRANSLATION="Текстовий файл"/>
+		<ROW ID="dl.device"	TRANSLATION="Пристрій"/>
+		<ROW ID="dl.directories"	TRANSLATION="Довідники"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="Перетягування записів"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="Драйвера БД"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="Служби БД"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="Поштовий клієнт"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Офісний пакет"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="Служби OLAP"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="Включити запис налагоджувальної інформації"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="Протоколювати SQL запити"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Скрізь"/>
+		<ROW ID="dl.faster"	TRANSLATION="Швидше"/>
+		<ROW ID="dl.findin"	TRANSLATION="Пошук об'єкта в списку:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="Де шукати"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Результати пошуку"/>
+		<ROW ID="dl.findtext"	TRANSLATION="Шукати текст"/>
+		<ROW ID="dl.form"	TRANSLATION="Форма"/>
+		<ROW ID="dl.format"	TRANSLATION="Формат"/>
+		<ROW ID="dl.forms"	TRANSLATION="Форми"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="Завжди логировать повну дату і час"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Підсвічування рядків"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Лінії сітки"/>
+		<ROW ID="dl.guard"	TRANSLATION="Захист"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="Приховувати системні дані"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="Дозволити доступ через HTTP (beta)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="Не враховувати регістр"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Ігнорувати цифри"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Шукати як частина"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Без врахування порядку слів"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Ігнорувати спеціальні символи"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Зберігати потокові дані в старому форматі"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="В поточному списку"/>
+		<ROW ID="dl.indataset"	TRANSLATION="У наборі даних"/>
+		<ROW ID="dl.information"	TRANSLATION="Інформація..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Інтерфейс"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="Останній ракурс експорту"/>
+		<ROW ID="dl.layers"	TRANSLATION="Шари"/>
+		<ROW ID="dl.locating"	TRANSLATION="Позиціонування на активний об'єкт"/>
+		<ROW ID="dl.location"	TRANSLATION="Розташування"/>
+		<ROW ID="dl.locksession"	TRANSLATION="Блокувати сесію користувача при простої (хвилин)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Логування"/>
+		<ROW ID="dl.map"	TRANSLATION="Карта"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="Кешувати тайли карти"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="Обмежувати розмір одного файлу в мегабайтах"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="Доступна пам'ять"/>
+		<ROW ID="dl.metadata"	TRANSLATION="База метаструктуры"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Метрика|Основна метрична шкала"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Інші кольори..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Натисніть [Ctrl], для поєднання координат поточної точки з іншими точками фігури"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Видалення стовпців"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Видалення рядків"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="Використання автофільтра"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="Форматування комірок"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="Форматування стовпчиків"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="Форматування рядків"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Вставлення стовпців"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Вставка гіперпосилань"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Вставка рядків"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="Сортування"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="Використання зведених таблиць"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="Зміна сценаріїв"/>
+		<ROW ID="dl.no"	TRANSLATION="Немає"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="Немає"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="Операція займе деякий час і не може бути перервана."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Потім упорядкувати за"/>
+		<ROW ID="dl.osversion"	TRANSLATION="Версія ОС"/>
+		<ROW ID="dl.other"	TRANSLATION="Інше"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Вихідні файли"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="Параметри сторінки"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Розширення"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="Виберіть дію"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="Після натискання ДАЛІ почнеться виконання операції"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Виберіть набір даних для обміну даними"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Вкажіть тип зовнішнього файлу або виберіть ракурс"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Виберіть поля, які необхідно експортувати"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="Вкажіть фільтр для вибраного набору даних"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="Виконання операції"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Вкажіть тип, розміщення та ім'я зовнішнього файлу"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Визначте порядок полів, перетягуючи мишею значення з лівого списку в правий"/>
+		<ROW ID="dl.port"	TRANSLATION="Порт"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Біти даних"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Парність"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Швидкість (біт/с)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Стопові біти"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="Стоп-байт"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Таймаут (мс)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Зайнятий"/>
+		<ROW ID="dl.printer"	TRANSLATION="Принтер"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Вільний"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Стиль друку"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="При виконанні операції сталася помилка."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="Операція успішно виконана"/>
+		<ROW ID="dl.properties"	TRANSLATION="Властивості"/>
+		<ROW ID="dl.question"	TRANSLATION="Питання..."/>
+		<ROW ID="dl.random"	TRANSLATION="Випадково"/>
+		<ROW ID="dl.reading"	TRANSLATION="Читання даних"/>
+		<ROW ID="dl.recipient"	TRANSLATION="Одержувач"/>
+		<ROW ID="dl.registration"	TRANSLATION="Для входу в систему введіть, будь ласка, Ваше ім'я і пароль"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Автозапуск нагадувань після логіну користувача"/>
+		<ROW ID="dl.results"	TRANSLATION="Результати"/>
+		<ROW ID="dl.scale"	TRANSLATION="Масштаб"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="Де шукати"/>
+		<ROW ID="dl.separator"	TRANSLATION="Роздільник"/>
+		<ROW ID="dl.sheet"	TRANSLATION="Лист"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="Показувати заголовки"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Перевіряти і пропускати запису з некоректним Зовнішнім ключем"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Пропустити запис з неправильним типом даних"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Пропустити перший запис як заголовок"/>
+		<ROW ID="dl.slower"	TRANSLATION="Повільніше"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="За спаданням"/>
+		<ROW ID="dl.sortup"	TRANSLATION="За зростанням"/>
+		<ROW ID="dl.soundon"	TRANSLATION="Увімкнути звук"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="Друкувати по копіям"/>
+		<ROW ID="dl.start"	TRANSLATION="Старт"/>
+		<ROW ID="dl.step"	TRANSLATION="Крок"/>
+		<ROW ID="dl.stop"	TRANSLATION="Стоп"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="Параметри стилю"/>
+		<ROW ID="dl.systemres"	TRANSLATION="Системні ресурси"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Закладки...|Закладки"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Гарячих завдань немає"/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Категорії"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Команди"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Налаштовувана"/>
+		<ROW ID="dl.thickness"	TRANSLATION="Товщина"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="Панель інструментів"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="Панелі інструментів"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Сполучення клавіш"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Параметри"/>
+		<ROW ID="dl.totray"	TRANSLATION="Згортати в трей при закритті вікна програми"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Дані недоступні"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="Оновлювати запис при збігу Первинного ключа"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="Оновити тільки на непорожні значення"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Використовувати пристрій читання штрих-кодів"/>
+		<ROW ID="dl.username"	TRANSLATION="Користувач"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="Ім'я поточного користувача Windows"/>
+		<ROW ID="dl.version"	TRANSLATION="Версія"/>
+		<ROW ID="dl.view"	TRANSLATION="Параметри відображення"/>
+		<ROW ID="dl.warning"	TRANSLATION="Попередження..."/>
+		<ROW ID="dl.yes"	TRANSLATION="Так"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="Виконання команди|Виконання вибраної команди"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Ви дійсно хочете видалити"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="Зазначені ярлики будуть видалені, продовжити?"/>
+		<ROW ID="dm.sequence"	TRANSLATION="Виберіть %s, які Ви хотіли б бачити. Кнопками 'Вгору' і 'Вниз' можна задати порядок їх слідування."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Кнопками 'Вгору' і 'Вниз' вкажіть порядок проходження команд. При необхідності Ви можете включити відображення роздільника перед командою."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Виберіть файл рішення"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="Для завершення операції необхідно скопіювати файл '%s' каталог '%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Видалення рішення"/>
+		<ROW ID="dm.solloading"	TRANSLATION="Завантаження рішення"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Подальша робота можлива тільки після повторного входу в систему."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Вивантаження рішення"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="Оновлення параметрів|Оновлення списку параметрів команди"/>
+		<ROW ID="dt.action"	TRANSLATION="Тип події|Типи подій"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="Подія за умовою|Події за умовами"/>
+		<ROW ID="dt.additional"	TRANSLATION="Додаткова інформація"/>
+		<ROW ID="dt.alignment"	TRANSLATION="Тип вирівнювання|Типи вирівнювання"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Кодування|Кодування"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="Режим параметра|Режими параметрів"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="Тип команди|Типи команди"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Тип умови|Типи умов"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Обмеження|Обмеження"/>
+		<ROW ID="dt.data"	TRANSLATION="Дані"/>
+		<ROW ID="dt.database"	TRANSLATION="База даних|Бази даних"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="Тип бази даних|Типи бази даних"/>
+		<ROW ID="dt.dataset"	TRANSLATION="Набір даних|Набори даних"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="Тип набору даних"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Тип даних|Типи даних"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="Словник|Словники"/>
+		<ROW ID="dt.event"	TRANSLATION="Дія|Дії"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Тип повідомлення|Типи повідомлень"/>
+		<ROW ID="dt.field"	TRANSLATION="Поле|Поля"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="Категорія поля|Категорії полів"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="Роль поля|Ролі полів"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Колір шрифту|Список кольорів шрифту"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="Стиль шрифту|Стилі шрифту"/>
+		<ROW ID="dt.formelement"	TRANSLATION="Елемент форми|Елементи форм"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="Тип елемента форми|Типи елемента форми"/>
+		<ROW ID="dt.language"	TRANSLATION="Мова|Мови"/>
+		<ROW ID="dt.logintype"	TRANSLATION="Тип доступу"/>
+		<ROW ID="dt.membership"	TRANSLATION="Членство в групі|Членство в групах"/>
+		<ROW ID="dt.menu"	TRANSLATION="Розділ меню|Розділи меню"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Метадані"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="Тип вузла|Типи вузлів"/>
+		<ROW ID="dt.note"	TRANSLATION="Замітка|Нотатки"/>
+		<ROW ID="dt.object"	TRANSLATION="Об'єкт"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="Дія при видаленні|Дії при видаленні"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="Тип операції|Типи операцій"/>
+		<ROW ID="dt.param"	TRANSLATION="Параметр|Параметри"/>
+		<ROW ID="dt.policy"	TRANSLATION="Політика безпеки|Політики безпеки"/>
+		<ROW ID="dt.procedure"	TRANSLATION="Ім'я процедури|Імена процедур"/>
+		<ROW ID="dt.report"	TRANSLATION="Звіт|Звіти"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="Параметр звіту|Параметри звіту"/>
+		<ROW ID="dt.right"	TRANSLATION="Право користувача|Права користувачів"/>
+		<ROW ID="dt.role"	TRANSLATION="Роль стосовно|Ролі щодо"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="Взаємозв'язок|Взаємозв'язки"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Тип відображення поля|Типи відображення поля"/>
+		<ROW ID="dt.solution"	TRANSLATION="Рішення|Рішення"/>
+		<ROW ID="dt.task"	TRANSLATION="Завдання|Завдання"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Тип даних"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="Тип операції|Типи операцій"/>
+		<ROW ID="dt.user"	TRANSLATION="Користувач|Користувачі"/>
+		<ROW ID="dt.usertask"	TRANSLATION="Завдання користувача|Завдання користувачів"/>
+		<ROW ID="dt.usertype"	TRANSLATION="Тип користувача|Типи користувача"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Тип відображення|Типи відображення"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="Періодичність розрахунку"/>
+		<ROW ID="dtadditionally"	TRANSLATION="Додатково"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="При кожному запиті"/>
+		<ROW ID="dv.button"	TRANSLATION="Кнопка"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Каскадно видалити"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="Буфер обміну"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="Чорний"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="Блакитний"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Шоколадний"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="Ціан"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Малиновий"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="За замовчуванням"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="Сірий"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Зелений"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Салатовий"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="Фіолетовий"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="Синій"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="Пурпурний"/>
+		<ROW ID="dv.colorred"	TRANSLATION="Червоний"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="Бірюзовий"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="Білий"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Жовтий"/>
+		<ROW ID="dv.day1"	TRANSLATION="Понеділок"/>
+		<ROW ID="dv.day2"	TRANSLATION="Вівторок"/>
+		<ROW ID="dv.day3"	TRANSLATION="Середа"/>
+		<ROW ID="dv.day4"	TRANSLATION="Четвер"/>
+		<ROW ID="dv.day5"	TRANSLATION="П'ятниця"/>
+		<ROW ID="dv.day6"	TRANSLATION="Субота"/>
+		<ROW ID="dv.day7"	TRANSLATION="Неділя"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Заборонено"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="Фільтрація"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Попередження"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Дійсне число"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Форма"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="Вікно з даними"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Ціле число"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Зв'язний список"/>
+		<ROW ID="dv.elempage"	TRANSLATION="Закладка"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="Закладка вікна з даними"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Панель"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="Напис"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Рядок"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Перемикач"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="Список перемикачів"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="Дерево записів"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Деревоподібний список"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Дозволено"/>
+		<ROW ID="dv.explorer"	TRANSLATION="Провідник файлів"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Обране"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Тільки при першому запиті"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Напівжирний"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="Збільшений"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Підкреслений"/>
+		<ROW ID="dv.globalref"	TRANSLATION="Глобальний довідник"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="Зашифрований пароль"/>
+		<ROW ID="dv.localref"	TRANSLATION="Локальний довідник"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="Основний набір даних"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Ніколи"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Атрибут"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Елемент"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Група"/>
+		<ROW ID="dv.noname"	TRANSLATION="Без імені"/>
+		<ROW ID="dv.onall"	TRANSLATION="При будь-якій операції"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="При переміщенні в кошик"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="При видаленні"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="При вставці"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="При вході"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="При виході"/>
+		<ROW ID="dv.onreading"	TRANSLATION="При читанні"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="При редагуванні"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="Висока"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Низька"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="Нормальна"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Заборонити"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="Вибрані об'єкти %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="Обнулити зв'язок"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="Підлеглий набір даних"/>
+		<ROW ID="dv.text"	TRANSLATION="Текст"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="Дія %s не знайдено"/>
+		<ROW ID="error.additem"	TRANSLATION="Додавання записів у даний довідник заборонено."/>
+		<ROW ID="error.argcount"	TRANSLATION="Неприпустиме кількість аргументів у виклику функції"/>
+		<ROW ID="error.argtype"	TRANSLATION="Неприпустимий тип аргументу"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="Очікується закриває дужка"/>
+		<ROW ID="error.char"	TRANSLATION="в полі '%s' введений неправильний символ або символи '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="З об'єктом '%s' пов'язані не віддалені об'єкти розділу '%s'."/>
+		<ROW ID="error.children"	TRANSLATION="C '%s' пов'язані об'єкти розділу '%s' (%d шт.)"/>
+		<ROW ID="error.connect"	TRANSLATION="Невірно вказаний шлях або не доступний сервер бази даних."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="Помилка підключення до бази даних метаструктуры."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="База даних %s не знайдена для виконання збереженої процедури."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="База даних %s не підтримує виконання збережених процедур."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="Набір даних повинен входити до рішення '%s'."/>
+		<ROW ID="error.default"	TRANSLATION="Об'єкт з відміткою 'за замовчуванням' не може бути вилученим."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Об'єкт змінений іншим користувачем. Ви хочете видалити об'єкт?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="Об'єкт віддалений іншим користувачем."/>
+		<ROW ID="error.double"	TRANSLATION="Вказане значення ключового поля не унікально. Можливо, запис з даними значенням позначена як дистанційна."/>
+		<ROW ID="error.edit"	TRANSLATION="не вказані значення обов'язкових полів або введені некоректні дані."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="Для даного типу елемента повинно бути зазначено полі"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="Для даного типу елемента не повинно бути зазначено полі"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="Цей елемент можна пов'язати з вказаною таблицею"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="Для даного елемента не повинна бути вказана зв'язок"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="Для даного елемента повинна бути вказана зв'язок"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="Зазначений елемент не може бути власником"/>
+		<ROW ID="error.elem.type"	TRANSLATION="Тип елемента несумісний з типом поля"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Власник невідомий"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="Пусте вираз"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="Список завдань порожній."/>
+		<ROW ID="error.exprend"	TRANSLATION="Кінець виразу"/>
+		<ROW ID="error.field"	TRANSLATION="Помилка в описі поля"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="Помилка розрахунку значення поля '%s' з-за кільцевою посилання"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Поле %s не існує"/>
+		<ROW ID="error.find"	TRANSLATION="Не знайдено жодного об'єкта, що містить вказане значення"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="Поля NOT NULL необхідно вказати значення за замовчуванням"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="Полю - ознакою папки необхідно вказати значення 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="Таблиця має містити лише одне поле"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Неприпустиме значення константи"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Неприпустимий символ"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="Невідповідність типів"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Неправильний шлях або ім'я файлу."/>
+		<ROW ID="error.inlist"	TRANSLATION="Параметр буде дорівнює одному зі значень списку:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Некоректний тип учасника безпеки."/>
+		<ROW ID="error.length"	TRANSLATION="кількість символів поля '%s' не повинно перевищувати %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="У метаструктуре відсутні необхідні для роботи програми, набори даних."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Версія метаструктуры не відповідає версії програми."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="Необхідно ввести ім'я."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="Найменування рішення повинно бути задано"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="Немає виділеного об'єкта"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="Не вказано кеш для дії"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="Не зазначений набір даних для дії"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Не реалізовано при використанні старої метаструктуры!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Некоректний операнда"/>
+		<ROW ID="error.printer"	TRANSLATION="Помилка ініціалізації принтера. Друк документа скасовано."/>
+		<ROW ID="error.printerno"	TRANSLATION="Немає доступного принтера"/>
+		<ROW ID="error.readfield"	TRANSLATION="Помилка читання даних поля '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="У Вас не достатньо прав для виконання операції"/>
+		<ROW ID="error.scan"	TRANSLATION="Помилка сканера."/>
+		<ROW ID="error.setfield"	TRANSLATION="Значення не задано, вкажіть непорожнє значення поля"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Знайдено схожий елемент. Перейти до нього?"/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Виберіть елемент для пошуку"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="Подібний елемент не знайдено"/>
+		<ROW ID="error.sort"	TRANSLATION="Сортування по обчислюваних полів і полів-файлів не припустима"/>
+		<ROW ID="error.sortfield"	TRANSLATION="Вибране поле вже присутня у списку полів сортування."/>
+		<ROW ID="error.start"	TRANSLATION="Операція доступна тільки після авторизації."/>
+		<ROW ID="error.statementend"	TRANSLATION="Несподіваний кінець виразу"/>
+		<ROW ID="error.strlen"	TRANSLATION="Довжина рядка в полі '%s' занадто велика"/>
+		<ROW ID="error.tree"	TRANSLATION="Помилка побудови дерева об'єктів. Відсутній власник вузла дерева '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="Незакрита рядок"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="Несподіваний кінець виразу"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="Інформація про членство зазначеного користувача в даній групі вже внесена в базу даних."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Невідома функція"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Невідомий ідентифікатор"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Об'єкт змінений іншим користувачем. Зберегти Ваші зміни?"/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Об'єкт змінений іншим користувачем."/>
+		<ROW ID="error.updateitem"	TRANSLATION="Помилка при отриманні файлу оновлень"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="Обліковий запис користувача заблокований."/>
+		<ROW ID="figure"	TRANSLATION="Малюнок"/>
+		<ROW ID="filefilters"	TRANSLATION="Звіти в ms excel|*.xls|InterBase files|*.gdb|Конфігурації|*.cfg|Всі файли|*.*"/>
+		<ROW ID="for"	TRANSLATION="Для"/>
+		<ROW ID="imp.break"	TRANSLATION="Перервати операцію"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Створити нову запис"/>
+		<ROW ID="imp.data"	TRANSLATION="Імпортувати дані"/>
+		<ROW ID="imp.dterror"	TRANSLATION="Помилка типу даних поля"/>
+		<ROW ID="imp.empty"	TRANSLATION="Значення поля порожньо"/>
+		<ROW ID="imp.first"	TRANSLATION="Перший запис"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Контроль зовнішнього ключа"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="Зовнішній ключ не існує"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Ігнорувати помилку"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="Збіг первинного ключа"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Додано записів"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Пропущено записів"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Оновлено записів"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Пропустити запис"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Пропустити значення поля"/>
+		<ROW ID="imp.title"	TRANSLATION="Пропустити як заголовок"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="Оновити запис"/>
+		<ROW ID="inexpr"	TRANSLATION="у вираженні"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="Файл %s збережений."/>
+		<ROW ID="line"	TRANSLATION="Рядок"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 км"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 км"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 км"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 км"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 м"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 м"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 м"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 м"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 м"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 м"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 м"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 м"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 км"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 m"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 m"/>
+		<ROW ID="map.scale22"	TRANSLATION="1.5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0.75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 m"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 км"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 км"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 км"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 км"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 км"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 км"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 км"/>
+		<ROW ID="mmmmm1"	TRANSLATION="Січень|Січня"/>
+		<ROW ID="mmmmm10"	TRANSLATION="Жовтень|Жовтня"/>
+		<ROW ID="mmmmm11"	TRANSLATION="Листопад|Листопада"/>
+		<ROW ID="mmmmm12"	TRANSLATION="Грудень|Грудня"/>
+		<ROW ID="mmmmm2"	TRANSLATION="Лютий|Лютого"/>
+		<ROW ID="mmmmm3"	TRANSLATION="Березень|Березня"/>
+		<ROW ID="mmmmm4"	TRANSLATION="Квітень|Квітня"/>
+		<ROW ID="mmmmm5"	TRANSLATION="Травень|Травня"/>
+		<ROW ID="mmmmm6"	TRANSLATION="Червень|Червня"/>
+		<ROW ID="mmmmm7"	TRANSLATION="Липень|Липня"/>
+		<ROW ID="mmmmm8"	TRANSLATION="Серпень|Серпня"/>
+		<ROW ID="mmmmm9"	TRANSLATION="Вересень|Вересня"/>
+		<ROW ID="not"	TRANSLATION="Не"/>
+		<ROW ID="openurl"	TRANSLATION="Відкрити URL"/>
+		<ROW ID="opeq"	TRANSLATION="Одно"/>
+		<ROW ID="opge"	TRANSLATION="Більше або дорівнює"/>
+		<ROW ID="opgt"	TRANSLATION="Більше"/>
+		<ROW ID="opisfalse"	TRANSLATION="Брехня"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Не порожньо"/>
+		<ROW ID="opisnull"	TRANSLATION="Порожньо"/>
+		<ROW ID="opistrue"	TRANSLATION="Істина"/>
+		<ROW ID="ople"	TRANSLATION="Менше або дорівнює"/>
+		<ROW ID="oplike"	TRANSLATION="Містить"/>
+		<ROW ID="oplt"	TRANSLATION="Менше"/>
+		<ROW ID="opne"	TRANSLATION="Не одно"/>
+		<ROW ID="opnotlike"	TRANSLATION="Не містить"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="Обробка не потрібна"/>
+		<ROW ID="process.tables"	TRANSLATION="Оброблені таблиці:"/>
+		<ROW ID="quantity"	TRANSLATION="Кількість"/>
+		<ROW ID="query.savechanges"	TRANSLATION="Зберегти зміни?"/>
+		<ROW ID="querydelete"	TRANSLATION="Після видалення об'єкта, інформація про нього буде не доступна. Видалити об'єкт '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Видалити об'єкт '%s' без можливості подальшого відновлення?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Видалити вибрані об'єкти ('%s') без можливості подальшого відновлення?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Оновити періодичне повідомлення"/>
+		<ROW ID="registration"	TRANSLATION="Реєстрація"/>
+		<ROW ID="send"	TRANSLATION="Відправити"/>
+		<ROW ID="sendmail"	TRANSLATION="Відправити листа"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="Надіслати повідомлення списком одержувачів"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Стандартна"/>
+		<ROW ID="updatemessages"	TRANSLATION="Оновити повідомлення"/>
+		<ROW ID="updating"	TRANSLATION="Оновлення"/>
+		<ROW ID="use"	TRANSLATION="Використання"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="Вид"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="Для переходу до іншого закладці необхідно зберегти поточну запис."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="Для переходу до іншого закладці необхідно зберегти поточну запис."/>
+	</ROWDATA>
+</DATAPACKET>

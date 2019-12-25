@@ -145,3 +145,29 @@ html{position:relative;min-height:100%;padding-bottom:250px}
 .standardToggleButton, .standardAuthButton {font-size:.8rem;display:inline-block;border-radius:15px}
 
 /******************/
+.spinner-border{
+height: 17px;
+
+width: 17px;
+
+color: #007bff;}
+
+.mr-not{
+	color: #bdc0c3 !important;
+}.mr-ys{
+	 color: #f4b300 !important;
+ }
+ .star_cabinet{
+	 cursor: pointer;
+ }
+ .mrm-5:hover ~ .mrm-1{
+	 color: #f4b300 !important;
+ }
+ .color_blue{
+	 color: #007bff !important;
+
+ }
+.color_not_blue{
+	color:  #bdc0c3 !important;
+
+}

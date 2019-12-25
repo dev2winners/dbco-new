@@ -35,8 +35,8 @@
 		{			
 			
 			$solution = DbcoSolution::findOrFail($sid);
-			
-			$dother_solutions = DbcoSolution::where('isolutionparent', $sid)->paginate(22);
+
+			$dother_solutions = DbcoSolution::where('isolutionparent', $sid)->paginate(12);
 			
 			$author_name = ($author = DbcoCustomer::where('icustomerid',$solution->isolutiondeveloper)->first()) ? $author->ccustomername : '';
 			
@@ -62,10 +62,10 @@
 					}
 					
 					ServiceClassController::setIsOwnedSolutionFlag($dbco_customer, $dother_solutions); ////устанавливаем isOwned для каждого солюшена в коллекции для отображения в представлении
-				} 
-				
-				} else {				
-				
+				}
+                $isInLoad= ServiceClassController::get_array_load_solution($dbco_customer, $solutions);
+				} else {
+                $isInLoad=[];
 				$buttonState[$solution->isolutionid] = $solution->createSolutionButtonStateData('secondary');
 				
 				if($dother_solutions->count()) {
@@ -80,7 +80,8 @@
 			
 			$page['title'] = $solution->csolutionname;
 			
-			return view('dbco.solutions.single', ['solution' => $solution, 'buttonState' => $buttonState, 'dother_solutions' => $dother_solutions, 'author_name' => $author_name, 'version' => $version, 'page' => $page]);
+			return view('dbco.solutions.single', ['solution' => $solution, 'buttonState' => $buttonState, 'dother_solutions' => $dother_solutions, 'author_name' => $author_name, 'version' => $version, 'page' => $page,
+                'isInLoad'=>$isInLoad]);
 			
 		}
 		
@@ -100,8 +101,7 @@
 				// по умолчанию MySQL ставит iinstallstate в таблице в 1, а iinstallstateext - в 0
 			}
 			
-			//MssqlExtController::callMssqlProcedure('sp_update_install'); // оповещаем внешний сервер
-			MssqlExtController::callMssqlProcedure('sp_update_install '.$dbco_customer->icustomerid); 
+			//MssqlExtController::callMssqlProcedure('sp_update_install '.$dbco_customer->icustomerid); 
 			
 			//return redirect()->route('dbcosolution.index');
 			return back();

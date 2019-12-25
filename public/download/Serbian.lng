@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DATAPACKET Version="2.0" languagecode="3098">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION="Додатно"/>
+		<ROW ID="allfiles"	TRANSLATION="Све датотеке"/>
+		<ROW ID="and"	TRANSLATION="И"/>
+		<ROW ID="atpos"	TRANSLATION="у позицији"/>
+		<ROW ID="auto"	TRANSLATION="Аутоматски"/>
+		<ROW ID="bottom"	TRANSLATION="Одоздо"/>
+		<ROW ID="by"	TRANSLATION="по"/>
+		<ROW ID="cell"	TRANSLATION="Ћелија"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Кодирање система"/>
+		<ROW ID="cp.dos866"	TRANSLATION="ДОС-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Утф-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="Виндовс-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="Направите фајл следећег типа"/>
+		<ROW ID="createmessage"	TRANSLATION="Направите поруку"/>
+		<ROW ID="csvfiles"	TRANSLATION="ЦСВ (граничник ';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="Тренутни скуп података"/>
+		<ROW ID="da.about"	TRANSLATION="О програму...|Приказује информације о програму, број издању и ауторским правима"/>
+		<ROW ID="da.access"	TRANSLATION="Приступ|Поставите права на приступ корисника"/>
+		<ROW ID="da.action"	TRANSLATION="Акција|Извршите акцију..."/>
+		<ROW ID="da.actions"	TRANSLATION="Акције"/>
+		<ROW ID="da.add"	TRANSLATION="Додајте"/>
+		<ROW ID="da.advfind"	TRANSLATION="Напредна претрага|Почните претрагу са назнаком додатних параметара"/>
+		<ROW ID="da.agrave"	TRANSLATION="Средња вредност|Израчунати просек од истакнутих вредности"/>
+		<ROW ID="da.agrcount"	TRANSLATION="Број|Приказује број додељених вредности"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Максимално|Приказује максимално од истакнутих вредности"/>
+		<ROW ID="da.agrmin"	TRANSLATION="Најмање|Приказује најмање од истакнутих вредности"/>
+		<ROW ID="da.agrno"	TRANSLATION="Нема|Не очекивати стопа на издвојена вредности"/>
+		<ROW ID="da.agrsum"	TRANSLATION="Збир вредности|Приказује износ додељених вредности"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="Број вредности|Приказује број изабраних непустых вредности"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="У центру|Помера текст у центру"/>
+		<ROW ID="da.alignleft"	TRANSLATION="На левој ивици|Да усклади текст левој ивици"/>
+		<ROW ID="da.alignright"	TRANSLATION="На десној ивици|Да усклади текст десној ивици"/>
+		<ROW ID="da.all"	TRANSLATION="Све"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Прикажи све|Приказује садржај свих поља"/>
+		<ROW ID="da.apply"	TRANSLATION="Примени"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="Организује сидра|Организује сидра на локацији елемената"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Обрачун|Аутоматски приказује резултат од истакнутих вредности"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Автопозиционирование|Аутоматски поставите мапу за приказ изабраног објекта"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Аутоматски сачувајте промене|Аутоматски сачувати све промене објеката"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Аутоматско подешавање величине|Аутоматски зум мапу за приказ свих изабраних објеката"/>
+		<ROW ID="da.back"	TRANSLATION="Назад|Да се вратите назад"/>
+		<ROW ID="da.backup"	TRANSLATION="Архива података|Извршити снимање резервне копије података"/>
+		<ROW ID="da.browse"	TRANSLATION="Преглед...|Изаберите фајл или директоријум"/>
+		<ROW ID="da.cancel"	TRANSLATION="Укидање"/>
+		<ROW ID="da.chart3d"	TRANSLATION="3Д приказ|Показати 3Д приказ"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Полигонный распоред"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Банд графикон"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Столбиковая графикон"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="Безиерове Криве|Сглаживать распоред криве безиер криве"/>
+		<ROW ID="da.charthide"	TRANSLATION="Комбинују мале|Обједињавање мањих показатељи у један"/>
+		<ROW ID="da.chartline"	TRANSLATION="Линијски графикон"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Логаритамска скала|Изаберите скалу логарифмическую"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Кружни графикон"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="Спот распоред"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="Бити у стек"/>
+		<ROW ID="da.choose"	TRANSLATION="Изабрати|Изаберите из листе"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Изаберите колоне"/>
+		<ROW ID="da.clear"	TRANSLATION="Јасно"/>
+		<ROW ID="da.clearall"	TRANSLATION="Да обришете све"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Поништите|Повлачење емисије из свих објеката"/>
+		<ROW ID="da.close"	TRANSLATION="Затвори"/>
+		<ROW ID="da.colclear"	TRANSLATION="Да се опорави|Поправите подешавања приказ колона подразумевано"/>
+		<ROW ID="da.colclearall"	TRANSLATION="Вратите за све|Вратите за све кориснике подешавања приказ колона подразумевано"/>
+		<ROW ID="da.collapse"	TRANSLATION="Да се котрља|Сакриј садржај тренутног чвора"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Ролл све|Сакриј садржај свих чворова"/>
+		<ROW ID="da.colsave"	TRANSLATION="Сачувај|Сачувај подешавања приказ колоне"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Саве за све|Саве за све кориснике подешавања приказ колоне"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Да сакријете колону|Сакриј изабрана колона"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="Сортирај по опадајућем редоследу"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="Сортирај по растућем"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Параметри команде"/>
+		<ROW ID="da.commands"	TRANSLATION="Тим|Тим"/>
+		<ROW ID="da.conditionand"	TRANSLATION="И Све услове"/>
+		<ROW ID="da.conditionor"	TRANSLATION="ИЛИ - Један од услова"/>
+		<ROW ID="da.consistency"	TRANSLATION="Конзистентност метаподатака"/>
+		<ROW ID="da.continue"	TRANSLATION="Даље|Настави и иди даље"/>
+		<ROW ID="da.copy"	TRANSLATION="Цопи|Копирање најзначајније објекте"/>
+		<ROW ID="da.copychart"	TRANSLATION="Цопи|Копирање графикон у облику слике"/>
+		<ROW ID="da.correct"	TRANSLATION="Поправити|Решили аутоматски"/>
+		<ROW ID="da.create"	TRANSLATION="Направите"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="На радном столу направљен пречица за покретање изабране конфигурације"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Пречица|Створити пречицу"/>
+		<ROW ID="da.cut"	TRANSLATION="Цут|Цут најзначајније објекте"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Извоз|Извоз података у фајл"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Увоз|Увоз података из датотеке"/>
+		<ROW ID="da.days"	TRANSLATION="Дан"/>
+		<ROW ID="da.decline"	TRANSLATION="Уклоните линију"/>
+		<ROW ID="da.default"	TRANSLATION="Подразумевано"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Чишћење ДБ|Чишћење записа означена за уклањање"/>
+		<ROW ID="da.delete"	TRANSLATION="Уклонити|Да избришете означене објекте"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Уклоните филтер|Уклоните изабрани филтер"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Подешавање|Прилагођавање форме приказивања својстава објекта"/>
+		<ROW ID="da.dictionary"	TRANSLATION="Речник|Отвори речник локализације"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Организовати по"/>
+		<ROW ID="da.dofilter"	TRANSLATION="Обавља|Изврши избор под тачком"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="Дупликат за изабране|Дупликат вредност поља за изабраних објеката"/>
+		<ROW ID="da.edit"	TRANSLATION="Уреди"/>
+		<ROW ID="da.editmode"	TRANSLATION="Уређивање|Почети уређивање објеката"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( празно )"/>
+		<ROW ID="da.exit"	TRANSLATION="Излаз|Излаз из програма"/>
+		<ROW ID="da.expand"	TRANSLATION="Распореди|Распореди садржај тренутног чвора"/>
+		<ROW ID="da.export"	TRANSLATION="Сачувај|Сачувај документ у фајл"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Извоз у XML|Извоз података у XML АДО"/>
+		<ROW ID="da.exportto"	TRANSLATION="Извоз|Да извезете датотеку..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Брзо штампање|Да изаберете и да одштампате документ"/>
+		<ROW ID="da.favorites"	TRANSLATION="Додај у Фаворите"/>
+		<ROW ID="da.file"	TRANSLATION="Фајл"/>
+		<ROW ID="da.filter"	TRANSLATION="Филтер|Селекција објеката на филтеру"/>
+		<ROW ID="da.filtername"	TRANSLATION="Име филтера"/>
+		<ROW ID="da.find"	TRANSLATION="Наћи|Тражи објекат у тренутном сету података"/>
+		<ROW ID="da.findnext"	TRANSLATION="Следећи запис|Пређи на следећи запис"/>
+		<ROW ID="da.findprev"	TRANSLATION="Претходни рекорд|Иди на претходну снимање"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="Покупи ширину|Аутоматски покупи ширину колоне по садржају"/>
+		<ROW ID="da.formatcol"	TRANSLATION="Својства колоне"/>
+		<ROW ID="da.forward"	TRANSLATION="Напред|Иди напред"/>
+		<ROW ID="da.go"	TRANSLATION="Иди"/>
+		<ROW ID="da.grid"	TRANSLATION="Приказати мрежу|Приказати великих мрежу испод слике"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Груписање"/>
+		<ROW ID="da.groupby"	TRANSLATION="Група за"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="Груписати у колони"/>
+		<ROW ID="da.grouping"	TRANSLATION="Група|Група изабране објекте"/>
+		<ROW ID="da.guide"	TRANSLATION="Упутство за употребу|Позив руководства корисника"/>
+		<ROW ID="da.help"	TRANSLATION="Помоћ|Позив референтни систем"/>
+		<ROW ID="da.hide"	TRANSLATION="Да се сакрије"/>
+		<ROW ID="da.holdover"	TRANSLATION="Одложи|Да одложи време за задатке"/>
+		<ROW ID="da.homepage"	TRANSLATION="Почетна страница|Отворите почетну страницу интернет"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="Велике иконе|Приказ са коришћењем великих икона"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="Огромне иконе|Приказ користећи огромне иконе"/>
+		<ROW ID="da.iconslist"	TRANSLATION="Списак|Приказ у виду листе"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Велики списак|Приказ у виду листе са великим елементима"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Иконе|Приказ користећи стандардне иконе"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Табела|Приказује се у виду табеле са детаљним информацијама"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="Повећана табела|Приказује се у виду табеле у два реда"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Табела ширине|Приказује се у виду табеле у ширину прозора"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Мале иконе|Приказ објеката у облику икона и са десне стране имена"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Плочице|Приказ објеката у облику плочице са основним информацијама"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Детаљне плочице|Приказ објеката у облику плочице са детаљним информацијама"/>
+		<ROW ID="da.incline"	TRANSLATION="Додајте линију"/>
+		<ROW ID="da.insert"	TRANSLATION="Додајте|Да додате нови објекат"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Обратите доделу|Трансформација изабраних објеката у невыделенные и обрнуто"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Последња порука|Приказивање последње поруке"/>
+		<ROW ID="da.link"	TRANSLATION="Везати"/>
+		<ROW ID="da.linkall"	TRANSLATION="Везати све"/>
+		<ROW ID="da.linkto"	TRANSLATION="Запамтите пречица|Запамтите пречицу за датотеке..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Преузимање|Преузмите датотеку из..."/>
+		<ROW ID="da.loadto"	TRANSLATION="Истовари|Уплоад датотеку..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Контактирајте нас|Напишите писмо програмерима програма"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="Мени|Схов/хиде главни мени"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Почетна|Отворите почетну страницу"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Дисконектуј криве"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Проверите|Проверите образац реда упита на мапи"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="Комбинују у један"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="Приказ координате|Приказ координате темена и дужине потезима"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Побољшана моде|Побољшана прорисока масштабированного слике"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="Гоогле|Користите Гоогле мапу"/>
+		<ROW ID="da.maptoback"	TRANSLATION="На задњи план|Преместите објекат на задњи план"/>
+		<ROW ID="da.maptofront"	TRANSLATION="У први план|Преместите објекат на предњи план"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Иандек|Користите Иандек карте"/>
+		<ROW ID="da.menugroup"	TRANSLATION="Одељак мени"/>
+		<ROW ID="da.menuitem"	TRANSLATION="Мени"/>
+		<ROW ID="da.menumove"	TRANSLATION="Преместите"/>
+		<ROW ID="da.menuorder"	TRANSLATION="Распоред мени"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="Уложен мени"/>
+		<ROW ID="da.modify"	TRANSLATION="Промените|Промените својства објекта"/>
+		<ROW ID="da.months"	TRANSLATION="Месец"/>
+		<ROW ID="da.movedown"	TRANSLATION="Доле|Померите доле"/>
+		<ROW ID="da.moveto"	TRANSLATION="Преместите|Преместите објекат у"/>
+		<ROW ID="da.moveup"	TRANSLATION="Горе|Помери нагоре"/>
+		<ROW ID="da.news"	TRANSLATION="Вести и исправке|Информације о новостима и вести програмера"/>
+		<ROW ID="da.note"	TRANSLATION="Напомена|Направите белешку на придруженом објекат"/>
+		<ROW ID="da.ok"	TRANSLATION="ОК"/>
+		<ROW ID="da.open"	TRANSLATION="Отворите|Отворите садржај текућег објекта"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Отворите|Отвори тренутни прозор као главни"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Отвори у новом прозору"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Отварање скупа података"/>
+		<ROW ID="da.operations"	TRANSLATION="Операције"/>
+		<ROW ID="da.order"	TRANSLATION="Редослед"/>
+		<ROW ID="da.orderby"	TRANSLATION="Поређај према"/>
+		<ROW ID="da.parameters"	TRANSLATION="Опције|Подесите опције"/>
+		<ROW ID="da.paste"	TRANSLATION="Да убаците|Да убаците објекте"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Угаона чвор"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="Почетак промена чворова|Почетак промена чворова и сегмената фигуре"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="Искривљену сегмент"/>
+		<ROW ID="da.pointclose"	TRANSLATION="Затворити фигуру|Затворити први и последњи сегмент чворови"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="Уклони чвор"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Директан чвор"/>
+		<ROW ID="da.pointend"	TRANSLATION="Заврши промена чворова|Заврши промена чворова и снгментов фигуре"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="Направите чвор"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="Линијски сегмент"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="Елегантан чвор"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Разомкнуть фигуру"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Распоред"/>
+		<ROW ID="da.presentation"	TRANSLATION="Идеју"/>
+		<ROW ID="da.preview"	TRANSLATION="Погледај|Преглед документа"/>
+		<ROW ID="da.print"	TRANSLATION="Печат|Да изаберете и да одштампате документ"/>
+		<ROW ID="da.properties"	TRANSLATION="Особине|Приказ особина изабраних објеката"/>
+		<ROW ID="da.regtables"	TRANSLATION="Упис табела"/>
+		<ROW ID="da.remember"	TRANSLATION="Подсетник|Прикажи прозор подсетника кориснику"/>
+		<ROW ID="da.rename"	TRANSLATION="Преименујте|Преименовање наменски објекат"/>
+		<ROW ID="da.report"	TRANSLATION="Извештај|Да изаберете и формира извештај"/>
+		<ROW ID="da.representation"	TRANSLATION="Тренутни приказ"/>
+		<ROW ID="da.reset"	TRANSLATION="Ресет"/>
+		<ROW ID="da.restore"	TRANSLATION="Да се опорави|Враћање предмета од уклоњених"/>
+		<ROW ID="da.rotate"	TRANSLATION="Заокрет"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Казаљке|Ротирати објекат казаљке на сату"/>
+		<ROW ID="da.rotate90"	TRANSLATION="У смеру|Ротирати објекат у смеру казаљке на сату"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="Хоризонтално|Ротирати објекат хоризонтално"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="Вертикално|Ротирати објекат вертикално"/>
+		<ROW ID="da.rssnews"	TRANSLATION="Вести"/>
+		<ROW ID="da.rulers"	TRANSLATION="Владар|Приказати линија"/>
+		<ROW ID="da.save"	TRANSLATION="Сачувај|Сачувај последњи пут"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Сачувај филтер|Сачувај тренутни филтер"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Сачувај у датотеку...|Да сачувате податке или слику у датотеку"/>
+		<ROW ID="da.scan"	TRANSLATION="Скенира документ|Скенира документ"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="Скенира документ из ...|Изаберите скенер скенира документ"/>
+		<ROW ID="da.search"	TRANSLATION="Претрага"/>
+		<ROW ID="da.selectall"	TRANSLATION="Изаберите све|Истицање свих објеката"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="Истакне колону|Истакне изабрана колона"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="Изаберите филтер|Изаберите сачувану филтер"/>
+		<ROW ID="da.service"	TRANSLATION="Сервис"/>
+		<ROW ID="da.setfilter"	TRANSLATION="Примени филтер|Примени филтер на придруженом скупу података"/>
+		<ROW ID="da.settings"	TRANSLATION="Подешавање|Преглед и промена поставки програма"/>
+		<ROW ID="da.shortcut"	TRANSLATION="Однос|Направите однос према придруженом објекат"/>
+		<ROW ID="da.show"	TRANSLATION="Показати"/>
+		<ROW ID="da.showarchived"	TRANSLATION="Приказати архивске|Приказ архивираних података"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="Садржај|Прикажи/сакриј област преглед садржаја"/>
+		<ROW ID="da.showempty"	TRANSLATION="Прикажи празне|Прикажи празне групе"/>
+		<ROW ID="da.showhint"	TRANSLATION="Поп-уп савети|Промена режима приказа поп-уп савети"/>
+		<ROW ID="da.showremoved"	TRANSLATION="Да прикажете избрисане|Да прикажете избрисане ставке"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="Да покаже однос|Да покаже однос на посебној картици"/>
+		<ROW ID="da.sorting"	TRANSLATION="Подешавање...|Подешавање параметара и политичко објеката"/>
+		<ROW ID="da.splitby"	TRANSLATION="Разбити у"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="Стандардни мени|Приказ стандардног мени"/>
+		<ROW ID="da.statusbar"	TRANSLATION="Статусна трака|Приказ и скрива статусну линију"/>
+		<ROW ID="da.switchmode"	TRANSLATION="Пребаците режим|Пребаците режим (Корисник-Архитекта)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="Уклоните све ставке|Уклоните све ставке у изабране сетовима података"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Извоз података у XML|Извоз из изабране сетове података у XML датотеке"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Увоз података из XML|Увоз у наменски скуп података из XML датотеке"/>
+		<ROW ID="da.tableprop"	TRANSLATION="Својства скупа података...|Промените својства скупа података"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="Уклони обрисане|Уклони све означене као обрисане ставке у изабране сетовима података"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="Сортирање тимова|Извршити сортирање тимова за наменски скупа података"/>
+		<ROW ID="da.test"	TRANSLATION="Проверите|Проверите најзначајније објекте"/>
+		<ROW ID="da.testconnect"	TRANSLATION="Провера везе"/>
+		<ROW ID="da.undo"	TRANSLATION="Ундо|Опозови последњи пут"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Разгруппировать|Разгруппировать изабрани објекат"/>
+		<ROW ID="da.unreguser"	TRANSLATION="Заврши сесију|Заврши сесију рада"/>
+		<ROW ID="da.up"	TRANSLATION="Горе|На један ниво горе"/>
+		<ROW ID="da.update"	TRANSLATION="Надоградите|Ажурирање садржаја текућег прозора"/>
+		<ROW ID="da.view"	TRANSLATION="Поглед"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="Календар|Приказ објеката на календару"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Картица|Приказ картица објекте"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Графикон|Приказ статистичких графикона објеката"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Групе|Приказ објеката са разбиением по групама"/>
+		<ROW ID="da.viewlist"	TRANSLATION="Списак|Приказ података у облику листе"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Карта|Приказ података у облику векторске шеме"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Збирна табела|Приказ података у облику пивот табеле"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Карта|Приказ података у облику тайловой картице"/>
+		<ROW ID="da.viewtree"	TRANSLATION="Дрво|Приказ података у облику дрво структуре"/>
+		<ROW ID="da.weeks"	TRANSLATION="Недеља"/>
+		<ROW ID="da.years"	TRANSLATION="Годину"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="Скала подразумевано|Приказати на скали подразумевано"/>
+		<ROW ID="da.zoomin"	TRANSLATION="Повећати|Зоом слике"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="Слика у потпуности|Приказати све слике у потпуности"/>
+		<ROW ID="da.zoomout"	TRANSLATION="Смањити|Умањили"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="Објекат је у потпуности|Приказати најзначајније објекте у потпуности"/>
+		<ROW ID="db"	TRANSLATION="ДБ"/>
+		<ROW ID="de.barcode"	TRANSLATION="Считанный бар-код није регистрован у приручника."/>
+		<ROW ID="de.connecter"	TRANSLATION="Када се повежете дошло је до грешке '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="Интернет је прошло успешно"/>
+		<ROW ID="de.contain"	TRANSLATION="Фасцикла '%s' садржи неудаленные фасцикле или објекте %d ком."/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Није инсталирана или није доступна служба %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="За рад програма неопходно је служба %s, верзија не испод %s. Тренутно инсталирана верзија %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Режим конфигурације доступан само администратору."/>
+		<ROW ID="de.empty"	TRANSLATION="Поље '%s' би требало да буде прихватљив. Молимо вас, наведите неки значај."/>
+		<ROW ID="de.error"	TRANSLATION="Грешка|Грешке"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="Ово поље не може да се повеже са наведене табеле. Несовпадение врсте."/>
+		<ROW ID="de.file"	TRANSLATION="Фајл '%s' оштећен, недостаје или има неисправан формат."/>
+		<ROW ID="de.fileexists"	TRANSLATION="Наведени фајл постоји. Да ли желите да препишете?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Измения узети. Снимање се не приказује у текућој листи јер не задовољава тренутне услове филтрирања."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="Измењени објекат није приказан, јер не задовољава тренутне услове филтера."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="Нетачна линк. Објекат недостаје или је недоступан"/>
+		<ROW ID="de.linkself"	TRANSLATION="Одабрани снимци не могу да се односе"/>
+		<ROW ID="de.needload"	TRANSLATION="За почетак рада са програмом преузмите одлуку"/>
+		<ROW ID="de.openfile"	TRANSLATION="Грешка отварања датотеке."/>
+		<ROW ID="de.owner"	TRANSLATION="Лош власник за ставку"/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="Немогуће је да померите ставке у фолдер/групу са знак 'обрисано'."/>
+		<ROW ID="de.password"	TRANSLATION="Погрешно наведено име или лозинку корисника. Проверите име и поновите унос лозинке."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Имајте на уму, притисне тастер Caps Lock. Лозинке су уведене с обзиром на велика и мала слова."/>
+		<ROW ID="de.port0"	TRANSLATION="Апарат је спреман"/>
+		<ROW ID="de.port1"	TRANSLATION="Уређај не користи"/>
+		<ROW ID="de.port2"	TRANSLATION="Лука заузет или недостаје"/>
+		<ROW ID="de.port3"	TRANSLATION="Иницијализација уређаја"/>
+		<ROW ID="de.port4"	TRANSLATION="Недостаје храна"/>
+		<ROW ID="de.port5"	TRANSLATION="Уређај није повезан"/>
+		<ROW ID="de.readonly"	TRANSLATION="Подаци су доступни само за читање."/>
+		<ROW ID="de.regabsent"	TRANSLATION="Демонстрација верзија програма! Након куповине производа пошаљите регистарски фајл на адресу: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="Уређивање поља услова, елемената облика овог скупа података је забрањено."/>
+		<ROW ID="de.unique"	TRANSLATION="Вредност поља '%s' би требало да буде јединствен"/>
+		<ROW ID="df.active"	TRANSLATION="Активно"/>
+		<ROW ID="df.address"	TRANSLATION="Адреса"/>
+		<ROW ID="df.admin"	TRANSLATION="Администратор"/>
+		<ROW ID="df.after"	TRANSLATION="Након"/>
+		<ROW ID="df.alias"	TRANSLATION="Надимак"/>
+		<ROW ID="df.anchor"	TRANSLATION="Сидро"/>
+		<ROW ID="df.archived"	TRANSLATION="Архивска"/>
+		<ROW ID="df.author"	TRANSLATION="Аутор"/>
+		<ROW ID="df.barcode"	TRANSLATION="Бар-код"/>
+		<ROW ID="df.basedon"	TRANSLATION="Се заснива на"/>
+		<ROW ID="df.before"	TRANSLATION="Пре"/>
+		<ROW ID="df.blocked"	TRANSLATION="Блокиран"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Боја границе"/>
+		<ROW ID="df.breakline"	TRANSLATION="Граничник"/>
+		<ROW ID="df.calculated"	TRANSLATION="Вычисляемое"/>
+		<ROW ID="df.caption"	TRANSLATION="Наслов"/>
+		<ROW ID="df.category"	TRANSLATION="Категорија|Категорије"/>
+		<ROW ID="df.color"	TRANSLATION="Боја"/>
+		<ROW ID="df.column"	TRANSLATION="Колона"/>
+		<ROW ID="df.command"	TRANSLATION="Тим"/>
+		<ROW ID="df.condition"	TRANSLATION="Услов"/>
+		<ROW ID="df.connection"	TRANSLATION="Интернет"/>
+		<ROW ID="df.created"	TRANSLATION="Поверед би"/>
+		<ROW ID="df.date"	TRANSLATION="Датум"/>
+		<ROW ID="df.deadline"	TRANSLATION="Рок"/>
+		<ROW ID="df.default"	TRANSLATION="Подразумевано"/>
+		<ROW ID="df.deleted"	TRANSLATION="Уклоњен"/>
+		<ROW ID="df.description"	TRANSLATION="Опис"/>
+		<ROW ID="df.directory"	TRANSLATION="Приручник"/>
+		<ROW ID="df.editor"	TRANSLATION="Уредник"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Поље грешке"/>
+		<ROW ID="df.expression"	TRANSLATION="Израз"/>
+		<ROW ID="df.file"	TRANSLATION="Фајл"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Боја попуне"/>
+		<ROW ID="df.filter"	TRANSLATION="Филтер"/>
+		<ROW ID="df.folder"	TRANSLATION="Фасцикла"/>
+		<ROW ID="df.generator"	TRANSLATION="Генератор"/>
+		<ROW ID="df.group"	TRANSLATION="Група"/>
+		<ROW ID="df.height"	TRANSLATION="Висина"/>
+		<ROW ID="df.hidden"	TRANSLATION="Сакривен"/>
+		<ROW ID="df.ico"	TRANSLATION="Икона"/>
+		<ROW ID="df.id"	TRANSLATION="Код"/>
+		<ROW ID="df.latitude"	TRANSLATION="Ширина"/>
+		<ROW ID="df.layer"	TRANSLATION="Слој"/>
+		<ROW ID="df.link"	TRANSLATION="Веза"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Комуникација на терену"/>
+		<ROW ID="df.login"	TRANSLATION="Улазни име"/>
+		<ROW ID="df.longitude"	TRANSLATION="Лон"/>
+		<ROW ID="df.mail"	TRANSLATION="Пошта"/>
+		<ROW ID="df.message"	TRANSLATION="Порука"/>
+		<ROW ID="df.modified"	TRANSLATION="Променио"/>
+		<ROW ID="df.name"	TRANSLATION="Име"/>
+		<ROW ID="df.namefield"	TRANSLATION="Заглавное поље"/>
+		<ROW ID="df.note"	TRANSLATION="Напомена"/>
+		<ROW ID="df.notnull"	TRANSLATION="Не празна"/>
+		<ROW ID="df.offstate"	TRANSLATION="Искључено"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="Омогућите у менију 'Створити'"/>
+		<ROW ID="df.order"	TRANSLATION="Редослед"/>
+		<ROW ID="df.originalname"	TRANSLATION="Име у БП"/>
+		<ROW ID="df.owner"	TRANSLATION="Власник"/>
+		<ROW ID="df.password"	TRANSLATION="Лозинка"/>
+		<ROW ID="df.period"	TRANSLATION="Период"/>
+		<ROW ID="df.person"	TRANSLATION="Име"/>
+		<ROW ID="df.phone"	TRANSLATION="Телефон"/>
+		<ROW ID="df.pointer"	TRANSLATION="Показивач"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Примарни кључ"/>
+		<ROW ID="df.priority"	TRANSLATION="Значај"/>
+		<ROW ID="df.readonly"	TRANSLATION="Само читање"/>
+		<ROW ID="df.role"	TRANSLATION="Улога"/>
+		<ROW ID="df.rolelink"	TRANSLATION="Спољна улогу"/>
+		<ROW ID="df.rotate"	TRANSLATION="Заокрет"/>
+		<ROW ID="df.server"	TRANSLATION="Сервер"/>
+		<ROW ID="df.size"	TRANSLATION="Величина"/>
+		<ROW ID="df.source"	TRANSLATION="Извор"/>
+		<ROW ID="df.state"	TRANSLATION="Статус"/>
+		<ROW ID="df.stored"	TRANSLATION="Чувају"/>
+		<ROW ID="df.system"	TRANSLATION="Систем"/>
+		<ROW ID="df.table"	TRANSLATION="Табела"/>
+		<ROW ID="df.template"	TRANSLATION="Образац"/>
+		<ROW ID="df.time"	TRANSLATION="Време"/>
+		<ROW ID="df.translation"	TRANSLATION="Превод"/>
+		<ROW ID="df.transparent"	TRANSLATION="Транспарентан"/>
+		<ROW ID="df.type"	TRANSLATION="Тип"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Подешавања увоз/извоз"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Кориснички филтер"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Подешавања приказаних поља"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Локални филтер"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Глобални филтер"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="Подешавање слојева картице"/>
+		<ROW ID="df.unique"	TRANSLATION="Јединствен"/>
+		<ROW ID="df.user"	TRANSLATION="Корисник"/>
+		<ROW ID="df.value"	TRANSLATION="Вредност"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Не да убаците вредност"/>
+		<ROW ID="df.varname"	TRANSLATION="Име у смислу"/>
+		<ROW ID="df.version"	TRANSLATION="Верзија"/>
+		<ROW ID="df.visible"	TRANSLATION="Видљиво"/>
+		<ROW ID="df.width"	TRANSLATION="Ширина"/>
+		<ROW ID="di.column"	TRANSLATION="Колона|Колоне"/>
+		<ROW ID="di.menuelem"	TRANSLATION="Мени|Ставке менија"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="Активни слој"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Поравнање"/>
+		<ROW ID="dl.animation"	TRANSLATION="Анимација"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="Автофильтр"/>
+		<ROW ID="dl.captionright"	TRANSLATION="Прикажи наслов десно"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="Општи приручници"/>
+		<ROW ID="dl.check"	TRANSLATION="Провера"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Проверите вести и исправке на сајту програмера"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Мрежни адреса"/>
+		<ROW ID="dl.computername"	TRANSLATION="Рачунар"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Конфигурација"/>
+		<ROW ID="dl.configurator"	TRANSLATION="Конфигуратор"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Потврда..."/>
+		<ROW ID="dl.copies"	TRANSLATION="Копије"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="Копирање скривених поља у бафер за налепите у другим апликацијама"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="Копирање заглавља поља у бафер за налепите у другим апликацијама"/>
+		<ROW ID="dl.correspond"	TRANSLATION="Одговара"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="Коришћење поља неприхватљиво у овом смислу."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Фреквенција процесора"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Процесор"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Исп"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Одредити аутоматски"/>
+		<ROW ID="dl.datacom"	TRANSLATION="са запета за раздвајање"/>
+		<ROW ID="dl.datatab"	TRANSLATION="са раздвајање табулатор"/>
+		<ROW ID="dl.datatext"	TRANSLATION="Текст фајл"/>
+		<ROW ID="dl.device"	TRANSLATION="Уређај"/>
+		<ROW ID="dl.directories"	TRANSLATION="Приручници"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="Превуците ставке"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="Возач ДБ"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="Службе ДБ"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="Е-маил клијент"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Канцеларијски пакет"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="Службе ОЛАП"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="Омогући снимање података прочишћавања"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="Протоколировать СКЛ упити"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Свуда"/>
+		<ROW ID="dl.faster"	TRANSLATION="Брже"/>
+		<ROW ID="dl.findin"	TRANSLATION="Тражи објекат на листи:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="Где да траже"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Резултати претраге"/>
+		<ROW ID="dl.findtext"	TRANSLATION="Тражи текст"/>
+		<ROW ID="dl.form"	TRANSLATION="Облик"/>
+		<ROW ID="dl.format"	TRANSLATION="Формат"/>
+		<ROW ID="dl.forms"	TRANSLATION="Облици"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="Увек пријави пуну датум и време"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Истицање редова"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Грид линије"/>
+		<ROW ID="dl.guard"	TRANSLATION="Заштита"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="Сакриј системских података"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="Дозволи приступ кроз HTTP (бета)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="Не узети у обзир регистар"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Игнорисати бројеве"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Тражи као део"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Без обзира на редослед речи"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Игнорисати специјалне карактере"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Сачувајте стреаминг података у старом формату"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="У текућој листи"/>
+		<ROW ID="dl.indataset"	TRANSLATION="У сету података"/>
+		<ROW ID="dl.information"	TRANSLATION="Информације..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Интерфејс"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="Последњи угао камере извоза"/>
+		<ROW ID="dl.layers"	TRANSLATION="Слојеви"/>
+		<ROW ID="dl.locating"	TRANSLATION="Позиционирање на активни објекат"/>
+		<ROW ID="dl.location"	TRANSLATION="Локација"/>
+		<ROW ID="dl.locksession"	TRANSLATION="Блокирати седницу корисника приликом једноставна (минута)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Сакриј обавештења за заштиту лозинком"/>
+		<ROW ID="dl.map"	TRANSLATION="Карта"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="Кешира тайлы картице"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="Ограничити величину појединачног фајла у мегабајтима"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="Постојећа меморија"/>
+		<ROW ID="dl.metadata"	TRANSLATION="База метаструктуры"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Метрички|Основни метрички скала"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Друге боје..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Притисните [Ctrl], за комбиновање координате тренутне тачке са друге тачке фигуре"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Брисање колона"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Брисање редова"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="Употреба автофильтра"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="Форматирање ћелија"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="Форматирање колона"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="Форматирање редова"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Уметање колона"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Уметање хипервеза"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Уметање редова"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="Сортирање"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="Коришћење обједињених табела"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="Промена сценарија"/>
+		<ROW ID="dl.no"	TRANSLATION="Нема"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="Нема"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="Операција ће потрајати неко време и не може бити прекинута."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Затим поређај према"/>
+		<ROW ID="dl.osversion"	TRANSLATION="ОС верзија"/>
+		<ROW ID="dl.other"	TRANSLATION="Остало"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Излазне датотеке"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="Параметри странице"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Проширење"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="Изаберите акцију"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="Након клика ДАЉЕ ће почети извршење операције"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Изаберите скуп података за размену података"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Одредите тип екстерног фајла или изаберите угао камере"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Изаберите поља, које је потребно извести"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="Изаберите филтер за изабраног скупа података"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="Извођење операције"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Одредите врсту, смештај и име екстерног фајла"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Одредите редослед поља, померањем миша вредности из леве листе у десну"/>
+		<ROW ID="dl.port"	TRANSLATION="Лука"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Битови података"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Четность"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Брзина (бит/с)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Стоповые бита"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="Стоп-бајт"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Тајмаут (мс)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Заузет"/>
+		<ROW ID="dl.printer"	TRANSLATION="Штампач"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Слободан"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Стил штампе"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="Приликом обављања операције дошло је до грешке."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="Операција је успешно извршена"/>
+		<ROW ID="dl.properties"	TRANSLATION="Особине"/>
+		<ROW ID="dl.question"	TRANSLATION="Питање..."/>
+		<ROW ID="dl.random"	TRANSLATION="Случајно"/>
+		<ROW ID="dl.reading"	TRANSLATION="Читање података"/>
+		<ROW ID="dl.recipient"	TRANSLATION="Прималац"/>
+		<ROW ID="dl.registration"	TRANSLATION="За пријављивање и унесите Своје корисничко име и лозинку"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Аутоплаи подсетнике након пријављивања корисника"/>
+		<ROW ID="dl.results"	TRANSLATION="Резултати"/>
+		<ROW ID="dl.scale"	TRANSLATION="Скала"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="Где да траже"/>
+		<ROW ID="dl.separator"	TRANSLATION="Граничник"/>
+		<ROW ID="dl.sheet"	TRANSLATION="Лист"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="Прикажи наслове"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Проверите и прескакање записа са неисправним Спољним кључем"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Пропустите снимање са неисправан тип података"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Прескочите први запис као наслов"/>
+		<ROW ID="dl.slower"	TRANSLATION="Медленее"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="Опадајући"/>
+		<ROW ID="dl.sortup"	TRANSLATION="По растућем"/>
+		<ROW ID="dl.soundon"	TRANSLATION="Укључите звук"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="Куцање на копијама"/>
+		<ROW ID="dl.start"	TRANSLATION="Почетак"/>
+		<ROW ID="dl.step"	TRANSLATION="Корак"/>
+		<ROW ID="dl.stop"	TRANSLATION="Стоп"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="Подешавања стила"/>
+		<ROW ID="dl.systemres"	TRANSLATION="Системских ресурса"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Маркери...|Маркери"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Вруће задатака нема"/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Категорије"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Тим"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Прилагодљив"/>
+		<ROW ID="dl.thickness"	TRANSLATION="Дебљина"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="Трака са алаткама"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="Траци са алаткама"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Комбинација тастера"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Опције"/>
+		<ROW ID="dl.totray"	TRANSLATION="Оставити у трэй када затворите прозор програма"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Подаци нису доступни"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="Ажурирати евиденцију за одређене Примарног кључа"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="Само надоградити на непустые вредности"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Користите читач бар-кодова"/>
+		<ROW ID="dl.username"	TRANSLATION="Корисник"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="Име тренутног корисника Виндовс"/>
+		<ROW ID="dl.version"	TRANSLATION="Верзија"/>
+		<ROW ID="dl.view"	TRANSLATION="Подешавања екрана"/>
+		<ROW ID="dl.warning"	TRANSLATION="Упозорење..."/>
+		<ROW ID="dl.yes"	TRANSLATION="Да"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="Извршење команде|Извођење изабраног тима"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Да ли заиста желите да уклоните"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="Ове ознаке ће бити избрисани, да се настави?"/>
+		<ROW ID="dm.sequence"	TRANSLATION="Изаберите ~ ~ ~ ~ које желите да видите. Тастера 'Горе' и 'Доле', можете да одредите редослед њиховог доласка."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Тастера 'Горе' и 'Доле' подесите редослед битан. тимова. Ако је потребно, можете да укључите приказ сепаратор пред тим."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Изаберите фајл решења"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="За завршетак операције, потребно је да копирате датотеку '%s' у директоријум '%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Уклањање решења"/>
+		<ROW ID="dm.solloading"	TRANSLATION="Преузимање решења"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Даљи рад је могуће само након поновног пријављивања."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Истовар решења"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="Ажурирање параметара|Ажурирање листе параметара тима"/>
+		<ROW ID="dt.action"	TRANSLATION="Тип догађаја|Врсте догађаја"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="Догађај под тачком|Догађаји у условима"/>
+		<ROW ID="dt.additional"	TRANSLATION="Додатне информације"/>
+		<ROW ID="dt.alignment"	TRANSLATION="Тип трасе|Врсте поравнања"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Кодирање|Кодирање"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="Режим параметра|Режими параметара"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="Тип тима|Врсте тима"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Тип услови|Врсте услова"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Ограничење|Ограничења"/>
+		<ROW ID="dt.data"	TRANSLATION="Подаци"/>
+		<ROW ID="dt.database"	TRANSLATION="База података|Базе података"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="Тип базе података|Типови база података"/>
+		<ROW ID="dt.dataset"	TRANSLATION="Скуп података|Сетови података"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="Тип скупа података"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Тип података|Типови података"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="Речник|Речници"/>
+		<ROW ID="dt.event"	TRANSLATION="Акција|Акције"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Тип обавештења|Типови обавештења"/>
+		<ROW ID="dt.field"	TRANSLATION="Поље|Поља"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="Категорија поља|Категорије поља"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="Улога поља|Улоге поља"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Боја фонта|Листа боја фонта"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="Стил фонта|Стилови слова"/>
+		<ROW ID="dt.formelement"	TRANSLATION="Елемент форме|Елементи облика"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="Тип елемента облика|Врсте елемента облика"/>
+		<ROW ID="dt.language"	TRANSLATION="Језик|Језици"/>
+		<ROW ID="dt.logintype"	TRANSLATION="Тип приступа"/>
+		<ROW ID="dt.membership"	TRANSLATION="Чланство у групи|Чланство у групама"/>
+		<ROW ID="dt.menu"	TRANSLATION="Одељак мени|Секције мени"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Метаподаци"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="Тип чвора|Врсте чворова"/>
+		<ROW ID="dt.note"	TRANSLATION="Напомена|Белешке"/>
+		<ROW ID="dt.object"	TRANSLATION="Објекат"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="Акција када избришете|Радње приликом уклањања"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="Врста операције|Врсте операција"/>
+		<ROW ID="dt.param"	TRANSLATION="Параметар|Опције"/>
+		<ROW ID="dt.policy"	TRANSLATION="Политика безбедности|Безбедносне политике"/>
+		<ROW ID="dt.procedure"	TRANSLATION="Назив поступка|Имена процедура"/>
+		<ROW ID="dt.report"	TRANSLATION="Извештај|Извештаји"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="Параметар извештаја|Параметри извештаја"/>
+		<ROW ID="dt.right"	TRANSLATION="Право корисника|Права корисника"/>
+		<ROW ID="dt.role"	TRANSLATION="Улогу у вези са|Улоге у вези са"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="Однос|Однос"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Тип приказивање поља|Врсте приказа поља"/>
+		<ROW ID="dt.solution"	TRANSLATION="Решење|Одлуке"/>
+		<ROW ID="dt.task"	TRANSLATION="Задатак|Задаци"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Тип прилагођене података"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="Врста операције|Врсте операција"/>
+		<ROW ID="dt.user"	TRANSLATION="Корисник|Корисници"/>
+		<ROW ID="dt.usertask"	TRANSLATION="Задатак је да корисника|Задаци корисника"/>
+		<ROW ID="dt.usertype"	TRANSLATION="Тип корисника|Врсте корисника"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Тип приказа|Врсте приказа"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="Учесталост обрачуна"/>
+		<ROW ID="dtadditionally"	TRANSLATION="Додатно"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="При сваком захтеву"/>
+		<ROW ID="dv.button"	TRANSLATION="Дугме"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Каскадно уклонити"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="Оставу"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="Црна"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="Плава"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Чоколада"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="Цијаноген"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Цримсон"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="Подразумевано"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="Сива"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Зелена"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Креч"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="Љубичаста"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="Плава"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="Магента"/>
+		<ROW ID="dv.colorred"	TRANSLATION="Црвена"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="Тиркиз"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="Бела"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Жута"/>
+		<ROW ID="dv.day1"	TRANSLATION="Понедељак"/>
+		<ROW ID="dv.day2"	TRANSLATION="Уторак"/>
+		<ROW ID="dv.day3"	TRANSLATION="Среда"/>
+		<ROW ID="dv.day4"	TRANSLATION="Четвртак"/>
+		<ROW ID="dv.day5"	TRANSLATION="Петак"/>
+		<ROW ID="dv.day6"	TRANSLATION="Субота"/>
+		<ROW ID="dv.day7"	TRANSLATION="Недеља"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Забрањено"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="Филтрирање"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Упозорење"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Реалан број"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Облик"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="Прозор са подацима"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Цео број"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Повезаној листи"/>
+		<ROW ID="dv.elempage"	TRANSLATION="Боокмарк"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="Боокмарк прозор са подацима"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Панел"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="Натпис"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Ред"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Прекидач"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="Списак прекидача"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="Дрво записа"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Дрво листа"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Дозвољено"/>
+		<ROW ID="dv.explorer"	TRANSLATION="Диригент датотеке"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Фаворити"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Само при првом захтеву"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Болд"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="Увећана"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Коси"/>
+		<ROW ID="dv.globalref"	TRANSLATION="Глобални каталог"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="Шифровану лозинку"/>
+		<ROW ID="dv.localref"	TRANSLATION="Локални директоријум"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="Основни сет података"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Никада"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Атрибут"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Елемент"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Група"/>
+		<ROW ID="dv.noname"	TRANSLATION="Без имена"/>
+		<ROW ID="dv.onall"	TRANSLATION="Када се било које операције"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="Када се креће у корпу"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="Када избришете"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="Када налепите"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="На улазу"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="Када изађете"/>
+		<ROW ID="dv.onreading"	TRANSLATION="Приликом читања"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="Приликом уређивања"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="Висока"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Најнижа"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="Нормално"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Забрани"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="Изабране објекте %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="Да ресетујете веза"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="Инфериоран скуп података"/>
+		<ROW ID="dv.text"	TRANSLATION="Текст"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="Акција %s није пронађен"/>
+		<ROW ID="error.additem"	TRANSLATION="Додавање записа у овом приручник забрањено."/>
+		<ROW ID="error.argcount"	TRANSLATION="Неисправна број аргумената у позиву функције"/>
+		<ROW ID="error.argtype"	TRANSLATION="Неисправан тип аргумента"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="Очекује се да затворите заграду"/>
+		<ROW ID="error.char"	TRANSLATION="у поље '%s' унета је неважећа симбол или симболи '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="Са предметом '%s' повезани не удаљени објекти одељка '%s'."/>
+		<ROW ID="error.children"	TRANSLATION="Ц '%s' повезани објекти секције '%s' (%d ком.)"/>
+		<ROW ID="error.connect"	TRANSLATION="Неважећи начин или није доступан сервер базе података."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="Грешка повезивање са базом података метаструктуры."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="База података %s није нађена за обављање ускладиштене процедуре."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="База података %s не подржава извршавање сачуваних рутина."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="Скуп података мора да уђе у решење '%s'."/>
+		<ROW ID="error.default"	TRANSLATION="Објекат са назнаком 'подразумевано' не може бити даљински."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Објекат је промењен од стране другог корисника. Желите да избришете објекат?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="Објекат је уклоњен од стране другог корисника."/>
+		<ROW ID="error.double"	TRANSLATION="Одређено кључну вредност поља није јединствен. Можда запис са овом вредношћу је означен као далеки."/>
+		<ROW ID="error.edit"	TRANSLATION="нису наведене вредности обавезних поља или уведене нетачне податке."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="За ову врсту елемента мора да буде наведено поље"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="За ову врсту елемента не би требало да буде назначено поље"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="Ова ставка се не може повезати са наведене табеле"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="За овај елемент не мора бити наведен веза"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="За овај елемент мора да буде наведена веза"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="Наведена ставка се не може бити власник"/>
+		<ROW ID="error.elem.type"	TRANSLATION="Тип елемента није компатибилна са типом поља"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Власник непознат"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="Празно израз"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="Тодо листа је празна."/>
+		<ROW ID="error.exprend"	TRANSLATION="Крај израза"/>
+		<ROW ID="error.field"	TRANSLATION="Грешка у опису поља"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="Грешка израчунавања вредности поља '%s' због кружног тока везе"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Поље %s не постоји"/>
+		<ROW ID="error.find"	TRANSLATION="Није пронађен ниједан објекат који садржи одређено значење"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="Поље NOT NULL морате навести вредност подразумевано"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="Поље - основу фасцикле необходмо навести вредност 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="Табела треба да садржи само једно поље"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Неисправна вредност константе"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Неприхватљив симбол"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="Неслагање типова"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Погрешан начин или име фајла."/>
+		<ROW ID="error.inlist"	TRANSLATION="Параметар должнен бити једнак један од вредности листе:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Неисправан тип учесника безбедности."/>
+		<ROW ID="error.length"	TRANSLATION="број знакова поља '%s' не би требало да прелази %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="У метаструктуре недостаје потребне за рад програма скупове података."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Верзија метаструктуры не одговара верзији програма."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="Морате да унесете име."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="Назив решења мора бити унето"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="Нема издвојеног објекта"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="Није наведен кеш за акцију"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="Није наведен скуп података за акцију"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Није реализовано уз коришћење старих метаструктуры!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Неисправан тип операнда"/>
+		<ROW ID="error.printer"	TRANSLATION="Грешка покретање штампача. Штампање документа отказан."/>
+		<ROW ID="error.printerno"	TRANSLATION="Нема доступних штампача"/>
+		<ROW ID="error.readfield"	TRANSLATION="Грешка читања података поља '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="Немате довољно права да изврши операције"/>
+		<ROW ID="error.scan"	TRANSLATION="Грешка скенера."/>
+		<ROW ID="error.setfield"	TRANSLATION="Вредност се не подеси, наведите неки вредност поља"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Пронађен сличан елемент. Иди до њега?"/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Изаберите ставку за претрагу"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="Као елемент није пронађен"/>
+		<ROW ID="error.sort"	TRANSLATION="Сортирај по вычисляемым поља и поља-датотека није дозвољено"/>
+		<ROW ID="error.sortfield"	TRANSLATION="Изабрана поље већ постоји у вашој листи поља за сортирање."/>
+		<ROW ID="error.start"	TRANSLATION="Операција је доступан тек након одобрења."/>
+		<ROW ID="error.statementend"	TRANSLATION="Неочекивани крај израза"/>
+		<ROW ID="error.strlen"	TRANSLATION="Дужина линије у поље '%s' сувише велика"/>
+		<ROW ID="error.tree"	TRANSLATION="Грешка изградњи дрвета објеката. Недостаје власник чвор дрвета '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="Незакрытая ред"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="Неочекивани крај израза"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="Информације о чланству одређеног корисника у овој групи је већ ушло у базу података."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Непозната функција"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Непознат ид"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Објекат је промењен од стране другог корисника. Сачувајте Своје промене?"/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Објекат је промењен од стране другог корисника."/>
+		<ROW ID="error.updateitem"	TRANSLATION="Грешка при добијању датотеке ажурирања"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="Кориснички налог је закључан."/>
+		<ROW ID="figure"	TRANSLATION="Слика"/>
+		<ROW ID="filefilters"	TRANSLATION="Извештаји у MSExcel|*.клс|InterBase files|*.gdb||Конфигурацију*.цфг|Све датотеке|*.*"/>
+		<ROW ID="for"	TRANSLATION="За"/>
+		<ROW ID="imp.break"	TRANSLATION="Прекинути операцију"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Да креирате нови рекорд"/>
+		<ROW ID="imp.data"	TRANSLATION="Увезете податке"/>
+		<ROW ID="imp.dterror"	TRANSLATION="Грешка тип података поља"/>
+		<ROW ID="imp.empty"	TRANSLATION="Вредност поља празна"/>
+		<ROW ID="imp.first"	TRANSLATION="Први унос"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Контрола спољног кључа"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="Спољни кључ не постоји"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Занемарите грешку"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="Случајност примарног кључа"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Додао записа"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Испуштено записа"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Ажурирано записа"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Пропустите снимање"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Прескочите вредност поља"/>
+		<ROW ID="imp.title"	TRANSLATION="Да пропустите као наслов"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="Ажурирате свој налог"/>
+		<ROW ID="inexpr"	TRANSLATION="у смислу"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="Фајл %s сачуван."/>
+		<ROW ID="line"	TRANSLATION="Ред"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 км"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 км"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 км"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 км"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 м"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 м"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 м"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 м"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 м"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 м"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 м"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 м"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 км"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 м"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 м"/>
+		<ROW ID="map.scale22"	TRANSLATION="1.5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0,75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 м"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 км"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 км"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 км"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 км"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 км"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 км"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 км"/>
+		<ROW ID="mmmmm1"	TRANSLATION="Јануар|Јануара"/>
+		<ROW ID="mmmmm10"	TRANSLATION="Октобар|Октобра"/>
+		<ROW ID="mmmmm11"	TRANSLATION="Новембар|Новембра"/>
+		<ROW ID="mmmmm12"	TRANSLATION="Децембар|Децембра"/>
+		<ROW ID="mmmmm2"	TRANSLATION="Фебруар|Фебруара"/>
+		<ROW ID="mmmmm3"	TRANSLATION="Март|Марта"/>
+		<ROW ID="mmmmm4"	TRANSLATION="Април|Априла"/>
+		<ROW ID="mmmmm5"	TRANSLATION="Мај|Маја"/>
+		<ROW ID="mmmmm6"	TRANSLATION="Јун|Јуна"/>
+		<ROW ID="mmmmm7"	TRANSLATION="Јул|Јула"/>
+		<ROW ID="mmmmm8"	TRANSLATION="Август|Августа"/>
+		<ROW ID="mmmmm9"	TRANSLATION="Септембар|Септембра"/>
+		<ROW ID="not"	TRANSLATION="Не"/>
+		<ROW ID="openurl"	TRANSLATION="Отворите УРЛ"/>
+		<ROW ID="opeq"	TRANSLATION="Даље"/>
+		<ROW ID="opge"	TRANSLATION="Већи или једнак"/>
+		<ROW ID="opgt"	TRANSLATION="Више"/>
+		<ROW ID="opisfalse"	TRANSLATION="Лаж"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Не празна"/>
+		<ROW ID="opisnull"	TRANSLATION="Празна"/>
+		<ROW ID="opistrue"	TRANSLATION="Истина"/>
+		<ROW ID="ople"	TRANSLATION="Мање или једнако"/>
+		<ROW ID="oplike"	TRANSLATION="Садржи"/>
+		<ROW ID="oplt"	TRANSLATION="Мање"/>
+		<ROW ID="opne"	TRANSLATION="Не брига"/>
+		<ROW ID="opnotlike"	TRANSLATION="Не садржи"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="Обрада није потребна"/>
+		<ROW ID="process.tables"	TRANSLATION="Обрађено табеле:"/>
+		<ROW ID="quantity"	TRANSLATION="Број"/>
+		<ROW ID="query.savechanges"	TRANSLATION="Да сачувате промене?"/>
+		<ROW ID="querydelete"	TRANSLATION="Након уклањања објекта, информације о њему неће бити доступна. Уклонити објекат '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Уклонити објекат '%s' без могућности касније за опоравак?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Да избришете означене објекте ( '~ ~ ~ ~ ' ), без могућности касније за опоравак?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Ажурира периодично поруку"/>
+		<ROW ID="registration"	TRANSLATION="Регистрација"/>
+		<ROW ID="send"	TRANSLATION="Пошаљи"/>
+		<ROW ID="sendmail"	TRANSLATION="Пошаљете е-маил"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="Пошаљите поруку на листу прималаца"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Стандардна"/>
+		<ROW ID="updatemessages"	TRANSLATION="Освежите поруке"/>
+		<ROW ID="updating"	TRANSLATION="Ажурирање"/>
+		<ROW ID="use"	TRANSLATION="Употреба"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="Поглед"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="Да бисте прешли на другу картицу морате да сачувате тренутни рекорд."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="Да бисте прешли на другу картицу морате да сачувате тренутни рекорд."/>
+	</ROWDATA>
+</DATAPACKET>

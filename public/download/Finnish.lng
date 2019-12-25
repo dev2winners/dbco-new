@@ -1,0 +1,885 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0" type="DELANGTABLE">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION=""/>
+		<ROW ID="allfiles"	TRANSLATION="Kaikki tiedostot"/>
+		<ROW ID="and"	TRANSLATION="Ja"/>
+		<ROW ID="atpos"	TRANSLATION="asennossa"/>
+		<ROW ID="auto"	TRANSLATION="Automaattisesti"/>
+		<ROW ID="bottom"	TRANSLATION="Pohja"/>
+		<ROW ID="by"	TRANSLATION="klo"/>
+		<ROW ID="cell"	TRANSLATION="Solu"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Koodaus jarjestelma"/>
+		<ROW ID="cp.dos866"	TRANSLATION="DOS-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Utf-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="Windows-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="Voit luoda tiedoston seuraavasti"/>
+		<ROW ID="createmessage"	TRANSLATION="Luo viesti"/>
+		<ROW ID="csvfiles"	TRANSLATION="CSV (erotin,';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="Nykyinen aineisto"/>
+		<ROW ID="da.about"	TRANSLATION="Noin...|Nayttaa ohjelman tiedot, versionumeron ja tekijanoikeustiedot"/>
+		<ROW ID="da.access"	TRANSLATION="Paasy|Asettaa kayttooikeudet kayttooikeudet"/>
+		<ROW ID="da.action"	TRANSLATION="Toiminta|Suorittaa toimia..."/>
+		<ROW ID="da.actions"	TRANSLATION="Toiminta"/>
+		<ROW ID="da.add"	TRANSLATION="Lisaa"/>
+		<ROW ID="da.advfind"	TRANSLATION="Tarkennettu haku|Aloita haku, yksiloidaan myos muita parametreja"/>
+		<ROW ID="da.agrave"	TRANSLATION="Keskimaarainen arvo|Laskea arvojen keskiarvo"/>
+		<ROW ID="da.agrcount"	TRANSLATION="Numero|Laske valitut arvot"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Max|Laskea enintaan valitut arvot"/>
+		<ROW ID="da.agrmin"	TRANSLATION="Vahintaan|Laskea vahintaan valitut arvot"/>
+		<ROW ID="da.agrno"	TRANSLATION="Ei|Indikaattorin laskentaan valitut arvot"/>
+		<ROW ID="da.agrsum"	TRANSLATION="Arvojen summa|Laske summa valitut arvot"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="Arvojen maara|Laskea maara jaetaan ei-tyhja arvo"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="Center|Kohdista teksti center"/>
+		<ROW ID="da.alignleft"	TRANSLATION="Vasemmassa reunassa|Tasaa teksti vasemmalle"/>
+		<ROW ID="da.alignright"	TRANSLATION="Oikeassa reunassa|Kohdista teksti oikealle tasattu"/>
+		<ROW ID="da.all"	TRANSLATION="Kaikki"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Nayta kaikki|Nayta sisalto kaikki kentat"/>
+		<ROW ID="da.apply"	TRANSLATION="Soveltaa"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="Aseta ankkurit|Aseta ankkuri jarjestely osia"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Laskeminen|Automaattisesti laskea tulos valitut arvot"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Auto-paikannus|Automaattisesti aseta kartta nayttaa valitun objektin"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Automaattisesti tallentaa muutokset|Automaattisesti tallentaa kaikki muutokset esineita"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Autoscale|Automaattisesti zoomata kartta nayttaa kaikki valitut kohteet"/>
+		<ROW ID="da.back"	TRANSLATION="Sitten|Takaisin"/>
+		<ROW ID="da.backup"	TRANSLATION="Tietojen arkistointi|Kirjoittaa varmuuskopion tiedot"/>
+		<ROW ID="da.browse"	TRANSLATION="Katsaus...|Valita tiedoston tai hakemiston"/>
+		<ROW ID="da.cancel"	TRANSLATION="Peruuta"/>
+		<ROW ID="da.chart3d"	TRANSLATION="3D-esitys|Nayta 3D-nakymassa"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Kentta aikataulu"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Strip-chart"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Bar chart"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="Bezier Kayrat|Silea kuvaaja Bezier kayrat"/>
+		<ROW ID="da.charthide"	TRANSLATION="Yhdistaa pienia|Yhdistaa pieni suorituskyky yhdessa"/>
+		<ROW ID="da.chartline"	TRANSLATION="Viivakuvaaja"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Logaritminen asteikko|Valitse logaritminen asteikko"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Ympyrakaavio"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="Scatter tontti"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="Olla pino"/>
+		<ROW ID="da.choose"	TRANSLATION="Valitse|Valitse listasta"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Valitse sarakkeet"/>
+		<ROW ID="da.clear"	TRANSLATION="Puhdas"/>
+		<ROW ID="da.clearall"	TRANSLATION="Tyhjenna kaikki"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Poista|Poista kaikki esineet,"/>
+		<ROW ID="da.close"	TRANSLATION="Lahella"/>
+		<ROW ID="da.colclear"	TRANSLATION="Palauttaa|Palauttaa nayton asetukset-sarakkeessa oletus"/>
+		<ROW ID="da.colclearall"	TRANSLATION="Voit palauttaa kaikki|Voit palauttaa kaikki kayttajan asetukset-sarakkeessa naytetaan oletuksena"/>
+		<ROW ID="da.collapse"	TRANSLATION="Romahdus|Romahtaa sisalto nykyisen solmun"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Tiivista kaikki|Romahtaa sisalto kaikki solmut"/>
+		<ROW ID="da.colsave"	TRANSLATION="Tallenna|Tallenna nayton asetuksia ja sarakkeita"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Tallenna kaikki|Tallentaa kaikki kayttajan asetukset sarakkeen naytto"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Piilota sarake|Piilottaa valitun sarakkeen"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="Lajittele laskevasti"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="Lajittele nousevasti"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Komennon parametrit"/>
+		<ROW ID="da.commands"	TRANSLATION="Joukkue|Joukkue"/>
+		<ROW ID="da.conditionand"	TRANSLATION="Ja - ehtoja"/>
+		<ROW ID="da.conditionor"	TRANSLATION="TAI on Yksi ehdoista"/>
+		<ROW ID="da.consistency"	TRANSLATION="Metatietojen yhdenmukaisuus"/>
+		<ROW ID="da.continue"	TRANSLATION="Edelleen|Jatkaa ja menna pidemmalle"/>
+		<ROW ID="da.copy"	TRANSLATION="Kopioi|Kopioi valitut kohteet"/>
+		<ROW ID="da.copychart"	TRANSLATION="Kopioi|Kopioi kaavio kuvana"/>
+		<ROW ID="da.correct"	TRANSLATION="Korjata|Korjata automaattisesti"/>
+		<ROW ID="da.create"	TRANSLATION="Luoda"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="Tyopoydalle luodaan pikakuvake ajaa valittu kokoonpano"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Etiketti|Voit luoda pikakuvakkeen"/>
+		<ROW ID="da.cut"	TRANSLATION="Leikkaa|Leikkaa valitut objektit"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Vienti|Vie tiedot tiedostoon"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Tuonti|Tietojen tuonti tiedosto"/>
+		<ROW ID="da.days"	TRANSLATION="Paiva"/>
+		<ROW ID="da.decline"	TRANSLATION="Jos haluat poistaa rivi"/>
+		<ROW ID="da.default"	TRANSLATION="Oletuksena"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Tietokannan uudelleenjarjestaminen|Huuhtelua kirjaa merkitty poistettavaksi"/>
+		<ROW ID="da.delete"	TRANSLATION="Poistaa|Poistaa valitut objektit"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Poista suodatin|Poistaa valitun suodatin"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Asetus|Muokata lomakkeen nayton ominaisuudet esineen"/>
+		<ROW ID="da.dictionary"	TRANSLATION="Sanakirja|Kayttaa lokalisointi sanakirja"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Sijoitettu"/>
+		<ROW ID="da.dofilter"	TRANSLATION="Suorittaa|Suodata kunnossa"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="Kopioida valitun|Kahtena kentan arvo valitun esineita"/>
+		<ROW ID="da.edit"	TRANSLATION="Muokkaa"/>
+		<ROW ID="da.editmode"	TRANSLATION="Muokkaa|Aloita muokkaus esineita"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( tyhja )"/>
+		<ROW ID="da.exit"	TRANSLATION="Lahto|Tuloste ohjelma"/>
+		<ROW ID="da.expand"	TRANSLATION="Kayttoon|Laajentaa sisaltoa nykyisen solmun"/>
+		<ROW ID="da.export"	TRANSLATION="Tallenna|Jos haluat tallentaa asiakirjan tiedosto"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Vienti XML|Vieda tiedot ADO XML"/>
+		<ROW ID="da.exportto"	TRANSLATION="Vienti|Vie tiedosto..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Quick print|Valitse ja tulosta asiakirja"/>
+		<ROW ID="da.favorites"	TRANSLATION="Lisaa suosikkeihin"/>
+		<ROW ID="da.file"	TRANSLATION="Tiedosto"/>
+		<ROW ID="da.filter"	TRANSLATION="Suodatin|Valikoima esineita filter"/>
+		<ROW ID="da.filtername"	TRANSLATION="Nimi filter"/>
+		<ROW ID="da.find"	TRANSLATION="Loytaa|Nayttaa objektin nykyisen aineisto"/>
+		<ROW ID="da.findnext"	TRANSLATION="Seuraava merkinta|Siirry seuraavaan tietueeseen"/>
+		<ROW ID="da.findprev"	TRANSLATION="Edellinen merkinta|Menna edellinen ennatys"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="Loytaa leveys|Automaattisesti maarittaa sarakkeen leveys-sisaltoa"/>
+		<ROW ID="da.formatcol"	TRANSLATION="Sarakkeen ominaisuudet"/>
+		<ROW ID="da.forward"	TRANSLATION="Eteenpain|Menna eteenpain"/>
+		<ROW ID="da.go"	TRANSLATION="Menna"/>
+		<ROW ID="da.grid"	TRANSLATION="Nayta ruudukko|Nayta ruudukko kuvan alla"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Ryhma"/>
+		<ROW ID="da.groupby"	TRANSLATION="Ryhman"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="Ryhman sarake"/>
+		<ROW ID="da.grouping"	TRANSLATION="Ryhma|Ryhmaan valitut objektit"/>
+		<ROW ID="da.guide"	TRANSLATION="Kayttoohje|Puhelun kayttajan opas"/>
+		<ROW ID="da.help"	TRANSLATION="Auttaa|Soita apua jarjestelma"/>
+		<ROW ID="da.hide"	TRANSLATION="Piilota"/>
+		<ROW ID="da.holdover"	TRANSLATION="Lykata|Lykata vasteaika tehtava"/>
+		<ROW ID="da.homepage"	TRANSLATION="Etusivu|Avata kotisivun Internet"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="Suuret kuvakkeet|Naytto kayttaa suuria kuvakkeita"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="Valtava kuvakkeet|Nayttaa valtava kuvake"/>
+		<ROW ID="da.iconslist"	TRANSLATION="Lista|Nayta luettelona"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Iso lista|Nayttaa luettelona, jossa suuret elementit"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Kuvakkeet|Naytto kayttaa standardin kuvakkeet"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Taulukko|Nakyviin taulukon, jossa on yksityiskohtaiset tiedot"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="Lisaantynyt taulukko|Nayttaa taulukon kaksi rivia"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Taulukon leveys|Naytto poydan ikkunan leveys"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Pienet kuvakkeet|Naytto esineita, kuten kuvakkeet ja nimet oikealla"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Laatta|Miten kohteet nakyvat ruudukossa perustiedot"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Yksityiskohtaiset laatta|Nayton objektien muodossa laatat, jossa on yksityiskohtaiset tiedot"/>
+		<ROW ID="da.incline"	TRANSLATION="Lisaa rivi"/>
+		<ROW ID="da.insert"	TRANSLATION="Lisaa|Lisaa uusi kohde"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Kaanteinen valinta|Kaantamalla valitut objektit valitsematon ja painvastoin"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Viimeisin viesti|Nayta viimeisin viesti"/>
+		<ROW ID="da.link"	TRANSLATION="Associate"/>
+		<ROW ID="da.linkall"	TRANSLATION="Linkki kaikki"/>
+		<ROW ID="da.linkto"	TRANSLATION="Muista pikakuvake|Muista pikakuvake-tiedostostasi..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Lataa|Voit ladata tiedoston..."/>
+		<ROW ID="da.loadto"	TRANSLATION="Ladata|Voit ladata tiedoston..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Ota yhteytta|Kirjoittaa kirjeen kehittajat ohjelman"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="Valikko|Nayta/piilota paavalikon"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Kotiin|Avaa paasivulla"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Jakaa kayrat"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Tarkista|Tarkista kuvio kyselyn merkkijono kartta"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="Yhdistaa yhteen"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="Nayttaa koordinaatit|Nayttaa koordinaatit pisteiden ja segmenttien pituudet"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Parannettu tila|Parannettu Prolisok skaalata kuvan"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="Google|Kayttaa Google map"/>
+		<ROW ID="da.maptoback"	TRANSLATION="Taustalla|Jos haluat siirtaa objektin taustalle"/>
+		<ROW ID="da.maptofront"	TRANSLATION="Etualalla|Jos haluat siirtaa objektin edustalle"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Yandex|Kayttaa Yandex kartta"/>
+		<ROW ID="da.menugroup"	TRANSLATION="Valikko"/>
+		<ROW ID="da.menuitem"	TRANSLATION="Valikkokohta"/>
+		<ROW ID="da.menumove"	TRANSLATION="Siirra"/>
+		<ROW ID="da.menuorder"	TRANSLATION="Jarjesta-valikosta"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="Sisakkaisia valikosta"/>
+		<ROW ID="da.modify"	TRANSLATION="Muuttaa|Muuttaa ominaisuuksia esineen"/>
+		<ROW ID="da.months"	TRANSLATION="Kuukausi"/>
+		<ROW ID="da.movedown"	TRANSLATION="Alas|Siirra alas"/>
+		<ROW ID="da.moveto"	TRANSLATION="Siirra|Siirtaa objektin"/>
+		<ROW ID="da.moveup"	TRANSLATION="Ylos|Siirra ylos"/>
+		<ROW ID="da.news"	TRANSLATION="Uutiset ja paivitykset|Tietoa paivityksia ja uutisia kehittaja"/>
+		<ROW ID="da.note"	TRANSLATION="Huomautus|Luo huomautus valitun objektin"/>
+		<ROW ID="da.ok"	TRANSLATION="OK"/>
+		<ROW ID="da.open"	TRANSLATION="Avoin|Paasy sisalto nykyinen objekti"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Avoin|Avaa nykyisen ikkunan tarkein"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Avaa uudessa ikkunassa"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Avoin tietoaineisto"/>
+		<ROW ID="da.operations"	TRANSLATION="Toimintaa"/>
+		<ROW ID="da.order"	TRANSLATION="Jotta"/>
+		<ROW ID="da.orderby"	TRANSLATION="Jarjestelyperuste"/>
+		<ROW ID="da.parameters"	TRANSLATION="Asetukset|Voit asettaa parametrit"/>
+		<ROW ID="da.paste"	TRANSLATION="Lisaa|Aseta esineita"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Kulma solmu"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="Aloita muokkaus solmuja|Aloita muokkaus solmuja ja segmentit kuva"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="Kaareva segmentti"/>
+		<ROW ID="da.pointclose"	TRANSLATION="Sulje muoto|Sulje ensimmainen ja viimeinen solmut segmentti"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="Poistaa solmun"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Riutta solmu"/>
+		<ROW ID="da.pointend"	TRANSLATION="Loppuun muuttamalla solmut|Loppuun muuttamalla osia ja segmentov luvut"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="Luo solmu"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="Janan"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="Silea kohta"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Avaa kuva"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Layout"/>
+		<ROW ID="da.presentation"	TRANSLATION="Nakyma"/>
+		<ROW ID="da.preview"	TRANSLATION="Katselu|Asiakirjan esikatselu"/>
+		<ROW ID="da.print"	TRANSLATION="Tulosta|Valitse ja tulosta asiakirja"/>
+		<ROW ID="da.properties"	TRANSLATION="Ominaisuudet|Nayttaa valittujen kohteiden ominaisuudet"/>
+		<ROW ID="da.regtables"	TRANSLATION="Tarkista taulukot"/>
+		<ROW ID="da.remember"	TRANSLATION="Muistutus|Nayttaa ikkunan kayttaja on muistutti"/>
+		<ROW ID="da.rename"	TRANSLATION="Nimea|Nimeta valitun kohteen"/>
+		<ROW ID="da.report"	TRANSLATION="Raportti|Valitse ja luoda raportin"/>
+		<ROW ID="da.representation"	TRANSLATION="Nykyisen nakyman"/>
+		<ROW ID="da.reset"	TRANSLATION="Reset"/>
+		<ROW ID="da.restore"	TRANSLATION="Palauttaa|Palauttaa esineita kauko"/>
+		<ROW ID="da.rotate"	TRANSLATION="Kaanna"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Vastapaivaan|Pyorittaa vastapaivaan, esine"/>
+		<ROW ID="da.rotate90"	TRANSLATION="Myotapaivaan|Jos haluat kiertaa objektia myotapaivaan"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="Vaakasuunnassa|Kiertaa objektia vaakasuunnassa"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="Pystysuora|Kiertaa objektia pystysuunnassa"/>
+		<ROW ID="da.rssnews"	TRANSLATION="Uutiset"/>
+		<ROW ID="da.rulers"	TRANSLATION="Linja|Nayta viivaimet"/>
+		<ROW ID="da.save"	TRANSLATION="Tallenna|Tallenna viimeisin muutos"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Tallenna suodatin|Tallenna nykyinen suodatin"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Tallenna tiedostoon...|Tallentaa tietoja, tai kuva tiedostoon"/>
+		<ROW ID="da.scan"	TRANSLATION="Skannata asiakirjan|Skannata asiakirjan"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="Skannata asiakirja ...|Valitse skanneri ja skannaa asiakirja"/>
+		<ROW ID="da.search"	TRANSLATION="Haku"/>
+		<ROW ID="da.selectall"	TRANSLATION="Valitse kaikki|Valitse kaikki objektit"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="Valitse sarake|Korosta valitun sarakkeen"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="Valitse filter|Valitse tallennettu suodatin"/>
+		<ROW ID="da.service"	TRANSLATION="Palvelu"/>
+		<ROW ID="da.setfilter"	TRANSLATION="Kayta suodatinta|Suodattimen valitun tietojoukon"/>
+		<ROW ID="da.settings"	TRANSLATION="Asetus|Tarkastella ja muokata ohjelman asetuksia"/>
+		<ROW ID="da.shortcut"	TRANSLATION="Suhde|Luoda suhde valittuun objektiin"/>
+		<ROW ID="da.show"	TRANSLATION="Esityksessa"/>
+		<ROW ID="da.showarchived"	TRANSLATION="Nayta arkisto|Nayttaa arkistoituja tietueita"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="Sisalto|Nayta/piilota esikatselu-ruudussa sisaltoa"/>
+		<ROW ID="da.showempty"	TRANSLATION="Nayttaa tyhja|Nayta tyhjat ryhmat"/>
+		<ROW ID="da.showhint"	TRANSLATION="Tyokaluvihjeet|Muuttamalla nayton tilassa tyokaluvihjeet"/>
+		<ROW ID="da.showremoved"	TRANSLATION="Nayta poistetut|Poistetut tietueet"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="Nayttaa suhde|Nayta, etta suhde on erillinen valilehti"/>
+		<ROW ID="da.sorting"	TRANSLATION="Setup...|Maarita asetukset ja jarjestaa esineita"/>
+		<ROW ID="da.splitby"	TRANSLATION="Jaottelu"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="Standardi valikosta|Naytto standardi valikosta"/>
+		<ROW ID="da.statusbar"	TRANSLATION="Tila|Nayttaa ja piilottaa tilarivin"/>
+		<ROW ID="da.switchmode"	TRANSLATION="Voit vaihtaa tilassa|Vaihtaa mode (Kayttaja-Arkkitehti)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="Jos haluat poistaa kaikki tietueet|Jos haluat poistaa kaikki tietueet valitun aineistoja"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Vie tiedot XML|Vienti valitut aineistot XML-tiedostoja"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Tietojen tuominen XML|Tuo valittu aineisto XML-tiedosto"/>
+		<ROW ID="da.tableprop"	TRANSLATION="Aineisto ominaisuudet...|Voit muuttaa ominaisuuksia aineisto"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="Poistaa remote|Poista kaikki merkitty poistetut tietueet valitun aineistoja"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="Lajittelu joukkuetta|Lajitella komentoja valitun aineisto"/>
+		<ROW ID="da.test"	TRANSLATION="Tarkista|Tarkista valitut kohteet"/>
+		<ROW ID="da.testconnect"	TRANSLATION="Yhteyden testi"/>
+		<ROW ID="da.undo"	TRANSLATION="Peruuta|Kumoa viimeisin muutos"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Pura ryhmitys|Pura valittu objekti"/>
+		<ROW ID="da.unreguser"	TRANSLATION="Loppuun istunnon|Loppuun istunnon"/>
+		<ROW ID="da.up"	TRANSLATION="Ylos|Yksi taso ylospain"/>
+		<ROW ID="da.update"	TRANSLATION="Paivitys|Paivita sisalto nykyisen ikkunan"/>
+		<ROW ID="da.view"	TRANSLATION="Nakyma"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="Kalenteri|Naytto esineita kalenteri"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Kortti|Naytto kortti esineita"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Kaavio|Naytto tilastollinen kaavio esineita"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Ryhma|Naytto objektit on jarjestetty ryhmiin"/>
+		<ROW ID="da.viewlist"	TRANSLATION="Lista|Nayttaa tiedot luettelona"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Kartta|Nayttaa tiedot muodossa vektori kaaviot"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Yhteenveto taulukko|Nayttaa tiedot pivot-taulukossa"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Kartta|Nayttaa tiedot muodossa tylovay kortti"/>
+		<ROW ID="da.viewtree"	TRANSLATION="Puu|Tietoja naytetaan puurakenteessa"/>
+		<ROW ID="da.weeks"	TRANSLATION="Viikolla"/>
+		<ROW ID="da.years"	TRANSLATION="Vuonna"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="Oletuksena asteikko|Nayttaa default mittakaavassa"/>
+		<ROW ID="da.zoomin"	TRANSLATION="Lisata|Lahenna"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="Koko kuvan|Nayttaa koko kuvan"/>
+		<ROW ID="da.zoomout"	TRANSLATION="Vahentaa|Loitontaa kuvan"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="Koko kohde|Nayttaa valittujen kohteiden koko"/>
+		<ROW ID="db"	TRANSLATION="DB"/>
+		<ROW ID="de.barcode"	TRANSLATION="Lue viivakoodi ei ole rekisteroity hakemistoja."/>
+		<ROW ID="de.connecter"	TRANSLATION="Kun liitat tapahtui virhe '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="Yhteys oli onnistunut"/>
+		<ROW ID="de.contain"	TRANSLATION="Kansio '%s' sisaltaa poistamattomien kansioita tai objekteja %d Kpl."/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Ei asennettu tai ei ole saatavilla palvelun %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="Ohjelma vaatii palvelun ~ ~ ~ ~ versio:%s. Talla hetkella asennettu versio %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Configuration-tilassa kaytettavissa vain yllapitajalle."/>
+		<ROW ID="de.empty"	TRANSLATION="Kentan '%s' on maaritelty. Maarita ei-tyhja arvo."/>
+		<ROW ID="de.error"	TRANSLATION="Virhe|Virhe"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="Tama kentta voi olla yhteydessa maaritettyyn taulukkoon. Epasuhdasta tyypit."/>
+		<ROW ID="de.file"	TRANSLATION="Tiedosto '%s' on vioittunut, puuttuu tai on virheellinen muoto."/>
+		<ROW ID="de.fileexists"	TRANSLATION="Maaritetty tiedosto on olemassa. Korvataanko?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Muutos hyvaksytaan. Merkinta ei nay nykyisessa luettelossa, koska se tayttaa nykyisen suodattimen ehtoja."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="Muuttunut kohde ei ole nakyvissa, koska se tayttaa nykyisen suodattimen ehtoja."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="Vaara linkki. Esine on kadonnut tai se ei ole kaytettavissa"/>
+		<ROW ID="de.linkself"	TRANSLATION="Valittuun tietueeseen voi liittya"/>
+		<ROW ID="de.needload"	TRANSLATION="Aloita ohjelman lataus"/>
+		<ROW ID="de.openfile"	TRANSLATION="Virhe avattaessa tiedostoa."/>
+		<ROW ID="de.owner"	TRANSLATION="Virheelliset omistaja."/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="Et voi siirtaa kohteen kansioon/ryhma tag 'poistettu'."/>
+		<ROW ID="de.password"	TRANSLATION="Vaaran kayttajatunnuksen tai salasanan. Tarkista nimi ja kirjoita salasana."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Huomaathan, etta Caps Lock-nappainta. Salasanat ovat merkkikokoriippuvaisia."/>
+		<ROW ID="de.port0"	TRANSLATION="Laite on valmis"/>
+		<ROW ID="de.port1"	TRANSLATION="Laite ei ole kaytossa"/>
+		<ROW ID="de.port2"	TRANSLATION="Satama on kiireinen tai puuttuu"/>
+		<ROW ID="de.port3"	TRANSLATION="Alustaa laitteen"/>
+		<ROW ID="de.port4"	TRANSLATION="Puuttuvat ateriat"/>
+		<ROW ID="de.port5"	TRANSLATION="Laite ei ole kytketty"/>
+		<ROW ID="de.readonly"	TRANSLATION="Tiedot ovat vain luku-tilassa."/>
+		<ROW ID="de.regabsent"	TRANSLATION="Demo versio ohjelmasta! Kun olet ostanut tuotteen, laheta rekisterointi-osoitteessa: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="Muokkaa kenttia, ehtoja, lomake-elementteja ja tama aineisto on kielletty."/>
+		<ROW ID="de.unique"	TRANSLATION="Arvo-kenttaan '%s' taytyy olla ainutlaatuinen"/>
+		<ROW ID="df.active"	TRANSLATION="Aktiivisesti"/>
+		<ROW ID="df.address"	TRANSLATION="Osoite"/>
+		<ROW ID="df.admin"	TRANSLATION="Yllapitaja"/>
+		<ROW ID="df.after"	TRANSLATION="Jalkeen"/>
+		<ROW ID="df.alias"	TRANSLATION="Alias"/>
+		<ROW ID="df.anchor"	TRANSLATION="Ankkuri"/>
+		<ROW ID="df.archived"	TRANSLATION="Arkisto"/>
+		<ROW ID="df.author"	TRANSLATION="Kirjoittaja"/>
+		<ROW ID="df.barcode"	TRANSLATION="Viivakoodi"/>
+		<ROW ID="df.basedon"	TRANSLATION="Perustuu"/>
+		<ROW ID="df.before"	TRANSLATION="Ennen"/>
+		<ROW ID="df.blocked"	TRANSLATION="Tukossa"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Reunuksen vari"/>
+		<ROW ID="df.breakline"	TRANSLATION="Erotin"/>
+		<ROW ID="df.calculated"	TRANSLATION="Laskettu"/>
+		<ROW ID="df.caption"	TRANSLATION="Otsikko"/>
+		<ROW ID="df.category"	TRANSLATION="Luokka|Luokka"/>
+		<ROW ID="df.color"	TRANSLATION="Vari"/>
+		<ROW ID="df.column"	TRANSLATION="Sarake"/>
+		<ROW ID="df.command"	TRANSLATION="Joukkue"/>
+		<ROW ID="df.condition"	TRANSLATION="Kunto"/>
+		<ROW ID="df.connection"	TRANSLATION="Yhteys"/>
+		<ROW ID="df.created"	TRANSLATION="Luotu"/>
+		<ROW ID="df.date"	TRANSLATION="Paivamaara"/>
+		<ROW ID="df.deadline"	TRANSLATION="Aika"/>
+		<ROW ID="df.default"	TRANSLATION="Oletuksena"/>
+		<ROW ID="df.deleted"	TRANSLATION="Poistettu"/>
+		<ROW ID="df.description"	TRANSLATION="Kuvaus"/>
+		<ROW ID="df.directory"	TRANSLATION="Viite"/>
+		<ROW ID="df.editor"	TRANSLATION="Toimittaja"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Kentta virhe"/>
+		<ROW ID="df.expression"	TRANSLATION="Ilmaus"/>
+		<ROW ID="df.file"	TRANSLATION="Tiedosto"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Tayta vari"/>
+		<ROW ID="df.filter"	TRANSLATION="Suodatin"/>
+		<ROW ID="df.folder"	TRANSLATION="Kansio"/>
+		<ROW ID="df.generator"	TRANSLATION="Generaattori"/>
+		<ROW ID="df.group"	TRANSLATION="Ryhma"/>
+		<ROW ID="df.height"	TRANSLATION="Korkeus"/>
+		<ROW ID="df.hidden"	TRANSLATION="Piilotettu"/>
+		<ROW ID="df.ico"	TRANSLATION="Kuvake"/>
+		<ROW ID="df.id"	TRANSLATION="Koodi"/>
+		<ROW ID="df.latitude"	TRANSLATION="Leveytta"/>
+		<ROW ID="df.layer"	TRANSLATION="Kerros"/>
+		<ROW ID="df.link"	TRANSLATION="Linkki"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Viestinnan kentalla"/>
+		<ROW ID="df.login"	TRANSLATION="Input nimi"/>
+		<ROW ID="df.longitude"	TRANSLATION="Pituutta"/>
+		<ROW ID="df.mail"	TRANSLATION="Mail"/>
+		<ROW ID="df.message"	TRANSLATION="Viesti"/>
+		<ROW ID="df.modified"	TRANSLATION="Muuttunut"/>
+		<ROW ID="df.name"	TRANSLATION="Nimi"/>
+		<ROW ID="df.namefield"	TRANSLATION="Otsikko-kenttaan"/>
+		<ROW ID="df.note"	TRANSLATION="Huomautus"/>
+		<ROW ID="df.notnull"	TRANSLATION="Ole tyhja"/>
+		<ROW ID="df.offstate"	TRANSLATION="Pois"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="Sisallyttaa valikossa 'Luo'"/>
+		<ROW ID="df.order"	TRANSLATION="Jotta"/>
+		<ROW ID="df.originalname"	TRANSLATION="Nimi tietokantaan"/>
+		<ROW ID="df.owner"	TRANSLATION="Omistaja"/>
+		<ROW ID="df.password"	TRANSLATION="Salasana"/>
+		<ROW ID="df.period"	TRANSLATION="Ajan"/>
+		<ROW ID="df.person"	TRANSLATION="Nimi"/>
+		<ROW ID="df.phone"	TRANSLATION="Puhelin"/>
+		<ROW ID="df.pointer"	TRANSLATION="Indeksi"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Perusavain"/>
+		<ROW ID="df.priority"	TRANSLATION="Merkitysta"/>
+		<ROW ID="df.readonly"	TRANSLATION="Vain luku-"/>
+		<ROW ID="df.role"	TRANSLATION="Rooli"/>
+		<ROW ID="df.rolelink"	TRANSLATION="Ulkoinen asema"/>
+		<ROW ID="df.rotate"	TRANSLATION="Kaanna"/>
+		<ROW ID="df.server"	TRANSLATION="Palvelin"/>
+		<ROW ID="df.size"	TRANSLATION="Koko"/>
+		<ROW ID="df.source"	TRANSLATION="Lahde"/>
+		<ROW ID="df.state"	TRANSLATION="Kunto"/>
+		<ROW ID="df.stored"	TRANSLATION="Tallennettu"/>
+		<ROW ID="df.system"	TRANSLATION="Jarjestelma"/>
+		<ROW ID="df.table"	TRANSLATION="Taulukko"/>
+		<ROW ID="df.template"	TRANSLATION="Malli"/>
+		<ROW ID="df.time"	TRANSLATION="Aika"/>
+		<ROW ID="df.translation"	TRANSLATION="Kaannos"/>
+		<ROW ID="df.transparent"	TRANSLATION="Lapinakyva"/>
+		<ROW ID="df.type"	TRANSLATION="Tyyppi"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Asetukset tuonti/vienti"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Custom filter"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Maarita kentat naytetaan"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Paikallinen filter"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Maailmanlaajuinen suodatin"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="Asetus kartta kerrokset"/>
+		<ROW ID="df.unique"	TRANSLATION="Ainutlaatuinen"/>
+		<ROW ID="df.user"	TRANSLATION="Kayttaja"/>
+		<ROW ID="df.value"	TRANSLATION="Arvo"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Ala aseta arvo"/>
+		<ROW ID="df.varname"	TRANSLATION="Nimi ilmaus"/>
+		<ROW ID="df.version"	TRANSLATION="Versio"/>
+		<ROW ID="df.visible"	TRANSLATION="Nakyvissa"/>
+		<ROW ID="df.width"	TRANSLATION="Leveys"/>
+		<ROW ID="di.column"	TRANSLATION="Sarake|Sarakkeet"/>
+		<ROW ID="di.menuelem"	TRANSLATION="Valikkokohta|Valikon kohteita"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="Aktiivinen kerros"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Linjaus"/>
+		<ROW ID="dl.animation"	TRANSLATION="Animaatio"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="AutoFilter"/>
+		<ROW ID="dl.captionright"	TRANSLATION="Nayta otsikko oikein"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="Viitteita"/>
+		<ROW ID="dl.check"	TRANSLATION="Tarkista"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Tarkista uutiset ja paivitykset kehittaja verkkosivuilla"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Verkko-osoite"/>
+		<ROW ID="dl.computername"	TRANSLATION="Tietokone"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Kokoonpano"/>
+		<ROW ID="dl.configurator"	TRANSLATION="Configurator"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Vahvistus..."/>
+		<ROW ID="dl.copies"	TRANSLATION="Kopioita"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="Kopioi piilotettuja kenttia leikepoydalle liittamisen muihin sovelluksiin"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="Kopioi kentan otsikot leikepoydalle liittamisen muihin sovelluksiin"/>
+		<ROW ID="dl.correspond"	TRANSLATION="Vastaa"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="Kayttamalla kenttia ei ole voimassa tata ilmaisua."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Suorittimen taajuus"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Prosessori"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Tarjoaja"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Maarittaa automaattisesti"/>
+		<ROW ID="dl.datacom"	TRANSLATION="pilkulla erotettuna"/>
+		<ROW ID="dl.datatab"	TRANSLATION="tab delimited"/>
+		<ROW ID="dl.datatext"	TRANSLATION="Teksti-tiedosto"/>
+		<ROW ID="dl.device"	TRANSLATION="Laite"/>
+		<ROW ID="dl.directories"	TRANSLATION="Viite"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="Vetamalla ja pudottamalla kirjaa"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="Tietokanta-ajuri"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="Palvelut tietokantaan"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="Mail client"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Office"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="OLAP services"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="Jotta tallennus vianjaljitystietoa"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="Kirjautua SQL-kyselyja"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Kaikkialla"/>
+		<ROW ID="dl.faster"	TRANSLATION="Nopeammin"/>
+		<ROW ID="dl.findin"	TRANSLATION="Etsi esine luettelossa:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="Mista etsia"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Hakutulokset"/>
+		<ROW ID="dl.findtext"	TRANSLATION="Jos haluat etsia tekstia"/>
+		<ROW ID="dl.form"	TRANSLATION="Lomake"/>
+		<ROW ID="dl.format"	TRANSLATION="Muodossa"/>
+		<ROW ID="dl.forms"	TRANSLATION="Lomake"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="Aina kirjautua tayden paivamaara ja aika"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Korostaen riveja"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Grid linjat"/>
+		<ROW ID="dl.guard"	TRANSLATION="Suojaa"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="Piilottaa jarjestelman tiedot"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="Jotta HTTP-yhteys (beta)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="Sivuuttaa tapauksessa"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Ohita numeroita"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Haku on osa"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Ottamatta huomioon sanajarjestys"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Sivuuttaa erikoismerkkeja"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Pitaa streaming data vanhassa muodossa"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="Nykyinen lista"/>
+		<ROW ID="dl.indataset"	TRANSLATION="Aineisto"/>
+		<ROW ID="dl.information"	TRANSLATION="Tietoa..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Kayttoliittyma"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="Viimeinen nakyma, vienti"/>
+		<ROW ID="dl.layers"	TRANSLATION="Kerrokset"/>
+		<ROW ID="dl.locating"	TRANSLATION="Paikannus aktiivisen objektin"/>
+		<ROW ID="dl.location"	TRANSLATION="Sijainti"/>
+		<ROW ID="dl.locksession"	TRANSLATION="Jos haluat estaa kayttajan istunnon jalkeen on tyhjakaynnilla (minuuttia)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Hakkuut"/>
+		<ROW ID="dl.map"	TRANSLATION="Kartta"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="Valimuistiin karttaruudut"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="Rajoittaa tiedoston koon megatavuina"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="Kaytettavissa olevan muistin"/>
+		<ROW ID="dl.metadata"	TRANSLATION="Pohja metastructure"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Metric|Tarkein metrinen asteikko"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Muut varit..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Paina [Ctrl] yhdenmukaistaa koordinaatit nykyisen pisteen kanssa muita kohtia muoto"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Poista sarakkeet"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Poistaminen rivit"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="Kaytto AutoFilter"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="Solujen muotoilu"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="Sarakkeen muotoilu"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="Merkkijonon muotoilu"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Lisaamalla sarakkeita"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Lisaamalla hyperlinkkeja"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Lisaa riveja"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="Lajittelu"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="Kayttaa pivot-taulukot"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="Editointi skripteja"/>
+		<ROW ID="dl.no"	TRANSLATION="Ei"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="Ei"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="Toimenpide kestaa jonkin aikaa ja ei voi keskeyttaa."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Sitten jarjestaa vuoteen"/>
+		<ROW ID="dl.osversion"	TRANSLATION="OS versio"/>
+		<ROW ID="dl.other"	TRANSLATION="Muut"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Tuotannon tiedostoja"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="Asetukset-sivulla"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Laajennukset"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="Valitse toiminto"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="Jalkeen klikkaamalla SEURAAVA alkaa toiminta"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Valitse datajoukon tietojen vaihto"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Maarita tyyppi ulkoinen tiedosto tai valitse nakyma"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Valitse kentat, jotka haluat vieda"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="Maarita suodatin varten valittu aineisto"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="Toiminta"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Maarita tyyppi, sijainti ja nimi ulkoinen tiedosto"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Maarita kenttien jarjestys vetamalla arvot vasemmalta luettelosta oikealla"/>
+		<ROW ID="dl.port"	TRANSLATION="Port"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Databitit"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Pariteetti"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Bittinopeus (bit/s)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Stop-bittia"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="Stop-tavun"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Aikakatkaisu (MS)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Kiireinen"/>
+		<ROW ID="dl.printer"	TRANSLATION="Tulostin"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Ilmainen"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Tyyli tulosta"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="Kun toiminta on tapahtunut virhe."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="Operaatio suoritettu onnistuneesti"/>
+		<ROW ID="dl.properties"	TRANSLATION="Ominaisuudet"/>
+		<ROW ID="dl.question"	TRANSLATION="Kysymys..."/>
+		<ROW ID="dl.random"	TRANSLATION="Vahingossa"/>
+		<ROW ID="dl.reading"	TRANSLATION="Lue tiedot"/>
+		<ROW ID="dl.recipient"	TRANSLATION="Vastaanottaja"/>
+		<ROW ID="dl.registration"	TRANSLATION="Kirjautuminen, kirjoita nimi ja salasana"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Kaynnistyksen muistutuksia, kun kayttajan kirjautuminen"/>
+		<ROW ID="dl.results"	TRANSLATION="Tulokset"/>
+		<ROW ID="dl.scale"	TRANSLATION="Asteikko"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="Mista etsia"/>
+		<ROW ID="dl.separator"	TRANSLATION="Erotin"/>
+		<ROW ID="dl.sheet"	TRANSLATION="Arkki"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="Nayta otsikot"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Tarkista ja ohittaa tietueita virheellinen viiteavain"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Ohita ennatys vaara tietotyyppi"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Ohita ensimmainen levy kuin otsikon"/>
+		<ROW ID="dl.slower"	TRANSLATION="Hitaampi"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="Laskeva"/>
+		<ROW ID="dl.sortup"	TRANSLATION="Nouseva"/>
+		<ROW ID="dl.soundon"	TRANSLATION="Voit kytkea aanen paalle"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="Tulostaa kopioita"/>
+		<ROW ID="dl.start"	TRANSLATION="Aloittaa"/>
+		<ROW ID="dl.step"	TRANSLATION="Vaihe"/>
+		<ROW ID="dl.stop"	TRANSLATION="Lopeta"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="Tyyli vaihtoehtoja"/>
+		<ROW ID="dl.systemres"	TRANSLATION="Jarjestelman resursseja"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Kirjanmerkit...|Kirjanmerkki"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Kuuma."/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Luokka"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Joukkue"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Custom"/>
+		<ROW ID="dl.thickness"	TRANSLATION="Paksuus"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="Toolbar"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="Tyokalurivi"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Oikotie"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Asetukset"/>
+		<ROW ID="dl.totray"	TRANSLATION="Pienenna tarjotin, kun suljet ohjelman ikkunassa"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Tietoja ei ole saatavilla"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="Paivittaa tietuetta, joissa on vastaavat perusavain"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="Paivitys vain ei-tyhjat arvot"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Kayta viivakoodin lukija"/>
+		<ROW ID="dl.username"	TRANSLATION="Kayttaja"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="Nimi tamanhetkinen Windows-kayttaja"/>
+		<ROW ID="dl.version"	TRANSLATION="Versio"/>
+		<ROW ID="dl.view"	TRANSLATION="Nayton asetukset"/>
+		<ROW ID="dl.warning"	TRANSLATION="Varoitus..."/>
+		<ROW ID="dl.yes"	TRANSLATION="Kylla"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="Komento|Toteutus valitun komennon"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Haluatko poistaa"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="Nama pikakuvakkeet poistetaan, jatkaa?"/>
+		<ROW ID="dm.sequence"	TRANSLATION="Valitse ~ ~ ~ ~, etta haluaisit nahda. Painikkeet 'Ylos' ja 'Alas' voit maarittaa niiden jarjestys."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Painikkeet 'Ylos' ja 'Alas' asettaa jarjestykseen komennot. Jos tarpeen, Voit naytto erotin ennen kuin komento."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Valitse tiedosto ratkaisu"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="Suorita toimenpide loppuun, sinun taytyy kopioida tiedosto '%s' hakemisto -'%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Poisto ratkaisu"/>
+		<ROW ID="dm.solloading"	TRANSLATION="Ratkaisu on ladattu"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Tyon jatkaminen on mahdollista vain, kun olet kirjautunut jarjestelmaan."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Purku ratkaisuja"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="Paivita asetukset|Luettelon paivitys komento vaihtoehtoja"/>
+		<ROW ID="dt.action"	TRANSLATION="Tapahtuman tyyppi|Erilaisia tapahtumia"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="Tapahtuman ehto|Tapahtuman ehtojen"/>
+		<ROW ID="dt.additional"	TRANSLATION="Lisatietoja"/>
+		<ROW ID="dt.alignment"	TRANSLATION="Linjaus tyyppi|Tyypit linjaus"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Koodaus|Koodaus"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="Mode-parametri|Asetukset profiilit"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="Komento tyyppi|Tyyppisia komentoja"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Kunto|Kunto"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Rajoitus|Rajoitukset"/>
+		<ROW ID="dt.data"	TRANSLATION="Tiedot"/>
+		<ROW ID="dt.database"	TRANSLATION="Tietokanta|Tietokanta"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="Tietokannan tyyppi|Tietokanta tyypit"/>
+		<ROW ID="dt.dataset"	TRANSLATION="Aineisto|Aineistot"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="Aineisto tyyppi"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Tietojen tyyppi|Tietotyypit"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="Sanakirja|Sanakirjat"/>
+		<ROW ID="dt.event"	TRANSLATION="Toiminta|Toiminta"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Ilmoituksen tyyppi|Ilmoitus tyypit"/>
+		<ROW ID="dt.field"	TRANSLATION="Kentta|Kentta"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="Alan luokka|Luokan kentat"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="Rooli-kentassa|Kentat"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Fontin vari|Luettelo fontin varit"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="Fontin tyyli|Fontin tyyleja"/>
+		<ROW ID="dt.formelement"	TRANSLATION="Lomake-elementti|Lomake-elementit"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="Tyyppi lomake-elementin|Erilaisia lomake-elementin"/>
+		<ROW ID="dt.language"	TRANSLATION="Kieli|Kielet"/>
+		<ROW ID="dt.logintype"	TRANSLATION="Tyyppi kayttaa"/>
+		<ROW ID="dt.membership"	TRANSLATION="Ryhman jasenyys|Ryhman jasenyys"/>
+		<ROW ID="dt.menu"	TRANSLATION="Valikko|Valikko"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Metadata"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="Tyyppi solmu|Solmu tyyppeja"/>
+		<ROW ID="dt.note"	TRANSLATION="Huomautus|Toteaa"/>
+		<ROW ID="dt.object"	TRANSLATION="Esine"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="Vaikutus poistaminen|Toimet, kun poistat"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="Operaation tyyppi|Toimien tyypit"/>
+		<ROW ID="dt.param"	TRANSLATION="Vaihtoehto|Asetukset"/>
+		<ROW ID="dt.policy"	TRANSLATION="Turvallisuuspolitiikka|Turvallisuuspolitiikka"/>
+		<ROW ID="dt.procedure"	TRANSLATION="Nimi menettely|Nimet menettelyja"/>
+		<ROW ID="dt.report"	TRANSLATION="Raportti|Raportit"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="Raportti parametri|Raportin parametreja"/>
+		<ROW ID="dt.right"	TRANSLATION="Kayttaja oikea|Kayttajan oikeudet"/>
+		<ROW ID="dt.role"	TRANSLATION="Rooli suhteessa|Rooli suhteessa"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="Suhde|Suhde"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Tyyppi nayttaa kentta|Tyypit nayton kentat"/>
+		<ROW ID="dt.solution"	TRANSLATION="Paatos|Ratkaisuja"/>
+		<ROW ID="dt.task"	TRANSLATION="Tehtava|Tehtavat"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Kirjoita kayttajan tiedot"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="Operaation tyyppi|Toimien tyypit"/>
+		<ROW ID="dt.user"	TRANSLATION="Kayttaja|Kayttajat"/>
+		<ROW ID="dt.usertask"	TRANSLATION="Tehtavan kayttaja|Kayttajat, tehtavat"/>
+		<ROW ID="dt.usertype"	TRANSLATION="Kayttajan tyyppi|Tyypit kayttaja"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Nayton tyyppi|Renderointilaitokset"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="Jaksotus laskenta"/>
+		<ROW ID="dtadditionally"	TRANSLATION="Lisaksi"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="Jokaisen pyynnon"/>
+		<ROW ID="dv.button"	TRANSLATION="Painiketta"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Css poistaa"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="Leikepoydalle"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="Musta"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="Sininen"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Suklaa"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="SYAANIBROMIDIA"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Vadelma"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="Oletuksena"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="Harmaa"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Vihrea"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Vihrea"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="Violetti"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="Sininen"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="Violetti"/>
+		<ROW ID="dv.colorred"	TRANSLATION="Punainen"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="Turkoosi"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="Valkoinen"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Keltainen"/>
+		<ROW ID="dv.day1"	TRANSLATION="Maanantaina"/>
+		<ROW ID="dv.day2"	TRANSLATION="Tiistaina"/>
+		<ROW ID="dv.day3"	TRANSLATION="Ymparisto"/>
+		<ROW ID="dv.day4"	TRANSLATION="Torstaina"/>
+		<ROW ID="dv.day5"	TRANSLATION="Perjantaina"/>
+		<ROW ID="dv.day6"	TRANSLATION="Lauantaina"/>
+		<ROW ID="dv.day7"	TRANSLATION="Sunnuntaina"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Kielletty"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="Suodatus"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Varoitus"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Todellinen maara"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Lomake"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="Tiedot-ikkuna"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Kokonaisluku"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Linkitetty lista"/>
+		<ROW ID="dv.elempage"	TRANSLATION="Kirjanmerkki"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="Kirjanmerkki-ikkunan tiedot"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Paneeli"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="Kirjoitus"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Linja"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Kytkin"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="Luettelo kytkimet"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="Puu kirjaa"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Puu lista"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Sallittu"/>
+		<ROW ID="dv.explorer"	TRANSLATION="File Explorer"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Suosikit"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Vain ensimmainen pyynto"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Rohkea"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="Lisaantynyt"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Alleviivattu"/>
+		<ROW ID="dv.globalref"	TRANSLATION="Global Handbook"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="Salattu salasana"/>
+		<ROW ID="dv.localref"	TRANSLATION="Paikalliseen hakemistoon"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="Ensisijainen aineisto"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Koskaan"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Ominaisuus"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Tuote"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Ryhma"/>
+		<ROW ID="dv.noname"	TRANSLATION="Ilman nimea"/>
+		<ROW ID="dv.onall"	TRANSLATION="Kaikki leikkaus"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="Kun siirrat roskakoriin"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="Poistaminen"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="Kun asetat"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="Sisaankaynnin"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="Kun poistut"/>
+		<ROW ID="dv.onreading"	TRANSLATION="Kun luet"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="Kun editointi"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="Korkea"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Alhainen"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="Normaali"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Ban"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="Valitut objektit %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="Palauta yhteys"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="Orja aineisto"/>
+		<ROW ID="dv.text"	TRANSLATION="Teksti"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="Toiminta %s ei loytynyt"/>
+		<ROW ID="error.additem"	TRANSLATION="Lisaamalla merkinnat tassa Kasikirjassa on kielletty."/>
+		<ROW ID="error.argcount"	TRANSLATION="Virheellinen maara argumentteja toiminto soittaa"/>
+		<ROW ID="error.argtype"	TRANSLATION="Virheellinen argumentti tyyppi"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="Odotettavissa on oikea sulkumerkki"/>
+		<ROW ID="error.char"	TRANSLATION="kentan '%s' syotit virheellisen merkin tai merkit '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="Object '%s' eivat ole poistetut objektit-osiossa '%s'."/>
+		<ROW ID="error.children"	TRANSLATION="C ' ~ ~ ~ ~ aiheeseen liittyvia esineita '%s' (%d Kpl.)"/>
+		<ROW ID="error.connect"	TRANSLATION="Polku on virheellinen tai se ei ole kaytettavissa database server."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="Virhe yhdistettaessa tietokantaan metastructure."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="Tietokannan %s ei loytynyt suorittaa tallennettu menettely."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="Tietokannan %s ei tue toteuttamista tallennettu menettelyja."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="Data set on tehda paatos '%s'."/>
+		<ROW ID="error.default"	TRANSLATION="Kohde on merkitty 'default' ei voi poistaa."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Kohde muuttunut toisen kayttajan toimesta. Haluat poistaa kohteen?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="Kohde on poistettu toisen kayttajan."/>
+		<ROW ID="error.double"	TRANSLATION="Maaritetty arvo-avain-kentassa ei ole ainutlaatuinen. Ehka merkinta, jossa annetaan arvoa on merkitty poistetuiksi."/>
+		<ROW ID="error.edit"	TRANSLATION="ei maaritetty arvot tarvittavat kentat tai syotetaan virheellisia tietoja."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="Taman tyyppinen elementti on maaritelty kentta"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="Taman tyyppinen elementti pitaisi olla maaritetty kentta"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="Tama elementti voi olla yhteydessa maaritettyyn taulukko"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="Tama elementti ei saa olla maaritetty yhteys on muodostettu"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="Tama tekija on maaritettava yhteys"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="Maaritelty elementti voi olla omistaja"/>
+		<ROW ID="error.elem.type"	TRANSLATION="Elementin tyyppi on ristiriidassa kentan tyyppi"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Tuntematon omistaja"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="Tyhja ilme"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="Tehtavalista on tyhja."/>
+		<ROW ID="error.exprend"	TRANSLATION="Loppuun ilmaus"/>
+		<ROW ID="error.field"	TRANSLATION="Virhe kentan kuvaus"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="Virhe laskenta-arvo kentan '%s', koska kehaviittauksen"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Kentta %s ei ole olemassa"/>
+		<ROW ID="error.find"	TRANSLATION="Ei loytynyt mitaan esinetta, joka sisaltaa maaritetyn arvon"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="Kentta ei OLE NULL, sinun taytyy maarittaa oletusarvo"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="Kentta - perusteella kansiot voi maarittaa arvo 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="Taulukossa saa olla vain yksi kentta"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Virheellinen vakio arvo"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Virheellinen merkki"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="Type mismatch"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Virheelliset polku tai tiedostonimi."/>
+		<ROW ID="error.inlist"	TRANSLATION="Parametrin on oltava yksi arvo luettelosta:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Virheellinen jasenen tyyppi turvallisuus."/>
+		<ROW ID="error.length"	TRANSLATION="merkkien maara alalla '%s' ei saa ylittaa %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="Vuonna metastructure ei ole tarvetta toiminnan ohjelman aineistoja."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Versio metastructure ei vastaa versio ohjelmasta."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="Sinun taytyy syottaa nimi."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="Nimi paatos olisi vahvistettava"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="Ei ole valitun objektin"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="Ei ole maaritelty, valimuistin toimintaa"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="Ala maarita aineisto toimia"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Ei toteutettu, kun kaytat vanhoja metastructure!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Virheellinen operandi tyyppia"/>
+		<ROW ID="error.printer"	TRANSLATION="Virhe alustetaan tulostin. Asiakirjan tulostaminen peruutetaan."/>
+		<ROW ID="error.printerno"	TRANSLATION="Ei kaytettavissa oleva tulostin"/>
+		<ROW ID="error.readfield"	TRANSLATION="Virhe luettaessa dataa '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="Sinulla ei ole riittavasti oikeuksia suorittaa operaation"/>
+		<ROW ID="error.scan"	TRANSLATION="Virhe skanneri."/>
+		<ROW ID="error.setfield"	TRANSLATION="Ala maarita arvoa, maarittaa ei-tyhja kentta-arvo"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Loytyi samanlainen tuote. Menna hanen luokseen?"/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Valitse kohde haku"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="Samanlainen tuote ei ole loytynyt"/>
+		<ROW ID="error.sort"	TRANSLATION="Lajittelu lasketut kentat ja kenttien tiedostoja ei ole sallittua"/>
+		<ROW ID="error.sortfield"	TRANSLATION="Valittu-kentassa on jo lasna luettelo lajittele kentat."/>
+		<ROW ID="error.start"	TRANSLATION="Tama toiminto on kaytettavissa vain, kun lupaa."/>
+		<ROW ID="error.statementend"	TRANSLATION="Odottamaton ilme"/>
+		<ROW ID="error.strlen"	TRANSLATION="Pituus merkkijono kentta '%s' liian suuri"/>
+		<ROW ID="error.tree"	TRANSLATION="Virhe luominen objekti puu. Puuttuva omistaja puun solmu '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="Unclosed string"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="Odottamaton ilme"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="Tietoa jasenyys maaritelty kayttaja taman ryhman on jo rekisteroity tietokantaan."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Tuntematon toiminto"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Tuntematon tunniste"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Kohde muuttunut toisen kayttajan toimesta. Tallenna muutokset?"/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Kohde muuttunut toisen kayttajan toimesta."/>
+		<ROW ID="error.updateitem"	TRANSLATION="Virhe haettaessa tiedoston paivitykset"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="Kayttajatili on lukittu."/>
+		<ROW ID="figure"	TRANSLATION="Kuva"/>
+		<ROW ID="filefilters"	TRANSLATION="Raportit MSExcel|*.xls|InterBase tiedostot|*.gdb|Configuration|*.cfg|Kaikki tiedostot|*.*"/>
+		<ROW ID="for"	TRANSLATION="Varten"/>
+		<ROW ID="imp.break"	TRANSLATION="Peruuta toiminto"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Luo uusi tietue"/>
+		<ROW ID="imp.data"	TRANSLATION="Miten tuoda tiedot"/>
+		<ROW ID="imp.dterror"	TRANSLATION="Virhe, tiedot tyyppi kentan"/>
+		<ROW ID="imp.empty"	TRANSLATION="Kentan arvo on tyhja"/>
+		<ROW ID="imp.first"	TRANSLATION="Ensimmainen merkinta"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Ohjaus ulko-avain"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="Viiteavain ei ole olemassa"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Ohita virhe"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="Sattuma perusavain"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Lisatty tietueiden"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Ohitetut tietueet"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Paivitetty kirjaa"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Ohita merkinta"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Skip-kentan arvo"/>
+		<ROW ID="imp.title"	TRANSLATION="Neiti, kuten otsikko"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="Paivita ennatys"/>
+		<ROW ID="inexpr"	TRANSLATION="ilmaus"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="%s Tallennettu."/>
+		<ROW ID="line"	TRANSLATION="Linja"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 km"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 km"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 km"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 km"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 m"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 m"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 m"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 m"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 m"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 m"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 m"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 m"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 km"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 m"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 m"/>
+		<ROW ID="map.scale22"	TRANSLATION="1,5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0,75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 m"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 km"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 km"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 km"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 km"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 km"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 km"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 km"/>
+		<ROW ID="mmmmm1"	TRANSLATION="Tammikuuta|Jan"/>
+		<ROW ID="mmmmm10"	TRANSLATION="Lokakuussa|Mma"/>
+		<ROW ID="mmmmm11"	TRANSLATION="Marraskuuta|Nov"/>
+		<ROW ID="mmmmm12"	TRANSLATION="Joulukuuta|Dec"/>
+		<ROW ID="mmmmm2"	TRANSLATION="Helmikuuta|Helmikuu"/>
+		<ROW ID="mmmmm3"	TRANSLATION="Maaliskuussa|Mar"/>
+		<ROW ID="mmmmm4"	TRANSLATION="Huhtikuuta|APR"/>
+		<ROW ID="mmmmm5"	TRANSLATION="Voi|Voi"/>
+		<ROW ID="mmmmm6"	TRANSLATION="Kesakuussa|Jun"/>
+		<ROW ID="mmmmm7"	TRANSLATION="Heinakuuta|Heinakuuta"/>
+		<ROW ID="mmmmm8"	TRANSLATION="Elokuussa|Aug"/>
+		<ROW ID="mmmmm9"	TRANSLATION="Syyskuussa|Sep"/>
+		<ROW ID="not"	TRANSLATION="Ei"/>
+		<ROW ID="openurl"	TRANSLATION="Avaa URL-osoite"/>
+		<ROW ID="opeq"	TRANSLATION="Joka tapauksessa"/>
+		<ROW ID="opge"	TRANSLATION="Suurempi tai yhta suuri kuin"/>
+		<ROW ID="opgt"	TRANSLATION="Lisaa"/>
+		<ROW ID="opisfalse"	TRANSLATION="Valhe"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Ole tyhja"/>
+		<ROW ID="opisnull"	TRANSLATION="Tyhja"/>
+		<ROW ID="opistrue"	TRANSLATION="Totuus"/>
+		<ROW ID="ople"	TRANSLATION="Vahemman kuin tai yhta suuri kuin"/>
+		<ROW ID="oplike"	TRANSLATION="Sisaltaa"/>
+		<ROW ID="oplt"	TRANSLATION="Vahemman"/>
+		<ROW ID="opne"	TRANSLATION="Ei yhta"/>
+		<ROW ID="opnotlike"	TRANSLATION="Ei sisalla"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="Hoitoa ei tarvita"/>
+		<ROW ID="process.tables"	TRANSLATION="Kasitellyt taulukot:"/>
+		<ROW ID="quantity"	TRANSLATION="Numero"/>
+		<ROW ID="query.savechanges"	TRANSLATION="Tallenna muutokset?"/>
+		<ROW ID="querydelete"	TRANSLATION="Poistamisen jalkeen objektin, tiedot eivat ole kaytettavissa. Poista object '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Poista object '%s' ilman mahdollisuutta myohempien elpymista?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Poistaa valitut kohteet ('%s') ilman mahdollisuutta myohempien elpymista?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Paivitys maaraajoin viesti"/>
+		<ROW ID="registration"	TRANSLATION="Tarkista"/>
+		<ROW ID="send"	TRANSLATION="Laheta"/>
+		<ROW ID="sendmail"	TRANSLATION="Laheta sahkopostia"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="Jos haluat lahettaa viestin vastaanottajien luettelon"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Standardi"/>
+		<ROW ID="updatemessages"	TRANSLATION="Paivita viesteja"/>
+		<ROW ID="updating"	TRANSLATION="Paivitys"/>
+		<ROW ID="use"	TRANSLATION="Kayta"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="Nakyma"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="Voit siirtya valilehdelta toiselle, sinun taytyy pelastaa nykyinen ennatys."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="Voit siirtya valilehdelta toiselle, sinun taytyy pelastaa nykyinen ennatys."/>
+	</ROWDATA>
+</DATAPACKET>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Ticket;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
@@ -30,7 +31,7 @@ class RegisterController extends Controller
      */
     //protected $redirectTo = '/home';
 	
-	protected $redirectTo = '/';
+	protected $redirectTo = '/lk/customer';
 
     /**
      * Create a new controller instance.
@@ -50,13 +51,23 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data, [
+        $val= Validator::make($data, [
             //'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
+            'g-recaptcha-response' => 'required|recaptcha',
         ]);
-    }
 
+/*        Ticket::create_notification( 0, 501,''); */
+        return $val;
+    }
+    public function messages()
+    {
+        return [
+            'email.unique' => 'E-mail не уникален',
+            'password.confirmed'  => 'Пароли не совпадают',
+        ];
+    }
     /**
      * Create a new user instance after a valid registration.
      *
@@ -65,11 +76,16 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        $verify_code=rand(1111,9999);
+        $user= User::create([
             //'name' => $data['name'],
 			'name' => (empty($data['name'])) ? 'not defined' : $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'verify_code' => $verify_code,
         ]);
+
+        Ticket::create_notification($user->id,500,$verify_code);
+        return $user;
     }
 }

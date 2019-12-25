@@ -1,101 +1,37 @@
 @extends('dbco.layouts.customer')
 
 @section('customercontent')
-
+<https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css
 <!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
-<form class="form" action="{{ route('customer.update') }}" method="POST">
-	@csrf
-	@method('PUT')
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					Ф.И.О.:
-				</div>
-				<div class="col-6">
-					<input type="text" name="ccustomername" value="{{ $dbco_customer->ccustomername }}" id="ccustomername" class="form-control m_formControl" placeholder="Ф.И.О." />
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					Телефон:
-				</div>
-				<div class="col-6">
-					<input type="text" name="ccustomerphone" value="{{ $dbco_customer->ccustomerphone }}" id="ccustomerphone" class="form-control m_formControl" placeholder="" disabled />
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					E-mail:
-				</div>
-				<div class="col-6">
-					<input type="text" name="ccustomermail" value="{{ $dbco_customer->ccustomermail }}" id="ccustomermail" class="form-control m_formControl" placeholder="mail@mail.com" disabled />
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainer">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-6 offset-md-2 col-md-4">
-					Комментарии:
-				</div>
-				<div class="col-6">
-					<textarea name="ccustomernote" value="{{ $dbco_customer->ccustomernote }}" id="ccustomernote" class="form-control m_formControl" rows="3">{{ $dbco_customer->ccustomernote }}</textarea>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->	
-	
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainerWithoutMargin pt-5 pb-4">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-12 form-check text-center">
-					<input type="checkbox" class="form-check-input" id="Check1" checked>
-					<label class="form-check-label" for="Check1">Согласие на обработку персональных данных</label>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-	
-	<!-- ОДНА СТРОКА ФОРМЫ -->
-	<div class="container-fluid lk_formContainerWithoutMargin pb-5">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-12 form-check text-center">
-					<button type="submit" class="btn btn-primary standardToggleButton">Сохранить</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ОДНА СТРОКА ФОРМЫ -->
-</form>
-<!-- ГОРИЗОНТАЛЬНЫЙ КОНТЕЙНЕР ВО ВСЮ ШИРИНУ. ФОРМА -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css"  >
 
+<div class="container-fluid lk_formContainer">
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-2 offset-md-2 col-md-2">
+					{{--{{__('Физ./Юр. лицо')}}:--}}
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" name="icustomerlegal"  value="0" id="m2" @if($dbco_customer->icustomerlegal==0) checked @endif  class="custom-control-input icustomerlegal" >
+					<label class="custom-control-label"  for="m2"  >{{__('Физическое лицо')}}</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" name="icustomerlegal"  value="1"   @if($dbco_customer->icustomerlegal==1) checked @endif  class="custom-control-input icustomerlegal" id="m1" >
+					<label class="custom-control-label"  for="m1"  >{{__('Юридическое лицо')}}</label>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	 <div class="fo_fl" @if($dbco_customer->icustomerlegal==1) style="display: none" @endif >
+
+		 @include('dbco.customer.customerpersonalinfo.fl')
+	 </div>
+<div class="fo_ul" @if($dbco_customer->icustomerlegal==0) style="display: none" @endif >
+
+	@include('dbco.customer.customerpersonalinfo.ul')
+</div>
 @endsection

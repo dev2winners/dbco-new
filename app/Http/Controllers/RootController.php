@@ -38,8 +38,21 @@
 				$authors[$solution->isolutionid] = ($author = DbcoCustomer::where('icustomerid',$solution->isolutiondeveloper)->first()) ? $author->ccustomername : '';
 			}
 
-			
-			return view('dbco.root',['solutions' => $solutions, 'buttonState' => $buttonState, 'authors' => $authors, 'page' => $pages->setPageDataForView($uri = '/')] );
+
+
+
+       /*     +"iparagraphid": 1
+            +"cparagraphtitle": "Всё для построения именно вашего решения"
+            +"cparagraphtext": "* Не дайте потеряться нужным разрозненным сведениям, которые не удается сохранить в стандартной учетной системе. Платформа dbco поможет построить именно то, что ▶"
+            +"cparagraphnote": "первый текстовый блок на главной странице"
+            +"cparagraphpage": "main"
+            +"cparagraphtag": "main_1"
+            +"cparagraphlang": "ru"
+            +"iparagraphorder": 1
+            +"iparagraphdeleted": 1*/
+
+
+			return view('dbco.root',['solutions' => $solutions, 'buttonState' => $buttonState, 'authors' => $authors, 'page' => $pages->setPageDataForView(  'main')] );
 			
 		}
 	}

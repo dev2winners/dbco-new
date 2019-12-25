@@ -22,7 +22,7 @@
 		];
 		
 		public function dbcoSolutions() { // делаем отношения с DbcoSolution
-			return $this->belongsToMany('App\DbcoSolution', 'dbco_install', 'iinstallcustomer', 'iinstallsolution')->withTimestamps()->withPivot('dinstalldate','iinstallstate','dinstalledit', 'iinstallversion');
+			return $this->belongsToMany('App\DbcoSolution', 'dbco_install', 'iinstallcustomer', 'iinstallsolution')->withTimestamps()->withPivot('dinstalldate','iinstallstate','dinstalledit', 'iinstallversion','iinstallraiting');
 		}
 		
 		public function dbcoFinance()

@@ -9,20 +9,14 @@
 		
 		public $page = [];
 		
-		public function setPageDataForView($uri) {
-			
-			$pageObj = $this->where('uri',$uri)->first();
-			if($pageObj){
-				$this->page['title'] = json_decode($pageObj->meta)->title;
-				
-				if($pageObj->content) {
-					foreach (json_decode($pageObj->content) as $content){
-						$this->page['content'][$content->id]['title'] = $content->title;
-						$this->page['content'][$content->id]['text'] = $content->text;
-					}				
-				}				
-			}
-			
+		public function setPageDataForView($url) {
+
+            $page=\DB::table('dbco_paragraph')->where('cparagraphpage',$url)->where('cparagraphlang',\App::getLocale())->get();
+foreach ($page as $item){
+
+    $this->page[$item->cparagraphtag]=$item;
+
+}
 			return $this->page;
 		}
 	}

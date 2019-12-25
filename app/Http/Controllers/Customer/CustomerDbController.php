@@ -19,7 +19,7 @@
 		{		
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
-			$backups = $dbco_customer->dbcoBackup()->orderBy('dbackupdate', 'desc')->paginate(4); //пока закаментил таблицы пустые
+			$backups = $dbco_customer->dbcoBackup()->orderBy('dbackupdate', 'desc')->paginate(12); //пока закаментил таблицы пустые
 			
 			return view('dbco.customer.customerdb.main',['backups' => $backups, 'dbco_customer' => $dbco_customer]);
 		}

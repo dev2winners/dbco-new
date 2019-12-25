@@ -3,7 +3,8 @@
 	namespace App\Http\Controllers\Customer;
 	
 	use App\DbcoCustomer;
-	use App\User;
+    use App\Ticket;
+    use App\User;
 	use App\Http\Controllers\Controller;
 	use Illuminate\Http\Request;
 	use App\Http\Controllers\MssqlExtController;
@@ -15,7 +16,25 @@
 		{
 			$this->middleware('verified');
 		}
-		
+		public function verify(){
+$user=auth()->user();
+		    if(request()->method()=='POST'){
+		        if(request()->get('verify_code')!=auth()->user()->verify_code){
+
+		            session()->flash('verify_code');
+                }else{
+$user->verify_code=0;
+$user->save();
+                    $dbco_customer = DbcoCustomer::getCurrentCustomer();
+                    Ticket::create_notification($dbco_customer->icustomerid,501);
+
+		            return redirect('/lk/customer');
+                }
+
+            } 
+
+		    return view("dbco/customer/verify");
+        }
 		public function main()
 		{	
 
@@ -34,7 +53,8 @@
 			
 			// оповещаем внешний сервер
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
-			MssqlExtController::callMssqlProcedure('sp_update_customer '.$dbco_customer->icustomerid); // оповещаем внешний сервер
+            Ticket::create_notification($dbco_customer->icustomerid,510);
+			//MssqlExtController::callMssqlProcedure('sp_update_customer '.$dbco_customer->icustomerid); // оповещаем внешний сервер
 			
 			return redirect()->route('customer.main')
 			->with('success','Ваши персональные данные успешно изменены!');

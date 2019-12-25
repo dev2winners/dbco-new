@@ -1,0 +1,885 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0" type="DELANGTABLE">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION="?осымша"/>
+		<ROW ID="allfiles"	TRANSLATION="Барлы? файлдар"/>
+		<ROW ID="and"	TRANSLATION="Ж?не"/>
+		<ROW ID="atpos"	TRANSLATION="позициясында"/>
+		<ROW ID="auto"	TRANSLATION="Автоматты т?рде"/>
+		<ROW ID="bottom"	TRANSLATION="Т?меннен"/>
+		<ROW ID="by"	TRANSLATION="бойынша"/>
+		<ROW ID="cell"	TRANSLATION="?яшы?"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Кодтау ж?йесі"/>
+		<ROW ID="cp.dos866"	TRANSLATION="DOS-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Utf-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="Windows-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="Файл жасау келесі типті"/>
+		<ROW ID="createmessage"	TRANSLATION="??ру хабарлама"/>
+		<ROW ID="csvfiles"	TRANSLATION="CSV (б?лгіш ';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="А?ымда?ы деректер жиынты?ы"/>
+		<ROW ID="da.about"	TRANSLATION="Ба?дарламасы туралы...|К?рсету туралы м?ліметтер, н?с?асыны? н?мірі мен авторлы? ???ы?тары"/>
+		<ROW ID="da.access"	TRANSLATION="?ол жеткізу|Орнату ?ол жеткізу ???ы?ын пайдаланушыларды?"/>
+		<ROW ID="da.action"	TRANSLATION="?рекет|Орындау ?олданыс?а..."/>
+		<ROW ID="da.actions"	TRANSLATION="?олданылу"/>
+		<ROW ID="da.add"	TRANSLATION="?осу"/>
+		<ROW ID="da.advfind"	TRANSLATION="Ке?ейтілген іздеу|Іздеуді бастау к?рсете отырып, ?осымша параметрлерді"/>
+		<ROW ID="da.agrave"	TRANSLATION="Орташа м?ні|Табысын санау?а орта б?лінген м?ндер"/>
+		<ROW ID="da.agrcount"	TRANSLATION="Саны|Табысын санау?а саны б?лінген м?ндер"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Максимум|Табысын санау?а максимум б?лінген м?ндер"/>
+		<ROW ID="da.agrmin"	TRANSLATION="Минимум|Табысын санау?а кем дегенде б?лінген м?ндер"/>
+		<ROW ID="da.agrno"	TRANSLATION="Жо?|Емес расчитывать к?рсеткіші бойынша б?лінген м?ндер"/>
+		<ROW ID="da.agrsum"	TRANSLATION="М?ндерді? сомасы|Табысын санау?а сомасын б?лінген м?ндер"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="М?ніні? саны|Табысын санау?а саны б?лінген непустых м?ндері"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="Ортасында|Те?естіруге м?тін ортасында"/>
+		<ROW ID="da.alignleft"	TRANSLATION="Сол жа? шеті бойынша|Те?естіруге м?тінді сол жа? шеті"/>
+		<ROW ID="da.alignright"	TRANSLATION="Бойынша о? жа? шетінде|Те?естіруге м?тін о? жа? шетінде"/>
+		<ROW ID="da.all"	TRANSLATION="Барлы?"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Барлы? к?рсету|Displaying барлы? ?рістер"/>
+		<ROW ID="da.apply"	TRANSLATION="?олдану"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="Расставить з?кір|Расставить з?кір элементтеріні? орналасуы бойынша"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Есептеу|Автоматты т?рде табысын санау?а н?тиже б?лінген м?ндер"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Автопозиционирование|Автоматты т?рде жай?астыру?а картасын шы?ару ?шін, та?дал?ан нысанны?"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Автоматты т?рде са?тау?а ?згерістер|Автоматты т?рде са?тап, барлы? ?згерістер объектілерін"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Автомасштабирование|Автоматты т?рде масштабтау картасын к?рсету ?шін б?лінген барлы? объектілерді?"/>
+		<ROW ID="da.back"	TRANSLATION="Б?рын|Кері ?айту"/>
+		<ROW ID="da.backup"	TRANSLATION="Деректерді м?ра?аттау|Жазба са?ты? к?шірме деректер"/>
+		<ROW ID="da.browse"	TRANSLATION="Шолу...|Та?дау файл немесе каталог"/>
+		<ROW ID="da.cancel"	TRANSLATION="К?шін жою"/>
+		<ROW ID="da.chart3d"	TRANSLATION="3D-?сыну|Показать 3D-?сыну"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Полигонный кестесі"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Ленточная диаграмма"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Столбиковая диаграмма"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="?исы? Безье|Тегістеуі кестесі Безье ?исы? бетімен"/>
+		<ROW ID="da.charthide"	TRANSLATION="Біріктіруге ?са?|Біріктіруге елеусіз к?рсеткіштері бір"/>
+		<ROW ID="da.chartline"	TRANSLATION="Желілік кестесі"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Логарифмдік шкаласы|Та?дау логарифмическую шкаласын"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Д??гелек диаграмма"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="Н?ктелі кестесі"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="??райтын стек"/>
+		<ROW ID="da.choose"	TRANSLATION="Та?дау|Тізімнен та?дау"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Та?дау ба андар"/>
+		<ROW ID="da.clear"	TRANSLATION="Тазарту"/>
+		<ROW ID="da.clearall"	TRANSLATION="Барлы?ын тазарту"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Снять выделение|Алу б?лу барлы? нысандарын"/>
+		<ROW ID="da.close"	TRANSLATION="Жабу"/>
+		<ROW ID="da.colclear"	TRANSLATION="?алпына келтіру|Параметрлерін ?алпына келтіру бейнелеу ба?ан ?депкі"/>
+		<ROW ID="da.colclearall"	TRANSLATION="?алпына келтіру ?шін барлы?|?алпына келтіру, барлы? пайдаланушылар ?шін параметрлерді к?рсету ба?ан ?депкі"/>
+		<ROW ID="da.collapse"	TRANSLATION="Свернуть|Свернуть мазм?нды а?ымда?ы торабы"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Свернуть все|Свернуть барлы? мазм?н т?йіндерін"/>
+		<ROW ID="da.colsave"	TRANSLATION="Са?тау|Параметрлерді са?тау ба?андарды к?рсету"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Са?тап ?алу ?шін барлы?|Са?тап, барлы? пайдаланушылар ?шін параметрлерді к?рсету ба?ан"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Жасыру-ба?ан|Жасыру та?дал?ан ба?ан"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="С?рыптау кемуі бойынша"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="Мені? g oh!"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Команда параметрлері"/>
+		<ROW ID="da.commands"	TRANSLATION="Командасы|Команда"/>
+		<ROW ID="da.conditionand"	TRANSLATION="Мен - шарттары"/>
+		<ROW ID="da.conditionor"	TRANSLATION="НЕМЕСЕ шарттарыны? бірі"/>
+		<ROW ID="da.consistency"	TRANSLATION="Келісу метадеректерді"/>
+		<ROW ID="da.continue"	TRANSLATION="Б?дан ?рі|Жал?астыру ж?не б?дан ?рі к?шу"/>
+		<ROW ID="da.copy"	TRANSLATION="К?шіруге|К?шіруге б?лінген объектілер"/>
+		<ROW ID="da.copychart"	TRANSLATION="К?шіруге|К?шіруге график т?ріндегі суреттер"/>
+		<ROW ID="da.correct"	TRANSLATION="Т?зету|Автоматты т?рде т?зету"/>
+		<ROW ID="da.create"	TRANSLATION="??ру"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="Ж?мыс ?стелінде ??рыл?ан т?те жол ?осу ?шін та?дал?ан конфигурация"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Ярлык|Создать ярлык"/>
+		<ROW ID="da.cut"	TRANSLATION="?иып|?иып б?лінген объектілер"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Экспорт|Экспорт деректер файлы"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Импорт|Файлдан деректерді импорттау"/>
+		<ROW ID="da.days"	TRANSLATION="К?ні"/>
+		<ROW ID="da.decline"	TRANSLATION="Жою жолы"/>
+		<ROW ID="da.default"	TRANSLATION="?депкі"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Тазалау ДБ|Тазалау жазбалар белгіленген аластату?а"/>
+		<ROW ID="da.delete"	TRANSLATION="Жою|Жою б?лінген объектілер"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Удалить фильтр|Жою та?дал?ан с?згі"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Орнату|Орнату нысанды бейнелеу объект ?асиеттері"/>
+		<ROW ID="da.dictionary"	TRANSLATION="С?здік|Ашу о?шаулау с?здік"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Орналастыру бойынша"/>
+		<ROW ID="da.dofilter"	TRANSLATION="Орындау|Орындау бойынша іріктеу шарты"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="?айталамауы ?шін б?лінген|?айталамау?а м?ні ?ріс ?шін б?лінген объектілер"/>
+		<ROW ID="da.edit"	TRANSLATION="Т?зету"/>
+		<ROW ID="da.editmode"	TRANSLATION="Редакциялау|Бастау ??деу объектілерін"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( бос )"/>
+		<ROW ID="da.exit"	TRANSLATION="Шы?у|Шы?у ба?дарлама"/>
+		<ROW ID="da.expand"	TRANSLATION="Ашу|Ашу мазм?ны а?ымда?ы торабы"/>
+		<ROW ID="da.export"	TRANSLATION="Са?тау|Са?тап, ??жатты файл"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Экспорты XML|Экспорттау деректерді ADO XML"/>
+		<ROW ID="da.exportto"	TRANSLATION="Экспорттау|Экспорттау файлын..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Жылдам басып шы?ару|Та?дау ж?не басып шы?ару ??жат"/>
+		<ROW ID="da.favorites"	TRANSLATION="Добавить в Избранное"/>
+		<ROW ID="da.file"	TRANSLATION="Файл"/>
+		<ROW ID="da.filter"	TRANSLATION="С?згі|Объектілерді іріктеуді с?згісі бойынша"/>
+		<ROW ID="da.filtername"	TRANSLATION="Аты с?згі"/>
+		<ROW ID="da.find"	TRANSLATION="Табу|Искать объект а?ымда?ы деректерді теру"/>
+		<ROW ID="da.findnext"	TRANSLATION="Келесі жазба|Келесі жазба"/>
+		<ROW ID="da.findprev"	TRANSLATION="Previous|К?шу алды??ы жазба"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="Та?дау?а ені|Автоматты т?рде та?дау?а ені ба?ан бойынша мазм?нына"/>
+		<ROW ID="da.formatcol"	TRANSLATION="?асиеттері-ба?ананы?"/>
+		<ROW ID="da.forward"	TRANSLATION="Ал?а|К?шу ал?а"/>
+		<ROW ID="da.go"	TRANSLATION="К?шу"/>
+		<ROW ID="da.grid"	TRANSLATION="К?рсетуі тор?а|К?рсетуі ау?ымды тор астында бейнеленген"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Топтастыру"/>
+		<ROW ID="da.groupby"	TRANSLATION="Бойынша топтастыру"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="Топтастыру ба?анасы бойынша"/>
+		<ROW ID="da.grouping"	TRANSLATION="Топтастыру|Топтастыру та?дал?ан объектілер"/>
+		<ROW ID="da.guide"	TRANSLATION="Пайдаланушы н?с?аулы?ы|Ша?ыру пайдаланушы н?с?аулы?ына"/>
+		<ROW ID="da.help"	TRANSLATION="Аны?тама|Аны?тамалы? ж?йені ша?ыру"/>
+		<ROW ID="da.hide"	TRANSLATION="Жасыру"/>
+		<ROW ID="da.holdover"	TRANSLATION="Кейінге ?алдыру?а|Кейінге ?алдыру?а іске ?осылу уа?ыты міндеттері"/>
+		<ROW ID="da.homepage"	TRANSLATION="Негізгі бет|Басты бетті ашу ' интернет"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="Ірі белгішелер|К?рсету пайдалана отырып, ірі белгішелер"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="?лкен белгішелер|К?рсету пайдалана отырып, ?лкен белгішелер"/>
+		<ROW ID="da.iconslist"	TRANSLATION="Тізімі|Тізім т?рінде к?рсету"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Ірі тізімі|К?рсету тізім т?рінде ірі элементтері"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Белгішелер|К?рсету пайдалана отырып, стандартты белгішелер"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Кесте|К?рсету, кесте т?рінде егжей-тегжейлі м?ліметтермен"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="?лкейтілген кесте|К?рсету, кесте т?рінде екі жол?а"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Кесте ені бойынша|Бейнелеу т?рінде кестені? ені бойынша терезе"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Кішк|К?рсету объектілері т?ріндегі белгілер мен атауларыны? о? жа?ында"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Плитка|К?рсету объектілері т?ріндегі ?ыш та?тайшалар негізгі м?ліметтермен"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Егжей-тегжейлі плитка|К?рсету объектілерін т?рінде плиткалар егжей-тегжейлі м?ліметтермен"/>
+		<ROW ID="da.incline"	TRANSLATION="Жолды ?осу"/>
+		<ROW ID="da.insert"	TRANSLATION="?осу|Жа?а объект ?осу"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Обратить б?лу|Айналдыру б?лінген объектілерді невыделенные ж?не керісінше"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Со??ы хабарлама|Показать со??ы хабарлама"/>
+		<ROW ID="da.link"	TRANSLATION="Байланыстыру"/>
+		<ROW ID="da.linkall"	TRANSLATION="Байланыстыру барлы?"/>
+		<ROW ID="da.linkto"	TRANSLATION="Есте са?тау ярлык|Есте са?тау ярлык файл..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Ж?ктеу|Файлды ж?ктеу..."/>
+		<ROW ID="da.loadto"	TRANSLATION="Ж?ктеу|Ж?ктеу файл..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Бізбен хабарласы?ыз|Хат жазу ?зірлеушілерге ба?дарлама"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="М?зір|К?рсету/жасыру басты м?зір"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Басты бет|Басты бетті ашу"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Ажырату ?исы?"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Тексеру|Тексеру ?лгісі жолды? с?рату карта"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="Біріктіру бір"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="К?рсетуі координаттары|К?рсетуі координаттары шы?ы ж?не кесінділеріні? ?зынды?ын"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Улучшеный режимі|Жа?сартыл?ан прорисока масштабированного сурет"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="Google|Google картасы"/>
+		<ROW ID="da.maptoback"	TRANSLATION="На задний план|Жылжыту объектіні арт?ы жоспары"/>
+		<ROW ID="da.maptofront"	TRANSLATION="Алды??ы|Жылжытылатын объект алды??ы ?атар?а шы?арылуы"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Yandex|Пайдалану Yandex карта"/>
+		<ROW ID="da.menugroup"	TRANSLATION="Б?лім м?зір"/>
+		<ROW ID="da.menuitem"	TRANSLATION="Ескерту: м?зір"/>
+		<ROW ID="da.menumove"	TRANSLATION="Жылжыту"/>
+		<ROW ID="da.menuorder"	TRANSLATION="Реттеу м?зірі"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="Салын?ан м?зірі"/>
+		<ROW ID="da.modify"	TRANSLATION="?згерту|?згерту объектіні? ?асиеттері"/>
+		<ROW ID="da.months"	TRANSLATION="Ай"/>
+		<ROW ID="da.movedown"	TRANSLATION="Т?мен|Т?мен жылжыту"/>
+		<ROW ID="da.moveto"	TRANSLATION="Жылжыту|Жылжыту нысаны"/>
+		<ROW ID="da.moveup"	TRANSLATION="Жо?ары|Жо?ары?а жылжыту"/>
+		<ROW ID="da.news"	TRANSLATION="Жа?алы?тар мен жа?артулар|Туралы м?ліметтер жа?артулар мен жа?алы?тар ?зірлеуші"/>
+		<ROW ID="da.note"	TRANSLATION="Ескерту|Жазба жасау - б?лінген объектіге"/>
+		<ROW ID="da.ok"	TRANSLATION="OK"/>
+		<ROW ID="da.open"	TRANSLATION="Ашу|Ашу мазм?ны а?ымда?ы объектіні?"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Ашу|Ашу а?ымда?ы терезені негізгі ретінде"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Жа?а терезеде ашу"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Ашу, деректер жиынты?ы"/>
+		<ROW ID="da.operations"	TRANSLATION="Операциялар"/>
+		<ROW ID="da.order"	TRANSLATION="Т?ртібі"/>
+		<ROW ID="da.orderby"	TRANSLATION="Ретке келтіру бойынша"/>
+		<ROW ID="da.parameters"	TRANSLATION="Параметрлері|Параметрлерді орнату"/>
+		<ROW ID="da.paste"	TRANSLATION="Кірістіру|Объектілер кірістіру"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Б?рышты? торабы"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="Начать изменение узлов|Бастау ?згерту т?йіндер мен сегменттері фигуралар"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="Искривленный сегменті"/>
+		<ROW ID="da.pointclose"	TRANSLATION="Замкнуть фигураны|Замкнуть ал?аш?ы ж?не со??ы т?йіндер сегменті"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="Жою торабы"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Тікелей торабы"/>
+		<ROW ID="da.pointend"	TRANSLATION="Ая?тау ?згерту тораптар|Ая?тау ?згерту тораптар мен снгментов фигуралар"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="??ру торабы"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="Желілік сегменті"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="Тегіс торабы"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Разомкнуть фигураны"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Раскладка"/>
+		<ROW ID="da.presentation"	TRANSLATION="?сыну"/>
+		<ROW ID="da.preview"	TRANSLATION="Просмотр|Алдын-ала ?арау, ??жатты"/>
+		<ROW ID="da.print"	TRANSLATION="Басып шы?ару|Та?дау ж?не басып шы?ару ??жат"/>
+		<ROW ID="da.properties"	TRANSLATION="?асиеттері|Бейнелеу ?асиеттерін б?лінген объектілер"/>
+		<ROW ID="da.regtables"	TRANSLATION="Тіркеу кестелер"/>
+		<ROW ID="da.remember"	TRANSLATION="Ескерту|Терезесін к?рсету ескертпелерді пайдаланушы?а"/>
+		<ROW ID="da.rename"	TRANSLATION="Болып ?айта аталсын|Переименование б?лінген объектіні"/>
+		<ROW ID="da.report"	TRANSLATION="Есеп|Та?дау ж?не ?алыптастыру есеп"/>
+		<ROW ID="da.representation"	TRANSLATION="А?ымда?ы ?сыну"/>
+		<ROW ID="da.reset"	TRANSLATION="Тастау"/>
+		<ROW ID="da.restore"	TRANSLATION="?алпына келтіру|?алпына келтіру объектілері бірі-шал?ай"/>
+		<ROW ID="da.rotate"	TRANSLATION="Б?рылу"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Против часовой|Б?ру объектісі са?ат тіліне ?арсы"/>
+		<ROW ID="da.rotate90"	TRANSLATION="Бойынша са?атты?|Б?ру объектісі бойынша са?ат тілімен"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="К?лдене?інен|Б?ру объектісі бойынша к?лдене?"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="Тігінен|Б?ру объектісі тігінен"/>
+		<ROW ID="da.rssnews"	TRANSLATION="Жа?алы?тар"/>
+		<ROW ID="da.rulers"	TRANSLATION="Жиын|К?рсетуі сыз?ыштар"/>
+		<ROW ID="da.save"	TRANSLATION="Са?тау|Са?тап, со??ы ?згерту"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Са?тау фильтр|Сохранить а?ымда?ы с?згі"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Файл?а са?тау...|Save немесе сурет файлын"/>
+		<ROW ID="da.scan"	TRANSLATION="Сканерлеу ??жатты|Сканерлеу ??жатты"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="Сканерлеу ??жатты ...|Та?дау сканер ж?не сканерлеу ??жат"/>
+		<ROW ID="da.search"	TRANSLATION="Іздеу"/>
+		<ROW ID="da.selectall"	TRANSLATION="Б?лу барлы?|Б?лу барлы? нысандарын"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="Б?лу ба?ан|Б?лу та?дал?ан ба?ан"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="Та?дау с?згісі|Та?дау са?тал?ан с?згі"/>
+		<ROW ID="da.service"	TRANSLATION="Сервис"/>
+		<ROW ID="da.setfilter"	TRANSLATION="С?згі ?олдану|С?згі ?олдану - б?лінген деректер жинау"/>
+		<ROW ID="da.settings"	TRANSLATION="Орнату|К?ру ж?не параметрлерін ?згерту ба?дарлама"/>
+		<ROW ID="da.shortcut"	TRANSLATION="?зара байланысы|??ру ?зара байланысы - б?лінген объектіге"/>
+		<ROW ID="da.show"	TRANSLATION="К?рсету"/>
+		<ROW ID="da.showarchived"	TRANSLATION="К?рсетуі м?ра?ат|К?рсетуі м?ра?атты? жазбалар"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="Мазм?ны|К?рсету/жасыру облысы к?ру ?стау"/>
+		<ROW ID="da.showempty"	TRANSLATION="К?рсете бос|К?рсете бос тобыны?"/>
+		<ROW ID="da.showhint"	TRANSLATION="?ал?ымалы ке?естер|Дисплей режимін ?згерту ?ал?ыма с?зк?мек"/>
+		<ROW ID="da.showremoved"	TRANSLATION="К?рсетуі жойыл?ан|К?рсетуі жойыл?ан жазбалар"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="К?рсету ?зара байланысы|К?рсету ?зара байланыста болып, жеке-жеке отыр?ызу"/>
+		<ROW ID="da.sorting"	TRANSLATION="Баптау...|Параметрлерін баптау ж?не реттеу объектілерін"/>
+		<ROW ID="da.splitby"	TRANSLATION="Б?лу бойынша"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="Стандартты м?зір|К?рсету стандартты м?зір"/>
+		<ROW ID="da.statusbar"	TRANSLATION="К?й жола?ы|К?рсету ж?не жасыру жолды? жай-к?йі"/>
+		<ROW ID="da.switchmode"	TRANSLATION="Ауыстыру режимі|Ауыстыру режимі (?олданушы-С?улетші)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="Жою барлы? жазбалар|Жою барлы? жазбалар б?лінген т?стер жина?ында?ы деректер"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Экспорт деректерді XML|Экспорт б?лінген деректер жиынты?ын XML файлдары"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Импорт деректерді XML|Импорт?а б?лінген жина?ы деректерді XML файл"/>
+		<ROW ID="da.tableprop"	TRANSLATION="?асиеттері жиынты?ыны? деректер...|?згерту ?асиеттері, деректер жиынты?ы"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="Жою жойыл?ан|Удалить все ретінде белгіленген жойыл?ан жазбалар б?лінген т?стер жина?ында?ы деректер"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="С?рыптау командалары|Орындау с?рыптау командалары ?шін б?лінген деректер жиынты?ы"/>
+		<ROW ID="da.test"	TRANSLATION="Тексеру|Тексеру б?лінген объектілер"/>
+		<ROW ID="da.testconnect"	TRANSLATION="Тексеру ?осу"/>
+		<ROW ID="da.undo"	TRANSLATION="Жойылсын|Жойылсын со??ы ?згерту"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Разгруппировать|Разгруппировать та?дал?ан объект"/>
+		<ROW ID="da.unreguser"	TRANSLATION="Ая?тау сессиясын|Ая?тау сессиясын ж?мыс"/>
+		<ROW ID="da.up"	TRANSLATION="Жо?ары|Бір де?гей жо?ары"/>
+		<ROW ID="da.update"	TRANSLATION="Жа?арту|Жа?арту мазм?нды а?ымда?ы терезе"/>
+		<ROW ID="da.view"	TRANSLATION="Т?рі"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="К?нтізбе|К?рсету объектілерін к?нтізбеде"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Карточка|К?рсету карточкасын объектілері"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Диаграмма|К?рсету статистикалы? диаграммалар объектілерін"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Топ|К?рсету объектілері разбиением топтары бойынша"/>
+		<ROW ID="da.viewlist"	TRANSLATION="Тізімі|Деректерді к?рсету тізімі"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Карта|Деректерді к?рсету т?ріндегі векторлы? схемасы"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Жиынты? кесте|К?рсету деректер жиынты? кесте"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Карта|Деректерді к?рсету т?рінде тайловой картасы"/>
+		<ROW ID="da.viewtree"	TRANSLATION="А?аш|Деректерді к?рсету т?рінде а?аш?а ??сас ??рылымы"/>
+		<ROW ID="da.weeks"	TRANSLATION="Апта"/>
+		<ROW ID="da.years"	TRANSLATION="Жыл"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="Ау?ымы ?депкі|К?рсетуі масштабында ?депкі"/>
+		<ROW ID="da.zoomin"	TRANSLATION="?л?айту|?лкейту суретті"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="Суретті т?тастай|К?рсетуі барлы? т?тастай бейнесі"/>
+		<ROW ID="da.zoomout"	TRANSLATION="Азайту|Кішірейту сурет"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="Объект толы?ымен|К?рсетуі б?лінген объектілер толы?ымен"/>
+		<ROW ID="db"	TRANSLATION="ДБ"/>
+		<ROW ID="de.barcode"	TRANSLATION="Считанный штрих-код тіркелмеген аны?тамалы?тарда."/>
+		<ROW ID="de.connecter"	TRANSLATION="?осу кезінде ?ате туындады '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="?осу с?тті ?тсе"/>
+		<ROW ID="de.contain"	TRANSLATION="Папка '%s' ??рамында неудаленные папкалар немесе объектілер %d дана."/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Аны?талма?ан немесе жо? ?ол жетімді ?ызметі %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="Ж?мыс істеу ?шін ба?дарлама ?ажет ?ызметі ~ ~ ~ ~ н?с?асы т?мен емес %s. ?азіргі уа?ытта орнатыл?ан н?с?а %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Режимін конфигурациялау ?ана ?ол жетімді ?кімшісі."/>
+		<ROW ID="de.empty"	TRANSLATION="Поле '%s' тиіс ?ойылды. К?рсеті?із бос емес м?ні."/>
+		<ROW ID="de.error"	TRANSLATION="?ате|?ателер"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="Б?л ?ріс болмайды байланыстыру?а к?рсетілген кестеге. С?йкес келмеуі типтері."/>
+		<ROW ID="de.file"	TRANSLATION="Файл '%s' ?лде жо? немесе бар неверный формат."/>
+		<ROW ID="de.fileexists"	TRANSLATION="К?рсетілген файл бар. Перезаписать?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Норма ?абылданды. Жазба к?рсетілмесе а?ымда?ы тізімінде ?йткені ?ана?аттандырмайды а?ымда?ы жа?дай с?зу."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="?згертілген объект к?рсетілмесе, ?йткені ?ана?аттандырмайды а?ымда?ы жа?дай с?згі."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="Д?рыс емес сілтеме. Объект жо? болса немесе ?ол жетімсіз"/>
+		<ROW ID="de.linkself"	TRANSLATION="Та?дал?ан жазбалар байланысты болуы м?мкін"/>
+		<ROW ID="de.needload"	TRANSLATION="?шін ба?дарламасымен ж?мыс ж?кте?із шешім"/>
+		<ROW ID="de.openfile"	TRANSLATION="Файлды ашу ?атесі."/>
+		<ROW ID="de.owner"	TRANSLATION="Некорректный иесі у элементі"/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="М?мкін емес жылжыту ?шін, элементті ?алта?а/топ?а белгісі 'шы?арылуы'."/>
+		<ROW ID="de.password"	TRANSLATION="?ате аты немесе пароль пайдаланушыны?. Тексері?із аты ?айтала?ыз парольді енгізу."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Назар аудары?ыз, басыл?ан перне Caps Lock. ??пия с?здерді ескере отырып енгізіледі тіркелімін."/>
+		<ROW ID="de.port0"	TRANSLATION="??рыл?ы дайын"/>
+		<ROW ID="de.port1"	TRANSLATION="??рыл?ы пайдаланылады"/>
+		<ROW ID="de.port2"	TRANSLATION="Порт бос емес немесе жо?"/>
+		<ROW ID="de.port3"	TRANSLATION="Инициализациялау ??рыл?ылары"/>
+		<ROW ID="de.port4"	TRANSLATION="Жо? тама?тану"/>
+		<ROW ID="de.port5"	TRANSLATION="??рыл?ы ?осылма?ан"/>
+		<ROW ID="de.readonly"	TRANSLATION="Деректер ?ол жетімді тек о?у ?шін."/>
+		<ROW ID="de.regabsent"	TRANSLATION="Ба?дарламаны? ?лгі н?с?асы! Сатып ал?аннан кейін ?нім жібері?із тіркеу файл мекен-жайы: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="Редакциялау ?ріс, жа?дай, нысан элементтеріні? осы м?ліметтер жиынты?ын тыйым салынады."/>
+		<ROW ID="de.unique"	TRANSLATION="М?ні ?рісіні? '%s' болуы тиіс бірегей"/>
+		<ROW ID="df.active"	TRANSLATION="Белсенді"/>
+		<ROW ID="df.address"	TRANSLATION="Мекен жайы"/>
+		<ROW ID="df.admin"	TRANSLATION="?кімшісі"/>
+		<ROW ID="df.after"	TRANSLATION="Кейін"/>
+		<ROW ID="df.alias"	TRANSLATION="Б?ркеншік аты"/>
+		<ROW ID="df.anchor"	TRANSLATION="Якорь"/>
+		<ROW ID="df.archived"	TRANSLATION="М?ра?ат"/>
+		<ROW ID="df.author"	TRANSLATION="Автор"/>
+		<ROW ID="df.barcode"	TRANSLATION="Штрих-коды"/>
+		<ROW ID="df.basedon"	TRANSLATION="Негізделген"/>
+		<ROW ID="df.before"	TRANSLATION="Алдында"/>
+		<ROW ID="df.blocked"	TRANSLATION="??лыптаулы"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Шекара т?сі"/>
+		<ROW ID="df.breakline"	TRANSLATION="Б?лгіш"/>
+		<ROW ID="df.calculated"	TRANSLATION="Вычисляемое"/>
+		<ROW ID="df.caption"	TRANSLATION="Та?ырыбы"/>
+		<ROW ID="df.category"	TRANSLATION="Категория|Санаты"/>
+		<ROW ID="df.color"	TRANSLATION="Т?сі"/>
+		<ROW ID="df.column"	TRANSLATION="Ба?ан"/>
+		<ROW ID="df.command"	TRANSLATION="Командасы"/>
+		<ROW ID="df.condition"	TRANSLATION="Шарт"/>
+		<ROW ID="df.connection"	TRANSLATION="?осу"/>
+		<ROW ID="df.created"	TRANSLATION="??рылды"/>
+		<ROW ID="df.date"	TRANSLATION="К?ні"/>
+		<ROW ID="df.deadline"	TRANSLATION="Мерзімі"/>
+		<ROW ID="df.default"	TRANSLATION="?депкі"/>
+		<ROW ID="df.deleted"	TRANSLATION="Шы?арылуы"/>
+		<ROW ID="df.description"	TRANSLATION="Сипаттамасы"/>
+		<ROW ID="df.directory"	TRANSLATION="Аны?тамалы?ы"/>
+		<ROW ID="df.editor"	TRANSLATION="Редакторы"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Жолында ?ателіктер"/>
+		<ROW ID="df.expression"	TRANSLATION="?рнек"/>
+		<ROW ID="df.file"	TRANSLATION="Файл"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Боялу т?сі"/>
+		<ROW ID="df.filter"	TRANSLATION="С?згі"/>
+		<ROW ID="df.folder"	TRANSLATION="Папка"/>
+		<ROW ID="df.generator"	TRANSLATION="Генератор"/>
+		<ROW ID="df.group"	TRANSLATION="Тобы"/>
+		<ROW ID="df.height"	TRANSLATION="Биіктігі"/>
+		<ROW ID="df.hidden"	TRANSLATION="Жасырын"/>
+		<ROW ID="df.ico"	TRANSLATION="Белгі"/>
+		<ROW ID="df.id"	TRANSLATION="Коды"/>
+		<ROW ID="df.latitude"	TRANSLATION="Ендік"/>
+		<ROW ID="df.layer"	TRANSLATION="?абаты"/>
+		<ROW ID="df.link"	TRANSLATION="Байланыс"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Байланыс ?ріс бойынша"/>
+		<ROW ID="df.login"	TRANSLATION="Кіру аты"/>
+		<ROW ID="df.longitude"	TRANSLATION="?за?ты?"/>
+		<ROW ID="df.mail"	TRANSLATION="Пошта"/>
+		<ROW ID="df.message"	TRANSLATION="Хабарлама"/>
+		<ROW ID="df.modified"	TRANSLATION="?айталау"/>
+		<ROW ID="df.name"	TRANSLATION="Атауы"/>
+		<ROW ID="df.namefield"	TRANSLATION="Заглавное ?рісі"/>
+		<ROW ID="df.note"	TRANSLATION="Ескертпе"/>
+		<ROW ID="df.notnull"	TRANSLATION="Жо? бос"/>
+		<ROW ID="df.offstate"	TRANSLATION="?шірулі"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="?осу м?зірі, '??ру'"/>
+		<ROW ID="df.order"	TRANSLATION="Т?ртібі"/>
+		<ROW ID="df.originalname"	TRANSLATION="Аты ДБ"/>
+		<ROW ID="df.owner"	TRANSLATION="Иесі"/>
+		<ROW ID="df.password"	TRANSLATION="Пароль"/>
+		<ROW ID="df.period"	TRANSLATION="Кезе?"/>
+		<ROW ID="df.person"	TRANSLATION="Аты"/>
+		<ROW ID="df.phone"	TRANSLATION="Телефон"/>
+		<ROW ID="df.pointer"	TRANSLATION="К?рсеткіші"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Бастап?ы кілт"/>
+		<ROW ID="df.priority"	TRANSLATION="Ма?ыздылы?ы"/>
+		<ROW ID="df.readonly"	TRANSLATION="?ана о?ылым"/>
+		<ROW ID="df.role"	TRANSLATION="Р?лі"/>
+		<ROW ID="df.rolelink"	TRANSLATION="Сырт?ы р?лі"/>
+		<ROW ID="df.rotate"	TRANSLATION="Б?рылу"/>
+		<ROW ID="df.server"	TRANSLATION="Сервер"/>
+		<ROW ID="df.size"	TRANSLATION="М?лшері"/>
+		<ROW ID="df.source"	TRANSLATION="К?зі"/>
+		<ROW ID="df.state"	TRANSLATION="Жа?дайы"/>
+		<ROW ID="df.stored"	TRANSLATION="Хранимое"/>
+		<ROW ID="df.system"	TRANSLATION="Ж?йелік"/>
+		<ROW ID="df.table"	TRANSLATION="Кесте"/>
+		<ROW ID="df.template"	TRANSLATION="?лгі"/>
+		<ROW ID="df.time"	TRANSLATION="Уа?ыты"/>
+		<ROW ID="df.translation"	TRANSLATION="Аудару"/>
+		<ROW ID="df.transparent"	TRANSLATION="М?лдір"/>
+		<ROW ID="df.type"	TRANSLATION="Т?рі"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Параметрлер импорт/экспорт"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Пайдаланушы с?згісі"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Параметрлер бейнеленетін ?ріс"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Жергілікті с?згі"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Жа?анды? с?згі"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="?абаттарды орнату картасы"/>
+		<ROW ID="df.unique"	TRANSLATION="Бірегей"/>
+		<ROW ID="df.user"	TRANSLATION="?олданушы"/>
+		<ROW ID="df.value"	TRANSLATION="М?ні"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Емес вставлять м?ні"/>
+		<ROW ID="df.varname"	TRANSLATION="Аты-к?ріністе"/>
+		<ROW ID="df.version"	TRANSLATION="Н?с?асы"/>
+		<ROW ID="df.visible"	TRANSLATION="К?рінетін"/>
+		<ROW ID="df.width"	TRANSLATION="Ені"/>
+		<ROW ID="di.column"	TRANSLATION="Ба?ан|Ба?андар"/>
+		<ROW ID="di.menuelem"	TRANSLATION="Ескерту: м?зір|М?зір тарма?тары"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="Белсенді ?абаты"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Тегістеу"/>
+		<ROW ID="dl.animation"	TRANSLATION="Анимация"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="Автофильтр"/>
+		<ROW ID="dl.captionright"	TRANSLATION="К?рсету та?ырыбы о?"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="Жалпы аны?тамалы?тар"/>
+		<ROW ID="dl.check"	TRANSLATION="Тексеру"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Тексеруге жа?алы?тар мен жа?артулар сайтында ?зірлеуші"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Желілік мекен-жайы"/>
+		<ROW ID="dl.computername"	TRANSLATION="Компьютер"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Конфигурациясы"/>
+		<ROW ID="dl.configurator"	TRANSLATION="Конфигуратор"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Растау..."/>
+		<ROW ID="dl.copies"	TRANSLATION="К?шірмелері"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="К?шіруге жасырын ?ріс буфері кірістіру ?шін бас?а ?осымшалар"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="К?шіруге та?ырыптары ?рістерді? буфері кірістіру ?шін бас?а ?осымшалар"/>
+		<ROW ID="dl.correspond"	TRANSLATION="С?йкес келеді"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="?олдану ?рістері болмайды осы м?нде."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Процессор жиілігі"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Процессор"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Провайдер"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Автоматты т?рде аны?тау"/>
+		<ROW ID="dl.datacom"	TRANSLATION="с б?луші белгісімен ай?ындалады ?тір"/>
+		<ROW ID="dl.datatab"	TRANSLATION="с б?луші белгісімен ай?ындалады табуляция"/>
+		<ROW ID="dl.datatext"	TRANSLATION="М?тіндік файл"/>
+		<ROW ID="dl.device"	TRANSLATION="??рыл?ы"/>
+		<ROW ID="dl.directories"	TRANSLATION="Аны?тамалы?тар"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="С?йреу жазба"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="Драйвер ДБ"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="?ызмет ДБ"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="Пошталы? клиент"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Ке?селік пакеті"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="?ызмет OLAP"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="?осу жазба отладочной а?парат"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="Хаттамалау SQL с?рау салулар"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Барлы? жерде"/>
+		<ROW ID="dl.faster"	TRANSLATION="Тезірек"/>
+		<ROW ID="dl.findin"	TRANSLATION="Іздеу объектісін тізімінде:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="М?нда іздеу"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Іздеу н?тижелері"/>
+		<ROW ID="dl.findtext"	TRANSLATION="Искать текст"/>
+		<ROW ID="dl.form"	TRANSLATION="Нысаны"/>
+		<ROW ID="dl.format"	TRANSLATION="Формат"/>
+		<ROW ID="dl.forms"	TRANSLATION="Нысандары"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="?р?ашан логировать толы? к?ні мен уа?ыты"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Жары? жолдарыны?"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Тор сызы?тар"/>
+		<ROW ID="dl.guard"	TRANSLATION="?ор?ау"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="Жасыру ж?йелік деректер"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="Р??сат ар?ылы кіру &lt;URL&gt; (beta)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="?ажет тіркелімі"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Ескермеу сандар"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Искать б?лігі ретінде"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Есепке алма?анда т?ртібін деген с?здерден"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Ескермеу арнайы та?балар"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Са?тау?а а?ымды? деректер ескі форматта"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="А?ымда?ы тізімінде"/>
+		<ROW ID="dl.indataset"	TRANSLATION="Жиынты?та деректер"/>
+		<ROW ID="dl.information"	TRANSLATION="А?парат..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Интерфейс"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="Со??ы ракурс экспорт"/>
+		<ROW ID="dl.layers"	TRANSLATION="?абаттар"/>
+		<ROW ID="dl.locating"	TRANSLATION="Позициялау белсенді нысан"/>
+		<ROW ID="dl.location"	TRANSLATION="Орналасуы"/>
+		<ROW ID="dl.locksession"	TRANSLATION="О?шаулау?а сессия кезінде пайдаланушыны? ?арапайым (минут)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Логирование"/>
+		<ROW ID="dl.map"	TRANSLATION="Карта"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="Кэшировать тайлы картасы"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="Шектеу файлды? к?лемі мегабайт"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="?олжетімді жад"/>
+		<ROW ID="dl.metadata"	TRANSLATION="База метаструктуры"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Метрика|Негізгі метрикалы? шкала"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Бас?а т?сті..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Т?ймесін басып, [Ctrl], ?оса ат?ару ?шін координаттар а?ымда?ы н?ктеден бас?а н?ктелері фигуралар"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Ба?андарды жою"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Жою-жолдар"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="Пайдалану автофильтра"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="?яшы?тарды пішімдеу"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="Ба?андарды пішімдеу"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="Пішімдеу жолдарыны?"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Ба?ан кірістіру"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Кірістіру гиперсілтеме"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Кірістіру-жолдар"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="С?рыптау"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="Пайдалану жиынты? кесте"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="?згерту сценарийлер"/>
+		<ROW ID="dl.no"	TRANSLATION="Жо?"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="Жо?"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="Операция біраз уа?ыт алады ж?не болуы м?мкін емес жо?алтады."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Содан кейін ретке келтіру бойынша"/>
+		<ROW ID="dl.osversion"	TRANSLATION="Н?с?а ОС"/>
+		<ROW ID="dl.other"	TRANSLATION="Прочее"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Демалыс файлдар"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="Бетті? параметрлері"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Ке?ейту"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="?рекетін та?да?ыз"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="Бас?аннан кейін ?РІ ?арай басталады операцияларды орындау"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Та?да?ыз деректер жиынты?ы деректер алмасу ?шін"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Типін к?рсеті?із сырт?ы файлды? немесе ракурс та?да?ыз"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Та?да?ыз ?ріс ?ажет экспорттау"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="К?рсеті?із, фильтр ?шін та?дал?ан деректер жиынты?ы"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="Операцияларды орындау"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Типін к?рсеті?із, орналастыру ж?не аты сырт?ы файл"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Аны?та?ыз т?ртібі ала?дарын, перемещая тінтуір ма?ызы бар сол тізімні? о? жа?"/>
+		<ROW ID="dl.port"	TRANSLATION="Порт"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Бит деректер"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Ж?пты?"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Жылдамды?ы (бит/с)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Стоповые со?алар"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="Стоп-байт"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Таймаут (мс)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Бос емес"/>
+		<ROW ID="dl.printer"	TRANSLATION="Принтер"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Бос"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Стиль печати"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="Операцияларды орындау кезінде ?ате орын алды."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="Операция с?тті орындалды"/>
+		<ROW ID="dl.properties"	TRANSLATION="?асиеттері"/>
+		<ROW ID="dl.question"	TRANSLATION="- С?ра?..."/>
+		<ROW ID="dl.random"	TRANSLATION="Кездейсо?"/>
+		<ROW ID="dl.reading"	TRANSLATION="О?у деректер"/>
+		<ROW ID="dl.recipient"	TRANSLATION="Алушы"/>
+		<ROW ID="dl.registration"	TRANSLATION="Ж?йеге кіру ?шін енгізі?із ?тінеміз, Сізді? аты ж?не пароль"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Автозапуск ескертулер кейін логин ?олданушыны?"/>
+		<ROW ID="dl.results"	TRANSLATION="Н?тижелері"/>
+		<ROW ID="dl.scale"	TRANSLATION="Масштаб"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="М?нда іздеу"/>
+		<ROW ID="dl.separator"	TRANSLATION="Б?лгіш"/>
+		<ROW ID="dl.sheet"	TRANSLATION="Лист"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="К?рсету та?ырыптары"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Тексеруге ж?не секіру жазбалар некорректным Сырт?ы кілті"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Жіберіп жазба к?пір т?рі деректер"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Елемеу бірінші жазба ретінде та?ырыбы"/>
+		<ROW ID="dl.slower"	TRANSLATION="Медленее"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="Кемуі бойынша"/>
+		<ROW ID="dl.sortup"	TRANSLATION="?суі бойынша"/>
+		<ROW ID="dl.soundon"	TRANSLATION="Дыбыс ?осу"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="Басып шы?ару к?шірмелері бойынша"/>
+		<ROW ID="dl.start"	TRANSLATION="Старт"/>
+		<ROW ID="dl.step"	TRANSLATION="?адам"/>
+		<ROW ID="dl.stop"	TRANSLATION="То?та"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="Стиль параметрлері"/>
+		<ROW ID="dl.systemres"	TRANSLATION="Ж?йелік ресурстар"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Отыр?ызу...|Бетбелгілер"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Ысты? міндеттерді жо?"/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Санаты"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Команда"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Те?шелетін"/>
+		<ROW ID="dl.thickness"	TRANSLATION="?алы?ды?ы"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="??ралдар та?тасы"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="Аспаптар та?тасында"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Пернелер тіркесімі"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Параметрлері"/>
+		<ROW ID="dl.totray"	TRANSLATION="То?тата т?ру?а ' трэй терезесін жап?анда, ба?дарлама"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Деректер ?ол жетімді емес"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="Жа?арту жазба с?йкес келген жа?дайда Бастап?ы кілт"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="Жа?арту тек непустые ма?ызы бар"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Пайдалану ??рыл?ы о?у штрих-кодтар"/>
+		<ROW ID="dl.username"	TRANSLATION="?олданушы"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="Аты а?ымда?ы пайдаланушыны? Windows"/>
+		<ROW ID="dl.version"	TRANSLATION="Н?с?асы"/>
+		<ROW ID="dl.view"	TRANSLATION="Бейнелеу параметрлері"/>
+		<ROW ID="dl.warning"	TRANSLATION="Алдын алу..."/>
+		<ROW ID="dl.yes"	TRANSLATION="И?"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="Орындау командасы|Орындау та?дал?ан"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Сіз шынымен жой?ы?ыз келе ме"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="К?рсетілген жапсырмалар жойылады, жал?астыру керек."/>
+		<ROW ID="dm.sequence"	TRANSLATION="Та?да?ыз ~ ~ ~ ~ Сіз к?ргім келеді. Панельдегі 'Жо?ары' ж?не 'Т?мен' орнату?а болады т?ртібі, оларды? ж?ру."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Панельдегі 'Жо?ары' ж?не 'Т?мен' ?ойы?ыз ж?ру т?ртібін команда. ?ажет бол?ан жа?дайда Сіз ?осу бейнеленуі б?лгіш алдына."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Файл шешім"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="?шін ая?тау операциялары к?шіру керек файл '%s' каталог '%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Алып тастау шешім"/>
+		<ROW ID="dm.solloading"	TRANSLATION="Тиеу шешім"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Одан ?рі ж?мыс м?мкін ?ана кейін ?айта ж?йеге кіру."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Т?сіру шешу"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="Жа?арту параметрлерін|Тізімін жа?арту параметрлерін команда"/>
+		<ROW ID="dt.action"	TRANSLATION="О?и?а т?рі|Т?рлері о?и?алар"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="О?и?а шарты бойынша|О?и?алар жа?дайлары бойынша"/>
+		<ROW ID="dt.additional"	TRANSLATION="?осымша а?парат"/>
+		<ROW ID="dt.alignment"	TRANSLATION="Т?рі те?естіру|Т?рлері те?естіру"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Кодтау|Кодтау"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="Режимі параметрі|Режимі параметрлерін"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="Т?рі командалар|Т?рлері команда"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Типі шарттары|Т?рлері жа?дайлар"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Шектеу|Шектеу"/>
+		<ROW ID="dt.data"	TRANSLATION="Деректер"/>
+		<ROW ID="dt.database"	TRANSLATION="Деректер базасы|Деректер базасын"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="Т?рі деректер базасын|Т?рлері деректер базасын"/>
+		<ROW ID="dt.dataset"	TRANSLATION="Деректер жиынты?ы|Жиынты?тар деректер"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="Т?рі деректер жиынты?ы"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Деректер т?рі|Деректер типтері"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="С?здік|С?здіктер"/>
+		<ROW ID="dt.event"	TRANSLATION="?рекет|?олданылу"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Ескерту т?рі|Хабарламаларды? т?рлері"/>
+		<ROW ID="dt.field"	TRANSLATION="?ріс|?ріс"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="Санат ?рісі|Категории полей"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="Р?лі ?ріс|Р?лі ?ріс"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Шрифт т?сі|Тізімі г?л ?аріп"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="?аріп м?нері|Стильдер ?аріп"/>
+		<ROW ID="dt.formelement"	TRANSLATION="Элементі нысаны|Элементтері нысандарын"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="Элемент т?рі нысанын|Т?рлері элемент нысандары"/>
+		<ROW ID="dt.language"	TRANSLATION="Тілі|Тілдері"/>
+		<ROW ID="dt.logintype"	TRANSLATION="?олжетімділік т?рі"/>
+		<ROW ID="dt.membership"	TRANSLATION="М?шелік тобы|М?шелік топтар"/>
+		<ROW ID="dt.menu"	TRANSLATION="Б?лім м?зір|Б?лімдер м?зірі"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Метадеректер"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="Т?рі торабы|Т?йіндерді? т?рлері"/>
+		<ROW ID="dt.note"	TRANSLATION="Ескерту|Жазбалар"/>
+		<ROW ID="dt.object"	TRANSLATION="Объект"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="?олданыс?а жою кезінде|Жою кезіндегі іс-?рекеттер"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="Операция т?рі|Т?рлері операциялар"/>
+		<ROW ID="dt.param"	TRANSLATION="Параметр|Параметрлері"/>
+		<ROW ID="dt.policy"	TRANSLATION="?ауіпсіздік саясаты|?ауіпсіздік саясаты"/>
+		<ROW ID="dt.procedure"	TRANSLATION="Аты р?сімдері|Аттары р?сімдерді"/>
+		<ROW ID="dt.report"	TRANSLATION="Есеп|Есептер"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="Параметр есебіні?|Есепті? к?рсеткіштері"/>
+		<ROW ID="dt.right"	TRANSLATION="Пайдаланушыны? ???ы?ы|Пайдаланушыларды? ???ы?тары"/>
+		<ROW ID="dt.role"	TRANSLATION="Р?лі ?атысты|Р?ліне ?атысты"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="?зара байланысы|?зара байланыс"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Типі к?рсету ?рісі|Т?рлері бейнелеу ?рісі"/>
+		<ROW ID="dt.solution"	TRANSLATION="Шешім|Шешім"/>
+		<ROW ID="dt.task"	TRANSLATION="Міндет|Міндеттері"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Т?рі пайдаланушылы? деректер"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="Операция т?рі|Т?рлері операциялар"/>
+		<ROW ID="dt.user"	TRANSLATION="?олданушы|Пайдаланушылар"/>
+		<ROW ID="dt.usertask"	TRANSLATION="Пайдаланушыны? міндеті|Пайдаланушыларды? міндеттері"/>
+		<ROW ID="dt.usertype"	TRANSLATION="Типі пайдаланушы|Пайдаланушыны? типтері"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Бейнелеу т?рі|Т?рлері бейнелеу"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="Мерзімділігі есептеу"/>
+		<ROW ID="dtadditionally"	TRANSLATION="?осымша"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="?рбір с?рау салуда"/>
+		<ROW ID="dv.button"	TRANSLATION="Т?ймесі"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Каскадно жою"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="Алмасу буфері"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="?ара"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="К?гілдір"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Шоколад"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="Циан"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Малиновый"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="?депкі"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="С?р"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Жасыл"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Салатовый"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="К?лгін"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="К?к"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="К?лгін"/>
+		<ROW ID="dv.colorred"	TRANSLATION="?ызыл"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="К?гілдір"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="А?"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Сары"/>
+		<ROW ID="dv.day1"	TRANSLATION="Д?йсенбі"/>
+		<ROW ID="dv.day2"	TRANSLATION="Сейсенбі"/>
+		<ROW ID="dv.day3"	TRANSLATION="С?рсенбі"/>
+		<ROW ID="dv.day4"	TRANSLATION="Бейсенбі"/>
+		<ROW ID="dv.day5"	TRANSLATION="Ж?ма"/>
+		<ROW ID="dv.day6"	TRANSLATION="Сенбі"/>
+		<ROW ID="dv.day7"	TRANSLATION="Жексенбі"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Тыйым салын?ан"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="С?зу"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Ескерту"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Вещественное саны"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Нысаны"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="Терезе деректермен"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Б?тін сан"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Байланыстыр?ыш тізімі"/>
+		<ROW ID="dv.elempage"	TRANSLATION="?алау"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="?алау, терезе деректермен"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Панель"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="Жазу"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Жол"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Ауыстырып-?ос?ышы"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="Тізімі ауыстырып ?ос?ыш"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="А?аш жазу"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Древовидный тізімі"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Р??сат етілген"/>
+		<ROW ID="dv.explorer"	TRANSLATION="Жолсерік файлдар"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Избранное"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Тек бірінші с?рау салуда"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Жуан"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="?лкейтілген"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Асты сызыл?ан"/>
+		<ROW ID="dv.globalref"	TRANSLATION="Жа?анды? аны?тамалы?ы"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="Шифрленген пароль"/>
+		<ROW ID="dv.localref"	TRANSLATION="Жергілікті аны?тамалы?ы"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="Негізгі деректер жиынты?ы"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Еш?ашан"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Атрибут"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Элемент"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Тобы"/>
+		<ROW ID="dv.noname"	TRANSLATION="Без имени"/>
+		<ROW ID="dv.onall"	TRANSLATION="Кез келген операция"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="?ткізу кезінде себетке"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="Жою кезінде"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="?ой?анда"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="Кіре берісте"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="Кезде"/>
+		<ROW ID="dv.onreading"	TRANSLATION="Кезінде о?ылымда ма??лдады"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="??деу кезінде"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="Жо?ары"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Т?мен"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="?алыпты"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Тыйым салу"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="Та?дал?ан объектілер %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="Н?лдеуге байланыс"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="Ба?ынысты деректер жиынты?ы"/>
+		<ROW ID="dv.text"	TRANSLATION="М?тін"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="?олданыс?а %s табылмады"/>
+		<ROW ID="error.additem"	TRANSLATION="Жазуларды ?осу осы аны?тамалы? тыйым салынады."/>
+		<ROW ID="error.argcount"	TRANSLATION="Ретсіз саны д?лелдер функцияларды ша?ыру"/>
+		<ROW ID="error.argtype"	TRANSLATION="Жол берілмейтін ?атер т?рі сапасын ?айта ?арастыруды с?райды"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="К?тілуде жабылатын скобка"/>
+		<ROW ID="error.char"	TRANSLATION="?рісінде '%s' енгізілген жол берілмейтін ?атер-символ немесе символдар '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="Объектісі '%s' байланысты емес, алыс нысандар?а б?лімні? '%s'."/>
+		<ROW ID="error.children"	TRANSLATION="C '%s' байланысты объектілер б?ліміні? '%s' (%d дана)"/>
+		<ROW ID="error.connect"	TRANSLATION="Д?рыс к?рсетілмеген жолы немесе жо? ?ол жетімді сервер деректер базасы."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="?ате деректер базасына ?осу ?шін метаструктуры."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="Деректер базасы %s табылмады орындау ?шін са?талатын процедуралар."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="Деректер базасы %s ?олдамаса орындау са?талатын процедура."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="Деректер жиынты?ы кіруі тиіс шешіміне '%s'."/>
+		<ROW ID="error.default"	TRANSLATION="Объект белгісі бар '?депкі' алмайды ?ашы?та?ы."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Объект изменен бас?а пайдаланушы. Сіз жой?ы?ыз келеді ме объект?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="Объект жойыл?ан бас?а пайдаланушы."/>
+		<ROW ID="error.double"	TRANSLATION="К?рсетілген м?ні бар т?йінді ?ріс бірегей. М?мкін, жазба деректері м?ні та?балан?ан ретінде ?ашы?тан."/>
+		<ROW ID="error.edit"	TRANSLATION="к?рсетілмеген ма?ызы бар міндетті ?рістер немесе ?ате енгізілген деректер."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="?шін осы ?лгідегі элемент к?рсетілуі тиіс ?ріс"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="?шін осы ?лгідегі элементті? к?рсетілуге тиіс ?ріс"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="Б?л элемент болмайды байланыстыру?а к?рсетілген кестеге"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="Осы элемент ?шін емес, к?рсетілуі тиіс байланыс"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="Осы элемент ?шін к?рсетілуі тиіс байланыс"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="К?рсетілген элементі болуы м?мкін емес иесі"/>
+		<ROW ID="error.elem.type"	TRANSLATION="Элемент т?рі сыйымсыз т?рі ?ріс"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Белгісіз иесі"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="?рнек бос емес"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="Тапсырмалар тізімі бос."/>
+		<ROW ID="error.exprend"	TRANSLATION="Со?ына білдіру"/>
+		<ROW ID="error.field"	TRANSLATION="?ате сипаттамасында ?рістер"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="?ате м?нін есептеу ?рісіні? '~ ~ ~ ~ ' -айналма сілтемелер"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Поле %s жо?"/>
+		<ROW ID="error.find"	TRANSLATION="Емес, табыл?ан бірде-бір объектіні? ??рамында к?рсетілген м?ні"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="?ріс NOT NULL м?нді к?рсету ?ажет ?депкі"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="?ріс - белгісі папкалар необходмо м?нін к?рсету 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="Кесте ?амту?а тиіс тек бір ?ріс"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Жол берілмейтін м?ні т?ра?тылар"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Жол берілмейтін ?атер-символ"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="С?йкес келмеуі типтері"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Д?рыс жол емес немесе файлды? аты."/>
+		<ROW ID="error.inlist"	TRANSLATION="Параметр должнен те? біріне м?ндеріні? тізімі:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Жол берілмейтін ?атер-?атысушыны? т?рі."/>
+		<ROW ID="error.length"	TRANSLATION="символдарды? саны ?рісті? '%s' аспауы тиіс %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="'Метаструктуре жо? ж?мыс ?шін ?ажетті ба?дарламалар жиынты?ы."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Н?с?а метаструктуры келмейді н?с?асы."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="Атауды енгізу керек."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="Шешімні? атауы болуы керек ?ойылды"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="Жо?, б?лінген объектіні"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="К?рсетілмесе, кэш ?шін ?олданылу"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="К?рсетілмесе жина?ы ?шін деректер ?рекеттері"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Іске асырылма?ан пайдалану кезінде ескі метаструктуры!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Жол берілмейтін ?атер т?рі операнда"/>
+		<ROW ID="error.printer"	TRANSLATION="?ате баптандыру принтер. ??жатты басып шы?ару то?татылды."/>
+		<ROW ID="error.printerno"	TRANSLATION="Жо? ?ол жетімді принтер"/>
+		<ROW ID="error.readfield"	TRANSLATION="?ате о?улары деректер ?рісіні? '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="Сіз жеткілікті ???ы?тарын орындау ?шін операциялар"/>
+		<ROW ID="error.scan"	TRANSLATION="?ате сканер."/>
+		<ROW ID="error.setfield"	TRANSLATION="М?ні берілмеген, к?рсеті?із бос емес м?ні ?ріс"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Табылды ??сайтын элемент. К?шу ж?реді."/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Элементті та?да?ыз іздеу"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="??сас элемент не найден"/>
+		<ROW ID="error.sort"	TRANSLATION="Бойынша с?рыптау вычисляемым ?рістер ж?не ?рістер-файлдар?а жол бермеу"/>
+		<ROW ID="error.sortfield"	TRANSLATION="Та?дал?ан ?ріс ?азірді? ?зінде бар тізімдегі ?рістерді с?рыптау."/>
+		<ROW ID="error.start"	TRANSLATION="Операция кейін ?ана ?олжетімді болады авторизация."/>
+		<ROW ID="error.statementend"	TRANSLATION="К?тпеген со?ы білдіру"/>
+		<ROW ID="error.strlen"	TRANSLATION="Жолды? ?зынды?ы ?рісінде '%s' тым жо?ары"/>
+		<ROW ID="error.tree"	TRANSLATION="?ате ??ру а?ашы. Жо? иесі торабыны? а?ашы '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="Незакрытая жол"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="К?тпеген со?ы білдіру"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="А?парат м?шелігі туралы к?рсетілген пайдаланушы осы топ?а ?азірді? ?зінде енгізілген деректер базасына."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Белгісіз функция"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Белгісіз идентификатор"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Объект изменен бас?а пайдаланушы. Са?тау Сізді?."/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Объект изменен бас?а пайдаланушы."/>
+		<ROW ID="error.updateitem"	TRANSLATION="?ате ал?ан кезде файлды жа?арту"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="Учетная запись пользователя ??лыпталады."/>
+		<ROW ID="figure"	TRANSLATION="Сурет"/>
+		<ROW ID="filefilters"	TRANSLATION="Есептер MSExcel|*.xls|InterBase files|*.gdb|Конфигурациясы|*.cfg|Барлы? файлдары|*.*"/>
+		<ROW ID="for"	TRANSLATION="?шін"/>
+		<ROW ID="imp.break"	TRANSLATION="Операцияны то?тату"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Жа?а жазба"/>
+		<ROW ID="imp.data"	TRANSLATION="Импорттау деректер"/>
+		<ROW ID="imp.dterror"	TRANSLATION="?ате деректер т?ріні? ?рістер"/>
+		<ROW ID="imp.empty"	TRANSLATION="М?ні ?рісті бос"/>
+		<ROW ID="imp.first"	TRANSLATION="Бірінші жазба"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Ба?ылау сырт?ы кілтті?"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="Сырт?ы кілт жо?"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Елемеу ?ателік"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="С?йкестік бастап?ы кілт"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Filed жазба"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Жіберілген жазбалар"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Жа?артыл?ан жазбалар"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Жіберіп жазу"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Жіберіп м?ні ?ріс"/>
+		<ROW ID="imp.title"	TRANSLATION="Жіберіп ретінде та?ырыбы"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="Жазбасын жа?арту"/>
+		<ROW ID="inexpr"	TRANSLATION="б?л к?ріністе"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="Файл %s са?тал?ан."/>
+		<ROW ID="line"	TRANSLATION="Жол"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 км"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 км"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 км"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 км"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 м"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 м"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 м"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 м"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 м"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 м"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 м"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 м"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 км"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 m"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 m"/>
+		<ROW ID="map.scale22"	TRANSLATION="1.5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0.75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 m"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 км"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 км"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 км"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 км"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 км"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 км"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 км"/>
+		<ROW ID="mmmmm1"	TRANSLATION="?а?тар|?а?тар"/>
+		<ROW ID="mmmmm10"	TRANSLATION="?азан|?азан"/>
+		<ROW ID="mmmmm11"	TRANSLATION="?араша|?араша"/>
+		<ROW ID="mmmmm12"	TRANSLATION="Желто?сан|Желто?сан"/>
+		<ROW ID="mmmmm2"	TRANSLATION="А?пан|А?пан"/>
+		<ROW ID="mmmmm3"	TRANSLATION="Наурыз|Наурыз"/>
+		<ROW ID="mmmmm4"	TRANSLATION="С?уір|С?уір"/>
+		<ROW ID="mmmmm5"	TRANSLATION="Мамыр|Мамыр"/>
+		<ROW ID="mmmmm6"	TRANSLATION="Маусым|Маусым"/>
+		<ROW ID="mmmmm7"	TRANSLATION="Шілде|Шілде"/>
+		<ROW ID="mmmmm8"	TRANSLATION="Тамыз|Тамыз"/>
+		<ROW ID="mmmmm9"	TRANSLATION="?ырк?йек|?ырк?йек"/>
+		<ROW ID="not"	TRANSLATION="Жо?"/>
+		<ROW ID="openurl"	TRANSLATION="Ашу URL"/>
+		<ROW ID="opeq"	TRANSLATION="Сия?ты"/>
+		<ROW ID="opge"	TRANSLATION="К?п немесе те?"/>
+		<ROW ID="opgt"	TRANSLATION="К?п"/>
+		<ROW ID="opisfalse"	TRANSLATION="?тірік"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Жо? бос"/>
+		<ROW ID="opisnull"	TRANSLATION="Бос"/>
+		<ROW ID="opistrue"	TRANSLATION="Шынды?"/>
+		<ROW ID="ople"	TRANSLATION="Аз немесе те?"/>
+		<ROW ID="oplike"	TRANSLATION="??рамында"/>
+		<ROW ID="oplt"	TRANSLATION="Аз"/>
+		<ROW ID="opne"	TRANSLATION="Те? емес"/>
+		<ROW ID="opnotlike"	TRANSLATION="??рамында"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="??деу талап етілмейді"/>
+		<ROW ID="process.tables"	TRANSLATION="??делген кестелер:"/>
+		<ROW ID="quantity"	TRANSLATION="Саны"/>
+		<ROW ID="query.savechanges"	TRANSLATION="?згерісті са?тау керек пе?"/>
+		<ROW ID="querydelete"	TRANSLATION="Жой?аннан кейін объект туралы а?парат онда болады ?ол жетімді емес. Жою объект '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Жою объект '%s' м?мкіндігінсіз кейіннен ?алпына келтіру?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Жою б?лінген объектілер ('%s') м?мкіндігінен кейінгі ?алпына келтіру?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Жа?арту мерзімдік хабарлама"/>
+		<ROW ID="registration"	TRANSLATION="Тіркеу"/>
+		<ROW ID="send"	TRANSLATION="Жіберу"/>
+		<ROW ID="sendmail"	TRANSLATION="Хат жіберу"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="Хабарды алушылар тізімі"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Стандартты"/>
+		<ROW ID="updatemessages"	TRANSLATION="Жа?арту хабарламалар"/>
+		<ROW ID="updating"	TRANSLATION="Жа?арту"/>
+		<ROW ID="use"	TRANSLATION="Пайдалану"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="Т?рі"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="К?шу ?шін бас?а б?ліміндегі са?тау ?ажет а?ымда?ы жазба."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="К?шу ?шін бас?а б?ліміндегі са?тау ?ажет а?ымда?ы жазба."/>
+	</ROWDATA>
+</DATAPACKET>

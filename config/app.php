@@ -78,8 +78,8 @@ return [
     |
     */
 
-    'locale' => 'en',
-
+    'locale' => 'ru',
+    'locales' => ['ru', 'en'],
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -146,7 +146,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -208,7 +208,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
     ],
 
 ];

@@ -1,0 +1,885 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0" type="DELANGTABLE">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION="Navic"/>
+		<ROW ID="allfiles"	TRANSLATION="Vsechny soubory"/>
+		<ROW ID="and"	TRANSLATION="A"/>
+		<ROW ID="atpos"	TRANSLATION="v pozici"/>
+		<ROW ID="auto"	TRANSLATION="Automaticky"/>
+		<ROW ID="bottom"	TRANSLATION="Zdola"/>
+		<ROW ID="by"	TRANSLATION="na"/>
+		<ROW ID="cell"	TRANSLATION="Bunka"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Kodovani systemu"/>
+		<ROW ID="cp.dos866"	TRANSLATION="DOS-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Utf-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="Windows-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="Vytvorit soubor nasledujiciho typu"/>
+		<ROW ID="createmessage"	TRANSLATION="Vytvorit zpravu"/>
+		<ROW ID="csvfiles"	TRANSLATION="CSV (oddelovac ';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="Aktualni soubor dat"/>
+		<ROW ID="da.about"	TRANSLATION="O programu...|Zobrazeni informaci o programu, cislo verze a autorska prava"/>
+		<ROW ID="da.access"	TRANSLATION="Pristup|Nastavit prava uzivatelu na pristup"/>
+		<ROW ID="da.action"	TRANSLATION="Akce|Provest akci..."/>
+		<ROW ID="da.actions"	TRANSLATION="Akce"/>
+		<ROW ID="da.add"	TRANSLATION="Pridat"/>
+		<ROW ID="da.advfind"	TRANSLATION="Rozsirene vyhledavani|Zacit hledat s uvedenim dalsich parametru"/>
+		<ROW ID="da.agrave"	TRANSLATION="Prumerna hodnota|Pocita se prumer z vybranych hodnot"/>
+		<ROW ID="da.agrcount"	TRANSLATION="Pocet|Pocita se pocet vybranych hodnot"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Maximum|Pocita se maximalne z vybranych hodnot"/>
+		<ROW ID="da.agrmin"	TRANSLATION="Minimalne|Pocita se minimalne z vybranych hodnot"/>
+		<ROW ID="da.agrno"	TRANSLATION="Ne|Neni se setkat ukazatel na vyhrazene hodnoty"/>
+		<ROW ID="da.agrsum"	TRANSLATION="Soucet hodnot|Pocita se soucet vybranych hodnot"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="Pocet hodnot|Pocita se pocet vybranych hodnot non-vyprazdnit"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="Na stred|Zarovnat text na stred"/>
+		<ROW ID="da.alignleft"	TRANSLATION="Zarovnat vlevo|Zarovnat text vlevo"/>
+		<ROW ID="da.alignright"	TRANSLATION="Zarovnat vpravo|Zarovnat text k pravemu okraji"/>
+		<ROW ID="da.all"	TRANSLATION="Vsechny"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Zobrazit vsechny|Zobrazit obsah vsech poli"/>
+		<ROW ID="da.apply"	TRANSLATION="Pouzit"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="Teckovani kotvy|Misto kotvy na usporadani prvku"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Vypocet|Automaticky pocita se vysledek z vybranych hodnot"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Автопозиционирование|Automaticky umistit kartu pro zobrazeni vybraneho objektu"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Automaticky ukladat zmeny|Automaticky ulozit vsechny zmeny objektu"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Автомасштабирование|Automaticky zmensen na mapu pro zobrazeni vsech vybranych polozek"/>
+		<ROW ID="da.back"	TRANSLATION="Zpet|Vratit se zpet"/>
+		<ROW ID="da.backup"	TRANSLATION="Archivace dat|Zapsat polozku zalohovani dat"/>
+		<ROW ID="da.browse"	TRANSLATION="Prehled...|Vybrat soubor nebo adresar"/>
+		<ROW ID="da.cancel"	TRANSLATION="Storno"/>
+		<ROW ID="da.chart3d"	TRANSLATION="3D pohled|Zobrazit 3D pohled"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Полигонный plan"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Paskova graf"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Столбиковая graf"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="Bezierovy Krivky|Hladke plan krivkami Beziers"/>
+		<ROW ID="da.charthide"	TRANSLATION="Sloucit male|Kombinovat mensi ukazatele pro jednoho"/>
+		<ROW ID="da.chartline"	TRANSLATION="Linearni graf"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Logaritmicka stupnice|Vybrat логарифмическую stupnici"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Vysecovy graf"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="Bodove plan"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="Byt v zasobniku"/>
+		<ROW ID="da.choose"	TRANSLATION="Vybrat|Vybrat ze seznamu"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Vybrat sloupce"/>
+		<ROW ID="da.clear"	TRANSLATION="Vycistit"/>
+		<ROW ID="da.clearall"	TRANSLATION="Vymazat vsechny"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Zrusit vyber|Pro zruseni vyberu ze vsech objektu"/>
+		<ROW ID="da.close"	TRANSLATION="Zavrit"/>
+		<ROW ID="da.colclear"	TRANSLATION="Obnovit|Obnovit nastaveni zobrazeni sloupcu ve vychozim nastaveni"/>
+		<ROW ID="da.colclearall"	TRANSLATION="Obnovit pro vsechny|Obnovit pro vsechny uzivatele nastaveni zobrazeni sloupcu ve vychozim nastaveni"/>
+		<ROW ID="da.collapse"	TRANSLATION="Roll|Minimalizovat obsah aktualniho uzlu"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Sbalit vse|Minimalizovat obsah vsech uzlu"/>
+		<ROW ID="da.colsave"	TRANSLATION="Ulozit|Ulozit nastaveni zobrazeni sloupcu"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Ulozit pro vsechny|Ulozit pro vsechny uzivatele nastaveni zobrazeni sloupcu"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Skryt sloupec|Skryt vybrany sloupec"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="Seradit sestupne"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="Radit vzestupne"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Parametry prikazu"/>
+		<ROW ID="da.commands"	TRANSLATION="Tym|Tym"/>
+		<ROW ID="da.conditionand"	TRANSLATION="A - Vsechny podminky"/>
+		<ROW ID="da.conditionor"	TRANSLATION="NEBO - jednou z podminek"/>
+		<ROW ID="da.consistency"	TRANSLATION="Soulad metadat"/>
+		<ROW ID="da.continue"	TRANSLATION="Dale|Pokracovat a jit dale"/>
+		<ROW ID="da.copy"	TRANSLATION="Kopirovat|Kopirovat vybrane objekty"/>
+		<ROW ID="da.copychart"	TRANSLATION="Kopirovat|Kopirovat rozvrh v podobe obrazku"/>
+		<ROW ID="da.correct"	TRANSLATION="Opravit|Opravit automaticky"/>
+		<ROW ID="da.create"	TRANSLATION="Vytvorit"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="Na pracovni plose vytvoren zastupce pro spusteni zvolene konfigurace"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Zastupce|Vytvorit zastupce"/>
+		<ROW ID="da.cut"	TRANSLATION="Strih|Vyjmout vybrane objekty"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Export|Export dat do souboru"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Import|Import dat ze souboru"/>
+		<ROW ID="da.days"	TRANSLATION="Den"/>
+		<ROW ID="da.decline"	TRANSLATION="Odstranit radek"/>
+		<ROW ID="da.default"	TRANSLATION="Vychozi"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Cisteni DB|Vycisteni zaznamu oznacen k odstraneni"/>
+		<ROW ID="da.delete"	TRANSLATION="Odstranit|Odstranit vybrane objekty"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Odstranit filtr|Smazat vybrany filtr"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Nastaveni|Nastaveni formy zobrazeni vlastnosti objektu"/>
+		<ROW ID="da.dictionary"	TRANSLATION="Slovnik|Otevrit slovnik lokalizace"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Umistit na"/>
+		<ROW ID="da.dofilter"	TRANSLATION="Spustit|Provest vyber podle stavu"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="Duplicitni vybranych|Duplicitni hodnota pole vybranych objektu"/>
+		<ROW ID="da.edit"	TRANSLATION="Upravy"/>
+		<ROW ID="da.editmode"	TRANSLATION="Uprava|Zacit editaci objektu"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( prazdne )"/>
+		<ROW ID="da.exit"	TRANSLATION="Vystup|Vystup z programu"/>
+		<ROW ID="da.expand"	TRANSLATION="Nasadit|Rozbalte obsah aktualniho uzlu"/>
+		<ROW ID="da.export"	TRANSLATION="Ulozit|Ulozit dokument do souboru"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Export do XML|Exportovat data v ADO XML"/>
+		<ROW ID="da.exportto"	TRANSLATION="Exportovat|Exportovat soubor do..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Rychly tisk|Vybrat a vytisknout dokument"/>
+		<ROW ID="da.favorites"	TRANSLATION="Pridat k Oblibenym"/>
+		<ROW ID="da.file"	TRANSLATION="Soubor"/>
+		<ROW ID="da.filter"	TRANSLATION="Filtr|Vyber objektu podle filtru"/>
+		<ROW ID="da.filtername"	TRANSLATION="Nazev filtru"/>
+		<ROW ID="da.find"	TRANSLATION="Najit|Hledat objekt v aktualni sade dat"/>
+		<ROW ID="da.findnext"	TRANSLATION="Dalsi zaznam|Prejit na dalsi zaznam"/>
+		<ROW ID="da.findprev"	TRANSLATION="Predchozi zaznam|Prejit na predchozi zaznam"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="Vybrat sirku|Automaticky vyzvednout sirku sloupcu obsahu"/>
+		<ROW ID="da.formatcol"	TRANSLATION="Vlastnosti sloupce"/>
+		<ROW ID="da.forward"	TRANSLATION="Dopredu|Prejit vpred"/>
+		<ROW ID="da.go"	TRANSLATION="Prejit"/>
+		<ROW ID="da.grid"	TRANSLATION="Zobrazovat mrizku|Zobrazit rozsahla sit pod obrazkem"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Seskupeni"/>
+		<ROW ID="da.groupby"	TRANSLATION="Seskupit podle"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="Seskupit podle sloupce"/>
+		<ROW ID="da.grouping"	TRANSLATION="Skupina|Seskupit vybrane objekty"/>
+		<ROW ID="da.guide"	TRANSLATION="Uzivatelsky manual|Volani uzivatelske prirucky"/>
+		<ROW ID="da.help"	TRANSLATION="Napoveda|Vyvolani systemu napovedy"/>
+		<ROW ID="da.hide"	TRANSLATION="Skryt"/>
+		<ROW ID="da.holdover"	TRANSLATION="Odlozit|Odlozit cas spusteni ukolu"/>
+		<ROW ID="da.homepage"	TRANSLATION="Domovska stranka|Otevrit domovskou stranku na internetu"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="Velke ikony|Mapovani s pouzitim velkych ikon"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="Obrovske ikony|Mapovani s pouzitim obrovskych ikon"/>
+		<ROW ID="da.iconslist"	TRANSLATION="Seznam|Zobrazeni ve forme seznamu"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Hlavni seznam|Zobrazeni ve forme seznamu s velkymi prvky"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Ikony|Mapovani s pouzitim standardnich ikon"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Tabulka|Zobrazeni ve forme tabulky s podrobnymi informacemi"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="Zvetsene tabulka|Zobrazeni ve forme tabulky na dva radky"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Tabulka je na sirku|Zobrazeni ve forme tabulky na sirku okna"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Male ikony|Mapovani objektu v podobe ikon a popisku vpravo"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Dlazdice|Mapovani objektu v podobe dlazdice se zakladnimi informacemi"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Podrobne dlazdice|Mapovani objektu v podobe dlazdic s podrobnymi informacemi"/>
+		<ROW ID="da.incline"	TRANSLATION="Pridat radek"/>
+		<ROW ID="da.insert"	TRANSLATION="Pridat|Pridat novy objekt"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Invertovat vyber|Transformace vybranych objektu v невыделенные a naopak"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Posledni prispevek|Zobrazit posledni prispevek"/>
+		<ROW ID="da.link"	TRANSLATION="Propojit"/>
+		<ROW ID="da.linkall"	TRANSLATION="Propojit vsechny"/>
+		<ROW ID="da.linkto"	TRANSLATION="Zapamatovat si zkratku|Zapamatovat si zastupce souboru..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Stahnout|Nahrat soubor z..."/>
+		<ROW ID="da.loadto"	TRANSLATION="Vylozit|Odeslat soubor..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Kontaktujte nas|Napsat dopis vyvojarum programu"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="Menu|Zobrazit/skryt hlavni menu"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Hlavni stranka|Otevrit domovskou stranku"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Oddelit krivky"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Zkontrolujte, zda|Zkontrolujte, zda vzor je retezec dotazu na mape"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="Spojit v jedno"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="Zobrazit souradnice|Zobrazi souradnice vrcholu a delky car"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Улучшеный rezim|Vylepsena прорисока масштабированного obrazky"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="Google|Pouzit Google mapu"/>
+		<ROW ID="da.maptoback"	TRANSLATION="Na pozadi|Presunout objekt na pozadi"/>
+		<ROW ID="da.maptofront"	TRANSLATION="Na popredi|Presunout objekt do popredi"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Yandex|Pouzivat Yandex mapu"/>
+		<ROW ID="da.menugroup"	TRANSLATION="Sekce menu"/>
+		<ROW ID="da.menuitem"	TRANSLATION="Menu"/>
+		<ROW ID="da.menumove"	TRANSLATION="Presunout"/>
+		<ROW ID="da.menuorder"	TRANSLATION="Seradit menu"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="Vnorene menu"/>
+		<ROW ID="da.modify"	TRANSLATION="Zmenit|Zmenit vlastnosti objektu"/>
+		<ROW ID="da.months"	TRANSLATION="Mesic"/>
+		<ROW ID="da.movedown"	TRANSLATION="Dolu|Presunout dolu"/>
+		<ROW ID="da.moveto"	TRANSLATION="Presunout|Presunout objekt v"/>
+		<ROW ID="da.moveup"	TRANSLATION="Nahoru|Presunout nahoru"/>
+		<ROW ID="da.news"	TRANSLATION="Novinky a aktualizace|Informace o aktualizacich a novinkach pro vyvojare"/>
+		<ROW ID="da.note"	TRANSLATION="Poznamka|Vytvorit poznamku do vybraneho objektu"/>
+		<ROW ID="da.ok"	TRANSLATION="OK"/>
+		<ROW ID="da.open"	TRANSLATION="Otevrit|Otevrit obsah aktualniho objektu"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Otevrit|Otevre aktualni okno jako hlavni"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Otevrit v novem okne"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Otevreni souboru dat"/>
+		<ROW ID="da.operations"	TRANSLATION="Operace"/>
+		<ROW ID="da.order"	TRANSLATION="Poradi"/>
+		<ROW ID="da.orderby"	TRANSLATION="Seradit podle"/>
+		<ROW ID="da.parameters"	TRANSLATION="Parametry|Nastavit parametry"/>
+		<ROW ID="da.paste"	TRANSLATION="Vlozit|Vlozit objekty"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Rohovy uzel"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="Zacit menit uzlu|Zacit menit uzlu a segmentu postavy"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="Искривленный segment"/>
+		<ROW ID="da.pointclose"	TRANSLATION="Uzavrit postavu|Uzavrit prvni a posledni segment uzly"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="Odstranit uzel"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Primy uzel"/>
+		<ROW ID="da.pointend"	TRANSLATION="Dokoncit zmenu uzlu|Dokoncit zmenu uzlu a снгментов postavy"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="Vytvorit uzel"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="Linearni segment"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="Elegantni uzel"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Разомкнуть postavu"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Rozlozeni"/>
+		<ROW ID="da.presentation"	TRANSLATION="Predstavu"/>
+		<ROW ID="da.preview"	TRANSLATION="Zobrazit|Nahled dokumentu"/>
+		<ROW ID="da.print"	TRANSLATION="Tisk|Vybrat a vytisknout dokument"/>
+		<ROW ID="da.properties"	TRANSLATION="Vlastnosti|Zobrazeni vlastnosti vybranych objektu"/>
+		<ROW ID="da.regtables"	TRANSLATION="Registrace tabulek"/>
+		<ROW ID="da.remember"	TRANSLATION="Pripomenuti|Zobrazit okno pripomenuti uzivateli"/>
+		<ROW ID="da.rename"	TRANSLATION="Prejmenovat|Prejmenovani vybraneho objektu"/>
+		<ROW ID="da.report"	TRANSLATION="Zprava|Vybrat a vytvorit zpravy"/>
+		<ROW ID="da.representation"	TRANSLATION="Aktualni prehled"/>
+		<ROW ID="da.reset"	TRANSLATION="Reset"/>
+		<ROW ID="da.restore"	TRANSLATION="Obnovit|Obnovit objekty ze vzdalenych"/>
+		<ROW ID="da.rotate"	TRANSLATION="Twist"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Proti smeru hodinovych|Otocit objekt proti smeru hodinovych rucicek"/>
+		<ROW ID="da.rotate90"	TRANSLATION="Ve smeru hodinovych|Otocite objekt ve smeru hodinovych rucicek"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="Vodorovne|Otocit objekt vodorovne"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="Vertikalne|Otocit objekt svisle"/>
+		<ROW ID="da.rssnews"	TRANSLATION="Novinky"/>
+		<ROW ID="da.rulers"	TRANSLATION="Pravitko|Zobrazit pravitka"/>
+		<ROW ID="da.save"	TRANSLATION="Ulozit|Ulozit posledni zmeny"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Ulozit filtr|Ulozit aktualni filtr"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Ulozit do souboru...|Ulozit data nebo obrazek do souboru"/>
+		<ROW ID="da.scan"	TRANSLATION="Skenovat dokument|Skenovat dokument"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="Skenovat dokument ...|Vyberte si scanner a skenovat dokument"/>
+		<ROW ID="da.search"	TRANSLATION="Vyhledavani"/>
+		<ROW ID="da.selectall"	TRANSLATION="Vybrat vse|Vyber vsech objektu"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="Vybrat sloupec|Zvyraznete vybrany sloupec"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="Vybrat filtr|Vybrat ulozeny filtr"/>
+		<ROW ID="da.service"	TRANSLATION="Sluzby"/>
+		<ROW ID="da.setfilter"	TRANSLATION="Pouzit filtr|Pouzit filtr na oznaceny soubor dat"/>
+		<ROW ID="da.settings"	TRANSLATION="Nastaveni|Prohlizeni a zmena nastaveni, program"/>
+		<ROW ID="da.shortcut"	TRANSLATION="Vztah|Vytvorit propojeni do vybraneho objektu"/>
+		<ROW ID="da.show"	TRANSLATION="Zobrazit"/>
+		<ROW ID="da.showarchived"	TRANSLATION="Zobrazit archivovane|Zobrazit archivni zaznamy"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="Obsah|Zobrazit/skryt oblast zobrazeni obsahu"/>
+		<ROW ID="da.showempty"	TRANSLATION="Zobrazovat prazdne|Zobrazovat prazdne skupiny"/>
+		<ROW ID="da.showhint"	TRANSLATION="Pop-up tipy|Zmena rezimu zobrazeni pop-up vyzve"/>
+		<ROW ID="da.showremoved"	TRANSLATION="Zobrazit smazane|Zobrazit smazane zaznamy"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="Zobrazit vztahu|Zobrazit propojeni na samostatne zalozce"/>
+		<ROW ID="da.sorting"	TRANSLATION="Nastaveni...|Nastaveni parametru a usporadani objektu"/>
+		<ROW ID="da.splitby"	TRANSLATION="Rozdelit na"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="Menu|Zobrazeni standardniho menu"/>
+		<ROW ID="da.statusbar"	TRANSLATION="Stavovy radek|Zobrazeni nebo skryti stavoveho radku"/>
+		<ROW ID="da.switchmode"	TRANSLATION="Prepnout rezim|Prepnout rezim (Uzivatel-Architekt)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="Odstranit vsechny zaznamy|Odstranit vsechny zaznamy vybranych datovych sad"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Export dat v XML|Export vybranych dat do XML souboru"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Import dat z XML|Import do vybraneho souboru dat z XML souboru"/>
+		<ROW ID="da.tableprop"	TRANSLATION="Vlastnosti datove sady...|Upravit vlastnosti datove sady"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="Odstranit smazane|Odstranit vsechny oznacene jako smazane zaznamy vybranych datovych sad"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="Razeni prikazu|Seradite prikazu pro vybrany soubor dat"/>
+		<ROW ID="da.test"	TRANSLATION="Zkontrolujte, zda|Zkontrolujte, zda vybrane objekty"/>
+		<ROW ID="da.testconnect"	TRANSLATION="Kontrola pripojeni"/>
+		<ROW ID="da.undo"	TRANSLATION="Zrusit|Zrusit posledni zmenu"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Разгруппировать|Разгруппировать vybrany objekt"/>
+		<ROW ID="da.unreguser"	TRANSLATION="Dokoncit relaci|Ukoncit rezim prace"/>
+		<ROW ID="da.up"	TRANSLATION="Nahoru|O jednu uroven nahoru"/>
+		<ROW ID="da.update"	TRANSLATION="Aktualizovat|Aktualizace obsahu aktualniho okna"/>
+		<ROW ID="da.view"	TRANSLATION="Vyhled"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="Kalendar|Mapovani objektu na kalendari"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Karta|Zobrazeni karty zarizeni"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Graf|Mapovani statisticke grafy objektu"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Skupiny|Zobrazeni objekty se rozdeluji do skupin"/>
+		<ROW ID="da.viewlist"	TRANSLATION="Seznam|Zobrazeni dat ve forme seznamu"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Mapa|Zobrazeni dat v podobe vektorovych schemat"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Souhrnna tabulka|Zobrazeni dat ve forme kontingencni tabulky"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Mapa|Zobrazeni dat v podobe тайловой karty"/>
+		<ROW ID="da.viewtree"	TRANSLATION="Strom|Zobrazeni dat ve stromove strukture"/>
+		<ROW ID="da.weeks"	TRANSLATION="Tyden"/>
+		<ROW ID="da.years"	TRANSLATION="Rok"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="Vychozi priblizeni|Zobrazit v meritku vychozi"/>
+		<ROW ID="da.zoomin"	TRANSLATION="Zvysit|Zvetsit obrazek"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="Obraz zcela|Zobrazit vsechny obraz zcela"/>
+		<ROW ID="da.zoomout"	TRANSLATION="Snizit|Oddaleni obrazu"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="Objekt je zcela|Zobrazit vybrane objekty zcela"/>
+		<ROW ID="db"	TRANSLATION="DB"/>
+		<ROW ID="de.barcode"	TRANSLATION="Считанный carovy kod neni zapsan v seznamu."/>
+		<ROW ID="de.connecter"	TRANSLATION="Pri pripojeni doslo k chybe '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="Pripojeni probehlo uspesne"/>
+		<ROW ID="de.contain"	TRANSLATION="Slozka '%s' obsahuje неудаленные slozky nebo objekty %d ks"/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Neni nainstalovan nebo neni k dispozici sluzba %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="Pro chod programu je potreba service %s, verze neni nizsi nez %s. V soucasne dobe nainstalovana verze %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Rezim konfigurace je k dispozici pouze administratorovi."/>
+		<ROW ID="de.empty"	TRANSLATION="Pole '%s' musi byt zadana. Uvedte, prosim, neprazdne hodnoty."/>
+		<ROW ID="de.error"	TRANSLATION="Chyba|Chyby"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="Toto pole nelze propojit s uvedenou tabulkou. Nesoulad typu."/>
+		<ROW ID="de.file"	TRANSLATION="Soubor '%s' je poskozen, chybi, nebo ma spatny format."/>
+		<ROW ID="de.fileexists"	TRANSLATION="Zadany soubor existuje. Prepsat?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Zmenit prijata. Zaznam neni uveden v aktualnim seznamu, protoze nesplnuje aktualni podminky filtrovani."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="Zmeneny objekt neni zobrazen, protoze nesplnuje aktualni podminky filtru."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="Neplatny odkaz. Objekt chybi nebo je nedostupny"/>
+		<ROW ID="de.linkself"	TRANSLATION="Vybrane zaznamy mohou byt spojeny"/>
+		<ROW ID="de.needload"	TRANSLATION="Pro zacatek prace s programem, stahnete si reseni"/>
+		<ROW ID="de.openfile"	TRANSLATION="Chyba pri otevirani souboru."/>
+		<ROW ID="de.owner"	TRANSLATION="Neplatna majitel prvek"/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="Nelze presunout polozku do slozky/skupiny s oznacenim 'smazano'."/>
+		<ROW ID="de.password"	TRANSLATION="Nespravne uvedene jmeno nebo heslo uzivatele. Zkontrolujte nazev a opakujte zadani hesla."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Vezmete prosim na vedomi, stisknuta klavesa Caps Lock. Hesla jsou zavedeny s ohledem na velka a mala pismena."/>
+		<ROW ID="de.port0"	TRANSLATION="Zarizeni je pripraveno"/>
+		<ROW ID="de.port1"	TRANSLATION="Pristroj neni pouzivan"/>
+		<ROW ID="de.port2"	TRANSLATION="Port je zaneprazdnen nebo neni k dispozici"/>
+		<ROW ID="de.port3"	TRANSLATION="Inicializace zarizeni"/>
+		<ROW ID="de.port4"	TRANSLATION="Chybejici jidlo"/>
+		<ROW ID="de.port5"	TRANSLATION="Zarizeni neni pripojeno"/>
+		<ROW ID="de.readonly"	TRANSLATION="Data jsou pouze pro cteni."/>
+		<ROW ID="de.regabsent"	TRANSLATION="Demo verze programu! Po zakoupeni vyrobku odeslete registracni soubor na adrese: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="Upravit pole, podminky, formularove prvky daneho souboru dat je zakazano."/>
+		<ROW ID="de.unique"	TRANSLATION="Hodnota pole '%s' musi byt jedinecny"/>
+		<ROW ID="df.active"	TRANSLATION="Aktivne"/>
+		<ROW ID="df.address"	TRANSLATION="Adresa"/>
+		<ROW ID="df.admin"	TRANSLATION="Spravce"/>
+		<ROW ID="df.after"	TRANSLATION="Po"/>
+		<ROW ID="df.alias"	TRANSLATION="Alias"/>
+		<ROW ID="df.anchor"	TRANSLATION="Kotva"/>
+		<ROW ID="df.archived"	TRANSLATION="Archiv"/>
+		<ROW ID="df.author"	TRANSLATION="Autor"/>
+		<ROW ID="df.barcode"	TRANSLATION="Carovy kod"/>
+		<ROW ID="df.basedon"	TRANSLATION="Je zalozen na"/>
+		<ROW ID="df.before"	TRANSLATION="Pred"/>
+		<ROW ID="df.blocked"	TRANSLATION="Zablokovan"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Barva hranice"/>
+		<ROW ID="df.breakline"	TRANSLATION="Oddelovac"/>
+		<ROW ID="df.calculated"	TRANSLATION="Вычисляемое"/>
+		<ROW ID="df.caption"	TRANSLATION="Titulek"/>
+		<ROW ID="df.category"	TRANSLATION="Kategorie|Kategorie"/>
+		<ROW ID="df.color"	TRANSLATION="Barva"/>
+		<ROW ID="df.column"	TRANSLATION="Sloupec"/>
+		<ROW ID="df.command"	TRANSLATION="Tym"/>
+		<ROW ID="df.condition"	TRANSLATION="Podminka"/>
+		<ROW ID="df.connection"	TRANSLATION="Pripojeni"/>
+		<ROW ID="df.created"	TRANSLATION="Vytvoreno"/>
+		<ROW ID="df.date"	TRANSLATION="Datum"/>
+		<ROW ID="df.deadline"	TRANSLATION="Termin"/>
+		<ROW ID="df.default"	TRANSLATION="Vychozi"/>
+		<ROW ID="df.deleted"	TRANSLATION="Smazano"/>
+		<ROW ID="df.description"	TRANSLATION="Popis"/>
+		<ROW ID="df.directory"	TRANSLATION="Prirucka"/>
+		<ROW ID="df.editor"	TRANSLATION="Editor"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Pole chyby"/>
+		<ROW ID="df.expression"	TRANSLATION="Vyraz"/>
+		<ROW ID="df.file"	TRANSLATION="Soubor"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Barva vyplne"/>
+		<ROW ID="df.filter"	TRANSLATION="Filtr"/>
+		<ROW ID="df.folder"	TRANSLATION="Slozka"/>
+		<ROW ID="df.generator"	TRANSLATION="Generator"/>
+		<ROW ID="df.group"	TRANSLATION="Skupina"/>
+		<ROW ID="df.height"	TRANSLATION="Vyska"/>
+		<ROW ID="df.hidden"	TRANSLATION="Skryty"/>
+		<ROW ID="df.ico"	TRANSLATION="Ikona"/>
+		<ROW ID="df.id"	TRANSLATION="Kod"/>
+		<ROW ID="df.latitude"	TRANSLATION="Sire"/>
+		<ROW ID="df.layer"	TRANSLATION="Vrstva"/>
+		<ROW ID="df.link"	TRANSLATION="Komunikace"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Komunikace po poli"/>
+		<ROW ID="df.login"	TRANSLATION="Vstupni jmeno"/>
+		<ROW ID="df.longitude"	TRANSLATION="Delka"/>
+		<ROW ID="df.mail"	TRANSLATION="Mail"/>
+		<ROW ID="df.message"	TRANSLATION="Zprava"/>
+		<ROW ID="df.modified"	TRANSLATION="Zmeneno"/>
+		<ROW ID="df.name"	TRANSLATION="Nazev"/>
+		<ROW ID="df.namefield"	TRANSLATION="Заглавное pole"/>
+		<ROW ID="df.note"	TRANSLATION="Poznamka"/>
+		<ROW ID="df.notnull"	TRANSLATION="Neni prazdny"/>
+		<ROW ID="df.offstate"	TRANSLATION="Off"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="Povolit v menu 'Vytvorit'"/>
+		<ROW ID="df.order"	TRANSLATION="Poradi"/>
+		<ROW ID="df.originalname"	TRANSLATION="Nazev v DATABAZI"/>
+		<ROW ID="df.owner"	TRANSLATION="Majitel"/>
+		<ROW ID="df.password"	TRANSLATION="Heslo"/>
+		<ROW ID="df.period"	TRANSLATION="Obdobi"/>
+		<ROW ID="df.person"	TRANSLATION="Jmeno"/>
+		<ROW ID="df.phone"	TRANSLATION="Telefon"/>
+		<ROW ID="df.pointer"	TRANSLATION="Ukazatel"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Primarni klic"/>
+		<ROW ID="df.priority"	TRANSLATION="Vyznam"/>
+		<ROW ID="df.readonly"	TRANSLATION="Pouze pro cteni"/>
+		<ROW ID="df.role"	TRANSLATION="Roli"/>
+		<ROW ID="df.rolelink"	TRANSLATION="Externi role"/>
+		<ROW ID="df.rotate"	TRANSLATION="Twist"/>
+		<ROW ID="df.server"	TRANSLATION="Server"/>
+		<ROW ID="df.size"	TRANSLATION="Velikost"/>
+		<ROW ID="df.source"	TRANSLATION="Zdroj"/>
+		<ROW ID="df.state"	TRANSLATION="Stav"/>
+		<ROW ID="df.stored"	TRANSLATION="Хранимое"/>
+		<ROW ID="df.system"	TRANSLATION="Systemovy"/>
+		<ROW ID="df.table"	TRANSLATION="Tabulka"/>
+		<ROW ID="df.template"	TRANSLATION="Vzor"/>
+		<ROW ID="df.time"	TRANSLATION="Cas"/>
+		<ROW ID="df.translation"	TRANSLATION="Preklad"/>
+		<ROW ID="df.transparent"	TRANSLATION="Transparentni"/>
+		<ROW ID="df.type"	TRANSLATION="Typ"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Nastaveni importu/exportu"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Vlastni filtr"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Nastaveni zobrazenych poli"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Lokalni filtr"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Globalni filtr"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="Prizpusobeni vrstev mapy"/>
+		<ROW ID="df.unique"	TRANSLATION="Unikatni"/>
+		<ROW ID="df.user"	TRANSLATION="Uzivatel"/>
+		<ROW ID="df.value"	TRANSLATION="Vyznam"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Vlozit hodnotu"/>
+		<ROW ID="df.varname"	TRANSLATION="Jmeno ve vyrazu"/>
+		<ROW ID="df.version"	TRANSLATION="Verze"/>
+		<ROW ID="df.visible"	TRANSLATION="Viditelne"/>
+		<ROW ID="df.width"	TRANSLATION="Sirka"/>
+		<ROW ID="di.column"	TRANSLATION="Sloupec|Sloupce"/>
+		<ROW ID="di.menuelem"	TRANSLATION="Menu|Polozky v menu"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="Aktivni vrstva"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Zarovnani"/>
+		<ROW ID="dl.animation"	TRANSLATION="Animace"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="Automaticky filtr"/>
+		<ROW ID="dl.captionright"	TRANSLATION="Zobrazit zahlavi vpravo"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="Obecne adresare"/>
+		<ROW ID="dl.check"	TRANSLATION="Kontrola"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Zkontrolovat novinky a aktualizace na webovych strankach developera"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Sitova adresa"/>
+		<ROW ID="dl.computername"	TRANSLATION="Pocitac"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Konfigurace"/>
+		<ROW ID="dl.configurator"	TRANSLATION="Konfigurator"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Potvrzeni..."/>
+		<ROW ID="dl.copies"	TRANSLATION="Kopie"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="Kopirovani skryte pole do schranky pro vlozeni do jinych aplikaci"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="Kopirovat zahlavi poli do schranky pro vlozeni do jinych aplikaci"/>
+		<ROW ID="dl.correspond"	TRANSLATION="Vyhovuje"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="Pouziti poli neprijatelne v tomto vyjadreni."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Frekvence procesoru"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Procesor"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Poskytovatel"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Urcovat automaticky"/>
+		<ROW ID="dl.datacom"	TRANSLATION="s oddelovac je carka"/>
+		<ROW ID="dl.datatab"	TRANSLATION="s oddelovac tabulator"/>
+		<ROW ID="dl.datatext"	TRANSLATION="Textovy soubor"/>
+		<ROW ID="dl.device"	TRANSLATION="Zarizeni"/>
+		<ROW ID="dl.directories"	TRANSLATION="Adresare"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="Drag and drop zaznamu"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="Ovladac DB"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="Sluzby DB"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="E-mailovy klient"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Kancelarsky balik"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="Sluzby OLAP"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="Povolit zaznam ladicich informaci"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="Протоколировать SQL dotazy"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Vsude"/>
+		<ROW ID="dl.faster"	TRANSLATION="Rychlejsi"/>
+		<ROW ID="dl.findin"	TRANSLATION="Nalezeni objektu v seznamu:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="Kde hledat"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Vysledky vyhledavani"/>
+		<ROW ID="dl.findtext"	TRANSLATION="Hledat text"/>
+		<ROW ID="dl.form"	TRANSLATION="Formular"/>
+		<ROW ID="dl.format"	TRANSLATION="Format"/>
+		<ROW ID="dl.forms"	TRANSLATION="Formulare"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="Vzdy логировать kompletni datum a cas"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Zvyrazneni radku"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Cary mrizky"/>
+		<ROW ID="dl.guard"	TRANSLATION="Ochrana"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="Skryt systemove udaje"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="Povolit pristup pres HTTP (beta)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="Ne rozlisovat mala / velka pismena"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Ignorovat cisla"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Hledat jako soucast"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Bez ohledu na poradi slov"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Ignorovat specialni znaky"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Ulozit streamovana data ve starem formatu"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="V aktualnim seznamu"/>
+		<ROW ID="dl.indataset"	TRANSLATION="V sade dat"/>
+		<ROW ID="dl.information"	TRANSLATION="Informace..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Rozhrani"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="Posledni aspekt export"/>
+		<ROW ID="dl.layers"	TRANSLATION="Vrstvy"/>
+		<ROW ID="dl.locating"	TRANSLATION="Umisteni na aktivni objekt"/>
+		<ROW ID="dl.location"	TRANSLATION="Umisteni"/>
+		<ROW ID="dl.locksession"	TRANSLATION="Blokovat jednani uzivatele pri necinnosti (v minutach)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Логирование"/>
+		<ROW ID="dl.map"	TRANSLATION="Mapa"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="Cache тайлы karty"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="Omezeni velikosti jednoho souboru v megabajtech"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="Dostupna pamet"/>
+		<ROW ID="dl.metadata"	TRANSLATION="Zakladna метаструктуры"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Metrika|Zakladni metricke meritko"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Jine barvy..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Stisknete [Ctrl], pro kombinace souradnic soucasna body s jinymi body postavy"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Odstraneni sloupcu"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Odstraneni radku"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="Pouzit automaticky filtr"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="Formatovani bunek"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="Formatovani sloupcu"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="Formatovani radku"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Vlozit sloupce"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Vkladani hypertextovych odkazu"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Vlozeni radku"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="Trideni"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="Pouziti kontingencni tabulky"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="Zmena scenare"/>
+		<ROW ID="dl.no"	TRANSLATION="Ne"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="Ne"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="Operace trvat nejakou dobu, a nemuze byt prerusen."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Pak seradit podle"/>
+		<ROW ID="dl.osversion"	TRANSLATION="Verze OS"/>
+		<ROW ID="dl.other"	TRANSLATION="Ostatni"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Vystupni soubory"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="Nastaveni stranky"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Rozsireni"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="Vyberte akci"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="Po stisknuti tlacitka DALSI zacne provadeni operace"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Vyberte sadu dat pro vymenu dat"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Vyberte typ externiho souboru, nebo zvolte zobrazeni"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Vyberte pole, ktere je treba exportovat"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="Zadejte filtr, pro vybrane datove sady"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="Provedeni operace"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Zadejte, prosim, typ, umisteni a jmeno externiho souboru"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Urcete poradi poli, pohybem mysi hodnoty z leveho seznamu do praveho"/>
+		<ROW ID="dl.port"	TRANSLATION="Port"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Bity dat"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Paritni"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Rychlost (bit/s)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Стоповые kousky"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="Stop-byte"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Timeout (ms)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Obsazeno"/>
+		<ROW ID="dl.printer"	TRANSLATION="Tiskarna"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Zdarma"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Styl tisku"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="Pri provadeni operace doslo k chybe."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="Operace uspesne provedena"/>
+		<ROW ID="dl.properties"	TRANSLATION="Vlastnosti"/>
+		<ROW ID="dl.question"	TRANSLATION="Otazka..."/>
+		<ROW ID="dl.random"	TRANSLATION="Nahodou"/>
+		<ROW ID="dl.reading"	TRANSLATION="Cteni dat"/>
+		<ROW ID="dl.recipient"	TRANSLATION="Prijemce"/>
+		<ROW ID="dl.registration"	TRANSLATION="Pro prihlaseni do systemu zadejte, prosim, Vase jmeno a heslo"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Automaticke spusteni pripomenuti po prihlaseni uzivatele"/>
+		<ROW ID="dl.results"	TRANSLATION="Vysledky"/>
+		<ROW ID="dl.scale"	TRANSLATION="Rozsah"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="Kde hledat"/>
+		<ROW ID="dl.separator"	TRANSLATION="Oddelovac"/>
+		<ROW ID="dl.sheet"	TRANSLATION="List"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="Zobrazovat titulky"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Zkontrolovat a predat zaznamy s nespravnym Vnejsim klicem"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Preskocit zaznam s nespravnym typem dat"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Preskocit prvni zaznam jako titulek"/>
+		<ROW ID="dl.slower"	TRANSLATION="Медленее"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="Sestupne"/>
+		<ROW ID="dl.sortup"	TRANSLATION="Vzestupne"/>
+		<ROW ID="dl.soundon"	TRANSLATION="Zapnout zvuk"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="Tisknout jejich kopie"/>
+		<ROW ID="dl.start"	TRANSLATION="Start"/>
+		<ROW ID="dl.step"	TRANSLATION="Krok"/>
+		<ROW ID="dl.stop"	TRANSLATION="Stop"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="Nastaveni stylu"/>
+		<ROW ID="dl.systemres"	TRANSLATION="Systemove prostredky"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Zalozky...|Zalozky"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Horke problemu"/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Kategorie"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Tym"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Nastavitelna"/>
+		<ROW ID="dl.thickness"	TRANSLATION="Tloustka"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="Panel nastroju"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="Panel nastroju"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Kombinace klaves"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Parametry"/>
+		<ROW ID="dl.totray"	TRANSLATION="Minimalizovat do трэй pri zavreni okna programu"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Nejsou k dispozici udaje"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="Aktualizovat zaznam pri nahody Primarni klic"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="Aktualizovat pouze na neprazdne hodnoty"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Pouzivat zarizeni pro cteni carovych kodu"/>
+		<ROW ID="dl.username"	TRANSLATION="Uzivatel"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="Jmeno aktualniho uzivatele systemu Windows"/>
+		<ROW ID="dl.version"	TRANSLATION="Verze"/>
+		<ROW ID="dl.view"	TRANSLATION="Nastaveni zobrazeni"/>
+		<ROW ID="dl.warning"	TRANSLATION="Varovani..."/>
+		<ROW ID="dl.yes"	TRANSLATION="Ano"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="Provedeni prikazu|Provedeni vybraneho prikazu"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Opravdu chcete odstranit"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="Uvedene zkratky jsou odstraneny, pokracovat?"/>
+		<ROW ID="dm.sequence"	TRANSLATION="Zvolte %s, ktere Byste chteli videt. Stisknutim tlacitka 'Nahoru' a 'Dolu' lze nastavit jejich poradi odkazu."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Stisknutim tlacitka 'Nahoru' a 'Dolu' nastavte poradi tymu. V pripade potreby muzete povolit zobrazeni pricky pred tymem."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Vyberte soubor reseni"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="Pro dokonceni operace je treba zkopirovat soubor '%s' v adresari '%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Odstraneni reseni"/>
+		<ROW ID="dm.solloading"	TRANSLATION="Reseni loading"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Dalsi prace je mozne pouze po opetovnem prihlaseni do systemu."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Vykladka reseni"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="Aktualizace parametru|Aktualizace seznamu parametru prikazu"/>
+		<ROW ID="dt.action"	TRANSLATION="Typ udalosti|Typy udalosti"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="Udalost na podminku|Podle teto udalosti"/>
+		<ROW ID="dt.additional"	TRANSLATION="Dalsi informace"/>
+		<ROW ID="dt.alignment"	TRANSLATION="Typ zarovnani|Typy zarovnani"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Sada|Kodovani"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="Rezim parametr|Rezimy nastaveni"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="Typ tymu|Typy prikazu"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Typ podminky|Typy podminek"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Omezeni|Omezeni"/>
+		<ROW ID="dt.data"	TRANSLATION="Udaje"/>
+		<ROW ID="dt.database"	TRANSLATION="Databaze|Databaze"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="Typ databaze|Typy databaze"/>
+		<ROW ID="dt.dataset"	TRANSLATION="Soubor dat|Soupravy dat"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="Typ sady dat"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Typ dat|Typy dat"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="Slovnik|Slovniky"/>
+		<ROW ID="dt.event"	TRANSLATION="Akce|Akce"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Typ upozorneni|Typy oznameni"/>
+		<ROW ID="dt.field"	TRANSLATION="Pole|Pole"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="Kategorie pole|Kategorie poli"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="Roli pole|Role poli"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Barva pisma|Seznam barev pisma"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="Styl pisma|Styly pisma"/>
+		<ROW ID="dt.formelement"	TRANSLATION="Prvek formulare|Prvky formulare"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="Typ prvku formulare|Typy prvku formulare"/>
+		<ROW ID="dt.language"	TRANSLATION="Jazyk|Jazyky"/>
+		<ROW ID="dt.logintype"	TRANSLATION="Typ pristupu"/>
+		<ROW ID="dt.membership"	TRANSLATION="Clenstvi ve skupine|Clenstvi ve skupinach"/>
+		<ROW ID="dt.menu"	TRANSLATION="Sekce menu|Sekce menu"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Metadata"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="Typ uzlu|Typy uzlu"/>
+		<ROW ID="dt.note"	TRANSLATION="Poznamka|Poznamky"/>
+		<ROW ID="dt.object"	TRANSLATION="Objekt"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="Akce pri odstranovani|Kroky pri odstranovani"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="Typ operace|Typy operaci"/>
+		<ROW ID="dt.param"	TRANSLATION="Parametr|Parametry"/>
+		<ROW ID="dt.policy"	TRANSLATION="Bezpecnostni politika|Bezpecnostni politiky"/>
+		<ROW ID="dt.procedure"	TRANSLATION="Nazev procedury|Jmena procedur"/>
+		<ROW ID="dt.report"	TRANSLATION="Zprava|Zpravy"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="Parametr zpravy|Parametry zpravy"/>
+		<ROW ID="dt.right"	TRANSLATION="Pravo uzivatele|Prava uzivatelu"/>
+		<ROW ID="dt.role"	TRANSLATION="Roli, pokud jde o|Role ve vztahu"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="Vztah|Vztah"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Typ zobrazeni pole|Typy zobrazeni pole"/>
+		<ROW ID="dt.solution"	TRANSLATION="Reseni|Reseni"/>
+		<ROW ID="dt.task"	TRANSLATION="Ukol|Ukoly"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Typ uzivatelskych dat"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="Typ operace|Typy operaci"/>
+		<ROW ID="dt.user"	TRANSLATION="Uzivatel|Uzivatele"/>
+		<ROW ID="dt.usertask"	TRANSLATION="Ukolem uzivatele|Ukoly uzivatelu"/>
+		<ROW ID="dt.usertype"	TRANSLATION="Typ uzivatele|Typy uzivatele"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Typ zobrazeni|Typy zobrazeni"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="Cetnost vypoctu"/>
+		<ROW ID="dtadditionally"	TRANSLATION="Navic"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="Pri kazdem dotazu"/>
+		<ROW ID="dv.button"	TRANSLATION="Tlacitko"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Odstupnovat odstranit"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="Schranky"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="Cerna"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="Modra"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Cokoladovy"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="Циан"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Malina"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="Vychozi"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="Seda"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Zelena"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Салатовый"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="Fialove"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="Modra"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="Purpurova"/>
+		<ROW ID="dv.colorred"	TRANSLATION="Cervena"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="Tyrkysove"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="Bila"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Zluta"/>
+		<ROW ID="dv.day1"	TRANSLATION="Pondeli"/>
+		<ROW ID="dv.day2"	TRANSLATION="Utery"/>
+		<ROW ID="dv.day3"	TRANSLATION="Streda"/>
+		<ROW ID="dv.day4"	TRANSLATION="Ctvrtek"/>
+		<ROW ID="dv.day5"	TRANSLATION="Patek"/>
+		<ROW ID="dv.day6"	TRANSLATION="Sobota"/>
+		<ROW ID="dv.day7"	TRANSLATION="Nedele"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Je zakazano"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="Filtrovani"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Varovani"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Desetinne cislo"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Formular"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="Okno s udaji"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Cele cislo"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Связный seznam"/>
+		<ROW ID="dv.elempage"	TRANSLATION="Zalozka"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="Zalozka okna s daty"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Panel"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="Napis"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Radek"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Prepinac"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="Seznam prepinacu"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="Strom zaznamu"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Strom seznam"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Povoleno"/>
+		<ROW ID="dv.explorer"	TRANSLATION="Pruzkumnik souboru"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Oblibene"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Jen pri prvnim dotazu"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Tucne"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="Vetsi"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Podtrzene"/>
+		<ROW ID="dv.globalref"	TRANSLATION="Globalni adresar"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="Zasifrovane heslo"/>
+		<ROW ID="dv.localref"	TRANSLATION="Mistni pruvodce"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="Zakladni soubor dat"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Nikdy"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Atribut"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Prvek"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Skupina"/>
+		<ROW ID="dv.noname"	TRANSLATION="Bez jmena"/>
+		<ROW ID="dv.onall"	TRANSLATION="Pri kazde operaci"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="Pri presunu do kose"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="Pri odstranovani"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="Pri vlozeni"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="Pri vstupu"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="Pri odchodu"/>
+		<ROW ID="dv.onreading"	TRANSLATION="Pri cteni"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="Pri upravach"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="Vysoka"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Nizka"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="Normalni"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Zakazat"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="Vybrane objekty %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="Обнулить komunikace"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="Podrizeny datovy soubor"/>
+		<ROW ID="dv.text"	TRANSLATION="Text"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="Akce %s nebyl nalezen"/>
+		<ROW ID="error.additem"	TRANSLATION="Pridani zaznamu v tuto prirucku je zakazano."/>
+		<ROW ID="error.argcount"	TRANSLATION="Neplatny pocet argumentu ve volani funkce"/>
+		<ROW ID="error.argtype"	TRANSLATION="Neplatny typ argumentu"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="Ocekava uzaviraci zavorku."/>
+		<ROW ID="error.char"	TRANSLATION="v poli '%s' zadan neplatny znak, nebo znaky '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="S predmetem '%s' nejsou vazany smazane objekty sekci '%s'."/>
+		<ROW ID="error.children"	TRANSLATION="C '%s' jsou spojeny objekty oddilu '%s' (%d ks)"/>
+		<ROW ID="error.connect"	TRANSLATION="Zadejte prosim platnou cestu, nebo neni k dispozici server databaze."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="Chyba pripojeni k databazi метаструктуры."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="Databaze %s nenalezena k provedeni ulozene procedury."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="Databaze %s nepodporuje spusteni ulozene procedury."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="Soubor dat by mel vstoupit v reseni '%s'."/>
+		<ROW ID="error.default"	TRANSLATION="Objekt s oznacenim 'default' muze byt vzdalene."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Objekt zmenen jinym uzivatelem. Chcete odstranit objekt?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="Objekt odstranen jinym uzivatelem."/>
+		<ROW ID="error.double"	TRANSLATION="Zadana hodnota klicoveho pole neni jedinecny. Mozna, zaznam s danou hodnotou oznacena jako vzdalena."/>
+		<ROW ID="error.edit"	TRANSLATION="nejsou uvedeny hodnoty povinnych poli nebo zavedena chybna data."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="Pro tento typ prvku musi byt uvedeno pole"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="Pro dany typ polozky nemusi byt uvedeno pole"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="Tento prvek nelze propojit s uvedenou tabulkou"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="Pro tento element nesmi byt uveden odkaz"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="Pro tento element musi byt uveden odkaz"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="Zadany prvek nemusi byt vlastnikem"/>
+		<ROW ID="error.elem.type"	TRANSLATION="Typ polozky neni kompatibilni s typem pole"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Neznamy vlastnik"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="Prazdny vyraz"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="Seznam ukolu prazdny."/>
+		<ROW ID="error.exprend"	TRANSLATION="Konec vyrazu"/>
+		<ROW ID="error.field"	TRANSLATION="Chyba v popisu pole"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="Chyba vypoctu hodnoty pole '%s' ring odkazy"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Pole %s neexistuje"/>
+		<ROW ID="error.find"	TRANSLATION="Nebyl nalezen ani jeden objekt, ktery obsahuje zadanou hodnotu"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="Pole NOT NULL je treba zadat vychozi hodnotu"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="Poli - pohlavi slozky необходмо zadat hodnotu 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="Tabulka by mela obsahovat pouze jedno pole"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Neplatna hodnota konstanty"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Neplatny znak"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="Neshoda typu"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Nespravna cesta nebo nazev souboru."/>
+		<ROW ID="error.inlist"	TRANSLATION="Parametr bude rovna jedne z hodnot seznamu:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Neplatny typ ucastnika bezpecnosti."/>
+		<ROW ID="error.length"	TRANSLATION="pocet znaku pole '%s' nesmi prekrocit %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="V метаструктуре chybi potrebne pro praci programu, datove sady."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Verze метаструктуры neodpovida verzi programu."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="Je treba zadat nazev."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="Nazev reseni by melo byt definovano"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="Zadny vybraneho objektu"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="Neni urceno cache pro akce"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="Neni specifikovan datovy soubor pro akce"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Neni provadena pri pouziti stare метаструктуры!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Neplatny typ operandu"/>
+		<ROW ID="error.printer"	TRANSLATION="Chyba inicializace tiskarny. Tisk dokumentu zrusena."/>
+		<ROW ID="error.printerno"	TRANSLATION="Neni k dispozici tiskarny"/>
+		<ROW ID="error.readfield"	TRANSLATION="Chyba pri cteni dat pole '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="Nemate dostatecna prava k provedeni operace"/>
+		<ROW ID="error.scan"	TRANSLATION="Chyba skeneru."/>
+		<ROW ID="error.setfield"	TRANSLATION="Hodnota neni nastavena, zadejte neprazdne hodnoty pole"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Nalezen podobny prvek. Prejit k nemu?"/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Vyberte volbu pro vyhledavani"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="Podobny prvek nebyl nalezen"/>
+		<ROW ID="error.sort"	TRANSLATION="Trideni podle вычисляемым pole a pole-souboru neni povoleno"/>
+		<ROW ID="error.sortfield"	TRANSLATION="Vybrane pole je jiz pritomen v seznamu poli trideni."/>
+		<ROW ID="error.start"	TRANSLATION="Operace je k dispozici pouze po prihlaseni."/>
+		<ROW ID="error.statementend"	TRANSLATION="Neocekavany konec vyrazu"/>
+		<ROW ID="error.strlen"	TRANSLATION="Delka retezce v poli '%s' je prilis velky"/>
+		<ROW ID="error.tree"	TRANSLATION="Chyba sestaveni stromu objektu. Chybi majitel uzlu stromu '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="Neuzavrene radek"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="Neocekavany konec vyrazu"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="Informace o clenstvi konkretniho uzivatele v teto skupine je jiz zapsan do databaze."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Neznama funkce"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Nezname id"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Objekt zmenen jinym uzivatelem. Ulozit Vase zmeny?"/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Objekt zmenen jinym uzivatelem."/>
+		<ROW ID="error.updateitem"	TRANSLATION="Chyba pri ziskavani souboru aktualizace"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="Uzivatelsky ucet je zablokovan."/>
+		<ROW ID="figure"	TRANSLATION="Obrazek"/>
+		<ROW ID="filefilters"	TRANSLATION="Zpravy v MSExcel|*.xls|InterBase files|*.gdb|Config|*.cfg|Vsechny soubory|*.*"/>
+		<ROW ID="for"	TRANSLATION="Pro"/>
+		<ROW ID="imp.break"	TRANSLATION="Zrusit operaci"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Vytvorit novy zaznam"/>
+		<ROW ID="imp.data"	TRANSLATION="Importovat jako data"/>
+		<ROW ID="imp.dterror"	TRANSLATION="Chyba datoveho typu pole"/>
+		<ROW ID="imp.empty"	TRANSLATION="Hodnota pole je prazdne"/>
+		<ROW ID="imp.first"	TRANSLATION="Prvni zaznam"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Kontrola ciziho klice"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="Cizi klic neexistuje"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Ignorovat chybu"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="Incidence primarniho klice"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Pridano zaznamu"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Inkasovali zaznamu"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Aktualizovano zaznamu"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Preskocit zaznam"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Preskocit hodnota pole"/>
+		<ROW ID="imp.title"	TRANSLATION="Preskocit jako titulek"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="Aktualizovat zaznam"/>
+		<ROW ID="inexpr"	TRANSLATION="v cislech"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="Soubor %s ulozen."/>
+		<ROW ID="line"	TRANSLATION="Radek"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 km"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 km"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 km"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 km"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 m"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 m"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 m"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 m"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 m"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 m"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 m"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 m"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 km"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 m"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 m"/>
+		<ROW ID="map.scale22"	TRANSLATION="1.5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0.75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 m"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 km"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 km"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 km"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 km"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 km"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 km"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 km"/>
+		<ROW ID="mmmmm1"	TRANSLATION="Leden|Ledna"/>
+		<ROW ID="mmmmm10"	TRANSLATION="Rijen|Rijna"/>
+		<ROW ID="mmmmm11"	TRANSLATION="Listopad|Listopadu"/>
+		<ROW ID="mmmmm12"	TRANSLATION="Prosinec|Prosince"/>
+		<ROW ID="mmmmm2"	TRANSLATION="Unor|Unora"/>
+		<ROW ID="mmmmm3"	TRANSLATION="Brezen|Brezna"/>
+		<ROW ID="mmmmm4"	TRANSLATION="Duben|Dubna"/>
+		<ROW ID="mmmmm5"	TRANSLATION="Kveten|Kvetna"/>
+		<ROW ID="mmmmm6"	TRANSLATION="Cerven|Cervna"/>
+		<ROW ID="mmmmm7"	TRANSLATION="Cervenec|Cervence"/>
+		<ROW ID="mmmmm8"	TRANSLATION="Srpen|Srpna"/>
+		<ROW ID="mmmmm9"	TRANSLATION="Zari|Zari"/>
+		<ROW ID="not"	TRANSLATION="Neni"/>
+		<ROW ID="openurl"	TRANSLATION="Otevrit URL"/>
+		<ROW ID="opeq"	TRANSLATION="Stejne"/>
+		<ROW ID="opge"	TRANSLATION="Je vetsi nebo rovno"/>
+		<ROW ID="opgt"	TRANSLATION="Vice"/>
+		<ROW ID="opisfalse"	TRANSLATION="Lez"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Neni prazdny"/>
+		<ROW ID="opisnull"	TRANSLATION="Prazdny"/>
+		<ROW ID="opistrue"	TRANSLATION="Pravda"/>
+		<ROW ID="ople"	TRANSLATION="Mensi nez nebo rovno"/>
+		<ROW ID="oplike"	TRANSLATION="Obsahuje"/>
+		<ROW ID="oplt"	TRANSLATION="Mene"/>
+		<ROW ID="opne"	TRANSLATION="Neni rovno"/>
+		<ROW ID="opnotlike"	TRANSLATION="Neobsahuje"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="Zpracovani neni nutne"/>
+		<ROW ID="process.tables"	TRANSLATION="Zpracovane tabulky:"/>
+		<ROW ID="quantity"	TRANSLATION="Pocet"/>
+		<ROW ID="query.savechanges"	TRANSLATION="Ulozit zmeny?"/>
+		<ROW ID="querydelete"	TRANSLATION="Po odstraneni objektu, informace o nem budou k dispozici. Odstranit objekt '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Odstranit objekt '%s' bez moznosti pozdejsi obnovy?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Odstranit vybrane objekty ('%s') bez moznosti pozdejsi obnovy?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Aktualizovat pravidelnou zpravu"/>
+		<ROW ID="registration"	TRANSLATION="Registrace"/>
+		<ROW ID="send"	TRANSLATION="Poslat"/>
+		<ROW ID="sendmail"	TRANSLATION="Poslat e-mail"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="Poslat zpravu seznamu prijemcu"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Standardni"/>
+		<ROW ID="updatemessages"	TRANSLATION="Aktualizovat zpravy"/>
+		<ROW ID="updating"	TRANSLATION="Aktualizace"/>
+		<ROW ID="use"	TRANSLATION="Pouziti"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="Vyhled"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="Pro prechod na dalsi zalozce je treba ulozit aktualni zaznam."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="Pro prechod na dalsi zalozce je treba ulozit aktualni zaznam."/>
+	</ROWDATA>
+</DATAPACKET>

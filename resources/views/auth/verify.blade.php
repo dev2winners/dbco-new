@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Подтвердите ваш E-mail</div>
+                <div class="card-header">{{__('Подтвердите ваш E-mail')}}</div>
 
                 <div class="card-body">
                     @if (session('resent'))
@@ -13,9 +13,8 @@
                             {{ __('A fresh verification link has been sent to your email address.') }}
                         </div>
                     @endif
-
-                    Пожалуйста проверьте свой почтовый ящик (включая папку "Спам")
-                    Если вы не получили от нас письмо со ссылкой, <a href="{{ route('verification.resend') }}">нажмите здесь, чтобы повторить запрос</a>.
+                        {{__('Пожалуйста проверьте свой почтовый ящик (включая папку "Спам").<br>Если вы не получили от нас письмо со ссылкой,')}}
+                          <a href="{{ route('verification.resend') }}"> {{__('нажмите здесь, чтобы повторить запрос')}}</a>.
                 </div>
             </div>
         </div>

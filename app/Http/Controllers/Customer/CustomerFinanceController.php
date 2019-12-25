@@ -20,7 +20,7 @@ class CustomerFinanceController extends Controller
 			$dbco_customer = DbcoCustomer::getCurrentCustomer();
 			
 			//$finances = $dbco_customer->dbcoFinance()->where('ifinancedeleted', '0')->get();
-			$finances = $dbco_customer->dbcoFinance()->where('ifinancedeleted', '0')->orderBy('dfinancedate', 'desc')->paginate(4);
+			$finances = $dbco_customer->dbcoFinance()->where('ifinancedeleted', '0')->orderBy('dfinancedate', 'desc')->paginate(12);
 			
 			return view('dbco.customer.customerfinance.main', ['finances' => $finances, 'dbco_customer' => $dbco_customer]);
 		}

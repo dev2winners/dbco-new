@@ -1,0 +1,885 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0" type="DELANGTABLE">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="ID" fieldtype="string" WIDTH="64"/>
+			<FIELD attrname="TRANSLATION" fieldtype="string" WIDTH="1024"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW ID="additionaltoolbar"	TRANSLATION="Dodatkowo"/>
+		<ROW ID="allfiles"	TRANSLATION="Wszystkie pliki"/>
+		<ROW ID="and"	TRANSLATION="I"/>
+		<ROW ID="atpos"	TRANSLATION="w pozycji"/>
+		<ROW ID="auto"	TRANSLATION="Automatycznie"/>
+		<ROW ID="bottom"	TRANSLATION="Na dole"/>
+		<ROW ID="by"	TRANSLATION="w"/>
+		<ROW ID="cell"	TRANSLATION="Komorka"/>
+		<ROW ID="cp.ansi"	TRANSLATION="Kodowanie systemu"/>
+		<ROW ID="cp.dos866"	TRANSLATION="DOS-866"/>
+		<ROW ID="cp.utf8"	TRANSLATION="Utf-8"/>
+		<ROW ID="cp.windows1251"	TRANSLATION="Windows-1251"/>
+		<ROW ID="createfilefollowingtype"	TRANSLATION="Utworzyc plik podobny do nastepujacego"/>
+		<ROW ID="createmessage"	TRANSLATION="Utworz wiadomosc"/>
+		<ROW ID="csvfiles"	TRANSLATION="CSV (rozdzielany ';')"/>
+		<ROW ID="currentdataset"	TRANSLATION="Aktualny zestaw danych"/>
+		<ROW ID="da.about"	TRANSLATION="O programie...|Wyswietlanie informacji o programie, numerze wersji i prawach autorskich"/>
+		<ROW ID="da.access"	TRANSLATION="Dostep|Ustawic prawa dostepu uzytkownikow"/>
+		<ROW ID="da.action"	TRANSLATION="Akcja|Wykonac dzialanie..."/>
+		<ROW ID="da.actions"	TRANSLATION="Dzialania"/>
+		<ROW ID="da.add"	TRANSLATION="Dodac"/>
+		<ROW ID="da.advfind"	TRANSLATION="Wyszukiwanie zaawansowane|Rozpocznij wyszukiwanie z podaniem dodatkowych parametrow"/>
+		<ROW ID="da.agrave"	TRANSLATION="Srednia wartosc|Obliczyc srednia z wyroznionych wartosci"/>
+		<ROW ID="da.agrcount"	TRANSLATION="Ilosc|Obliczyc ilosc zaznaczonych wartosci"/>
+		<ROW ID="da.agrmax"	TRANSLATION="Maksymalnie|Liczyc maksymalnie z wyroznionych wartosci"/>
+		<ROW ID="da.agrmin"	TRANSLATION="Minimum|Liczyc co najmniej z wyroznionych wartosci"/>
+		<ROW ID="da.agrno"	TRANSLATION="Nie|Nie liczyc wskaznik dla wybranych wartosci"/>
+		<ROW ID="da.agrsum"	TRANSLATION="Suma wartosci|Obliczyc sume zaznaczonych wartosci"/>
+		<ROW ID="da.agrvalue"	TRANSLATION="Liczba wartosci|Obliczyc ilosc zaznaczonych niepustych wartosci"/>
+		<ROW ID="da.aligncenter"	TRANSLATION="Na srodku|Wyrownaj tekst do srodka"/>
+		<ROW ID="da.alignleft"	TRANSLATION="Na lewej krawedzi|Wyrownac tekst do lewej krawedzi"/>
+		<ROW ID="da.alignright"	TRANSLATION="Na prawej krawedzi|Wyrownac tekst do prawej"/>
+		<ROW ID="da.all"	TRANSLATION="Wszystkie"/>
+		<ROW ID="da.allcolumns"	TRANSLATION="Pokaz wszystkie|Pokaz zawartosc wszystkich pol"/>
+		<ROW ID="da.apply"	TRANSLATION="Zastosuj"/>
+		<ROW ID="da.autoanchor"	TRANSLATION="Umiescic kotwice|Umiescic kotwicy w polozeniu elementow"/>
+		<ROW ID="da.autocalc"	TRANSLATION="Obliczenie|Automatycznie obliczyc wynik z wyroznionych wartosci"/>
+		<ROW ID="da.autoposition"	TRANSLATION="Автопозиционирование|Aby automatycznie ustawic mape, aby wyswietlic wybranego obiektu"/>
+		<ROW ID="da.autosavechanges"	TRANSLATION="Automatycznie zapisac zmiany|Automatycznie zapisywac wszystkie zmiany obiektow"/>
+		<ROW ID="da.autozoom"	TRANSLATION="Auto zoom|Automatycznie skalowac mape, aby wyswietlic wszystkich zaznaczonych obiektow"/>
+		<ROW ID="da.back"	TRANSLATION="Temu|Wrocic"/>
+		<ROW ID="da.backup"	TRANSLATION="Archiwizacja danych|Wykonac kopie zapasowa danych"/>
+		<ROW ID="da.browse"	TRANSLATION="Przeglad...|Wybrac plik lub katalog"/>
+		<ROW ID="da.cancel"	TRANSLATION="Anuluj"/>
+		<ROW ID="da.chart3d"	TRANSLATION="3D-widok|Pokaz 3D-widok"/>
+		<ROW ID="da.chartarea"	TRANSLATION="Полигонный wykres"/>
+		<ROW ID="da.chartbarh"	TRANSLATION="Tasmowa wykres"/>
+		<ROW ID="da.chartbarv"	TRANSLATION="Столбиковая wykres"/>
+		<ROW ID="da.chartcurve"	TRANSLATION="Krzywe Beziera|Wygladzic wykres krzywych Beziera"/>
+		<ROW ID="da.charthide"	TRANSLATION="Laczyc male|Laczenie drobnych wskaznikow w jeden"/>
+		<ROW ID="da.chartline"	TRANSLATION="Wykres liniowy"/>
+		<ROW ID="da.chartlog"	TRANSLATION="Skala logarytmiczna|Wybrac skale logarytmiczna"/>
+		<ROW ID="da.chartpie"	TRANSLATION="Wykres kolowy"/>
+		<ROW ID="da.chartpoint"	TRANSLATION="Wykres punktowy"/>
+		<ROW ID="da.chartstacked"	TRANSLATION="Wynosic w stos"/>
+		<ROW ID="da.choose"	TRANSLATION="Wybrac|Wybrac z listy"/>
+		<ROW ID="da.choosecols"	TRANSLATION="Wybierz kolumny"/>
+		<ROW ID="da.clear"	TRANSLATION="Wyczyscic"/>
+		<ROW ID="da.clearall"	TRANSLATION="Wyczyscic wszystkie"/>
+		<ROW ID="da.clearselection"	TRANSLATION="Odznacz|Usuniecie zaznaczenia wszystkich obiektow"/>
+		<ROW ID="da.close"	TRANSLATION="Zamknij"/>
+		<ROW ID="da.colclear"	TRANSLATION="Przywrocic|Przywroc ustawienia wyswietlania domyslnych kolumn"/>
+		<ROW ID="da.colclearall"	TRANSLATION="Odzyskac dla wszystkich|Odzyskac dla wszystkich uzytkownikow ustawienia wyswietlania domyslnych kolumn"/>
+		<ROW ID="da.collapse"	TRANSLATION="Zwin|Zwin zawartosc biezacego wezla"/>
+		<ROW ID="da.collapseall"	TRANSLATION="Zwin wszystko|Zwin zawartosc wszystkich wezlow"/>
+		<ROW ID="da.colsave"	TRANSLATION="Zapisz|Zapisz ustawienia wyswietlania kolumn"/>
+		<ROW ID="da.colsaveall"	TRANSLATION="Zapisz dla wszystkich|Zapisz dla wszystkich uzytkownikow ustawienia wyswietlania kolumn"/>
+		<ROW ID="da.columndelete"	TRANSLATION="Ukryj kolumne|Ukryc wybrane kolumny"/>
+		<ROW ID="da.columnsortdown"	TRANSLATION="Sortuj malejaco"/>
+		<ROW ID="da.columnsortup"	TRANSLATION="Sortuj rosnaco"/>
+		<ROW ID="da.commandparam"	TRANSLATION="Opcje polecenia"/>
+		<ROW ID="da.commands"	TRANSLATION="Zespol|Polecenia"/>
+		<ROW ID="da.conditionand"	TRANSLATION="I - Wszystkie warunki"/>
+		<ROW ID="da.conditionor"	TRANSLATION="LUB - Jeden z warunkow"/>
+		<ROW ID="da.consistency"	TRANSLATION="Spojnosci metadanych"/>
+		<ROW ID="da.continue"	TRANSLATION="Dalej|Kontynuowac i przejsc dalej"/>
+		<ROW ID="da.copy"	TRANSLATION="Kopiuj|Kopiuje zaznaczone obiekty"/>
+		<ROW ID="da.copychart"	TRANSLATION="Kopiuj|Kopiuj wykres w postaci zdjecia"/>
+		<ROW ID="da.correct"	TRANSLATION="Naprawic|Naprawic automatycznie"/>
+		<ROW ID="da.create"	TRANSLATION="Utworzyc"/>
+		<ROW ID="da.createdesktopshortcutcompleted"	TRANSLATION="Na pulpicie zostal utworzony skrot do uruchamiania wybranej konfiguracji"/>
+		<ROW ID="da.createshortcut"	TRANSLATION="Skrot|Utworz skrot"/>
+		<ROW ID="da.cut"	TRANSLATION="Wyciac|Wytnij zaznaczone obiekty"/>
+		<ROW ID="da.dataexport"	TRANSLATION="Eksport|Eksport danych do pliku"/>
+		<ROW ID="da.dataimport"	TRANSLATION="Import|Import danych z pliku"/>
+		<ROW ID="da.days"	TRANSLATION="Dzien"/>
+		<ROW ID="da.decline"	TRANSLATION="Usun wiersz"/>
+		<ROW ID="da.default"	TRANSLATION="Domyslnie"/>
+		<ROW ID="da.deldeleted"	TRANSLATION="Czyszczenie BAZY danych|Czyszczenie rekordow zaznaczonych do usuniecia"/>
+		<ROW ID="da.delete"	TRANSLATION="Usunac|Usunac zaznaczone obiekty"/>
+		<ROW ID="da.deletefilter"	TRANSLATION="Usun filtr|Usunac wybrany filtr"/>
+		<ROW ID="da.designsettings"	TRANSLATION="Konfiguracja|Konfiguracja formy wyswietlania wlasciwosci obiektu"/>
+		<ROW ID="da.dictionary"	TRANSLATION="Slownik|Otworz slownik lokalizacji"/>
+		<ROW ID="da.disposeby"	TRANSLATION="Umiescic w"/>
+		<ROW ID="da.dofilter"	TRANSLATION="Wykonac|Wykonac selekcje warunkowe"/>
+		<ROW ID="da.dublicateselected"	TRANSLATION="Duplikat dla wybranych|Duplikat wartosc pola dla zaznaczonych obiektow"/>
+		<ROW ID="da.edit"	TRANSLATION="Edycja"/>
+		<ROW ID="da.editmode"	TRANSLATION="Edycja|Rozpoczac edycje obiektow"/>
+		<ROW ID="da.emptylist"	TRANSLATION="( pusty )"/>
+		<ROW ID="da.exit"	TRANSLATION="Wyjscie|Wyjscie z programu"/>
+		<ROW ID="da.expand"	TRANSLATION="Rozwin|Rozwin zawartosc biezacego wezla"/>
+		<ROW ID="da.export"	TRANSLATION="Zapisz|Zapisz dokument w pliku"/>
+		<ROW ID="da.exportdataadoxml"	TRANSLATION="Eksport do XML|Wyeksportowac dane w ADO XML"/>
+		<ROW ID="da.exportto"	TRANSLATION="Eksport|Wyeksportowac plik w..."/>
+		<ROW ID="da.fastprint"	TRANSLATION="Szybkie drukowanie|Wybrac i wydrukowac dokument"/>
+		<ROW ID="da.favorites"	TRANSLATION="Dodaj do Ulubionych"/>
+		<ROW ID="da.file"	TRANSLATION="Plik"/>
+		<ROW ID="da.filter"	TRANSLATION="Filtr|Wybor obiektow wedlug filtru"/>
+		<ROW ID="da.filtername"	TRANSLATION="Nazwa filtra"/>
+		<ROW ID="da.find"	TRANSLATION="Znalezc|Szukac obiekt w biezacym zestawie danych"/>
+		<ROW ID="da.findnext"	TRANSLATION="Nastepny wpis|Przejsc do nastepnego rekordu"/>
+		<ROW ID="da.findprev"	TRANSLATION="Poprzedni wpis|Przejdz do poprzedniego rekordu"/>
+		<ROW ID="da.fitwidth"	TRANSLATION="Dobrac szerokosc|Automatycznie dopasowac szerokosc kolumn do zawartosci"/>
+		<ROW ID="da.formatcol"	TRANSLATION="Wlasciwosci kolumny"/>
+		<ROW ID="da.forward"	TRANSLATION="Do przodu|Idz do przodu"/>
+		<ROW ID="da.go"	TRANSLATION="Przejsc"/>
+		<ROW ID="da.grid"	TRANSLATION="Pokaz siatke|Pokaz siatke pod obrazem"/>
+		<ROW ID="da.groupactions"	TRANSLATION="Grupowanie"/>
+		<ROW ID="da.groupby"	TRANSLATION="Grupuj wedlug"/>
+		<ROW ID="da.groupbycolumn"	TRANSLATION="Grupa na kolumny"/>
+		<ROW ID="da.grouping"	TRANSLATION="Grupowac|Grupuj zaznaczone obiekty"/>
+		<ROW ID="da.guide"	TRANSLATION="Podrecznik uzytkownika|Uzyskiwanie dostepu do podrecznika uzytkownika"/>
+		<ROW ID="da.help"	TRANSLATION="Pomoc|Wezwanie pomocy"/>
+		<ROW ID="da.hide"	TRANSLATION="Ukryj"/>
+		<ROW ID="da.holdover"	TRANSLATION="Odlozyc|Opoznienie zadzialania zadania"/>
+		<ROW ID="da.homepage"	TRANSLATION="Strona glowna|Otworz strone w internecie"/>
+		<ROW ID="da.iconsbig"	TRANSLATION="Duze ikony|Wyswietlanie z uzyciem duzych ikon"/>
+		<ROW ID="da.iconslarge"	TRANSLATION="Ogromne ikony|Wyswietlanie z uzyciem wielkich ikon"/>
+		<ROW ID="da.iconslist"	TRANSLATION="Lista|Wyswietlanie w postaci listy"/>
+		<ROW ID="da.iconslistbig"	TRANSLATION="Duza lista|Wyswietlanie w postaci listy z duzymi elementami"/>
+		<ROW ID="da.iconsnormal"	TRANSLATION="Ikony|Wyswietlanie z uzyciem standardowych ikon"/>
+		<ROW ID="da.iconsreport"	TRANSLATION="Tabela|Wyswietlanie w postaci tabel ze szczegolowymi informacjami"/>
+		<ROW ID="da.iconsreportheight"	TRANSLATION="Zwiekszona tabela|Wyswietlanie w formie tabeli na dwie linie"/>
+		<ROW ID="da.iconsreportwidth"	TRANSLATION="Tabela szerokosci|Wyswietlanie w formie tabeli na szerokosc okna"/>
+		<ROW ID="da.iconssmall"	TRANSLATION="Male ikony|Wyswietlanie obiektow w postaci ikon i nazw, z prawej"/>
+		<ROW ID="da.iconstile"	TRANSLATION="Plytki|Wyswietlanie obiektow w postaci plytki z podstawowymi informacjami"/>
+		<ROW ID="da.iconstilebig"	TRANSLATION="Szczegolowe plytki|Wyswietlanie obiektow w postaci plytki ze szczegolowymi informacjami"/>
+		<ROW ID="da.incline"	TRANSLATION="Dodac wiersz"/>
+		<ROW ID="da.insert"	TRANSLATION="Dodac|Dodaj nowy obiekt"/>
+		<ROW ID="da.invertselection"	TRANSLATION="Odwroc zaznaczenie|Przeksztalcenie wybranych obiektow w niewybrane i odwrotnie"/>
+		<ROW ID="da.lastmess"	TRANSLATION="Ostatni post|Pokaz ostatnia wiadomosc"/>
+		<ROW ID="da.link"	TRANSLATION="Polaczyc"/>
+		<ROW ID="da.linkall"	TRANSLATION="Polaczyc wszystkie"/>
+		<ROW ID="da.linkto"	TRANSLATION="Zapamietaj skrot|Zapamietaj skrot do pliku..."/>
+		<ROW ID="da.loadfrom"	TRANSLATION="Pobierz|Pobierz plik z..."/>
+		<ROW ID="da.loadto"	TRANSLATION="Zwolnij|Wygeneruj plik w..."/>
+		<ROW ID="da.mailas"	TRANSLATION="Skontaktuj sie z nami|Napisz list do tworcow programu"/>
+		<ROW ID="da.mainmenu"	TRANSLATION="Menu|Pokaz/ukryj menu glowne"/>
+		<ROW ID="da.mainpage"	TRANSLATION="Strona glowna|Otworz strone glowna"/>
+		<ROW ID="da.mapbreakcurve"	TRANSLATION="Rozlacz krzywe"/>
+		<ROW ID="da.mapcheck"	TRANSLATION="Sprawdzic|Sprawdzic wzor ciag kwerendy na mapie"/>
+		<ROW ID="da.mapcombine"	TRANSLATION="Polaczyc w jedno"/>
+		<ROW ID="da.mapcoord"	TRANSLATION="Pokaz wspolrzedne|Pokaz wspolrzedne wierzcholkow i dlugosci odcinkow"/>
+		<ROW ID="da.mapenhanced"	TRANSLATION="Cyfrowo ulepszony tryb|Ulepszona прорисока масштабированного obrazu"/>
+		<ROW ID="da.mapgoogle"	TRANSLATION="Google|Korzystac z map Google"/>
+		<ROW ID="da.maptoback"	TRANSLATION="Na spod|Przeniesc obiekt na dalszy plan"/>
+		<ROW ID="da.maptofront"	TRANSLATION="Na wierzch|Przeniesienie obiektu na wierzch"/>
+		<ROW ID="da.mapyandex"	TRANSLATION="Yandex|Uzywac Yandex mape"/>
+		<ROW ID="da.menugroup"	TRANSLATION="W sekcji menu"/>
+		<ROW ID="da.menuitem"	TRANSLATION="Menu"/>
+		<ROW ID="da.menumove"	TRANSLATION="Przeniesc"/>
+		<ROW ID="da.menuorder"	TRANSLATION="Ustal kolejnosc opcji"/>
+		<ROW ID="da.menusubitem"	TRANSLATION="Dolaczony element menu"/>
+		<ROW ID="da.modify"	TRANSLATION="Zmienic|Zmienic wlasciwosci obiektu"/>
+		<ROW ID="da.months"	TRANSLATION="Miesiac"/>
+		<ROW ID="da.movedown"	TRANSLATION="W dol|Przenies w dol"/>
+		<ROW ID="da.moveto"	TRANSLATION="Przeniesc|Przeniesienie obiektu w"/>
+		<ROW ID="da.moveup"	TRANSLATION="W gore|Przenies w gore"/>
+		<ROW ID="da.news"	TRANSLATION="Nowosci i aktualizacje|Informacje o aktualizacjach i nowosciach dewelopera"/>
+		<ROW ID="da.note"	TRANSLATION="Notatka|Utworz notatke do zaznaczonego obiektu"/>
+		<ROW ID="da.ok"	TRANSLATION="OK"/>
+		<ROW ID="da.open"	TRANSLATION="Otworzyc|Otworz zawartosc biezacego obiektu"/>
+		<ROW ID="da.openinmain"	TRANSLATION="Otworzyc|Otworz biezacy widok jako glowny"/>
+		<ROW ID="da.openinnewwindow"	TRANSLATION="Otworz w nowym oknie"/>
+		<ROW ID="da.openthistable"	TRANSLATION="Otwieranie zestawu danych"/>
+		<ROW ID="da.operations"	TRANSLATION="Operacje"/>
+		<ROW ID="da.order"	TRANSLATION="Kolejnosc"/>
+		<ROW ID="da.orderby"	TRANSLATION="Sortuj wedlug"/>
+		<ROW ID="da.parameters"	TRANSLATION="Parametry|Ustawic parametry"/>
+		<ROW ID="da.paste"	TRANSLATION="Wstaw|Wstaw obiekty"/>
+		<ROW ID="da.pointangular"	TRANSLATION="Punkt narozny"/>
+		<ROW ID="da.pointbegin"	TRANSLATION="Rozpocznij zmiane wezlow|Rozpocznij zmiane wezlow i segmentow ksztalty"/>
+		<ROW ID="da.pointbezier"	TRANSLATION="Skrecony segment"/>
+		<ROW ID="da.pointclose"	TRANSLATION="Zamknac ksztalt|Zamknac pierwszy i ostatni wezly segmentem"/>
+		<ROW ID="da.pointdelete"	TRANSLATION="Usun wezel"/>
+		<ROW ID="da.pointdirect"	TRANSLATION="Wezel"/>
+		<ROW ID="da.pointend"	TRANSLATION="Zmiana wezlow|Zmiana wezlow i снгментов ksztalty"/>
+		<ROW ID="da.pointinsert"	TRANSLATION="Utworzyc witryne"/>
+		<ROW ID="da.pointlinear"	TRANSLATION="Segment"/>
+		<ROW ID="da.pointsmooth"	TRANSLATION="Elegancki wezel"/>
+		<ROW ID="da.pointunclose"	TRANSLATION="Otworzyc rysunek"/>
+		<ROW ID="da.preferenses"	TRANSLATION="Uklad"/>
+		<ROW ID="da.presentation"	TRANSLATION="Widok"/>
+		<ROW ID="da.preview"	TRANSLATION="Zobacz|Podglad dokumentu"/>
+		<ROW ID="da.print"	TRANSLATION="Drukowanie|Wybrac i wydrukowac dokument"/>
+		<ROW ID="da.properties"	TRANSLATION="Wlasciwosci|Wyswietlanie wlasciwosci zaznaczonych obiektow"/>
+		<ROW ID="da.regtables"	TRANSLATION="Rejestracja tabel"/>
+		<ROW ID="da.remember"	TRANSLATION="Przypomnienie|Pokaz okno przypomnienia uzytkownikowi"/>
+		<ROW ID="da.rename"	TRANSLATION="Zmien nazwe|Zmiana nazwy zaznaczonego obiektu"/>
+		<ROW ID="da.report"	TRANSLATION="Raport|Wybrac i uruchomic raport"/>
+		<ROW ID="da.representation"	TRANSLATION="Biezacy widok"/>
+		<ROW ID="da.reset"	TRANSLATION="Reset"/>
+		<ROW ID="da.restore"	TRANSLATION="Przywrocic|Przywrocic elementy usuniete"/>
+		<ROW ID="da.rotate"	TRANSLATION="Obrot"/>
+		<ROW ID="da.rotate270"	TRANSLATION="Wskazowek zegara|Obrocic obiekt w lewo"/>
+		<ROW ID="da.rotate90"	TRANSLATION="W kierunku|Obrocic obiekt w kierunku zgodnym z ruchem wskazowek zegara"/>
+		<ROW ID="da.rotatefliph"	TRANSLATION="W poziomie|Obrocic obiekt w poziomie"/>
+		<ROW ID="da.rotateflipv"	TRANSLATION="W pionie|Obrocic obiekt w pionie"/>
+		<ROW ID="da.rssnews"	TRANSLATION="Aktualnosci"/>
+		<ROW ID="da.rulers"	TRANSLATION="Linijka|Wyswietlanie linijki"/>
+		<ROW ID="da.save"	TRANSLATION="Zapisz|Zapisz ostatnia zmiana"/>
+		<ROW ID="da.savefilter"	TRANSLATION="Zapisz filtr|Zapisz biezacy filtr"/>
+		<ROW ID="da.savetofile"	TRANSLATION="Zapisz do pliku...|Zapisac dane lub obraz do pliku"/>
+		<ROW ID="da.scan"	TRANSLATION="Skanuj dokument|Skanuj dokument"/>
+		<ROW ID="da.scanfrom"	TRANSLATION="Skanuj dokument z ...|Wybierz skaner i zeskanowac dokument"/>
+		<ROW ID="da.search"	TRANSLATION="Wyszukiwanie"/>
+		<ROW ID="da.selectall"	TRANSLATION="Zaznacz wszystko|Zaznaczenie wszystkich obiektow"/>
+		<ROW ID="da.selectcolumn"	TRANSLATION="Zaznaczyc kolumne|Zaznaczyc wybrana kolumne"/>
+		<ROW ID="da.selectfilter"	TRANSLATION="Wybrac filtr|Aby wybrac zapisany filtr"/>
+		<ROW ID="da.service"	TRANSLATION="Serwis"/>
+		<ROW ID="da.setfilter"	TRANSLATION="Zastosuj filtr|Zastosuj filtr do wybranego zestawu danych"/>
+		<ROW ID="da.settings"	TRANSLATION="Konfiguracja|Przegladanie i zmiana ustawien programu"/>
+		<ROW ID="da.shortcut"	TRANSLATION="Zwiazek|Utworzyc relacje do zaznaczonego obiektu"/>
+		<ROW ID="da.show"	TRANSLATION="Pokaz"/>
+		<ROW ID="da.showarchived"	TRANSLATION="Pokaz archiwalne|Pokaz archiwalne wpisy"/>
+		<ROW ID="da.showcardarea"	TRANSLATION="Spis tresci|Pokaz/ukryj obszar wyswietlania tresci"/>
+		<ROW ID="da.showempty"	TRANSLATION="Pokaz puste|Pokaz puste grupy"/>
+		<ROW ID="da.showhint"	TRANSLATION="Podpowiedzi|Zmiana trybu wyswietlania podpowiedzi"/>
+		<ROW ID="da.showremoved"	TRANSLATION="Pokaz usuniete|Wyswietlanie usunietych wpisow"/>
+		<ROW ID="da.showshortcuts"	TRANSLATION="Pokaz relacje|Pokaz relacje na osobnej zakladce"/>
+		<ROW ID="da.sorting"	TRANSLATION="Ustawienia...|Ustawianie parametrow i porzadkowania obiektow"/>
+		<ROW ID="da.splitby"	TRANSLATION="Podzial wedlug"/>
+		<ROW ID="da.standardmenu"	TRANSLATION="Standardowe menu|Wyswietlanie standardowego menu"/>
+		<ROW ID="da.statusbar"	TRANSLATION="Pasek stanu|Wyswietlanie i ukrywanie paska stanu"/>
+		<ROW ID="da.switchmode"	TRANSLATION="Przelacz tryb|Przelacz tryb (Uzytkownik-Architekt)"/>
+		<ROW ID="da.tablecleardata"	TRANSLATION="Usun wszystkie wpisy|Usun wszystkie wpisy w wybranych zestawach danych"/>
+		<ROW ID="da.tableexportdata"	TRANSLATION="Eksport danych do XML|Eksport z zaznaczonych zbiorow danych do plikow XML"/>
+		<ROW ID="da.tableimportdata"	TRANSLATION="Import danych z pliku XML|Import w dedykowany zestaw danych z pliku XML"/>
+		<ROW ID="da.tableprop"	TRANSLATION="Wlasciwosci zestawu danych...|Zmienic wlasciwosci zestawu danych"/>
+		<ROW ID="da.tablepurgedata"	TRANSLATION="Usunac usuniete|Usun wszystkie oznaczone jako usuniete wpisy w wybranych zestawach danych"/>
+		<ROW ID="da.tablesortcommands"	TRANSLATION="Sortowanie druzyn|Posortowac polecen dla wybranego zestawu danych"/>
+		<ROW ID="da.test"	TRANSLATION="Sprawdzic|Sprawdz wybrane obiekty"/>
+		<ROW ID="da.testconnect"	TRANSLATION="Sprawdzanie polaczenia"/>
+		<ROW ID="da.undo"	TRANSLATION="Anuluj|Cofnij ostatnia zmiane"/>
+		<ROW ID="da.ungrouping"	TRANSLATION="Rozgrupuj|Rozgrupuj wybrany obiekt"/>
+		<ROW ID="da.unreguser"	TRANSLATION="Zakonczyc sesje|Zakonczyc sesje pracy"/>
+		<ROW ID="da.up"	TRANSLATION="W gore|Na jeden poziom w gore"/>
+		<ROW ID="da.update"	TRANSLATION="Zaktualizowac|Aktualizacja zawartosc biezacego okna"/>
+		<ROW ID="da.view"	TRANSLATION="Widok"/>
+		<ROW ID="da.viewcalendar"	TRANSLATION="Kalendarz|Wyswietlanie obiektow w kalendarzu"/>
+		<ROW ID="da.viewcard"	TRANSLATION="Karta|Wyswietlanie karty obiekty"/>
+		<ROW ID="da.viewchart"	TRANSLATION="Wykres|Wyswietlanie wykresow statystycznych obiektow"/>
+		<ROW ID="da.viewgroup"	TRANSLATION="Grupy|Wyswietlanie obiektow z podzialem na grupy"/>
+		<ROW ID="da.viewlist"	TRANSLATION="Lista|Wyswietlanie danych w postaci listy"/>
+		<ROW ID="da.viewmap"	TRANSLATION="Mapa|Wyswietlanie danych w postaci wektorowej schematu"/>
+		<ROW ID="da.viewpivot"	TRANSLATION="Tabela przestawna|Wyswietlanie danych w formie tabeli przestawnej"/>
+		<ROW ID="da.viewtilemap"	TRANSLATION="Mapa|Wyswietlanie danych w postaci karty тайловой"/>
+		<ROW ID="da.viewtree"	TRANSLATION="Drzewo|Wyswietlanie danych w postaci drzewa struktury"/>
+		<ROW ID="da.weeks"	TRANSLATION="Tydzien"/>
+		<ROW ID="da.years"	TRANSLATION="Rok"/>
+		<ROW ID="da.zoomdefault"	TRANSLATION="Domyslne powiekszenie|Wyswietlanie w skali domyslnie"/>
+		<ROW ID="da.zoomin"	TRANSLATION="Zwiekszyc|Powieksz obraz"/>
+		<ROW ID="da.zoomnorm"	TRANSLATION="Obraz w calosci|Wyswietlic caly obraz"/>
+		<ROW ID="da.zoomout"	TRANSLATION="Zmniejszyc|Pomniejszyc"/>
+		<ROW ID="da.zoomselect"	TRANSLATION="Obiekt w calosci|Pokaz zaznaczone obiekty w calosci"/>
+		<ROW ID="db"	TRANSLATION="DB"/>
+		<ROW ID="de.barcode"	TRANSLATION="Odczytany kod kreskowy nie jest zarejestrowany w spisie."/>
+		<ROW ID="de.connecter"	TRANSLATION="Po podlaczeniu wystapil blad '%s'"/>
+		<ROW ID="de.connectok"	TRANSLATION="Polaczenie przebieglo pomyslnie"/>
+		<ROW ID="de.contain"	TRANSLATION="Folder '%s' zawiera неудаленные foldery lub obiekty %d szt."/>
+		<ROW ID="de.dbdriver"	TRANSLATION="Nie jest zainstalowany lub nie jest dostepna usluga %s."/>
+		<ROW ID="de.dbversion"	TRANSLATION="Do dzialania programu niezbedna jest usluga ~ ~ ~ ~ wersja nie ponizej %s. Obecnie zainstalowana wersja %s."/>
+		<ROW ID="de.develop"	TRANSLATION="Tryb konfiguracji jest dostepna tylko dla administratora."/>
+		<ROW ID="de.empty"	TRANSLATION="Pole '%s' powinna byc ustawiona. Prosze, wprowadz niepusta wartosc."/>
+		<ROW ID="de.error"	TRANSLATION="Blad|Bledy"/>
+		<ROW ID="de.fieldincorrectlink"	TRANSLATION="To pole nie mozna powiazac z tabela. Niezgodnosc typow."/>
+		<ROW ID="de.file"	TRANSLATION="Plik '%s' uszkodzony, brak lub ma nieprawidlowy format."/>
+		<ROW ID="de.fileexists"	TRANSLATION="Podany plik istnieje. Zastapic?"/>
+		<ROW ID="de.hideinserted"	TRANSLATION="Zmienic przyjete. Nagrywanie nie jest wyswietlany w biezacej liscie, poniewaz nie spelnia aktualnych warunkow filtrowania."/>
+		<ROW ID="de.hidesaved"	TRANSLATION="Zmodyfikowany obiekt nie jest widoczny, poniewaz nie spelnia aktualnych warunkow filtrowania."/>
+		<ROW ID="de.linkabsent"	TRANSLATION="Bledny link. Obiekt brakuje lub nie jest dostepny"/>
+		<ROW ID="de.linkself"	TRANSLATION="Wybrane rekordy nie moga byc zwiazane"/>
+		<ROW ID="de.needload"	TRANSLATION="W celu rozpoczecia pracy z programem pobierz decyzja"/>
+		<ROW ID="de.openfile"	TRANSLATION="Blad podczas otwierania pliku."/>
+		<ROW ID="de.owner"	TRANSLATION="Nieprawidlowy wlasciciel element"/>
+		<ROW ID="de.ownerdeleted"	TRANSLATION="Nie mozna przeniesc element do folderu/grupy ze znakiem 'usuniety'."/>
+		<ROW ID="de.password"	TRANSLATION="Blednie podano nazwe lub haslo uzytkownika. Sprawdz nazwe i ponow haslo."/>
+		<ROW ID="de.passwordcapslock"	TRANSLATION="Nalezy zwrocic uwage, jest wcisniety klawisz Caps Lock. W haslach jest rozrozniana wielkosc liter."/>
+		<ROW ID="de.port0"	TRANSLATION="Urzadzenie jest gotowe"/>
+		<ROW ID="de.port1"	TRANSLATION="Urzadzenie nie jest uzywane"/>
+		<ROW ID="de.port2"	TRANSLATION="Port jest zajety lub brak"/>
+		<ROW ID="de.port3"	TRANSLATION="Inicjalizacja urzadzenia"/>
+		<ROW ID="de.port4"	TRANSLATION="Brak zasilania"/>
+		<ROW ID="de.port5"	TRANSLATION="Urzadzenie nie jest podlaczone"/>
+		<ROW ID="de.readonly"	TRANSLATION="Dane sa tylko do odczytu."/>
+		<ROW ID="de.regabsent"	TRANSLATION="Wersja demonstracyjna programu! Po dokonaniu zakupu przeslij plik rejestracyjny na stronie: support@tmu.ru."/>
+		<ROW ID="de.systemdataset"	TRANSLATION="Edycja pol, warunkow, elementow formy tego zestawu danych jest zabronione."/>
+		<ROW ID="de.unique"	TRANSLATION="Wartosc pola '%s' musi byc unikalny"/>
+		<ROW ID="df.active"	TRANSLATION="Aktywnie"/>
+		<ROW ID="df.address"	TRANSLATION="Adres"/>
+		<ROW ID="df.admin"	TRANSLATION="Administrator"/>
+		<ROW ID="df.after"	TRANSLATION="Po"/>
+		<ROW ID="df.alias"	TRANSLATION="Pseudonim"/>
+		<ROW ID="df.anchor"	TRANSLATION="Kotwica"/>
+		<ROW ID="df.archived"	TRANSLATION="Archiwum"/>
+		<ROW ID="df.author"	TRANSLATION="Autor"/>
+		<ROW ID="df.barcode"	TRANSLATION="Kod kreskowy"/>
+		<ROW ID="df.basedon"	TRANSLATION="Opiera sie na"/>
+		<ROW ID="df.before"	TRANSLATION="Przed"/>
+		<ROW ID="df.blocked"	TRANSLATION="Zablokowany"/>
+		<ROW ID="df.bordercolor"	TRANSLATION="Kolor obramowania"/>
+		<ROW ID="df.breakline"	TRANSLATION="Separator"/>
+		<ROW ID="df.calculated"	TRANSLATION="Obliczeniowe"/>
+		<ROW ID="df.caption"	TRANSLATION="Tytul"/>
+		<ROW ID="df.category"	TRANSLATION="Kategoria|Kategorie"/>
+		<ROW ID="df.color"	TRANSLATION="Kolor"/>
+		<ROW ID="df.column"	TRANSLATION="Kolumna"/>
+		<ROW ID="df.command"	TRANSLATION="Zespol"/>
+		<ROW ID="df.condition"	TRANSLATION="Warunek"/>
+		<ROW ID="df.connection"	TRANSLATION="Polaczenie"/>
+		<ROW ID="df.created"	TRANSLATION="Utworzono"/>
+		<ROW ID="df.date"	TRANSLATION="Data"/>
+		<ROW ID="df.deadline"	TRANSLATION="Termin"/>
+		<ROW ID="df.default"	TRANSLATION="Domyslnie"/>
+		<ROW ID="df.deleted"	TRANSLATION="Usuniety"/>
+		<ROW ID="df.description"	TRANSLATION="Opis"/>
+		<ROW ID="df.directory"	TRANSLATION="Kieszonkowy"/>
+		<ROW ID="df.editor"	TRANSLATION="Edytor"/>
+		<ROW ID="df.errorfield"	TRANSLATION="Pole bledy"/>
+		<ROW ID="df.expression"	TRANSLATION="Wyrazenie"/>
+		<ROW ID="df.file"	TRANSLATION="Plik"/>
+		<ROW ID="df.fillcolor"	TRANSLATION="Kolor wypelnienia"/>
+		<ROW ID="df.filter"	TRANSLATION="Filtr"/>
+		<ROW ID="df.folder"	TRANSLATION="Folder"/>
+		<ROW ID="df.generator"	TRANSLATION="Generator"/>
+		<ROW ID="df.group"	TRANSLATION="Grupa"/>
+		<ROW ID="df.height"	TRANSLATION="Wysokosc"/>
+		<ROW ID="df.hidden"	TRANSLATION="Ukryty"/>
+		<ROW ID="df.ico"	TRANSLATION="Ikona"/>
+		<ROW ID="df.id"	TRANSLATION="Kod"/>
+		<ROW ID="df.latitude"	TRANSLATION="Szerokosc"/>
+		<ROW ID="df.layer"	TRANSLATION="Warstwa"/>
+		<ROW ID="df.link"	TRANSLATION="Zwiazek"/>
+		<ROW ID="df.linkfield"	TRANSLATION="Komunikacja na boisku"/>
+		<ROW ID="df.login"	TRANSLATION="Wejscie nazwa"/>
+		<ROW ID="df.longitude"	TRANSLATION="Geograficzna"/>
+		<ROW ID="df.mail"	TRANSLATION="Poczta"/>
+		<ROW ID="df.message"	TRANSLATION="Komunikat"/>
+		<ROW ID="df.modified"	TRANSLATION="Zmieniona"/>
+		<ROW ID="df.name"	TRANSLATION="Nazwa"/>
+		<ROW ID="df.namefield"	TRANSLATION="Wielkosc liter w polu"/>
+		<ROW ID="df.note"	TRANSLATION="Uwaga"/>
+		<ROW ID="df.notnull"	TRANSLATION="Nie jest pusta"/>
+		<ROW ID="df.offstate"	TRANSLATION="Wylaczone"/>
+		<ROW ID="df.onaddmenu"	TRANSLATION="Wlacz w menu 'Utworz'"/>
+		<ROW ID="df.order"	TRANSLATION="Kolejnosc"/>
+		<ROW ID="df.originalname"	TRANSLATION="Nazwa w bazie danych"/>
+		<ROW ID="df.owner"	TRANSLATION="Wlasciciel"/>
+		<ROW ID="df.password"	TRANSLATION="Haslo"/>
+		<ROW ID="df.period"	TRANSLATION="Okres"/>
+		<ROW ID="df.person"	TRANSLATION="Nazwa"/>
+		<ROW ID="df.phone"	TRANSLATION="Telefon"/>
+		<ROW ID="df.pointer"	TRANSLATION="Indeks"/>
+		<ROW ID="df.primarykey"	TRANSLATION="Klucz podstawowy"/>
+		<ROW ID="df.priority"	TRANSLATION="Znaczenie"/>
+		<ROW ID="df.readonly"	TRANSLATION="Tylko do odczytu"/>
+		<ROW ID="df.role"	TRANSLATION="Rola"/>
+		<ROW ID="df.rolelink"	TRANSLATION="Gwint role"/>
+		<ROW ID="df.rotate"	TRANSLATION="Obrot"/>
+		<ROW ID="df.server"	TRANSLATION="Serwer"/>
+		<ROW ID="df.size"	TRANSLATION="Rozmiar"/>
+		<ROW ID="df.source"	TRANSLATION="Zrodlo"/>
+		<ROW ID="df.state"	TRANSLATION="Stan"/>
+		<ROW ID="df.stored"	TRANSLATION="Przechowywana w"/>
+		<ROW ID="df.system"	TRANSLATION="System"/>
+		<ROW ID="df.table"	TRANSLATION="Tabela"/>
+		<ROW ID="df.template"	TRANSLATION="Szablon"/>
+		<ROW ID="df.time"	TRANSLATION="Czas"/>
+		<ROW ID="df.translation"	TRANSLATION="Tlumaczenie"/>
+		<ROW ID="df.transparent"	TRANSLATION="Przezroczysty"/>
+		<ROW ID="df.type"	TRANSLATION="Typ"/>
+		<ROW ID="df.udatasettype1"	TRANSLATION="Ustawienia importu/eksportu"/>
+		<ROW ID="df.udatasettype2"	TRANSLATION="Filtr niestandardowy"/>
+		<ROW ID="df.udatasettype3"	TRANSLATION="Ustawienia wyswietlanych pol"/>
+		<ROW ID="df.udatasettype4"	TRANSLATION="Lokalny filtr"/>
+		<ROW ID="df.udatasettype5"	TRANSLATION="Globalny filtr"/>
+		<ROW ID="df.udatasettype8"	TRANSLATION="Ustawienia warstw mapy"/>
+		<ROW ID="df.unique"	TRANSLATION="Unikalny"/>
+		<ROW ID="df.user"	TRANSLATION="Uzytkownik"/>
+		<ROW ID="df.value"	TRANSLATION="Wartosc"/>
+		<ROW ID="df.valuenotpaste"	TRANSLATION="Nie wstawiac wartosc"/>
+		<ROW ID="df.varname"	TRANSLATION="Nazwa w wyrazeniu"/>
+		<ROW ID="df.version"	TRANSLATION="Wersja"/>
+		<ROW ID="df.visible"	TRANSLATION="Widoczne"/>
+		<ROW ID="df.width"	TRANSLATION="Szerokosc"/>
+		<ROW ID="di.column"	TRANSLATION="Kolumna|Kolumny"/>
+		<ROW ID="di.menuelem"	TRANSLATION="Menu|Pozycje menu"/>
+		<ROW ID="dl.activelayer"	TRANSLATION="Aktywna warstwa"/>
+		<ROW ID="dl.alignment"	TRANSLATION="Wyrownanie"/>
+		<ROW ID="dl.animation"	TRANSLATION="Animacja"/>
+		<ROW ID="dl.autofilter"	TRANSLATION="Autofiltr"/>
+		<ROW ID="dl.captionright"	TRANSLATION="Pokaz naglowek prawej"/>
+		<ROW ID="dl.cdirectories"	TRANSLATION="Ogolne poradniki"/>
+		<ROW ID="dl.check"	TRANSLATION="Sprawdzanie"/>
+		<ROW ID="dl.checkupdates"	TRANSLATION="Sprawdzanie wiadomosci i aktualizacje na stronie internetowej dewelopera"/>
+		<ROW ID="dl.computerip"	TRANSLATION="Adres sieciowy"/>
+		<ROW ID="dl.computername"	TRANSLATION="Komputer"/>
+		<ROW ID="dl.configuration"	TRANSLATION="Konfiguracja"/>
+		<ROW ID="dl.configurator"	TRANSLATION="Konfigurator"/>
+		<ROW ID="dl.confirmation"	TRANSLATION="Potwierdzenie..."/>
+		<ROW ID="dl.copies"	TRANSLATION="Kopie"/>
+		<ROW ID="dl.copyallfield"	TRANSLATION="Kopiuj ukryte pola do schowka wkleic w innych aplikacjach"/>
+		<ROW ID="dl.copyheaderfield"	TRANSLATION="Kopiuj naglowki pol do schowka wkleic w innych aplikacjach"/>
+		<ROW ID="dl.correspond"	TRANSLATION="Odpowiada"/>
+		<ROW ID="dl.correspondfields"	TRANSLATION="Korzystanie z pol jest niedopuszczalne w tym wyrazeniu."/>
+		<ROW ID="dl.cpufrequency"	TRANSLATION="Czestotliwosc procesora"/>
+		<ROW ID="dl.cpuname"	TRANSLATION="Procesor"/>
+		<ROW ID="dl.databasedriver"	TRANSLATION="Dostawca"/>
+		<ROW ID="dl.databasedriverauto"	TRANSLATION="Wykryj automatycznie"/>
+		<ROW ID="dl.datacom"	TRANSLATION="z separatorem jest przecinek"/>
+		<ROW ID="dl.datatab"	TRANSLATION="z separatorem tabulatory"/>
+		<ROW ID="dl.datatext"	TRANSLATION="Plik tekstowy"/>
+		<ROW ID="dl.device"	TRANSLATION="Urzadzenie"/>
+		<ROW ID="dl.directories"	TRANSLATION="Nauka"/>
+		<ROW ID="dl.dragdrop"	TRANSLATION="Przeciaganie rekordow"/>
+		<ROW ID="dl.driversdb"	TRANSLATION="Sterownik BAZY danych"/>
+		<ROW ID="dl.enableddb"	TRANSLATION="Uslugi BAZY danych"/>
+		<ROW ID="dl.enabledmailclient"	TRANSLATION="Klient poczty e-mail"/>
+		<ROW ID="dl.enabledofficepack"	TRANSLATION="Pakiet biurowy"/>
+		<ROW ID="dl.enabledolap"	TRANSLATION="Uslugi OLAP"/>
+		<ROW ID="dl.enablelog"	TRANSLATION="Wlacz zapisywanie informacji o debugowaniu"/>
+		<ROW ID="dl.enablequerylog"	TRANSLATION="Rejestrowanie zapytan SQL"/>
+		<ROW ID="dl.everywhere"	TRANSLATION="Wszedzie"/>
+		<ROW ID="dl.faster"	TRANSLATION="Szybciej"/>
+		<ROW ID="dl.findin"	TRANSLATION="Wyszukiwanie elementu na liscie:"/>
+		<ROW ID="dl.findpath"	TRANSLATION="Gdzie szukac"/>
+		<ROW ID="dl.findresult"	TRANSLATION="Wyniki wyszukiwania"/>
+		<ROW ID="dl.findtext"	TRANSLATION="Szukaj tekst"/>
+		<ROW ID="dl.form"	TRANSLATION="Forma"/>
+		<ROW ID="dl.format"	TRANSLATION="Format"/>
+		<ROW ID="dl.forms"	TRANSLATION="Formy"/>
+		<ROW ID="dl.fulldatetimelog"	TRANSLATION="Zawsze логировать pelna date i czas"/>
+		<ROW ID="dl.gridcolor"	TRANSLATION="Podswietlenie wierszy"/>
+		<ROW ID="dl.gridlines"	TRANSLATION="Linie siatki"/>
+		<ROW ID="dl.guard"	TRANSLATION="Ochrona"/>
+		<ROW ID="dl.hidesystemdata"	TRANSLATION="Ukryj dane systemowe"/>
+		<ROW ID="dl.httpaccess"	TRANSLATION="Zezwalaj na dostep przez HTTP (beta)"/>
+		<ROW ID="dl.ignorecase"	TRANSLATION="Nie uwzgledniaj wielkosc liter"/>
+		<ROW ID="dl.ignoredigit"	TRANSLATION="Ignorowac cyfry"/>
+		<ROW ID="dl.ignoreodd"	TRANSLATION="Szukac jako czesc"/>
+		<ROW ID="dl.ignoreorder"	TRANSLATION="Bez wzgledu na kolejnosc slow"/>
+		<ROW ID="dl.ignorespetial"	TRANSLATION="Ignoruj znaki specjalne"/>
+		<ROW ID="dl.imageoldstoremode"	TRANSLATION="Zapisywac strumieniowa w starym formacie"/>
+		<ROW ID="dl.incurrentlist"	TRANSLATION="W biezacej liscie"/>
+		<ROW ID="dl.indataset"	TRANSLATION="W zestawie danych"/>
+		<ROW ID="dl.information"	TRANSLATION="Informacje..."/>
+		<ROW ID="dl.interface"	TRANSLATION="Interfejs"/>
+		<ROW ID="dl.lastracurse"	TRANSLATION="Ostatni kat eksportu"/>
+		<ROW ID="dl.layers"	TRANSLATION="Warstwy"/>
+		<ROW ID="dl.locating"	TRANSLATION="Pozycjonowanie na aktywny obiekt"/>
+		<ROW ID="dl.location"	TRANSLATION="Lokalizacja"/>
+		<ROW ID="dl.locksession"	TRANSLATION="Blokowanie sesji uzytkownika podczas proste (min.)"/>
+		<ROW ID="dl.logging"	TRANSLATION="Logowanie"/>
+		<ROW ID="dl.map"	TRANSLATION="Mapa"/>
+		<ROW ID="dl.maptilecacheenabled"	TRANSLATION="Buforowac plytek karty"/>
+		<ROW ID="dl.maxsizelog"	TRANSLATION="Ograniczac wielkosc jednego pliku w megabajtach"/>
+		<ROW ID="dl.memoryall"	TRANSLATION="Dostepna pamiec"/>
+		<ROW ID="dl.metadata"	TRANSLATION="Baza метаструктуры"/>
+		<ROW ID="dl.metrics"	TRANSLATION="Metryka|Podstawowe podzialka metryczna"/>
+		<ROW ID="dl.morecolors"	TRANSLATION="Inne kolory..."/>
+		<ROW ID="dl.movebygrid"	TRANSLATION="Nacisnij [Ctrl], aby dopasowac wspolrzednych biezacego punktu z innymi punktami ksztalty"/>
+		<ROW ID="dl.msoallowdeletingcolumns"	TRANSLATION="Usuwanie kolumn"/>
+		<ROW ID="dl.msoallowdeletingrows"	TRANSLATION="Usuwanie wierszy"/>
+		<ROW ID="dl.msoallowfiltering"	TRANSLATION="Korzystanie z автофильтра"/>
+		<ROW ID="dl.msoallowformattingcells"	TRANSLATION="Formatowanie komorek"/>
+		<ROW ID="dl.msoallowformattingcolumns"	TRANSLATION="Formatowanie kolumn"/>
+		<ROW ID="dl.msoallowformattingrows"	TRANSLATION="Formatowanie wierszy"/>
+		<ROW ID="dl.msoallowinsertingcolumns"	TRANSLATION="Wstawianie kolumn"/>
+		<ROW ID="dl.msoallowinsertinghyperlinks"	TRANSLATION="Wstawianie hiperlaczy"/>
+		<ROW ID="dl.msoallowinsertingrows"	TRANSLATION="Wstawianie wierszy"/>
+		<ROW ID="dl.msoallowsorting"	TRANSLATION="Sortowanie"/>
+		<ROW ID="dl.msoallowusingpivottables"	TRANSLATION="Wykorzystanie tabel przestawnych"/>
+		<ROW ID="dl.msoscenarios"	TRANSLATION="Zmiana skryptow"/>
+		<ROW ID="dl.no"	TRANSLATION="Nie"/>
+		<ROW ID="dl.nogroup"	TRANSLATION="Nie"/>
+		<ROW ID="dl.operationnote"	TRANSLATION="Operacja zajmie troche czasu i nie moze byc przerwana."/>
+		<ROW ID="dl.orderbyafter"	TRANSLATION="Nastepnie rozmiesc wedlug"/>
+		<ROW ID="dl.osversion"	TRANSLATION="Wersja SYSTEMU"/>
+		<ROW ID="dl.other"	TRANSLATION="Inne"/>
+		<ROW ID="dl.outputfiles"	TRANSLATION="Pliki wyjsciowe"/>
+		<ROW ID="dl.pagesetup"	TRANSLATION="Ustawienia strony"/>
+		<ROW ID="dl.plugins"	TRANSLATION="Dany"/>
+		<ROW ID="dl.pnaction"	TRANSLATION="Wybierz akcje"/>
+		<ROW ID="dl.pnconfirm"	TRANSLATION="Po kliknieciu DALEJ rozpocznie sie wykonywanie operacji"/>
+		<ROW ID="dl.pndataset"	TRANSLATION="Wybierz zestaw danych dla wymiany danych"/>
+		<ROW ID="dl.pnexport"	TRANSLATION="Okresl typ pliku zewnetrznego lub wybierz kat"/>
+		<ROW ID="dl.pnfieldsselect"	TRANSLATION="Wybierz pola, ktore chcesz wyeksportowac"/>
+		<ROW ID="dl.pnfilter"	TRANSLATION="Wprowadz filtr dla wybranego zestawu danych"/>
+		<ROW ID="dl.pnfinish"	TRANSLATION="Wykonanie operacji"/>
+		<ROW ID="dl.pnimport"	TRANSLATION="Okresl rodzaj, polozenie i nazwe pliku zewnetrznego"/>
+		<ROW ID="dl.pnsetfields"	TRANSLATION="Okreslic kolejnosc pol, przesuwajac mysza wartosci z lewej listy w prawym"/>
+		<ROW ID="dl.port"	TRANSLATION="Port"/>
+		<ROW ID="dl.portbits"	TRANSLATION="Bity danych"/>
+		<ROW ID="dl.portparity"	TRANSLATION="Parzystosc"/>
+		<ROW ID="dl.portspeed"	TRANSLATION="Szybkosc (b/s)"/>
+		<ROW ID="dl.portstop"	TRANSLATION="Bity stopu"/>
+		<ROW ID="dl.portstopbyte"	TRANSLATION="Stop bajtow"/>
+		<ROW ID="dl.porttimeout"	TRANSLATION="Limit czasu (ms)"/>
+		<ROW ID="dl.printbusy"	TRANSLATION="Zajety"/>
+		<ROW ID="dl.printer"	TRANSLATION="Drukarka"/>
+		<ROW ID="dl.printfree"	TRANSLATION="Wolny"/>
+		<ROW ID="dl.printstyle"	TRANSLATION="Styl wydruku"/>
+		<ROW ID="dl.procedureerror"	TRANSLATION="Podczas operacji wystapil blad."/>
+		<ROW ID="dl.procedureok"	TRANSLATION="Operacja wykonana pomyslnie"/>
+		<ROW ID="dl.properties"	TRANSLATION="Wlasciwosci"/>
+		<ROW ID="dl.question"	TRANSLATION="Pytanie..."/>
+		<ROW ID="dl.random"	TRANSLATION="Przypadkowo"/>
+		<ROW ID="dl.reading"	TRANSLATION="Odczyt danych"/>
+		<ROW ID="dl.recipient"	TRANSLATION="Odbiorca"/>
+		<ROW ID="dl.registration"	TRANSLATION="Aby sie zalogowac, prosze wprowadzic Swoje imie i nazwisko oraz haslo"/>
+		<ROW ID="dl.rememberstartup"	TRANSLATION="Uruchamianie automatyczne przypomnienia po loginu uzytkownika"/>
+		<ROW ID="dl.results"	TRANSLATION="Wyniki"/>
+		<ROW ID="dl.scale"	TRANSLATION="Skala"/>
+		<ROW ID="dl.searchwhere"	TRANSLATION="Gdzie szukac"/>
+		<ROW ID="dl.separator"	TRANSLATION="Separator"/>
+		<ROW ID="dl.sheet"	TRANSLATION="Arkusz"/>
+		<ROW ID="dl.showcaptions"	TRANSLATION="Pokaz naglowki"/>
+		<ROW ID="dl.skipincorrectkey"	TRANSLATION="Sprawdzac i ignoruj wpisy z nieprawidlowym Zewnetrznym kluczem"/>
+		<ROW ID="dl.skipincorrecttype"	TRANSLATION="Pominac zapis nieprawidlowy typ danych"/>
+		<ROW ID="dl.skiptitlerow"	TRANSLATION="Pomin pierwszy post jak naglowek"/>
+		<ROW ID="dl.slower"	TRANSLATION="Wolniej"/>
+		<ROW ID="dl.sortdown"	TRANSLATION="Malejaco"/>
+		<ROW ID="dl.sortup"	TRANSLATION="Rosnaco"/>
+		<ROW ID="dl.soundon"	TRANSLATION="Wlacz dzwiek"/>
+		<ROW ID="dl.splitcopies"	TRANSLATION="Drukowanie kopii"/>
+		<ROW ID="dl.start"	TRANSLATION="Start"/>
+		<ROW ID="dl.step"	TRANSLATION="Krok"/>
+		<ROW ID="dl.stop"	TRANSLATION="Stop"/>
+		<ROW ID="dl.stylesetup"	TRANSLATION="Opcje stylu"/>
+		<ROW ID="dl.systemres"	TRANSLATION="Zasoby systemowe"/>
+		<ROW ID="dl.tabpages"	TRANSLATION="Zakladki...|Zakladki"/>
+		<ROW ID="dl.tasknohot"	TRANSLATION="Goracych zadan nie"/>
+		<ROW ID="dl.tbcategories"	TRANSLATION="Kategorie"/>
+		<ROW ID="dl.tbcommands"	TRANSLATION="Polecenia"/>
+		<ROW ID="dl.tbcustom"	TRANSLATION="Konfigurowalny"/>
+		<ROW ID="dl.thickness"	TRANSLATION="Grubosc"/>
+		<ROW ID="dl.toolbar"	TRANSLATION="Pasek narzedzi"/>
+		<ROW ID="dl.toolbars"	TRANSLATION="Na pasku narzedzi"/>
+		<ROW ID="dl.toolhotkey"	TRANSLATION="Kombinacja klawiszy"/>
+		<ROW ID="dl.toolparams"	TRANSLATION="Parametry"/>
+		<ROW ID="dl.totray"	TRANSLATION="Zwijac w trey po zamknieciu okna programu"/>
+		<ROW ID="dl.unavailable"	TRANSLATION="Dane niedostepne"/>
+		<ROW ID="dl.updateifkeyexists"	TRANSLATION="Aktualizowac rekord w przypadku spelnienia klucza Podstawowego"/>
+		<ROW ID="dl.updateonlynotnull"	TRANSLATION="Aktualizuj tylko na niepuste wartosci"/>
+		<ROW ID="dl.usebarcode"	TRANSLATION="Uzyc czytnika kodow kreskowych"/>
+		<ROW ID="dl.username"	TRANSLATION="Uzytkownik"/>
+		<ROW ID="dl.userwindows"	TRANSLATION="Nazwa uzytkownika w systemie Windows"/>
+		<ROW ID="dl.version"	TRANSLATION="Wersja"/>
+		<ROW ID="dl.view"	TRANSLATION="Ustawienia wyswietlania"/>
+		<ROW ID="dl.warning"	TRANSLATION="Ostrzezenie..."/>
+		<ROW ID="dl.yes"	TRANSLATION="Tak"/>
+		<ROW ID="dm.executeselectcommand"	TRANSLATION="Wykonanie polecenia|Wykonanie wybranego polecenia"/>
+		<ROW ID="dm.querydelete"	TRANSLATION="Czy na pewno chcesz usunac"/>
+		<ROW ID="dm.queryitemdelete"	TRANSLATION="Nastepujace skroty zostana usuniete, kontynuowac?"/>
+		<ROW ID="dm.sequence"	TRANSLATION="Wybierz %s, ktore Chcesz zobaczyc. Za pomoca przyciskow 'w Gore' i 'w Dol' mozna ustawic ich kolejnosc."/>
+		<ROW ID="dm.sequencecommands"	TRANSLATION="Za pomoca przyciskow 'w Gore' i 'w Dol' ustaw kolejnosc polecen. W razie potrzeby mozna wlaczyc wyswietlanie separatora przed druzyna."/>
+		<ROW ID="dm.solchoosefile"	TRANSLATION="Wybierz plik rozwiazania"/>
+		<ROW ID="dm.solcopydb"	TRANSLATION="W celu zakonczenia transakcji nalezy skopiowac plik '%s' w katalogu '%s'."/>
+		<ROW ID="dm.soldeleting"	TRANSLATION="Usuwanie rozwiazania"/>
+		<ROW ID="dm.solloading"	TRANSLATION="Pobieranie rozwiazania"/>
+		<ROW ID="dm.sollogin"	TRANSLATION="Dalsza praca jest mozliwa dopiero po ponownym zalogowaniu."/>
+		<ROW ID="dm.soluploading"	TRANSLATION="Rozladunek rozwiazania"/>
+		<ROW ID="dm.updatereportparameters"	TRANSLATION="Aktualizacja ustawien|Aktualizacja listy parametrow polecenia"/>
+		<ROW ID="dt.action"	TRANSLATION="Typ zdarzenia|Typy zdarzen"/>
+		<ROW ID="dt.actioncondition"	TRANSLATION="Zdarzenie warunkowe|Wydarzenia zgodnie z warunkami"/>
+		<ROW ID="dt.additional"	TRANSLATION="Dodatkowe informacje"/>
+		<ROW ID="dt.alignment"	TRANSLATION="Typ wyrownania|Rodzaje wyrownania"/>
+		<ROW ID="dt.charsets"	TRANSLATION="Kodowanie|Kodowania"/>
+		<ROW ID="dt.commandhidden"	TRANSLATION="Tryb opcji|Tryby ustawien"/>
+		<ROW ID="dt.commandtype"	TRANSLATION="Typ polecenia|Typy polecenia"/>
+		<ROW ID="dt.conditiontype"	TRANSLATION="Typ warunku|Typy warunkow"/>
+		<ROW ID="dt.constraint"	TRANSLATION="Ograniczenia|Ograniczenia"/>
+		<ROW ID="dt.data"	TRANSLATION="Dane"/>
+		<ROW ID="dt.database"	TRANSLATION="Baza danych|Bazy danych"/>
+		<ROW ID="dt.databasetype"	TRANSLATION="Typ bazy danych|Typy bazy danych"/>
+		<ROW ID="dt.dataset"	TRANSLATION="Zestaw danych|Zestawy danych"/>
+		<ROW ID="dt.datasettype"	TRANSLATION="Typ zestawu danych"/>
+		<ROW ID="dt.datatype"	TRANSLATION="Typ danych|Typy danych"/>
+		<ROW ID="dt.dictionary"	TRANSLATION="Slownik|Slowniki"/>
+		<ROW ID="dt.event"	TRANSLATION="Akcja|Dzialania"/>
+		<ROW ID="dt.eventcondition"	TRANSLATION="Typ powiadomienia|Typy powiadomien"/>
+		<ROW ID="dt.field"	TRANSLATION="Pole|Pola"/>
+		<ROW ID="dt.fieldcategory"	TRANSLATION="Kategoria pola|Kategorie pol"/>
+		<ROW ID="dt.fieldtype"	TRANSLATION="Rola pola|Rola pol"/>
+		<ROW ID="dt.fontcolor"	TRANSLATION="Kolor czcionki|Lista kolorow czcionki"/>
+		<ROW ID="dt.fontstyle"	TRANSLATION="Styl czcionki|Style czcionki"/>
+		<ROW ID="dt.formelement"	TRANSLATION="Element formularza|Elementy formularzy"/>
+		<ROW ID="dt.formelementtype"	TRANSLATION="Rodzaj elementu formularza|Typy elementu formularza"/>
+		<ROW ID="dt.language"	TRANSLATION="Jezyk|Jezyki"/>
+		<ROW ID="dt.logintype"	TRANSLATION="Typ dostepu"/>
+		<ROW ID="dt.membership"	TRANSLATION="Czlonkostwo w grupie|Czlonkostwo w grupach"/>
+		<ROW ID="dt.menu"	TRANSLATION="W sekcji menu|Sekcje menu"/>
+		<ROW ID="dt.metadata"	TRANSLATION="Metadane"/>
+		<ROW ID="dt.nodetype"	TRANSLATION="Typ wezla|Typy wezlow"/>
+		<ROW ID="dt.note"	TRANSLATION="Notatka|Notatki"/>
+		<ROW ID="dt.object"	TRANSLATION="Obiekt"/>
+		<ROW ID="dt.ondelete"	TRANSLATION="Akcja po usunieciu|Czynnosci podczas usuwania"/>
+		<ROW ID="dt.operationtype"	TRANSLATION="Typ operacji|Typy operacji"/>
+		<ROW ID="dt.param"	TRANSLATION="Opcja|Parametry"/>
+		<ROW ID="dt.policy"	TRANSLATION="Polityka bezpieczenstwa|Polityki bezpieczenstwa"/>
+		<ROW ID="dt.procedure"	TRANSLATION="Nazwa procedury|Nazwy procedur"/>
+		<ROW ID="dt.report"	TRANSLATION="Raport|Raporty"/>
+		<ROW ID="dt.reportparam"	TRANSLATION="Parametr raportu|Parametry raportu"/>
+		<ROW ID="dt.right"	TRANSLATION="Prawo uzytkownika|Prawa uzytkownikow"/>
+		<ROW ID="dt.role"	TRANSLATION="Rola w odniesieniu do|Roli w odniesieniu do"/>
+		<ROW ID="dt.shortcut"	TRANSLATION="Zwiazek|Relacje"/>
+		<ROW ID="dt.showtype"	TRANSLATION="Typ wyswietlania pola|Typy wyswietlania pola"/>
+		<ROW ID="dt.solution"	TRANSLATION="Rozwiazanie|Rozwiazania"/>
+		<ROW ID="dt.task"	TRANSLATION="Zadanie|Zadania"/>
+		<ROW ID="dt.udatasettype"	TRANSLATION="Typ danych uzytkownika"/>
+		<ROW ID="dt.usecondition"	TRANSLATION="Typ operacji|Typy operacji"/>
+		<ROW ID="dt.user"	TRANSLATION="Uzytkownik|Uzytkownicy"/>
+		<ROW ID="dt.usertask"	TRANSLATION="Zadaniem uzytkownika|Zadania uzytkownikow"/>
+		<ROW ID="dt.usertype"	TRANSLATION="Typ uzytkownika|Typy uzytkownika"/>
+		<ROW ID="dt.viewtype"	TRANSLATION="Typ wyswietlania|Typy wyswietlania"/>
+		<ROW ID="dt.whencalc"	TRANSLATION="Czestotliwosc obliczania"/>
+		<ROW ID="dtadditionally"	TRANSLATION="Dodatkowo"/>
+		<ROW ID="dv.anyquery"	TRANSLATION="Przy kazdym zadaniu"/>
+		<ROW ID="dv.button"	TRANSLATION="Przycisk"/>
+		<ROW ID="dv.cascade"	TRANSLATION="Kaskadowo usun"/>
+		<ROW ID="dv.clipboard"	TRANSLATION="Schowka"/>
+		<ROW ID="dv.colorblack"	TRANSLATION="Czarny"/>
+		<ROW ID="dv.colorblue"	TRANSLATION="Niebieski"/>
+		<ROW ID="dv.colorchocolate"	TRANSLATION="Czekoladowy"/>
+		<ROW ID="dv.colorcian"	TRANSLATION="Cyjanu"/>
+		<ROW ID="dv.colorcrimson"	TRANSLATION="Malinowy"/>
+		<ROW ID="dv.colordefault"	TRANSLATION="Domyslnie"/>
+		<ROW ID="dv.colorgray"	TRANSLATION="Szary"/>
+		<ROW ID="dv.colorgreen"	TRANSLATION="Zielony"/>
+		<ROW ID="dv.colorlime"	TRANSLATION="Seledynowy"/>
+		<ROW ID="dv.colormagenta"	TRANSLATION="Fioletowy"/>
+		<ROW ID="dv.colornavi"	TRANSLATION="Niebieski"/>
+		<ROW ID="dv.colorpurple"	TRANSLATION="Purpurowy"/>
+		<ROW ID="dv.colorred"	TRANSLATION="Czerwony"/>
+		<ROW ID="dv.colorturquoise"	TRANSLATION="Turkusowy"/>
+		<ROW ID="dv.colorwhite"	TRANSLATION="Bialy"/>
+		<ROW ID="dv.coloryellow"	TRANSLATION="Zolty"/>
+		<ROW ID="dv.day1"	TRANSLATION="Poniedzialek"/>
+		<ROW ID="dv.day2"	TRANSLATION="Wtorek"/>
+		<ROW ID="dv.day3"	TRANSLATION="Sroda"/>
+		<ROW ID="dv.day4"	TRANSLATION="Czwartek"/>
+		<ROW ID="dv.day5"	TRANSLATION="Piatek"/>
+		<ROW ID="dv.day6"	TRANSLATION="Sobota"/>
+		<ROW ID="dv.day7"	TRANSLATION="Niedziela"/>
+		<ROW ID="dv.disabled"	TRANSLATION="Zabronione"/>
+		<ROW ID="dv.dofilter"	TRANSLATION="Filtrowanie"/>
+		<ROW ID="dv.donotification"	TRANSLATION="Ostrzezenie"/>
+		<ROW ID="dv.elemfloat"	TRANSLATION="Liczba rzeczywista"/>
+		<ROW ID="dv.elemform"	TRANSLATION="Forma"/>
+		<ROW ID="dv.elemgrid"	TRANSLATION="Okno z danymi"/>
+		<ROW ID="dv.eleminteger"	TRANSLATION="Liczba calkowita"/>
+		<ROW ID="dv.elemlinkedlist"	TRANSLATION="Polaczonej listy"/>
+		<ROW ID="dv.elempage"	TRANSLATION="Zakladka"/>
+		<ROW ID="dv.elempagegrid"	TRANSLATION="Zakladka okna z danymi"/>
+		<ROW ID="dv.elempanel"	TRANSLATION="Panel"/>
+		<ROW ID="dv.elemsign"	TRANSLATION="Napis"/>
+		<ROW ID="dv.elemstring"	TRANSLATION="Wiersz"/>
+		<ROW ID="dv.elemswitch"	TRANSLATION="Przelacznik"/>
+		<ROW ID="dv.elemswitchlist"	TRANSLATION="Lista przelacznikow"/>
+		<ROW ID="dv.elemtree"	TRANSLATION="Drzewo wpisow"/>
+		<ROW ID="dv.elemtreecombo"	TRANSLATION="Zarys lista"/>
+		<ROW ID="dv.enabled"	TRANSLATION="Dozwolone"/>
+		<ROW ID="dv.explorer"	TRANSLATION="Eksplorator plikow"/>
+		<ROW ID="dv.favorites"	TRANSLATION="Ulubione"/>
+		<ROW ID="dv.firstquery"	TRANSLATION="Tylko za pierwszym razem"/>
+		<ROW ID="dv.fontbold"	TRANSLATION="Pogrubienie"/>
+		<ROW ID="dv.fontlarge"	TRANSLATION="Naroslego"/>
+		<ROW ID="dv.fontunderlined"	TRANSLATION="Podkreslony"/>
+		<ROW ID="dv.globalref"	TRANSLATION="Globalny kieszonkowy"/>
+		<ROW ID="dv.hiddenpassword"	TRANSLATION="Zaszyfrowane haslo"/>
+		<ROW ID="dv.localref"	TRANSLATION="Lokalny przewodnik"/>
+		<ROW ID="dv.maindataset"	TRANSLATION="Podstawowy zestaw danych"/>
+		<ROW ID="dv.mapselectedcount"	TRANSLATION="[ %d ]"/>
+		<ROW ID="dv.never"	TRANSLATION="Nigdy"/>
+		<ROW ID="dv.nodeattribute"	TRANSLATION="Atrybut"/>
+		<ROW ID="dv.nodeelement"	TRANSLATION="Element"/>
+		<ROW ID="dv.nodegroup"	TRANSLATION="Grupa"/>
+		<ROW ID="dv.noname"	TRANSLATION="Bez nazwy"/>
+		<ROW ID="dv.onall"	TRANSLATION="Przy kazdej operacji"/>
+		<ROW ID="dv.onbasket"	TRANSLATION="Po przeniesieniu do koszyka"/>
+		<ROW ID="dv.ondeleting"	TRANSLATION="Po usunieciu"/>
+		<ROW ID="dv.oninserting"	TRANSLATION="Podczas wstawiania"/>
+		<ROW ID="dv.onlogin"	TRANSLATION="Przy wejsciu"/>
+		<ROW ID="dv.onlogout"	TRANSLATION="Przy wyjsciu"/>
+		<ROW ID="dv.onreading"	TRANSLATION="Podczas czytania"/>
+		<ROW ID="dv.onupdating"	TRANSLATION="Podczas edycji"/>
+		<ROW ID="dv.priorityhigh"	TRANSLATION="Wysoka"/>
+		<ROW ID="dv.prioritylow"	TRANSLATION="Male"/>
+		<ROW ID="dv.prioritynormal"	TRANSLATION="Normalna"/>
+		<ROW ID="dv.restrict"	TRANSLATION="Zakazac"/>
+		<ROW ID="dv.selectedcount"	TRANSLATION="Wybrane obiekty %d"/>
+		<ROW ID="dv.setnull"	TRANSLATION="Wyzerowac zwiazek"/>
+		<ROW ID="dv.subdataset"	TRANSLATION="Podporzadkowany zestaw danych"/>
+		<ROW ID="dv.text"	TRANSLATION="Tekst"/>
+		<ROW ID="error.actionnotfound"	TRANSLATION="Akcja %s nie znaleziono"/>
+		<ROW ID="error.additem"	TRANSLATION="Dodawanie rekordow w tej kieszonkowy zabronione."/>
+		<ROW ID="error.argcount"	TRANSLATION="Nieprawidlowa liczba argumentow w wywolaniu funkcji"/>
+		<ROW ID="error.argtype"	TRANSLATION="Nieprawidlowy typ argumentu"/>
+		<ROW ID="error.bracketexpected"	TRANSLATION="Oczekuje sie nawias"/>
+		<ROW ID="error.char"	TRANSLATION="w polu '%s' nieprawidlowy symbol lub symbole '%s'"/>
+		<ROW ID="error.child"	TRANSLATION="Z obiektem '%s' sa nie usuniete obiekty sekcji '%s'."/>
+		<ROW ID="error.children"	TRANSLATION="C '%s' polaczone obiekty partycji '%s' (%d szt.)"/>
+		<ROW ID="error.connect"	TRANSLATION="Nieprawidlowy sposob lub nie jest dostepny serwer bazy danych."/>
+		<ROW ID="error.connectmeta"	TRANSLATION="Blad polaczenia z baza danych метаструктуры."/>
+		<ROW ID="error.databasenotfoundforexecstoredproc"	TRANSLATION="Baza danych %s nie znaleziono dla wykonywania procedury przechowywanej."/>
+		<ROW ID="error.databasenotsupportexecstoredproc"	TRANSLATION="Baza danych %s nie obsluguje wykonywania procedur przechowywanych."/>
+		<ROW ID="error.datasetsolution"	TRANSLATION="Zestaw danych powinien wchodzic w rozwiazanie '%s'."/>
+		<ROW ID="error.default"	TRANSLATION="Nieruchomosc z oznaczeniem 'domyslnie' nie moze byc zdalnym."/>
+		<ROW ID="error.delete.changedbyuser"	TRANSLATION="Obiekt zmieniony przez innego uzytkownika. Chcesz usunac ten element?"/>
+		<ROW ID="error.deletebyuser"	TRANSLATION="Obiekt usuniety przez innego uzytkownika."/>
+		<ROW ID="error.double"	TRANSLATION="Okreslonej wartosci pola klucza nie jest unikalna. Byc moze wpis o tej wartosci jest oznaczony jako zdalna."/>
+		<ROW ID="error.edit"	TRANSLATION="nie podano wartosci pol obowiazkowych lub wprowadzone nieprawidlowe dane."/>
+		<ROW ID="error.elem.fieldexpected"	TRANSLATION="Dla tego typu elementu musi byc zaznaczono pole"/>
+		<ROW ID="error.elem.fieldpresent"	TRANSLATION="Dla tego typu elementu nie powinno byc wskazane pole"/>
+		<ROW ID="error.elem.incorrectlink"	TRANSLATION="Ten element nie mozna powiazac z tabela"/>
+		<ROW ID="error.elem.linkpresent"	TRANSLATION="Dla tego elementu nie powinna byc podana zwiazek"/>
+		<ROW ID="error.elem.nolink"	TRANSLATION="Dla tego elementu musi byc okreslony zwiazek"/>
+		<ROW ID="error.elem.owneriscontainer"	TRANSLATION="Podany element nie moze byc wlascicielem"/>
+		<ROW ID="error.elem.type"	TRANSLATION="Typ elementu skojarzony z typem pola"/>
+		<ROW ID="error.elem.unknownowner"	TRANSLATION="Nieznany wlasciciel"/>
+		<ROW ID="error.emptyexpr"	TRANSLATION="Puste wyrazenie"/>
+		<ROW ID="error.emptytasklist"	TRANSLATION="Lista zadan jest pusta."/>
+		<ROW ID="error.exprend"	TRANSLATION="Koniec wyrazenia"/>
+		<ROW ID="error.field"	TRANSLATION="Blad w opisie pola"/>
+		<ROW ID="error.field.cycled"	TRANSLATION="Blad obliczania wartosci pola '%s' z powodu obwodnicy linki"/>
+		<ROW ID="error.fieldnotexists"	TRANSLATION="Pole %s nie istnieje"/>
+		<ROW ID="error.find"	TRANSLATION="Nie znaleziono ani jednego obiektu, zawierajacego okreslona wartosc"/>
+		<ROW ID="error.fld.needdefault"	TRANSLATION="Pole NOT NULL, nalezy okreslic wartosc domyslna"/>
+		<ROW ID="error.fld.needvalue1"	TRANSLATION="Pola - podstawie folderu необходмо okreslic wartosc 1"/>
+		<ROW ID="error.fld.unique"	TRANSLATION="Tabela powinna zawierac tylko jedno pole"/>
+		<ROW ID="error.illegalconst"	TRANSLATION="Niepoprawna wartosc stalej"/>
+		<ROW ID="error.illegalsymbol"	TRANSLATION="Nieprawidlowy znak"/>
+		<ROW ID="error.incompatibletypes"	TRANSLATION="Niezgodnosc typow"/>
+		<ROW ID="error.incorrectfilepath"	TRANSLATION="Niepoprawna sciezka lub nazwa pliku."/>
+		<ROW ID="error.inlist"	TRANSLATION="Parametr powinien byc rowna jednej z wartosci z listy:"/>
+		<ROW ID="error.invalidusertype"	TRANSLATION="Nieprawidlowy typ uczestnika bezpieczenstwa."/>
+		<ROW ID="error.length"	TRANSLATION="liczba znakow pole '%s' nie powinno przekraczac %d"/>
+		<ROW ID="error.metabaseerror"	TRANSLATION="W метаструктуре brakuje niezbedne do pracy programy zestawy danych."/>
+		<ROW ID="error.metadataversion"	TRANSLATION="Wersja метаструктуры nie odpowiada wersji programu."/>
+		<ROW ID="error.nameexpected"	TRANSLATION="Nalezy wprowadzic nazwe."/>
+		<ROW ID="error.namesolempty"	TRANSLATION="Nazwa rozwiazania musi byc ustawiona"/>
+		<ROW ID="error.noselectedobject"	TRANSLATION="Nie ma zaznaczonego obiektu"/>
+		<ROW ID="error.notcacheforaction"	TRANSLATION="Nie okreslono pamieci podrecznej do dzialania"/>
+		<ROW ID="error.notdatasetforaction"	TRANSLATION="Nie jest okreslony zestaw danych dla dzialania"/>
+		<ROW ID="error.notimplementedforoldmetadata"	TRANSLATION="Nie jest realizowane przy uzyciu starej метаструктуры!"/>
+		<ROW ID="error.operandtype"	TRANSLATION="Nieprawidlowy typ operandu"/>
+		<ROW ID="error.printer"	TRANSLATION="Blad inicjalizacji drukarki. Drukowanie dokumentu anulowane."/>
+		<ROW ID="error.printerno"	TRANSLATION="Nie ma dostepnej drukarki"/>
+		<ROW ID="error.readfield"	TRANSLATION="Blad odczytu danych pola '%s' (%s)"/>
+		<ROW ID="error.right"	TRANSLATION="Nie Masz wystarczajacych uprawnien do wykonania operacji"/>
+		<ROW ID="error.scan"	TRANSLATION="Blad skanera."/>
+		<ROW ID="error.setfield"	TRANSLATION="Nie okreslono, wprowadz niepusta wartosc pola"/>
+		<ROW ID="error.similar.found"	TRANSLATION="Znaleziono podobny element. Idz do niego?"/>
+		<ROW ID="error.similar.nocomparableitem"	TRANSLATION="Wybierz element, aby wyszukac"/>
+		<ROW ID="error.similar.notfound"	TRANSLATION="Podobny element nie znaleziono"/>
+		<ROW ID="error.sort"	TRANSLATION="Sortuj wedlug obliczana lakach i polach-plikow nie jest dopuszczalne"/>
+		<ROW ID="error.sortfield"	TRANSLATION="Wybrane pole jest juz obecny na liscie pol sortowania."/>
+		<ROW ID="error.start"	TRANSLATION="Operacja jest dostepna tylko po zalogowaniu."/>
+		<ROW ID="error.statementend"	TRANSLATION="Nieoczekiwany koniec wyrazenia"/>
+		<ROW ID="error.strlen"	TRANSLATION="Dlugosc wiersza w polu '%s' zbyt duza"/>
+		<ROW ID="error.tree"	TRANSLATION="Blad kompilacji drzewa obiektow. Brakuje wlasciciel wezla drzewa '%s' (%s)."/>
+		<ROW ID="error.unclosedstring"	TRANSLATION="Otwarte wiersz"/>
+		<ROW ID="error.unexpectedend"	TRANSLATION="Nieoczekiwany koniec wyrazenia"/>
+		<ROW ID="error.uniquemembership"	TRANSLATION="Informacje o przynaleznosci danego uzytkownika w danej grupie jest juz zarejestrowane w bazie danych."/>
+		<ROW ID="error.unknownfunction"	TRANSLATION="Nieznana funkcja"/>
+		<ROW ID="error.unknownident"	TRANSLATION="Nieznany identyfikator"/>
+		<ROW ID="error.update.changedbyuser"	TRANSLATION="Obiekt zmieniony przez innego uzytkownika. Zapisac zmiany?"/>
+		<ROW ID="error.update.changedbyuserinfo"	TRANSLATION="Obiekt zmieniony przez innego uzytkownika."/>
+		<ROW ID="error.updateitem"	TRANSLATION="Blad podczas pobierania pliku aktualizacji"/>
+		<ROW ID="error.useraccountdisabled"	TRANSLATION="Konto uzytkownika jest zablokowane."/>
+		<ROW ID="figure"	TRANSLATION="Rysunek"/>
+		<ROW ID="filefilters"	TRANSLATION="Raporty w MSExcel|*.xls|InterBase files|*.gdb|Config|*.cfg|Wszystkie pliki|*.*"/>
+		<ROW ID="for"	TRANSLATION="Dla"/>
+		<ROW ID="imp.break"	TRANSLATION="Przerwac operacje"/>
+		<ROW ID="imp.createrecord"	TRANSLATION="Utworzyc nowy wpis"/>
+		<ROW ID="imp.data"	TRANSLATION="Importowac dane"/>
+		<ROW ID="imp.dterror"	TRANSLATION="Blad typu danych pola"/>
+		<ROW ID="imp.empty"	TRANSLATION="Wartosc pola puste"/>
+		<ROW ID="imp.first"	TRANSLATION="Pierwszy wpis"/>
+		<ROW ID="imp.fkcheck"	TRANSLATION="Kontrola klucza obcego"/>
+		<ROW ID="imp.fkerror"	TRANSLATION="Klucz zewnetrzny nie istnieje"/>
+		<ROW ID="imp.ignore"	TRANSLATION="Aby zignorowac blad"/>
+		<ROW ID="imp.pkexist"	TRANSLATION="Zbieg okolicznosci klucza podstawowego"/>
+		<ROW ID="imp.resultadd"	TRANSLATION="Dodano rekordow"/>
+		<ROW ID="imp.resultskip"	TRANSLATION="Pominiete rekordow"/>
+		<ROW ID="imp.resultupdate"	TRANSLATION="Aktualizacja rekordow"/>
+		<ROW ID="imp.skiprecord"	TRANSLATION="Pominac wpis"/>
+		<ROW ID="imp.skipvalue"	TRANSLATION="Pominac wartosc pola"/>
+		<ROW ID="imp.title"	TRANSLATION="Pomin naglowek"/>
+		<ROW ID="imp.updaterecord"	TRANSLATION="Zaktualizowac rekord"/>
+		<ROW ID="inexpr"	TRANSLATION="w wyrazeniu"/>
+		<ROW ID="info.savefile.ok"	TRANSLATION="Plik %s zapisany."/>
+		<ROW ID="line"	TRANSLATION="Wiersz"/>
+		<ROW ID="map.scale0"	TRANSLATION="6000 km"/>
+		<ROW ID="map.scale1"	TRANSLATION="3000 km"/>
+		<ROW ID="map.scale10"	TRANSLATION="6 km"/>
+		<ROW ID="map.scale11"	TRANSLATION="3 km"/>
+		<ROW ID="map.scale12"	TRANSLATION="1500 m"/>
+		<ROW ID="map.scale13"	TRANSLATION="740 m"/>
+		<ROW ID="map.scale14"	TRANSLATION="360 m"/>
+		<ROW ID="map.scale15"	TRANSLATION="180 m"/>
+		<ROW ID="map.scale16"	TRANSLATION="90 m"/>
+		<ROW ID="map.scale17"	TRANSLATION="45 m"/>
+		<ROW ID="map.scale18"	TRANSLATION="23 m"/>
+		<ROW ID="map.scale19"	TRANSLATION="12 m"/>
+		<ROW ID="map.scale2"	TRANSLATION="1500 km"/>
+		<ROW ID="map.scale20"	TRANSLATION="6 m"/>
+		<ROW ID="map.scale21"	TRANSLATION="3 m"/>
+		<ROW ID="map.scale22"	TRANSLATION="1.5 m"/>
+		<ROW ID="map.scale23"	TRANSLATION="0.75 m"/>
+		<ROW ID="map.scale24"	TRANSLATION="0.33 m"/>
+		<ROW ID="map.scale3"	TRANSLATION="740 km"/>
+		<ROW ID="map.scale4"	TRANSLATION="360 km"/>
+		<ROW ID="map.scale5"	TRANSLATION="180 km"/>
+		<ROW ID="map.scale6"	TRANSLATION="90 km"/>
+		<ROW ID="map.scale7"	TRANSLATION="45 km"/>
+		<ROW ID="map.scale8"	TRANSLATION="23 km"/>
+		<ROW ID="map.scale9"	TRANSLATION="12 km"/>
+		<ROW ID="mmmmm1"	TRANSLATION="Styczen|Stycznia"/>
+		<ROW ID="mmmmm10"	TRANSLATION="Pazdziernik|Pazdziernika"/>
+		<ROW ID="mmmmm11"	TRANSLATION="Listopad|Listopada"/>
+		<ROW ID="mmmmm12"	TRANSLATION="Grudzien|Grudnia"/>
+		<ROW ID="mmmmm2"	TRANSLATION="Stycznia|Lutego"/>
+		<ROW ID="mmmmm3"	TRANSLATION="Marzec|Marca"/>
+		<ROW ID="mmmmm4"	TRANSLATION="Kwiecien|Kwietnia"/>
+		<ROW ID="mmmmm5"	TRANSLATION="Maj|Maja"/>
+		<ROW ID="mmmmm6"	TRANSLATION="Czerwiec|Czerwca"/>
+		<ROW ID="mmmmm7"	TRANSLATION="Lipiec|Lipca"/>
+		<ROW ID="mmmmm8"	TRANSLATION="Sierpien|Sierpnia"/>
+		<ROW ID="mmmmm9"	TRANSLATION="Wrzesien|Wrzesnia"/>
+		<ROW ID="not"	TRANSLATION="Nie"/>
+		<ROW ID="openurl"	TRANSLATION="Otworz adres URL"/>
+		<ROW ID="opeq"	TRANSLATION="Tak"/>
+		<ROW ID="opge"	TRANSLATION="Wieksza lub rowna"/>
+		<ROW ID="opgt"	TRANSLATION="Wiecej"/>
+		<ROW ID="opisfalse"	TRANSLATION="Klamstwo"/>
+		<ROW ID="opisnotnull"	TRANSLATION="Nie jest pusta"/>
+		<ROW ID="opisnull"	TRANSLATION="Pusto"/>
+		<ROW ID="opistrue"	TRANSLATION="Prawda"/>
+		<ROW ID="ople"	TRANSLATION="Jest mniejsza lub rowna"/>
+		<ROW ID="oplike"	TRANSLATION="Zawiera"/>
+		<ROW ID="oplt"	TRANSLATION="Mniej"/>
+		<ROW ID="opne"	TRANSLATION="Nie tak"/>
+		<ROW ID="opnotlike"	TRANSLATION="Nie zawiera"/>
+		<ROW ID="process.isnotrequired"	TRANSLATION="Traktowanie nie jest wymagane"/>
+		<ROW ID="process.tables"	TRANSLATION="Przetworzone tabeli:"/>
+		<ROW ID="quantity"	TRANSLATION="Ilosc"/>
+		<ROW ID="query.savechanges"	TRANSLATION="Zapisac zmiany?"/>
+		<ROW ID="querydelete"	TRANSLATION="Po usunieciu obiektu, informacje o nim nie bedzie dostepna. Usun obiekt '%s'?"/>
+		<ROW ID="querypermdelete"	TRANSLATION="Usun obiekt'%s', bez mozliwosci pozniejszego odzyskania?"/>
+		<ROW ID="querypermdeleteall"	TRANSLATION="Usunac zaznaczone obiekty ( '~ ~ ~ ~ ' ), bez mozliwosci pozniejszego odzyskania?"/>
+		<ROW ID="refreshperiodicalmessage"	TRANSLATION="Zaktualizowac okresowe wiadomosci"/>
+		<ROW ID="registration"	TRANSLATION="Rejestracja"/>
+		<ROW ID="send"	TRANSLATION="Wyslac"/>
+		<ROW ID="sendmail"	TRANSLATION="Wyslij e-mail"/>
+		<ROW ID="sendmessagetolist"	TRANSLATION="Wyslac wiadomosc listy odbiorcow"/>
+		<ROW ID="standarttoolbar"	TRANSLATION="Standardowa"/>
+		<ROW ID="updatemessages"	TRANSLATION="Zaktualizowac wiadomosci"/>
+		<ROW ID="updating"	TRANSLATION="Aktualizacja"/>
+		<ROW ID="use"	TRANSLATION="Korzystanie z"/>
+		<ROW ID="viewtoolbar"	TRANSLATION="Widok"/>
+		<ROW ID="warning.switchtab.apply"	TRANSLATION="Aby przejsc do innej karcie nalezy zapisac biezacy rekord."/>
+		<ROW ID="warning.switchtab.ok"	TRANSLATION="Aby przejsc do innej karcie nalezy zapisac biezacy rekord."/>
+	</ROWDATA>
+</DATAPACKET>

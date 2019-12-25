@@ -3,8 +3,9 @@
 	namespace App;
 	
 	use Illuminate\Database\Eloquent\Model;
-	
-	class DbcoSolution extends Model
+    use mysql_xdevapi\Collection;
+
+    class DbcoSolution extends Model
 	{
 		
 		//protected $table = 'solutions';
@@ -25,7 +26,32 @@
 			}
 			return $result;
 		}
-		
+
+
+		public function  translate($lang){
+$solution=$this;
+$translate['csolutionname']=$solution->csolutionname;
+$translate['csolutiontext']=$solution->csolutiontext;
+$translate['csolutionhtml']=$solution->csolutionhtml;
+$translate['csolutionpicture']=$solution->csolutionpicture;
+$translate['csolutiontechnicshtml']=$solution->csolutiontechnicshtml;
+if($lang!='ru'){
+    $solution=DbcoSolutiontranslate::where('isolutionid',$solution->isolutionid)->where('csolutiontranslatelanguage',$lang)->first();
+    if($solution){
+
+        $translate['csolutionname']=$solution->csolutionname;
+        $translate['csolutiontext']=$solution->csolutiontext;
+        $translate['csolutionhtml']=$solution->csolutionhtml;
+        $translate['csolutionpicture']=$solution->csolutionpicture;
+        $translate['csolutiontechnicshtml']=$solution->csolutiontechnicshtml;
+
+    }
+
+
+}
+
+return $translate;
+        }
 		
 		
 		//		

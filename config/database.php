@@ -69,11 +69,11 @@ return [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => env('DB_HOST', 'cloud.dbco.ru'),
+            'port' => env('DB_PORT', '3314'),
+            'database' => env('DB_DATABASE', 'dbco'),
+            'username' => env('DB_USERNAME', 'messager'),
+            'password' => env('DB_PASSWORD', 'messager'),
             'charset' => 'utf8',
             'prefix' => '',
         ],
